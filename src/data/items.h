@@ -7280,7 +7280,7 @@ const struct ItemInfo gItemsInfo[] =
 // GB Player
     [ITEM_GB_PLAYER] =
     {
-        .name = ITEM_NAME("GB PLAYER"),
+        .name = ITEM_NAME("{ENG}GB{JPN}プレイヤー"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A device that plays\n"
@@ -13730,7 +13730,7 @@ const struct ItemInfo gItemsInfo[] =
 #if IS_HNS
     [ITEM_HM_WHIRLPOOL] =
     {
-        .name = ITEM_NAME("HM08"),
+        .name = ITEM_NAME("{JPN}ひでんマシン08"),
         .price = 0,
         .description = COMPOUND_STRING(
             "Traps the foe in a\n"
@@ -16064,7 +16064,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_GS_BALL] =
     {
-        .name = ITEM_NAME("GS BALL"),
+        .name = ITEM_NAME("{ENG}GS{JPN}ボール"),
         .price = 1000,
         .description = COMPOUND_STRING(
             "A strange Poké Ball\n"
@@ -16081,7 +16081,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_FERTILIZER] =
     {
-        .name = ITEM_NAME("GROWTH MULCH"),
+        .name = ITEM_NAME("{JPN}すくすくこやし"),
         .price = 2500,
         .description = COMPOUND_STRING(
             "A fertilizer that\n"
@@ -16096,7 +16096,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_EXP_SHARE_SMALL] =
     {
-        .name = ITEM_NAME("EXP. SHARE S"),
+        .name = ITEM_NAME("{JPN}がくしゅうそうち{ENG}S"),
         .price = 6000,
         .holdEffect = HOLD_EFFECT_EXP_SHARE,
         .description = COMPOUND_STRING(
@@ -16112,7 +16112,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_HEALING_HEART] =
     {
-        .name = ITEM_NAME("HEALING HEART"),
+        .name = ITEM_NAME("{JPN}かいふくハート"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A heart that heals\n"
@@ -16128,7 +16128,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_INFINITE_REPEL] =
     {
-        .name = ITEM_NAME("INFIN. REPEL"),
+        .name = ITEM_NAME("{JPN}むげんスプレー"),
         .price = 0,
         .description = COMPOUND_STRING(
             "An item that repels\n"
@@ -16144,7 +16144,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_INFINITE_RARE_CANDIES] =
     {
-        .name = ITEM_NAME("RARECANDY BOX"),
+        .name = ITEM_NAME("{JPN}ふしぎなアメばこ"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A box of Rare Candy\n"
@@ -16160,7 +16160,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_CLEAR_BELL] =
     {
-        .name = ITEM_NAME("CLEAR BELL"),
+        .name = ITEM_NAME("{JPN}とうめいなスズ"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A bell that makes a\n"
@@ -16176,7 +16176,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_LOST_ITEM] =
     {
-        .name = ITEM_NAME("LOST ITEM"),
+        .name = ITEM_NAME("{JPN}おとしもの"),
         .price = 0,
         .description = COMPOUND_STRING(
             "An item lost by a\n"
@@ -16192,7 +16192,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_MACHINE_PART] =
     {
-        .name = ITEM_NAME("MACHINE PART"),
+        .name = ITEM_NAME("{JPN}きかいのぶひん"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A part needed to\n"
@@ -16208,7 +16208,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_MYSTERY_EGG] =
     {
-        .name = ITEM_NAME("MYSTERY EGG"),
+        .name = ITEM_NAME("{JPN}ふしぎなタマゴ"),
         .price = 0,
         .description = COMPOUND_STRING(
             "An Egg obtained\n"
@@ -16224,7 +16224,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_PASS] =
     {
-        .name = ITEM_NAME("PASS"),
+        .name = ITEM_NAME("{JPN}リニアパス"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A pass for the\n"
@@ -16240,7 +16240,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_RAINBOW_WING] =
     {
-        .name = ITEM_NAME("RAINBOW WING"),
+        .name = ITEM_NAME("{JPN}にじいろのはね"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A mystical feather\n"
@@ -16256,7 +16256,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_RED_SCALE] =
     {
-        .name = ITEM_NAME("RED SCALE"),
+        .name = ITEM_NAME("{JPN}あかいウロコ"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A scale from the\n"
@@ -16272,7 +16272,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_SECRET_POTION] =
     {
-        .name = ITEM_NAME("SECRETPOTION"),
+        .name = ITEM_NAME("{JPN}ひでんのくすり"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A secret medicine\n"
@@ -16288,7 +16288,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_SILVER_WING] =
     {
-        .name = ITEM_NAME("SILVER WING"),
+        .name = ITEM_NAME("{JPN}ぎんいろのはね"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A mystical silver\n"
@@ -16304,7 +16304,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_TIDAL_BELL] =
     {
-        .name = ITEM_NAME("TIDAL BELL"),
+        .name = ITEM_NAME("{JPN}うみなりのスズ"),
         .price = 0,
         .description = COMPOUND_STRING(
             "Bell that produces\n"
@@ -16320,7 +16320,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_RADIO] =
     {
-        .name = ITEM_NAME("RADIO"),
+        .name = ITEM_NAME("{JPN}ラジオ"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A portable radio\n"
@@ -16336,7 +16336,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_SQUIRT_BOTTLE] =
     {
-        .name = ITEM_NAME("SQUIRTBOTTLE"),
+        .name = ITEM_NAME("{JPN}ゼニガメじょうろ"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A bottle for\n"
@@ -16352,7 +16352,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_ROOM_1_KEY] =
     {
-        .name = ITEM_NAME("RM. 1 KEY"),
+        .name = ITEM_NAME("{JPN}1ごうしつのカギ"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A key to a room\n"
@@ -16368,7 +16368,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_ROOM_2_KEY] =
     {
-        .name = ITEM_NAME("RM. 2 KEY"),
+        .name = ITEM_NAME("{JPN}2ごうしつのカギ"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A key to a room\n"
@@ -16384,7 +16384,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_ROOM_4_KEY] =
     {
-        .name = ITEM_NAME("RM. 4 KEY"),
+        .name = ITEM_NAME("{JPN}4ごうしつのカギ"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A key to a room\n"
@@ -16400,7 +16400,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_ROOM_6_KEY] =
     {
-        .name = ITEM_NAME("RM. 6 KEY"),
+        .name = ITEM_NAME("{JPN}6ごうしつのカギ"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A key to a room\n"
@@ -16416,7 +16416,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_UNUSED_BERRY_1] =
     {
-        .name = ITEM_NAME("SITRUS BERRY"),
+        .name = ITEM_NAME("{JPN}オボンのみ"),
         .price = 20,
         .holdEffect = HOLD_EFFECT_RESTORE_HP,
         .holdEffectParam = 30,
@@ -16461,7 +16461,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_AZURE_FLUTE] =
     {
-        .name = ITEM_NAME("AZURE FLUTE"),
+        .name = ITEM_NAME("{JPN}てんかいのふえ"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A flute that puts\n"
