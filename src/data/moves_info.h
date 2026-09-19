@@ -299,7 +299,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_ICE_PUNCH] =
     {
         .name = COMPOUND_STRING("{JPN}れいとうパンチ"),
-        .description = COMPOUND_STRING("{JPN}10{ENG}%{JPN}で こおり/しもやけ\nパンチ さわる"),
+        .description = COMPOUND_STRING(
+            "An icy punch that may\n"
+        #if B_USE_FROSTBITE == TRUE
+            "leave the foe with frostbite."),
         #else
             "freeze the foe."),
         #endif
@@ -416,7 +419,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("{JPN}かまいたち"),
         #if B_UPDATED_MOVE_DATA == GEN_3 || B_UPDATED_MOVE_DATA == GEN_1
-        .description = COMPOUND_STRING("{JPN}つぎターン こうげき\nためる かぜ"),
+            .description = COMPOUND_STRING(
+                "A 2-turn move that strikes\n"
+                "the foe on the 2nd turn."),
         #else
             .description = COMPOUND_STRING(
                 "A 2-turn move with a high\n"
@@ -1322,7 +1327,15 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_DISABLE] =
     {
         .name = COMPOUND_STRING("{JPN}かなしばり"),
-        .description = COMPOUND_STRING("{JPN}さいごのわざを ふうじる\nさわらない"),
+        .description = COMPOUND_STRING(
+        #if B_DISABLE_TURNS >= GEN_5
+            "For 4 turns, prevents foe\n"
+        #elif B_DISABLE_TURNS == GEN_4
+            "For 4-7 turns, prevents foe\n"
+        #else
+            "For 2-5 turns, prevents foe\n"
+        #endif
+            "from using last used move."),
         #if B_UPDATED_MOVE_DATA >= GEN_5
             .accuracy = 100,
         #elif B_UPDATED_MOVE_DATA == GEN_4
@@ -1351,7 +1364,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_ACID] =
     {
         .name = COMPOUND_STRING("{JPN}ようかいえき"),
-        .description = COMPOUND_STRING("{JPN}10{ENG}%{JPN}で あいての とくぼう{ENG}-{JPN}1\nさわらない"),
+        .description = COMPOUND_STRING(
+            "Sprays a hide-melting acid.\n"
+        #if B_UPDATED_MOVE_DATA >= GEN_4
+            "May lower Sp. Def."),
         #else
             "May lower Defense."),
         #endif
@@ -1487,7 +1503,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_SURF] =
     {
         .name = COMPOUND_STRING("{JPN}なみのり"),
-        .description = COMPOUND_STRING("{JPN}こうかなし\nさわらない"),
+        .description = COMPOUND_STRING(
+            "Creates a huge wave, then\n"
+        #if B_UPDATED_MOVE_DATA >= GEN_4
+            "crashes it down on the field."),
         #else
             "crashes it down on the foes."),
         #endif
@@ -1512,7 +1531,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_ICE_BEAM] =
     {
         .name = COMPOUND_STRING("{JPN}れいとうビーム"),
-        .description = COMPOUND_STRING("{JPN}10{ENG}%{JPN}で こおり/しもやけ\nさわらない"),
+        .description = COMPOUND_STRING(
+            "Blasts the foe with an icy\n"
+        #if B_USE_FROSTBITE == TRUE
+            "beam. May cause frostbite."),
         #else
             "beam that may freeze it."),
         #endif
@@ -1541,7 +1563,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_BLIZZARD] =
     {
         .name = COMPOUND_STRING("{JPN}ふぶき"),
-        .description = COMPOUND_STRING("{JPN}10{ENG}%{JPN}で こおり/しもやけ\nひっちゅう かぜ"),
+        .description = COMPOUND_STRING(
+            "Hits the foes with an icy\n"
+        #if B_USE_FROSTBITE == TRUE
+            "storm. May cause frostbite."),
         #else
             "storm that may freeze it."),
         #endif
@@ -1729,7 +1754,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("{JPN}けたぐり"),
         #if B_UPDATED_MOVE_DATA >= GEN_3
-        .description = COMPOUND_STRING("{JPN}おもいほど つよい\n30{ENG}%{JPN}で ひるみ さわる"),
+            .description = COMPOUND_STRING(
+                "A kick that inflicts more\n"
+                "damage on heavier foes."),
             .effect = EFFECT_LOW_KICK,
         #else
             .description = COMPOUND_STRING(
@@ -1902,7 +1929,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_GROWTH] =
     {
         .name = COMPOUND_STRING("{JPN}せいちょう"),
-        .description = COMPOUND_STRING("{JPN}じぶんの こうげき/とくこう{ENG}+{JPN}1\nさわらない"),
+        .description = COMPOUND_STRING(
+        #if B_GROWTH_STAT_RAISE >= GEN_5
+            "Forces the body to grow,\n"
+            "raising Attack and Sp. Atk."),
         #else
             "Forces the body to grow\n"
             "and heightens Sp. Atk."),
@@ -2528,7 +2558,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("{JPN}テレポート"),
         #if B_TELEPORT_BEHAVIOR >= GEN_8
-        .description = COMPOUND_STRING("{JPN}せんとうから にげる\nあと"),
+        .description = COMPOUND_STRING(
+            "Switches the user out last.\n"
+            "Flees when used by wild {PKMN}."),
         #else
         .description = COMPOUND_STRING(
             "A psychic move for fleeing\n"
@@ -2707,7 +2739,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_MINIMIZE] =
     {
         .name = COMPOUND_STRING("{JPN}ちいさくなる"),
-        .description = COMPOUND_STRING("{JPN}じぶんの かいひ{ENG}+{JPN}2\nじぶんの かいひ{ENG}+{JPN}2"),
+        .description = COMPOUND_STRING(
+            "Minimizes the user's size to\n"
+        #if B_MINIMIZE_EVASION >= GEN_5
+            "sharply raise evasiveness."),
         #else
             "raise evasiveness."),
         #endif
@@ -3497,7 +3532,13 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_POISON_GAS] =
     {
         .name = COMPOUND_STRING("{JPN}どくガス"),
-        .description = COMPOUND_STRING("{JPN}どくにする\nさわらない"),
+        .description = COMPOUND_STRING(
+        #if B_UPDATED_MOVE_DATA >= GEN_5
+            "Envelops the foes in a toxic\n"
+        #else
+            "Envelops the foe in a toxic\n"
+        #endif
+            "gas that may poison."),
         #if B_UPDATED_MOVE_DATA >= GEN_6
             .accuracy = 90,
         #elif B_UPDATED_MOVE_DATA == GEN_5
@@ -3676,7 +3717,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("{JPN}ピヨピヨパンチ"),
         #if B_UPDATED_MOVE_DATA >= GEN_2
-        .description = COMPOUND_STRING("{JPN}20{ENG}%{JPN}で こんらん\nパンチ さわる"),
+            .description = COMPOUND_STRING(
+                "A rhythmic punch that may\n"
+                "confuse the target."),
         #else
             .description = COMPOUND_STRING(
                 "The target is hit with\n"
@@ -3935,7 +3978,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("{JPN}いわなだれ"),
         #if B_UPDATED_MOVE_DATA >= GEN_2
-        .description = COMPOUND_STRING("{JPN}30{ENG}%{JPN}で ひるみ\nさわらない"),
+            .description = COMPOUND_STRING(
+                "Large boulders are hurled.\n"
+                "May cause flinching."),
         #else
             .description = COMPOUND_STRING(
                 "Hits the foe with an\n"
@@ -4016,7 +4061,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_CONVERSION] =
     {
         .name = COMPOUND_STRING("{JPN}テクスチャー"),
-        .description = COMPOUND_STRING("{JPN}タイプを かえる\nさわらない"),
+        .description = COMPOUND_STRING(
+            "Changes the user's type\n"
+        #if B_UPDATED_CONVERSION >= GEN_6
+            "into first known move's type."),
         #else
             "into a known move's type."),
         #endif
@@ -4044,7 +4092,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("{JPN}トライアタック"),
         #if B_UPDATED_MOVE_DATA >= GEN_2
-        .description = COMPOUND_STRING("{JPN}20{ENG}%{JPN}で まひ/やけど/こおり\nさわらない"),
+            .description = COMPOUND_STRING(
+                "Fires three types of beams.\n"
+                #if B_USE_FROSTBITE == TRUE
+                    "May burn/para/frostbite."),
                 #else
                     "May burn/paralyze/freeze."),
                 #endif
@@ -4483,7 +4534,13 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_COTTON_SPORE] =
     {
         .name = COMPOUND_STRING("{JPN}わたほうし"),
-        .description = COMPOUND_STRING("{JPN}あいての すばやさ{ENG}-{JPN}2\nこな"),
+        .description = COMPOUND_STRING(
+        #if B_UPDATED_MOVE_DATA >= GEN_6
+            "Spores cling to the foes,\n"
+        #else
+            "Spores cling to the foe,\n"
+        #endif
+            "sharply reducing Speed."),
         .effect = EFFECT_SPEED_DOWN_2,
         .power = 0,
         .type = TYPE_GRASS,
@@ -4527,7 +4584,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_SPITE] =
     {
         .name = COMPOUND_STRING("{JPN}うらみ"),
-        .description = COMPOUND_STRING("{JPN}PPを へらす\nさわらない"),
+        .description = COMPOUND_STRING(
+            "Spitefully cuts the PP\n"
+        #if B_PP_REDUCED_BY_SPITE >= GEN_4
+            "of the foe's last move by 4."),
         #else
             "of foe's last move by 2-5."),
         #endif
@@ -4553,7 +4613,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_POWDER_SNOW] =
     {
         .name = COMPOUND_STRING("{JPN}こなゆき"),
-        .description = COMPOUND_STRING("{JPN}10{ENG}%{JPN}で こおり/しもやけ\nさわらない"),
+        .description = COMPOUND_STRING(
+            "Blasts the foes with a snowy\n"
+        #if B_USE_FROSTBITE == TRUE
+            "gust. May cause frostbite."),
         #else
             "gust. May cause freezing."),
         #endif
@@ -5719,7 +5782,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_RAPID_SPIN] =
     {
         .name = COMPOUND_STRING("{JPN}こうそくスピン"),
-        .description = COMPOUND_STRING("{JPN}しばりを とく\n100{ENG}%{JPN}で じぶんの すばやさ{ENG}+{JPN}1 さわる"),
+        .description = COMPOUND_STRING(
+            "User spins and removes some\n"
+        #if B_SPEED_BUFFING_RAPID_SPIN >= GEN_8
+            "effects, while upping speed."),
         #else
             "effects."),
         #endif
@@ -5750,7 +5816,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_SWEET_SCENT] =
     {
         .name = COMPOUND_STRING("{JPN}あまいかおり"),
-        .description = COMPOUND_STRING("{JPN}あいての かいひ{ENG}-{JPN}2\nさわらない"),
+        .description = COMPOUND_STRING(
+        #if B_UPDATED_MOVE_DATA >= GEN_6
+            "Allures the foes to harshly\n"
+            "reduce evasiveness."),
         #else
             "Allures the foes to reduce\n"
             "evasiveness."),
@@ -5923,7 +5992,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_HIDDEN_POWER] =
     {
         .name = COMPOUND_STRING("{JPN}めざめるパワー"),
-        .description = COMPOUND_STRING("{JPN}タイプが かわる\nさわらない"),
+        .description = COMPOUND_STRING(
+        #if B_HIDDEN_POWER_DMG >= GEN_6
+            "The type varies\n"
+            "with the user."),
         #else
             "The type and effectiveness\n"
             "vary with the user."),
@@ -6043,7 +6115,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_CRUNCH] =
     {
         .name = COMPOUND_STRING("{JPN}かみくだく"),
-        .description = COMPOUND_STRING("{JPN}20{ENG}%{JPN}で あいての ぼうぎょ{ENG}-{JPN}1\nキバ さわる"),
+        .description = COMPOUND_STRING(
+            "Crunches with sharp fangs.\n"
+        #if B_UPDATED_MOVE_DATA >= GEN_4
+            "May lower Defense."),
         #else
             "May lower Sp. Def."),
         #endif
@@ -6332,7 +6407,13 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_UPROAR] =
     {
         .name = COMPOUND_STRING("{JPN}さわぐ"),
-        .description = COMPOUND_STRING("{JPN}こうかなし\nおと"),
+        .description = COMPOUND_STRING(
+        #if B_UPROAR_TURNS >= GEN_5
+            "Causes an uproar for 3\n"
+        #else
+            "Causes an uproar for 2 to 5\n"
+        #endif
+            "turns and prevents sleep."),
         .effect = EFFECT_UPROAR,
         .power = B_UPDATED_MOVE_DATA >= GEN_5 ? 90 : 50,
         .type = TYPE_NORMAL,
@@ -6457,7 +6538,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("{JPN}あられ"),
         #if B_PREFERRED_ICE_WEATHER == B_ICE_WEATHER_SNOW
-        .description = COMPOUND_STRING("{JPN}てんきを かえる\nまもりむし"),
+            .description = COMPOUND_STRING(
+                "Summons a snowstorm that\n"
+                "lasts for five turns."),
         #else
             .description = COMPOUND_STRING(
                 "Summons a hailstorm that\n"
@@ -7329,7 +7412,13 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_TAIL_GLOW] =
     {
         .name = COMPOUND_STRING("{JPN}ほたるび"),
-        .description = COMPOUND_STRING("{JPN}じぶんの とくこう{ENG}+{JPN}3\nさわらない"),
+        .description = COMPOUND_STRING(
+        #if B_UPDATED_MOVE_DATA >= GEN_5
+            "Flash light that drastically\n"
+        #else
+            "Flashes a light that sharply\n"
+        #endif
+            "raises Sp. Atk."),
         .effect = B_UPDATED_MOVE_DATA >= GEN_5 ? EFFECT_SPECIAL_ATTACK_UP_3 : EFFECT_SPECIAL_ATTACK_UP_2,
         .power = 0,
         .type = TYPE_BUG,
@@ -8527,7 +8616,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("{JPN}ボルテッカー"),
         #if B_UPDATED_MOVE_DATA >= GEN_4
-        .description = COMPOUND_STRING("{JPN}はんどうあり\n10{ENG}%{JPN}で まひ はんどう さわる"),
+        .description = COMPOUND_STRING(
+            "A life-risking tackle that\n"
+            "hurts the user. May paralyze."),
         #else
         .description = COMPOUND_STRING(
             "A life-risking tackle that\n"
@@ -9039,7 +9130,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_TAILWIND] =
     {
         .name = COMPOUND_STRING("{JPN}おいかぜ"),
-        .description = COMPOUND_STRING("{JPN}すばやさを あげる\nかぜ"),
+        .description = COMPOUND_STRING(
+            "Whips up a breeze, doubling\n"
+        #if B_TAILWIND_TURNS >= GEN_5
+            "ally Speed for 4 turns."),
         #else
             "ally Speed for 3 turns."),
         #endif
@@ -10316,7 +10410,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_ICE_FANG] =
     {
         .name = COMPOUND_STRING("{JPN}こおりのキバ"),
-        .description = COMPOUND_STRING("{JPN}10{ENG}%{JPN}で こおり/しもやけ/ひるみ\nキバ さわる"),
+        .description = COMPOUND_STRING(
+            "May cause flinching or\n"
+        #if B_USE_FROSTBITE == TRUE
+            "leave the foe with frostbite."),
         #else
             "leave the foe frozen."),
         #endif
@@ -13727,7 +13824,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_FREEZE_DRY] =
     {
         .name = COMPOUND_STRING("{JPN}フリーズドライ"),
-        .description = COMPOUND_STRING("{JPN}みずにも こうかばつぐん\n10{ENG}%{JPN}で こおり/しもやけ"),
+        .description = COMPOUND_STRING(
+            "Super effective on Water-\n"
+        #if B_USE_FROSTBITE == TRUE
+            "types. May cause frostbite."),
         #else
             "types. May cause freezing."),
         #endif
@@ -15662,7 +15762,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("{JPN}オーロラベール"),
         #if B_PREFERRED_ICE_WEATHER == B_ICE_WEATHER_SNOW
-        .description = COMPOUND_STRING("{JPN}ダメージを へらす\nさわらない"),
+        .description = COMPOUND_STRING(
+            "Weakens all attacks, but\n"
+            "only usable with snow."),
         #elif B_PREFERRED_ICE_WEATHER == B_ICE_WEATHER_BOTH
         .description = COMPOUND_STRING(
             "Weakens all attacks if\n"
@@ -16104,7 +16206,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_ZIPPY_ZAP] =
     {
         .name = COMPOUND_STRING("{JPN}ばちばちアクセル"),
-        .description = COMPOUND_STRING("{JPN}じぶんの かいひ{ENG}+{JPN}1\nさき さわる"),
+        .description = COMPOUND_STRING(
+            "Electric bursts always go\n"
+            "first and land a critical hit."),
         .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_8 ? 80 : 50,
         .type = TYPE_ELECTRIC,
@@ -16191,7 +16295,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_BOUNCY_BUBBLE] =
     {
         .name = COMPOUND_STRING("{JPN}いきいきバブル"),
-        .description = COMPOUND_STRING("{JPN}ダメージの 1/2かいふく\nきゅうしゅう"),
+        .description = COMPOUND_STRING(
+            "Attack that absorbs\n"
+        #if B_UPDATED_MOVE_DATA >= GEN_8
+            "all the damage inflicted."),
         #else
             "half the damage inflicted."),
         #endif
@@ -17746,7 +17853,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_FREEZING_GLARE] =
     {
         .name = COMPOUND_STRING("{JPN}いてつくしせん"),
-        .description = COMPOUND_STRING("{JPN}10{ENG}%{JPN}で こおり/しもやけ\nさわらない"),
+        .description = COMPOUND_STRING(
+            "Shoots psychic power from\n"
+        #if B_USE_FROSTBITE == TRUE
+            "the eyes. May frostbite."),
         #else
             "the eyes. May freeze the foe."),
         #endif
@@ -18914,7 +19024,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("{JPN}さむいギャグ"),
         #if B_PREFERRED_ICE_WEATHER == B_ICE_WEATHER_HAIL
-        .description = COMPOUND_STRING("{JPN}ゆきにして こうたい\nまもりむし"),
+        .description = COMPOUND_STRING(
+            "Bad joke summons hailstorm.\n"
+            "The user also switches out."),
         #else
         .description = COMPOUND_STRING(
             "Bad joke summons snowstorm.\n"
@@ -18958,7 +19070,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("{JPN}ゆきげしき"),
         #if B_PREFERRED_ICE_WEATHER == B_ICE_WEATHER_HAIL
-        .description = COMPOUND_STRING("{JPN}てんきを かえる\nまもりむし"),
+            .description = COMPOUND_STRING(
+                "Summons a hailstorm that\n"
+                "strikes every turn."),
         #else
             .description = COMPOUND_STRING(
                 "Summons a snowstorm that\n"
