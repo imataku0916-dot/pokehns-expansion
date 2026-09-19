@@ -5220,7 +5220,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}ほのおに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5241,7 +5241,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}みずに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5262,7 +5262,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}でんきに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5283,7 +5283,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}くさに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5304,7 +5304,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}こおりに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5325,7 +5325,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}かくとうに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5346,7 +5346,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}どくに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5367,7 +5367,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}じめんに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5388,7 +5388,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}ひこうに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5409,7 +5409,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}エスパーに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5430,7 +5430,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}むしに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5451,7 +5451,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}いわに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5472,7 +5472,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}ゴーストに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5493,7 +5493,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}ドラゴンに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5514,7 +5514,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}あくに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5535,7 +5535,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}はがねに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5556,7 +5556,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルヴァディの タイプを\n"
+            "{JPN}シルバディの タイプを\n"
             "{JPN}フェアリーに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -7193,7 +7193,7 @@ const struct ItemInfo gItemsInfo[] =
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
-            "{JPN}スコヴィランに もたせると\n"
+            "{JPN}スコビランに もたせると\n"
             "{JPN}せんとうちゅうに\n"
             "{JPN}メガシンカ できる"),
         .pocket = POCKET_ITEMS,
@@ -14689,7 +14689,7 @@ const struct ItemInfo gItemsInfo[] =
         .name = ITEM_NAME("{JPN}ひきかえけん"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "{JPN}ミラクル・サイクルで\n"
+            "{JPN}ミラクル·サイクルで\n"
             "{JPN}おりたたみ じてんしゃと\n"
             "{JPN}こうかん できる かみ"),
         .importance = 1,
