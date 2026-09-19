@@ -1007,7 +1007,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_HEAVY_METAL] =
     {
-        .name = _("{JPN}ヘヴィメタル"),
+        .name = _("{JPN}ヘビィメタル"),
         .description = COMPOUND_STRING("Doubles weight."),
         .aiRating = -1,
         .breakable = TRUE,
