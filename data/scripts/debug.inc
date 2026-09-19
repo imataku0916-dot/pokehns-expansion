@@ -882,7 +882,14 @@ Debug_EventScript_FontTest_Text_9::                 @ Special thanks to Nintendo
 	.string "believe him-to have done so in an eyes-shut\l"
 	.string "state…?$"
 
+Debug_EventScript_FontTest_Text_Japanese::
+	.string "{FONT_NORMAL}{JPN}"
+	.string "こんにちは！\\n"
+	.string "ポケモン　ハート＆ソウル\\l"
+	.string "ひらがな　カタカナ　テスト{ENG}$"
+
 Debug_PrintFontTest::
+	msgbox Debug_EventScript_FontTest_Text_Japanese, MSGBOX_DEFAULT
 	msgbox Debug_EventScript_FontTest_Text_1, MSGBOX_DEFAULT
 	msgbox Debug_EventScript_FontTest_Text_2, MSGBOX_DEFAULT
 	msgbox Debug_EventScript_FontTest_Text_3, MSGBOX_DEFAULT
