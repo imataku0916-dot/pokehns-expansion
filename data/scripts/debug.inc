@@ -884,8 +884,8 @@ Debug_EventScript_FontTest_Text_9::                 @ Special thanks to Nintendo
 
 Debug_EventScript_FontTest_Text_Japanese::
 	.string "{FONT_NORMAL}{JPN}"
-	.string "こんにちは！\\n"
-	.string "ポケモン　ハート＆ソウル\\l"
+	.string "こんにちは！\n"
+	.string "ポケモン　ハート{ENG}&{JPN}ソウル\l"
 	.string "ひらがな　カタカナ　テスト{ENG}$"
 
 Debug_PrintFontTest::
