@@ -19755,7 +19755,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_CEASELESS_EDGE] =
     {
-        .name = COMPOUND_STRING("{JPN}ひけん・ちえなみ"),
+        .name = COMPOUND_STRING("{JPN}ひけん·ちえなみ"),
         .description = COMPOUND_STRING(
             "Sets Spikes that hurt the\n"
             "foe."),
@@ -21785,7 +21785,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_GENESIS_SUPERNOVA] =
     {
-        .name = COMPOUND_STRING("{JPN}オリジンズスーパーノヴァ"),
+        .name = COMPOUND_STRING("{JPN}オリジンズスーパーノバ"),
         .description = COMPOUND_STRING(
             "Mew attacks with full force.\n"
             "Psychically charges terrain."),
@@ -21909,7 +21909,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     },
     [MOVE_GUARDIAN_OF_ALOLA] =
     {
-        .name = COMPOUND_STRING("{JPN}ガーディアン・デ・アローラ"),
+        .name = COMPOUND_STRING("{JPN}ガーディアン·デ·アローラ"),
         .description = COMPOUND_STRING(
             "The Land Spirit Pokémon\n"
             "greatly reduces the foe's HP."),
