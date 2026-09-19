@@ -562,9 +562,9 @@ const struct ItemInfo gItemsInfo[] =
         .price = 0,
         .description = COMPOUND_STRING(
         #if B_DREAM_BALL_MODIFIER >= GEN_8
-            "{JPN}ねむり じょうたいの\n"
-            "{JPN}ポケモンが つかまえ\n"
-            "{JPN}やすくなる ボール"),
+            "A Ball that works\n"
+            "well on sleeping\n"
+            "Pokémon."),
         #else
             "A Poké Ball used in\n"
             "the Entree Forest."),
@@ -690,9 +690,10 @@ const struct ItemInfo gItemsInfo[] =
         .price = 700,
         .holdEffectParam = 60,
         .description = COMPOUND_STRING(
-            "{JPN}ポケモンの たいりょくを\n"
+            "Restores the HP of\n"
+            "a Pokémon by\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "{JPN}60 かいふくする"),
+            "60 points."),
         #else
             "50 points."),
         #endif
@@ -713,9 +714,10 @@ const struct ItemInfo gItemsInfo[] =
         .price = (I_PRICE >= GEN_2 && I_PRICE <= GEN_6) ? 1200 : 1500,
         .holdEffectParam = 120,
         .description = COMPOUND_STRING(
-            "{JPN}ポケモンの たいりょくを\n"
+            "Restores the HP of\n"
+            "a Pokémon by\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "{JPN}120 かいふくする"),
+            "120 points."),
         #else
             "200 points."),
         #endif
@@ -810,10 +812,10 @@ const struct ItemInfo gItemsInfo[] =
         .price = 200,
         .holdEffectParam = 30,
         .description = COMPOUND_STRING(
-            "{JPN}ミネラルたっぷりの みず\n"
-            "{JPN}ポケモンの たいりょくを\n"
+            "A mineral water\n"
+            "that restores HP\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "{JPN}30 かいふくする"),
+            "by 30 points."),
         #else
             "by 50 points."),
         #endif
@@ -834,10 +836,10 @@ const struct ItemInfo gItemsInfo[] =
         .price = 300,
         .holdEffectParam = 50,
         .description = COMPOUND_STRING(
-            "{JPN}ジュワーっと そうかい\n"
-            "{JPN}ポケモンの たいりょくを\n"
+            "A fizzy soda drink\n"
+            "that restores HP\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "{JPN}50 かいふくする"),
+            "by 50 points."),
         #else
             "by 60 points."),
         #endif
@@ -858,10 +860,10 @@ const struct ItemInfo gItemsInfo[] =
         .price = (I_PRICE >= GEN_7) ? 400 : 350,
         .holdEffectParam = 70,
         .description = COMPOUND_STRING(
-            "{JPN}とっても あまーい\n"
-            "{JPN}ポケモンの たいりょくを\n"
+            "A very sweet drink\n"
+            "that restores HP\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "{JPN}70 かいふくする"),
+            "by 70 points."),
         #else
             "by 80 points."),
         #endif
@@ -901,10 +903,10 @@ const struct ItemInfo gItemsInfo[] =
         .name = ITEM_NAME("{JPN}ちからのこな"),
         .price = 500,
         .description = COMPOUND_STRING(
-            "{JPN}とても にがい こな\n"
-            "{JPN}ポケモンの たいりょくを\n"
+            "A bitter powder\n"
+            "that restores HP\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "{JPN}60 かいふくする"),
+            "by 60 points."),
         #else
             "by 50 points."),
         #endif
@@ -924,10 +926,10 @@ const struct ItemInfo gItemsInfo[] =
         .name = ITEM_NAME("{JPN}ちからのねっこ"),
         .price = (I_PRICE >= GEN_7) ? 1200 : 800,
         .description = COMPOUND_STRING(
-            "{JPN}とても にがい ねっこ\n"
-            "{JPN}ポケモンの たいりょくを\n"
+            "A bitter root\n"
+            "that restores HP\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "{JPN}120 かいふくする"),
+            "by 120 points."),
         #else
             "by 200 points."),
         #endif
@@ -2441,9 +2443,9 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
         #if B_X_ITEMS_BUFF >= GEN_7
-            "{JPN}せんとうちゅうの\n"
-            "{JPN}ポケモンの こうげきを\n"
-            "{JPN}おおきく あげる"),
+            "Sharply raises stat\n"
+            "Attack during\n"
+            "one battle."),
         #else
             "Raises the stat\n"
             "Attack during one\n"
@@ -2467,9 +2469,9 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
         #if B_X_ITEMS_BUFF >= GEN_7
-            "{JPN}せんとうちゅうの\n"
-            "{JPN}ポケモンの ぼうぎょを\n"
-            "{JPN}おおきく あげる"),
+            "Sharply raises stat\n"
+            "Defense during\n"
+            "one battle."),
         #else
             "Raises the stat\n"
             "Defense during one\n"
@@ -2493,9 +2495,9 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
         #if B_X_ITEMS_BUFF >= GEN_7
-            "{JPN}せんとうちゅうの\n"
-            "{JPN}ポケモンの とくこうを\n"
-            "{JPN}おおきく あげる"),
+            "Sharply raises stat\n"
+            "Sp. Atk during\n"
+            "one battle."),
         #else
             "Raises the stat\n"
             "Sp. Atk during one\n"
@@ -2519,9 +2521,9 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
         #if B_X_ITEMS_BUFF >= GEN_7
-            "{JPN}せんとうちゅうの\n"
-            "{JPN}ポケモンの とくぼうを\n"
-            "{JPN}おおきく あげる"),
+            "Sharply raises stat\n"
+            "Sp. Def during\n"
+            "one battle."),
         #else
             "Raises the stat\n"
             "Sp. Def during one\n"
@@ -2545,9 +2547,9 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
         #if B_X_ITEMS_BUFF >= GEN_7
-            "{JPN}せんとうちゅうの\n"
-            "{JPN}ポケモンの すばやさを\n"
-            "{JPN}おおきく あげる"),
+            "Sharply raises stat\n"
+            "Speed during\n"
+            "one battle."),
         #else
             "Raises the stat\n"
             "Speed during one\n"
@@ -2572,9 +2574,9 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
         #if B_X_ITEMS_BUFF >= GEN_7
-            "{JPN}せんとうちゅうの\n"
-            "{JPN}ポケモンの めいちゅうを\n"
-            "{JPN}おおきく あげる"),
+            "Sharply raises move\n"
+            "accuracy during\n"
+            "one battle."),
         #else
             "Raises accuracy\n"
             "of attack moves\n"
@@ -3542,9 +3544,9 @@ const struct ItemInfo gItemsInfo[] =
         .price = 200,
     #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
-            "{JPN}つちの かわきが\n"
-            "{JPN}はやくなるが きのみの\n"
-            "{JPN}そだちも はやくなる"),
+            "A fertilizer that\n"
+            "accelerates the\n"
+            "growth of Berries."),
     #else
         .description = sGenericMulchDesc,
     #endif
@@ -3565,9 +3567,9 @@ const struct ItemInfo gItemsInfo[] =
         .price = 200,
     #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
-            "{JPN}つちの かわきが\n"
-            "{JPN}おそくなるが きのみの\n"
-            "{JPN}そだちも おそくなる"),
+            "A fertilizer that\n"
+            "decelerates the\n"
+            "growth of Berries."),
     #else
         .description = sGenericMulchDesc,
     #endif
@@ -3588,9 +3590,9 @@ const struct ItemInfo gItemsInfo[] =
         .price = 200,
     #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
-            "{JPN}きのみが おちるまでの\n"
-            "{JPN}じかんが ふだんより\n"
-            "{JPN}ながくなる"),
+            "A fertilizer that\n"
+            "ups the life time\n"
+            "of Berry trees."),
     #else
         .description = sGenericMulchDesc,
     #endif
@@ -3611,9 +3613,9 @@ const struct ItemInfo gItemsInfo[] =
         .price = 200,
     #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
-            "{JPN}かれたあとに あたらしい\n"
-            "{JPN}めが でてくる\n"
-            "{JPN}かいすうが ふえる"),
+            "A fertilizer that\n"
+            "makes more Berries\n"
+            "regrow after fall."),
     #else
         .description = sGenericMulchDesc,
     #endif
@@ -3634,9 +3636,9 @@ const struct ItemInfo gItemsInfo[] =
         .price = 200,
     #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
-            "{JPN}こまめに せわを\n"
-            "{JPN}しなくても とれる\n"
-            "{JPN}きのみの かずが ふえる"),
+            "A fertilizer that\n"
+            "ups the number of\n"
+            "Berries harvested."),
     #else
         .description = sGenericMulchDesc,
     #endif
@@ -3657,9 +3659,9 @@ const struct ItemInfo gItemsInfo[] =
         .price = 200,
     #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
-            "{JPN}きのみの くみあわせに\n"
-            "{JPN}よっては とつぜんへんいが\n"
-            "{JPN}はっせい する"),
+            "A fertilizer that\n"
+            "ups the chance of\n"
+            "Berry mutations."),
     #else
         .description = sGenericMulchDesc,
     #endif
@@ -3680,9 +3682,9 @@ const struct ItemInfo gItemsInfo[] =
         .price = 200,
     #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
-            "{JPN}みずを おおく\n"
-            "{JPN}まくことで とれる\n"
-            "{JPN}きのみの かずが ふえる"),
+            "A fertilizer that\n"
+            "ups the dry speed\n"
+            "of soft soil."),
     #else
         .description = sGenericMulchDesc,
     #endif
@@ -3703,9 +3705,9 @@ const struct ItemInfo gItemsInfo[] =
         .price = 200,
     #if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
-            "{JPN}3つの とくちょうを\n"
-            "{JPN}すべて そなえた\n"
-            "{JPN}すごい こやし"),
+            "A fertilizer Rich\n"
+            "Surprising and\n"
+            "Boosting as well."),
     #else
         .description = sGenericMulchDesc,
     #endif
@@ -5220,7 +5222,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}ほのおに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5241,7 +5243,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}みずに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5262,7 +5264,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}でんきに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5283,7 +5285,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}くさに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5304,7 +5306,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}こおりに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5325,7 +5327,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}かくとうに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5346,7 +5348,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}どくに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5367,7 +5369,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}じめんに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5388,7 +5390,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}ひこうに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5409,7 +5411,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}エスパーに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5430,7 +5432,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}むしに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5451,7 +5453,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}いわに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5472,7 +5474,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}ゴーストに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5493,7 +5495,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}ドラゴンに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5514,7 +5516,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}あくに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5535,7 +5537,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}はがねに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -5556,7 +5558,7 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
-            "{JPN}シルバディの タイプを\n"
+            "{JPN}シルブァディの タイプを\n"
             "{JPN}フェアリーに かえる\n"
             "{JPN}データメモリ"),
         .pocket = POCKET_ITEMS,
@@ -7193,7 +7195,7 @@ const struct ItemInfo gItemsInfo[] =
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
-            "{JPN}スコビランに もたせると\n"
+            "{JPN}スコブィランに もたせると\n"
             "{JPN}せんとうちゅうに\n"
             "{JPN}メガシンカ できる"),
         .pocket = POCKET_ITEMS,
@@ -8415,9 +8417,9 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffectParam = B_SOUL_DEW_BOOST >= GEN_7 ? 20 : 50,
         .description = COMPOUND_STRING(
         #if B_SOUL_DEW_BOOST >= GEN_7
-            "{JPN}ラティオス ラティアスに\n"
-            "{JPN}もたせると エスパーと\n"
-            "{JPN}ドラゴンの いりょくがあがる"),
+            "Powers up Latios' &\n"
+            "Latias' Psychic and\n"
+            "Dragon-type moves."),
         #else
             "Hold item: raises\n"
             "Sp. Atk & Sp. Def of\n"
@@ -8516,9 +8518,9 @@ const struct ItemInfo gItemsInfo[] =
     #if I_LAX_INCENSE_BOOST >= GEN_4
         .holdEffectParam = 10,
         .description = COMPOUND_STRING(
-            "{JPN}ポケモンに もたせると\n"
-            "{JPN}てきの わざが\n"
-            "{JPN}めいちゅう しにくくなる"),
+            "A hold item that\n"
+            "lowers the\n"
+            "foe's accuracy."),
     #else
         .holdEffectParam = 5,
         .description = COMPOUND_STRING(
@@ -9452,9 +9454,9 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_ICY_ROCK,
     #if B_PREFERRED_ICE_WEATHER == B_ICE_WEATHER_HAIL
         .description = COMPOUND_STRING(
-            "{JPN}もたせた ポケモンが\n"
-            "{JPN}あられを つかうと\n"
-            "{JPN}じかんが ながくなる"),
+            "Extends the length\n"
+            "of the move Hail\n"
+            "used by the holder."),
     #elif B_PREFERRED_ICE_WEATHER == B_ICE_WEATHER_SNOW
         .description = COMPOUND_STRING(
             "Extends the length\n"
@@ -9798,9 +9800,9 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_MENTAL_HERB,
         .description = COMPOUND_STRING(
         #if B_MENTAL_HERB >= GEN_5
-            "{JPN}もたせた ポケモンが\n"
-            "{JPN}わざを だせなくなったら\n"
-            "{JPN}なおして くれる"),
+            "Snaps Pokémon out\n"
+            "of move-binding\n"
+            "effects."),
         #else
             "A hold item that\n"
             "snaps Pokémon out\n"
@@ -11131,9 +11133,9 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_RESTORE_PCT_HP,
         .holdEffectParam = 25,
         .description = COMPOUND_STRING(
-            "{JPN}もたせると じぶんで\n"
-            "{JPN}たいりょくを\n"
-            "{JPN}すこしだけ かいふくする"),
+            "A hold item that\n"
+            "restores the user's\n"
+            "HP a little."),
     #else
         .holdEffect = HOLD_EFFECT_RESTORE_HP,
         .holdEffectParam = 30,
@@ -12286,10 +12288,9 @@ const struct ItemInfo gItemsInfo[] =
         .price = 3000,
     #if B_PREFERRED_ICE_WEATHER == B_ICE_WEATHER_SNOW
         .description = COMPOUND_STRING(
-        #if B_PREFERRED_ICE_WEATHER == B_ICE_WEATHER_SNOW
-            "{JPN}ゆきで 5ターンの あいだ\n"
-            "{JPN}こおりタイプの ポケモンの\n"
-            "{JPN}ぼうぎょを あげる"),
+            "Raises the Defense\n"
+            "of Ice type {PKMN}\n"
+            "for 5 turns."),
     #else
         .description = COMPOUND_STRING(
             "Creates a hailstorm\n"
@@ -12377,10 +12378,10 @@ const struct ItemInfo gItemsInfo[] =
         .name = ITEM_NAME("{JPN}わざマシン13"),
         .price = 3000,
         .description = COMPOUND_STRING(
-            "{JPN}れいきを はっしゃして\n"
-            "{JPN}てきを こうげきする\n"
+            "Fires an icy cold\n"
+            "beam that may\n"
         #if B_USE_FROSTBITE == TRUE
-            "{JPN}しもやけにする ことがある"),
+            "inflict frostbite."),
         #else
             "freeze the foe."),
         #endif
@@ -12396,9 +12397,9 @@ const struct ItemInfo gItemsInfo[] =
         .price = 10000,
         .description = COMPOUND_STRING(
         #if B_USE_FROSTBITE == TRUE
-            "{JPN}ゆきを つよいかぜに\n"
-            "{JPN}のせて こうげきする\n"
-            "{JPN}しもやけにする ことがある"),
+            "A snow-and-wind\n"
+            "attack that may\n"
+            "inflict frostbite."),
         #else
             "A brutal snow-and-\n"
             "wind attack that\n"
@@ -14497,9 +14498,9 @@ const struct ItemInfo gItemsInfo[] =
         .price = 0,
 #if IS_HNS
         .description = COMPOUND_STRING(
-            "{JPN}キンセツの ちかにある\n"
-            "{JPN}ニューキンセツに\n"
-            "{JPN}はいる ための カギ"),
+            "The key for the\n"
+            "GOLDENROD\n"
+            "UNDERGROUND."),
 #else
         .description = COMPOUND_STRING(
             "The key for New\n"
@@ -14606,8 +14607,8 @@ const struct ItemInfo gItemsInfo[] =
         .price = 0,
 #if IS_HNS
         .description = COMPOUND_STRING(
-            "{JPN}りゅうせいのたきに\n"
-            "{JPN}おちていた いんせき"),
+            "A meteorite found\n"
+            "at Birth Island."),
 #else
         .description = COMPOUND_STRING(
             "A meteorite found\n"
@@ -14723,9 +14724,9 @@ const struct ItemInfo gItemsInfo[] =
         .price = 0,
 #if IS_HNS
         .description = COMPOUND_STRING(
-            "{JPN}カードで できた カギ\n"
-            "{JPN}シルフカンパニー ビルの\n"
-            "{JPN}ドアロックを はずせる"),
+            "A card-type door\n"
+            "key used in RADIO\n"
+            "TOWER."),
 #else
         .description = COMPOUND_STRING(
             "A card-type door\n"
@@ -15835,10 +15836,10 @@ const struct ItemInfo gItemsInfo[] =
         .pluralName = ITEM_PLURAL_NAME("Fine Remedies"),
         .price = 150,
         .description = COMPOUND_STRING(
-            "{JPN}ポケモンの たいりょくを\n"
+            "A bitter powder\n"
+            "that restores HP\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "{JPN}60 かいふくする\n"
-            "{JPN}とても にがい こな"),
+            "by 60 points."),
         #else
             "by 50 points."),
         #endif
@@ -15859,10 +15860,10 @@ const struct ItemInfo gItemsInfo[] =
         .pluralName = ITEM_PLURAL_NAME("Superb Remedies"),
         .price = 750,
         .description = COMPOUND_STRING(
-            "{JPN}ポケモンの たいりょくを\n"
+            "A bitter powder\n"
+            "that restores HP\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "{JPN}120 かいふくする\n"
-            "{JPN}とても にがい こな"),
+            "by 120 points."),
         #else
             "by 200 points."),
         #endif
@@ -15884,9 +15885,9 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
         #if B_X_ITEMS_BUFF >= GEN_7
-            "{JPN}せんとうちゅうの\n"
-            "{JPN}ポケモンの かいひりつを\n"
-            "{JPN}おおきく あげる"),
+            "Sharply raises\n"
+            "evasiveness during\n"
+            "one battle."),
         #else
             "Raises evasiveness\n"
             "during one battle."),
@@ -15907,9 +15908,9 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
         #if B_X_ITEMS_BUFF >= GEN_7
-            "{JPN}せんとうちゅうの\n"
-            "{JPN}ポケモンの まもりを\n"
-            "{JPN}おおきく あげる"),
+            "Sharply raises\n"
+            "defenses during\n"
+            "one battle."),
         #else
             "Raises defenses\n"
             "during one battle."),
@@ -15930,9 +15931,9 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
         #if B_X_ITEMS_BUFF >= GEN_7
-            "{JPN}せんとうちゅうの\n"
-            "{JPN}ポケモンの ちからを\n"
-            "{JPN}おおきく あげる"),
+            "Sharply raises\n"
+            "offenses during\n"
+            "one battle."),
         #else
             "Raises offenses\n"
             "during one battle."),
@@ -15953,9 +15954,9 @@ const struct ItemInfo gItemsInfo[] =
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
         #if B_X_ITEMS_BUFF >= GEN_7
-            "{JPN}せんとうちゅうの\n"
-            "{JPN}ポケモンの ちからと\n"
-            "{JPN}まもりを おおきくあげる"),
+            "Sharply raises\n"
+            "offense & defense\n"
+            "during one battle."),
         #else
             "Raises offense\n"
             "and defense during\n"
