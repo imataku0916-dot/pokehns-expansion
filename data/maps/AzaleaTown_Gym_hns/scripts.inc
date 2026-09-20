@@ -727,7 +727,7 @@ AzaleaTown_Gym_Text_BugCatcherBennySeen:
 	.string "get stronger that much faster.$"
 
 AzaleaTown_Gym_Text_BugCatcherBennyBeaten:
-	.string "Just evolving isn't enough!$"
+	.string "{JPN}しんかさせるだけじゃ だめなのか！$"
 
 AzaleaTown_Gym_Text_BugCatcherBennyAfter:
 	.string "POKéMON become stronger\n"
@@ -738,7 +738,7 @@ AzaleaTown_Gym_Text_BugCatcherAlSeen:
 	.string "I'll prove it to you!$"
 
 AzaleaTown_Gym_Text_BugCatcherAlBeaten:
-	.string "You proved how tough you are…$"
+	.string "{JPN}きみの つよさは よくわかったよ……$"
 
 AzaleaTown_Gym_Text_BugCatcherAlAfter:
 	.string "They're so cool, but most girls\n"
@@ -752,7 +752,7 @@ AzaleaTown_Gym_Text_BugCatcherJoshSeen:
 	.string "pretty tough too!$"
 
 AzaleaTown_Gym_Text_BugCatcherJoshBeaten:
-	.string "Urrgggh!$"
+	.string "{JPN}うぐぐぐっ！$"
 
 AzaleaTown_Gym_Text_BugCatcherJoshAfter:
 	.string "I guess I should teach them\n"
@@ -763,8 +763,8 @@ AzaleaTown_Gym_Text_TwinsAmyMay1Seen:
 	.string "the LEADER? No way!$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay1Beaten:
-	.string "AMY & MAY: Oh, double\n"
-	.string "goodness!$"
+	.string "{JPN}エイミーとメイ: ふたりそろって\n"
+	.string "まけちゃった！$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay1After:
 	.string "AMY: You're really strong!\p"
@@ -780,8 +780,8 @@ AzaleaTown_Gym_Text_TwinsAmyMay2Seen:
 	.string "seems to crit!$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay2Beaten:
-	.string "AMY & MAY: Oh, double\n"
-	.string "goodness!$"
+	.string "{JPN}エイミーとメイ: ふたりそろって\n"
+	.string "まけちゃった！$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay2After:
 	.string "MAY: Our bug POKéMON lost!\n"

@@ -733,7 +733,7 @@ IlexForest_Text_BugCatcherWayneSeen:
 	.string "You frightened a POKéMON away!$"
 
 IlexForest_Text_BugCatcherWayneBeaten:
-	.string "I hadn't seen that POKéMON before…$"
+	.string "{JPN}そんな ポケモン みたことないよ……$"
 
 IlexForest_Text_BugCatcherWayneAfter:
 	.string "A POKéMON I've never seen before\n"

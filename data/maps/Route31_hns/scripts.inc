@@ -125,7 +125,7 @@ Route31_Text_BugCatcherWade1_Seen:
 	.string "Let me battle with you!$"
 
 Route31_Text_BugCatcherWade1_Beaten:
-	.string "Awwwww…$"
+	.string "{JPN}うわーん……$"
 
 Route31_Text_BugCatcherWade1_After:
 	.string "You can catch POKéMON even if\n"
@@ -216,7 +216,7 @@ Route31_Text_WadeRematchIntro:
 	.string "Let's battle!$"
 
 Route31_Text_WadeRematchDefeat:
-	.string "Awwwww…$"
+	.string "{JPN}うわーん……$"
 
 Route31_Text_WadePostRematch:
 	.string "You'll hear from me as soon\n"

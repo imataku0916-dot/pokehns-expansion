@@ -76,7 +76,7 @@ UnionCave_1F_Text_HikerRussellSeen:
 	.string "enough to battle.$"
 
 UnionCave_1F_Text_HikerRussellBeaten:
-	.string "Oh, oh, oh!$"
+	.string "{JPN}おお おお おおっ！$"
 
 UnionCave_1F_Text_HikerRussellAfter:
 	.string "All right, then! I've decided.\p"
@@ -90,7 +90,7 @@ UnionCave_1F_Text_PokemaniacLarrySeen:
 	.string "Then you're my collecting rival!$"
 
 UnionCave_1F_Text_PokemaniacLarryBeaten:
-	.string "Ugh. My poor POKéMON…$"
+	.string "{JPN}ううっ。 かわいそうな ポケモン……$"
 
 UnionCave_1F_Text_PokemaniacLarryAfter:
 	.string "Sometimes, you can hear POKéMON\n"
@@ -101,7 +101,7 @@ UnionCave_1F_Text_HikerDanielSeen:
 	.string "I didn't expect to see anyone here!$"
 
 UnionCave_1F_Text_HikerDanielBeaten:
-	.string "Whoa! I'm beaten big time!$"
+	.string "{JPN}うわっ！ かんぺきに まけた！$"
 
 UnionCave_1F_Text_HikerDanielAfter:
 	.string "I was conned into buying a\n"
@@ -114,7 +114,7 @@ UnionCave_1F_Text_FirebreatherBillSeen:
 	.string "I'm seriously upset about that!$"
 
 UnionCave_1F_Text_FirebreatherBillBeaten:
-	.string "I flamed out!$"
+	.string "{JPN}もえつきたぜ！$"
 
 UnionCave_1F_Text_FirebreatherBillAfter:
 	.string "On weekends, you can hear strange\n"
@@ -126,7 +126,7 @@ UnionCave_1F_Text_FirebreatherRaySeen:
 	.string "scary.$"
 
 UnionCave_1F_Text_FirebreatherRayBeaten:
-	.string "FLASH!$"
+	.string "{JPN}ピカーッ！$"
 
 UnionCave_1F_Text_FirebreatherRayAfter:
 	.string "It's my POKéMON's fire that lights\n"

@@ -184,7 +184,7 @@ GoldenrodCity_Gym_Text_LassCarrieSeen:
     .string "They can whip you!$"
 
 GoldenrodCity_Gym_Text_LassCarrieBeaten:
-    .string "Darn… I thought you were weak…$"
+    .string "{JPN}もう…… よわいと おもったのに……$"
 
 GoldenrodCity_Gym_Text_LassCarrieAfter:
     .string "Do my POKéMON think I'm cute?$"
@@ -195,7 +195,7 @@ GoldenrodCity_Gym_Text_LassBridgetSeen:
     .string "But I have strong and cute POKéMON!$"
 
 GoldenrodCity_Gym_Text_LassBridgetBeaten:
-    .string "Oh, no, no, no!$"
+    .string "{JPN}いや いや いやーっ！$"
 
 GoldenrodCity_Gym_Text_LassBridgetAfter:
     .string "I'm trying to beat WHITNEY, but…\n"
@@ -213,7 +213,7 @@ GoldenrodCity_Gym_Text_BeautyVictoriaSeen:
     .string "I like you, but I won't hold back!$"
 
 GoldenrodCity_Gym_Text_BeautyVictoriaBeaten:
-    .string "Let's see… Oops, it's over?$"
+    .string "{JPN}ええと…… あら？ もう おわり？$"
 
 GoldenrodCity_Gym_Text_BeautyVictoriaAfter:
     .string "Wow, you must be good to beat me!\n"
@@ -224,7 +224,7 @@ GoldenrodCity_Gym_Text_BeautySamanthaSeen:
     .string "you down!$"
 
 GoldenrodCity_Gym_Text_BeautySamanthaBeaten:
-    .string "No! Oh, MEOWTH, I'm so sorry!$"
+    .string "{JPN}そんな！ ニャース ごめんなさい！$"
 
 GoldenrodCity_Gym_Text_BeautySamanthaAfter:
     .string "I taught MEOWTH moves for taking on\n"

@@ -32,7 +32,7 @@ SproutTower_Text_SageNico_Seen:
 	.string "the TOWER will stand strong.$"
 
 SproutTower_Text_SageNico_Beaten:
-	.string "I fought hard but I'm too weak.$"
+	.string "{JPN}がんばったが わたしは よわすぎる。$"
 
 SproutTower_Text_SageNico_AfterBattle:
 	.string "The flexible pillar protects the\n"
@@ -42,7 +42,7 @@ SproutTower_Text_SageEdmond_Seen:
 	.string "…Sway like leaves in the wind…$"
 
 SproutTower_Text_SageEdmond_Beaten:
-	.string "Oh, I'm weak!$"
+	.string "{JPN}おお…… わたしは よわい！$"
 
 SproutTower_Text_SageEdmond_AfterBattle:
 	.string "I tried to copy BELLSPROUT's\n"

@@ -415,7 +415,7 @@ Route32_Text_FisherJustin_Seen:
 	.string "You made me lose that fish!$"
 
 Route32_Text_FisherJustin_Beaten:
-	.string "Sploosh!$"
+	.string "{JPN}ドボーン！$"
 
 Route32_Text_FisherJustin_After:
 	.string "Calm, collected… The essence of\n"
@@ -427,8 +427,7 @@ Route32_Text_FisherRalph1_Seen:
 	.string "I'm not about to lose to any kid!$"
 
 Route32_Text_FisherRalph1_Beaten:
-	.string "Tch! I tried to rush\n"
-	.string "things…$"
+	.string "{JPN}ちっ！ あせりすぎたか……$"
 
 Route32_Text_FisherRalph1_After:
 	.string "Fishing is a lifelong\n"
@@ -446,8 +445,7 @@ Route32_Text_RalphRematchIntro:
 	.string "I'm not about to lose to any kid!$"
 
 Route32_Text_RalphRematchDefeat:
-	.string "Tch! I tried to rush\n"
-	.string "things…$"
+	.string "{JPN}ちっ！ あせりすぎたか……$"
 
 Route32_Text_RalphPostRematch:
 	.string "Fishing is a lifelong\n"
@@ -458,7 +456,7 @@ Route32_Text_FisherHenry_Seen:
 	.string "My POKéMON? Freshly caught!$"
 
 Route32_Text_FisherHenry_Beaten:
-	.string "SPLASH?$"
+	.string "{JPN}はねる！？$"
 
 Route32_Text_FisherHenry_After:
 	.string "Freshly caught POKéMON are\n"
@@ -469,7 +467,7 @@ Route32_Text_YoungsterAlbert_Seen:
 	.string "So you think you are pretty tough?$"
 
 Route32_Text_YoungsterAlbert_Beaten:
-	.string "You're strong!$"
+	.string "{JPN}きみ つよいな！$"
 
 Route32_Text_YoungsterAlbert_After:
 	.string "I'm going to try to be the\n"
@@ -483,7 +481,7 @@ Route32_Text_YoungsterGordon_Seen:
 	.string "I think they'll do it for me!$"
 
 Route32_Text_YoungsterGordon_Beaten:
-	.string "Darn. I thought I could win.$"
+	.string "{JPN}くそっ。 かてると おもったのに。$"
 
 Route32_Text_YoungsterGordon_After:
 	.string "The grass is full of\n"
@@ -493,7 +491,7 @@ Route32_Text_CamperRoland_Seen:
 	.string "That glance… It's intriguing.$"
 
 Route32_Text_CamperRoland_Beaten:
-	.string "Hmmm. This is disappointing.$"
+	.string "{JPN}うーん。 ざんねんだ。$"
 
 Route32_Text_CamperRoland_After:
 	.string "If you don't want to battle,\n"
@@ -505,8 +503,8 @@ Route32_Text_PicnickerLiz1_Seen:
 	.string "Oh, all right. But make it fast.$"
 
 Route32_Text_PicnickerLiz1_Beaten:
-	.string "Oh! I've got to relieve\n"
-	.string "my anger!$"
+	.string "{JPN}もう！ この くやしさを\n"
+	.string "どこかで はらさなきゃ！$"
 
 Route32_Text_PicnickerLiz1_After:
 	.string "I was having a nice chat too.$"
@@ -520,8 +518,8 @@ Route32_Text_LizRematchIntro:
 	.string "Oh, all right. But make it fast.$"
 
 Route32_Text_LizRematchDefeat:
-	.string "Oh! I've got to relieve\n"
-	.string "my anger!$"
+	.string "{JPN}もう！ この くやしさを\n"
+	.string "どこかで はらさなきゃ！$"
 
 Route32_Text_LizPostRematch:
 	.string "I was having a nice chat too.$"
@@ -531,7 +529,7 @@ Route32_Text_BirdKeeperPeter_Seen:
 	.string "You beat FALKNER?$"
 
 Route32_Text_BirdKeeperPeter_Beaten:
-	.string "I know what my weaknesses are.$"
+	.string "{JPN}じぶんの よわさが わかったよ。$"
 
 Route32_Text_BirdKeeperPeter_After:
 	.string "I should train again at the\n"
