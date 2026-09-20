@@ -88,7 +88,7 @@ PokemonLeague_BrunosRoom_Text_Before:
     .string "Hoo hah!$"
 
 PokemonLeague_BrunosRoom_Text_Beaten:
-    .string "{JPN}なぜだ！ なぜ われわれが まける！？$"
+    .string "{JPN}なぜだ！{UNK_SPACER}なぜ{UNK_SPACER}われわれが{UNK_SPACER}まける！？$"
 
 PokemonLeague_BrunosRoom_Text_Defeat:
     .string "Having lost, I have no right to\n"

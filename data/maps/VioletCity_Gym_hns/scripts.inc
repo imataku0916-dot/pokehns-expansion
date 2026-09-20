@@ -66,10 +66,10 @@ VioletGym_Text_Falkner_Intro:
 	.string "of the magnificent bird POKéMON!$"
 
 VioletGym_Text_Falkner_WinLoss:
-	.string "{JPN}くっ……！ おやじから ゆずりうけた\n"
-	.string "じまんの とりポケモンが……\p"
-	.string "わかった。 これを うけとれ。\p"
-	.string "ポケモンリーグ こうしきの\n"
+	.string "{JPN}くっ……！{UNK_SPACER}おやじから{UNK_SPACER}ゆずりうけた\n"
+	.string "じまんの{UNK_SPACER}とりポケモンが……\p"
+	.string "わかった。{UNK_SPACER}これを{UNK_SPACER}うけとれ。\p"
+	.string "ポケモンリーグ{UNK_SPACER}こうしきの\n"
 	.string "ウイングバッジだ！$"
 
 VioletGym_Text_ReceivedZephyrBadge:

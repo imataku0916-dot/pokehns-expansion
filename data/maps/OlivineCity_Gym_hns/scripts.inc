@@ -287,10 +287,10 @@ OlivineCity_Gym_Text_JasmineSteelTypeIntro:
 	.string "…Um… May I begin?$"
 
 OlivineCity_Gym_Text_JasmineBetterTrainer:
-	.string "{JPN}……あなたは わたしよりも\n"
-	.string "つよくて やさしい トレーナーです。\p"
-	.string "リーグの きまりに したがって\n"
-	.string "この バッジを おわたしします。$"
+	.string "{JPN}……あなたは{UNK_SPACER}わたしよりも\n"
+	.string "つよくて{UNK_SPACER}やさしい{UNK_SPACER}トレーナーです。\p"
+	.string "リーグの{UNK_SPACER}きまりに{UNK_SPACER}したがって\n"
+	.string "この{UNK_SPACER}バッジを{UNK_SPACER}おわたしします。$"
 
 OlivineCity_Gym_Text_ReceivedMineralBadge:
 	.string "{PLAYER} received MINERALBADGE.$"

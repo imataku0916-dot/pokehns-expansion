@@ -287,8 +287,8 @@ CianwoodCity_Text_EusineSuicune:
 	.string "Come on, {PLAYER}. Let's battle now!$"
 
 CianwoodCity_Text_EusineBeaten:
-	.string "{JPN}みとめたくは ないが……\n"
-	.string "きみの かちだ。$"
+	.string "{JPN}みとめたくは{UNK_SPACER}ないが……\n"
+	.string "きみの{UNK_SPACER}かちだ。$"
 
 CianwoodCity_Text_EusineAfter:
 	.string "You're amazing, {PLAYER}!\p"

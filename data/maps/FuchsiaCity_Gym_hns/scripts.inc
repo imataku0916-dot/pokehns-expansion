@@ -93,9 +93,9 @@ FuchsiaCity_Gym_Text_Janine_DisappointYou:
 	.string "JANINE of FUCHSIA GYM, that's me!$"
 
 FuchsiaCity_Gym_Text_Janine_ToughOne:
-	.string "{JPN}アンズ: あなた つよいね。\n"
-	.string "かんぜんに わたしの まけ……\p"
-	.string "ピンクバッジを うけとって！$"
+	.string "{JPN}アンズ:{UNK_SPACER}あなた{UNK_SPACER}つよいね。\n"
+	.string "かんぜんに{UNK_SPACER}わたしの{UNK_SPACER}まけ……\p"
+	.string "ピンクバッジを{UNK_SPACER}うけとって！$"
 
 FuchsiaCity_Gym_Text_ReceivedSoulBadge:
 	.string "{PLAYER} received SOULBADGE.$"

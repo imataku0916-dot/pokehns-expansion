@@ -357,11 +357,11 @@ PokemonLeague_ChampionsRoom_Text_BattleIntro:
 
 PokemonLeague_ChampionsRoom_Text_BattleWin:
     .string "{JPN}……おわったな。\p"
-    .string "ふしぎな きぶんだ。\p"
-    .string "まけたのに くやしくない。\n"
-    .string "むしろ うれしいくらいだ。\p"
-    .string "あたらしい すばらしい チャンピオンの\n"
-    .string "たんじょうを みとどけられたからな！$"
+    .string "ふしぎな{UNK_SPACER}きぶんだ。\p"
+    .string "まけたのに{UNK_SPACER}くやしくない。\n"
+    .string "むしろ{UNK_SPACER}うれしいくらいだ。\p"
+    .string "あたらしい{UNK_SPACER}すばらしい{UNK_SPACER}チャンピオンの\n"
+    .string "たんじょうを{UNK_SPACER}みとどけられたからな！$"
 
 PokemonLeague_ChampionsRoom_Text_BattleAfter:
     .string "…Whew.\p"

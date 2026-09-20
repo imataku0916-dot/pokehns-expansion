@@ -676,12 +676,12 @@ AzaleaTown_Gym_Text_BugsyIntro:
 	.string "learned from my studies.$"
 
 AzaleaTown_Gym_Text_BugsyBeaten:
-	.string "{JPN}すごい！ きみは\n"
-	.string "ポケモンの たつじんだね！\p"
-	.string "ぼくの けんきゅうは\n"
-	.string "まだ かんせいしていない。\p"
-	.string "わかったよ。 きみの かちだ。\n"
-	.string "この バッジを うけとって！$"
+	.string "{JPN}すごい！{UNK_SPACER}きみは\n"
+	.string "ポケモンの{UNK_SPACER}たつじんだね！\p"
+	.string "ぼくの{UNK_SPACER}けんきゅうは\n"
+	.string "まだ{UNK_SPACER}かんせいしていない。\p"
+	.string "わかったよ。{UNK_SPACER}きみの{UNK_SPACER}かちだ。\n"
+	.string "この{UNK_SPACER}バッジを{UNK_SPACER}うけとって！$"
 
 AzaleaTown_Gym_Text_ReceivedHiveBadge:
 	.string "{PLAYER} received HIVEBADGE.$"
@@ -727,7 +727,7 @@ AzaleaTown_Gym_Text_BugCatcherBennySeen:
 	.string "get stronger that much faster.$"
 
 AzaleaTown_Gym_Text_BugCatcherBennyBeaten:
-	.string "{JPN}しんかさせるだけじゃ だめなのか！$"
+	.string "{JPN}しんかさせるだけじゃ{UNK_SPACER}だめなのか！$"
 
 AzaleaTown_Gym_Text_BugCatcherBennyAfter:
 	.string "POKéMON become stronger\n"
@@ -738,7 +738,7 @@ AzaleaTown_Gym_Text_BugCatcherAlSeen:
 	.string "I'll prove it to you!$"
 
 AzaleaTown_Gym_Text_BugCatcherAlBeaten:
-	.string "{JPN}きみの つよさは よくわかったよ……$"
+	.string "{JPN}きみの{UNK_SPACER}つよさは{UNK_SPACER}よくわかったよ……$"
 
 AzaleaTown_Gym_Text_BugCatcherAlAfter:
 	.string "They're so cool, but most girls\n"
@@ -763,7 +763,7 @@ AzaleaTown_Gym_Text_TwinsAmyMay1Seen:
 	.string "the LEADER? No way!$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay1Beaten:
-	.string "{JPN}エイミーとメイ: ふたりそろって\n"
+	.string "{JPN}エイミーとメイ:{UNK_SPACER}ふたりそろって\n"
 	.string "まけちゃった！$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay1After:
@@ -780,7 +780,7 @@ AzaleaTown_Gym_Text_TwinsAmyMay2Seen:
 	.string "seems to crit!$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay2Beaten:
-	.string "{JPN}エイミーとメイ: ふたりそろって\n"
+	.string "{JPN}エイミーとメイ:{UNK_SPACER}ふたりそろって\n"
 	.string "まけちゃった！$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay2After:

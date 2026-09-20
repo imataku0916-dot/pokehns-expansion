@@ -164,8 +164,8 @@ BurnedTowerSilver_BeforeText:
 
 BurnedTowerSilver_WinText:
 	.string "{JPN}……ふん！\p"
-	.string "まけたのは おれの ポケモンが\n"
-	.string "どうしようもなく よわいからだ。\p"
+	.string "まけたのは{UNK_SPACER}おれの{UNK_SPACER}ポケモンが\n"
+	.string "どうしようもなく{UNK_SPACER}よわいからだ。\p"
 	.string "なさけないぜ。$"
 
 BurnedTowerSilver_AfterText1:

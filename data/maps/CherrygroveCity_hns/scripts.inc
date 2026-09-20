@@ -336,8 +336,8 @@ CherrygroveCity_Text_RivalSeen:
 	.string "I'll show you what I mean!$"
 
 CherrygroveCity_Text_SilverWin:
-	.string "{JPN}ふん！ かったくらいで\n"
-	.string "いいきに なるなよ！$"
+	.string "{JPN}ふん！{UNK_SPACER}かったくらいで\n"
+	.string "いいきに{UNK_SPACER}なるなよ！$"
 
 CherrygroveCity_Text_RivalAfter:
 	.string "… … … … … … … …\p"

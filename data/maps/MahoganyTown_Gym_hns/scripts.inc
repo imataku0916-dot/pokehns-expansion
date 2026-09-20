@@ -136,11 +136,11 @@ MahoganyTown_Gym_Text_PryceIntro:
     .string "shall demonstrate my power!$"
 
 MahoganyTown_Gym_Text_PryceImpressed:
-    .string "{JPN}みごとじゃ。 おぬしの うでまえには\n"
+    .string "{JPN}みごとじゃ。{UNK_SPACER}おぬしの{UNK_SPACER}うでまえには\n"
     .string "かんしんしたぞ。\p"
-    .string "その つよい こころが あれば\n"
-    .string "どんな こんなんも のりこえられよう。\p"
-    .string "この バッジを うけとるがよい！$"
+    .string "その{UNK_SPACER}つよい{UNK_SPACER}こころが{UNK_SPACER}あれば\n"
+    .string "どんな{UNK_SPACER}こんなんも{UNK_SPACER}のりこえられよう。\p"
+    .string "この{UNK_SPACER}バッジを{UNK_SPACER}うけとるがよい！$"
 
 MahoganyTown_Gym_Text_ReceivedBadge:
     .string "{PLAYER} received GLACIERBADGE.$"

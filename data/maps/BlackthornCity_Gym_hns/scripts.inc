@@ -243,9 +243,9 @@ BlackthornGym_Text_ClairIntroText:
     .string "power against any opponent!$"
 
 BlackthornGym_Text_ClairWinText:
-    .string "{JPN}わたしが まけた？\p"
-    .string "しんじられない。 なにかの\n"
-    .string "まちがいに きまってる……$"
+    .string "{JPN}わたしが{UNK_SPACER}まけた？\p"
+    .string "しんじられない。{UNK_SPACER}なにかの\n"
+    .string "まちがいに{UNK_SPACER}きまってる……$"
 
 BlackthornGym_Text_ClairText_GoToDragonsDen:
     .string "I won't admit this.\p"

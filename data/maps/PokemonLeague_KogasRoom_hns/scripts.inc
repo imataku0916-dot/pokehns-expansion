@@ -87,7 +87,7 @@ PokemonLeague_KogasRoom_Text_Before:
 
 PokemonLeague_KogasRoom_Text_Beaten:
     .string "{JPN}むう！\n"
-    .string "おぬしの じつりょく みとめよう！$"
+    .string "おぬしの{UNK_SPACER}じつりょく{UNK_SPACER}みとめよう！$"
 
 PokemonLeague_KogasRoom_Text_Defeat:
     .string "I subjected you to everything I\n"

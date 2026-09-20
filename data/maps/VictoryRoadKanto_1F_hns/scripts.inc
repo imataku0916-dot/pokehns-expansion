@@ -141,10 +141,10 @@ VictoryRoad_Text_RivalBefore:
 
 VictoryRoad_Text_RivalDefeat:
     .string "{JPN}……かてなかった……\p"
-    .string "もてる ちからを ぜんぶ だしたのに……\p"
-    .string "おまえに あって おれに ないもの……\p"
-    .string "あの ドラゴンつかいが いったことが\n"
-    .string "すこし わかってきた……$"
+    .string "もてる{UNK_SPACER}ちからを{UNK_SPACER}ぜんぶ{UNK_SPACER}だしたのに……\p"
+    .string "おまえに{UNK_SPACER}あって{UNK_SPACER}おれに{UNK_SPACER}ないもの……\p"
+    .string "あの{UNK_SPACER}ドラゴンつかいが{UNK_SPACER}いったことが\n"
+    .string "すこし{UNK_SPACER}わかってきた……$"
 
 VictoryRoad_Text_RivalAfter:
     .string "…I haven't given up on becoming the\n"

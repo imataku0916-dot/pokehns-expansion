@@ -247,9 +247,9 @@ CeruleanGym_Text_MistyIntro:
 	.string "tough!$"
 
 CeruleanGym_Text_MistyWinLoss:
-	.string "{JPN}カスミ: あなた ほんとうに つよいわ……\p"
-	.string "その うでまえは みとめる。\p"
-	.string "これを どうぞ。 ブルーバッジよ！$"
+	.string "{JPN}カスミ:{UNK_SPACER}あなた{UNK_SPACER}ほんとうに{UNK_SPACER}つよいわ……\p"
+	.string "その{UNK_SPACER}うでまえは{UNK_SPACER}みとめる。\p"
+	.string "これを{UNK_SPACER}どうぞ。{UNK_SPACER}ブルーバッジよ！$"
 
 CeruleanGym_Text_ReceivedBadge:
 	.string "{PLAYER} received CASCADEBADGE.$"

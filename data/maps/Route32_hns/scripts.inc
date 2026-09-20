@@ -427,7 +427,7 @@ Route32_Text_FisherRalph1_Seen:
 	.string "I'm not about to lose to any kid!$"
 
 Route32_Text_FisherRalph1_Beaten:
-	.string "{JPN}ちっ！ あせりすぎたか……$"
+	.string "{JPN}ちっ！{UNK_SPACER}あせりすぎたか……$"
 
 Route32_Text_FisherRalph1_After:
 	.string "Fishing is a lifelong\n"
@@ -445,7 +445,7 @@ Route32_Text_RalphRematchIntro:
 	.string "I'm not about to lose to any kid!$"
 
 Route32_Text_RalphRematchDefeat:
-	.string "{JPN}ちっ！ あせりすぎたか……$"
+	.string "{JPN}ちっ！{UNK_SPACER}あせりすぎたか……$"
 
 Route32_Text_RalphPostRematch:
 	.string "Fishing is a lifelong\n"
@@ -467,7 +467,7 @@ Route32_Text_YoungsterAlbert_Seen:
 	.string "So you think you are pretty tough?$"
 
 Route32_Text_YoungsterAlbert_Beaten:
-	.string "{JPN}きみ つよいな！$"
+	.string "{JPN}きみ{UNK_SPACER}つよいな！$"
 
 Route32_Text_YoungsterAlbert_After:
 	.string "I'm going to try to be the\n"
@@ -481,7 +481,7 @@ Route32_Text_YoungsterGordon_Seen:
 	.string "I think they'll do it for me!$"
 
 Route32_Text_YoungsterGordon_Beaten:
-	.string "{JPN}くそっ。 かてると おもったのに。$"
+	.string "{JPN}くそっ。{UNK_SPACER}かてると{UNK_SPACER}おもったのに。$"
 
 Route32_Text_YoungsterGordon_After:
 	.string "The grass is full of\n"
@@ -491,7 +491,7 @@ Route32_Text_CamperRoland_Seen:
 	.string "That glance… It's intriguing.$"
 
 Route32_Text_CamperRoland_Beaten:
-	.string "{JPN}うーん。 ざんねんだ。$"
+	.string "{JPN}うーん。{UNK_SPACER}ざんねんだ。$"
 
 Route32_Text_CamperRoland_After:
 	.string "If you don't want to battle,\n"
@@ -503,8 +503,8 @@ Route32_Text_PicnickerLiz1_Seen:
 	.string "Oh, all right. But make it fast.$"
 
 Route32_Text_PicnickerLiz1_Beaten:
-	.string "{JPN}もう！ この くやしさを\n"
-	.string "どこかで はらさなきゃ！$"
+	.string "{JPN}もう！{UNK_SPACER}この{UNK_SPACER}くやしさを\n"
+	.string "どこかで{UNK_SPACER}はらさなきゃ！$"
 
 Route32_Text_PicnickerLiz1_After:
 	.string "I was having a nice chat too.$"
@@ -518,8 +518,8 @@ Route32_Text_LizRematchIntro:
 	.string "Oh, all right. But make it fast.$"
 
 Route32_Text_LizRematchDefeat:
-	.string "{JPN}もう！ この くやしさを\n"
-	.string "どこかで はらさなきゃ！$"
+	.string "{JPN}もう！{UNK_SPACER}この{UNK_SPACER}くやしさを\n"
+	.string "どこかで{UNK_SPACER}はらさなきゃ！$"
 
 Route32_Text_LizPostRematch:
 	.string "I was having a nice chat too.$"
@@ -529,7 +529,7 @@ Route32_Text_BirdKeeperPeter_Seen:
 	.string "You beat FALKNER?$"
 
 Route32_Text_BirdKeeperPeter_Beaten:
-	.string "{JPN}じぶんの よわさが わかったよ。$"
+	.string "{JPN}じぶんの{UNK_SPACER}よわさが{UNK_SPACER}わかったよ。$"
 
 Route32_Text_BirdKeeperPeter_After:
 	.string "I should train again at the\n"

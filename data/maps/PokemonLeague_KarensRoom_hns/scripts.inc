@@ -89,7 +89,7 @@ PokemonLeague_KarensRoom_Text_Before:
 
 PokemonLeague_KarensRoom_Text_Beaten:
     .string "{JPN}やるじゃない。\n"
-    .string "そういう トレーナーは すきよ。$"
+    .string "そういう{UNK_SPACER}トレーナーは{UNK_SPACER}すきよ。$"
 
 PokemonLeague_KarensRoom_Text_Defeat:
     .string "Strong POKéMON.\p"

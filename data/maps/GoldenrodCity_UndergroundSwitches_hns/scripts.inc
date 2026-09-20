@@ -533,10 +533,10 @@ GoldenrodUnderground_Text_SilverBefore:
     .string "I will repay my debts!$"
 
 GoldenrodUnderground_Text_SilverWin:
-    .string "{JPN}……なぜだ…… なぜ おれが まける？\p"
-    .string "さいきょうの ポケモンを そろえた。\p"
-    .string "てかげんだって していない。\p"
-    .string "なのに なぜ まけるんだ！？$"
+    .string "{JPN}……なぜだ……{UNK_SPACER}なぜ{UNK_SPACER}おれが{UNK_SPACER}まける？\p"
+    .string "さいきょうの{UNK_SPACER}ポケモンを{UNK_SPACER}そろえた。\p"
+    .string "てかげんだって{UNK_SPACER}していない。\p"
+    .string "なのに{UNK_SPACER}なぜ{UNK_SPACER}まけるんだ！？$"
 
 GoldenrodUnderground_Text_SilverAfter:
     .string "…I don't understand…\p"
