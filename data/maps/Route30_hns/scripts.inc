@@ -133,47 +133,46 @@ Route30_Text_ThisIsABigBattle:
 	.string "Leave me alone!$"
 
 Route30_Text_YoungsterJoey1Seen:
-	.string "I just lost, so I'm trying to\n"
-	.string "find more POKéMON.\p"
-	.string "Wait! You look weak! Come on,\n"
-	.string "let's battle!$"
+    .string "{JPN}さっきまけたから\n"
+    .string "もっとポケモンをさがしてるんだ。\p"
+    .string "おっ！きみよわそうだな！\n"
+    .string "よししょうぶだ！$"
 
 Route30_Text_YoungsterJoey1Beaten:
 	.string "{JPN}あっ！またまけた！\n"
 	.string "ちくしょう！$"
 
 Route30_Text_YoungsterJoey1After:
-	.string "Do I have to have more POKéMON\n"
-	.string "in order to battle better?\p"
-	.string "No! I'm sticking with this one\n"
-	.string "no matter what!$"
+    .string "{JPN}もっとポケモンがいれば\n"
+    .string "つよくたたかえるのかな？\p"
+    .string "いや！このいっぴきと\n"
+    .string "どこまでもいくぞ！$"
 
 Route30_Text_YoungsterMikeySeen:
-	.string "You're a POKéMON trainer,\n"
-	.string "right?\p"
-	.string "Then you have to battle!$"
+    .string "{JPN}きみポケモントレーナーだろ？\p"
+    .string "だったらしょうぶだ！$"
 
 Route30_Text_YoungsterMikeyBeaten:
 	.string "{JPN}おかしいな。\n"
 	.string "まえはかったのに。$"
 
 Route30_Text_YoungsterMikeyAfter:
-	.string "Becoming a good trainer is\n"
-	.string "really tough.\p"
-	.string "I'm going to battle other\n"
-	.string "people to get better.$"
+    .string "{JPN}いいトレーナーになるのは\n"
+    .string "ほんとうにたいへんだ。\p"
+    .string "もっとつよくなるために\n"
+    .string "いろんなひととたたかうぞ！$"
 
 Route30_Text_BugCatcherDonSeen:
-	.string "Instead of a bug POKéMON,\n"
-	.string "I found a trainer!$"
+    .string "{JPN}むしポケモンじゃなくて\n"
+    .string "トレーナーをみつけたぞ！$"
 
 Route30_Text_BugCatcherDonBeaten:
 	.string "{JPN}うわっ！きみつよすぎるよ！$"
 
 Route30_Text_BugCatcherDonAfter:
-	.string "I ran out of POKé BALLS while\n"
-	.string "I was catching POKéMON.\p"
-	.string "I should've bought some more…$"
+    .string "{JPN}ポケモンをつかまえてたら\n"
+    .string "モンスターボールがなくなった。\p"
+    .string "もっとかっておけばよかった……$"
 
 Route30_Text_YoungsterDirectionsToMrPokemon:
 	.string "MR. POKéMON's house?\n"
