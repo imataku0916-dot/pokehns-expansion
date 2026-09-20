@@ -141,7 +141,7 @@ static const u8 sText_FoePkmnPrefix3[] = _("Opposing");
 static const u8 sText_AllyPkmnPrefix2[] = _("Ally");
 static const u8 sText_FoePkmnPrefix4[] = _("Opposing");
 static const u8 sText_AllyPkmnPrefix3[] = _("Ally");
-static const u8 sText_AttackerUsedX[] = _("{B_ATK_NAME_WITH_PREFIX} used {B_BUFF3}!");
+static const u8 sText_AttackerUsedX[] = _("{JPN}{B_ATK_NAME}の\n{B_BUFF3}！");
 static const u8 sText_ExclamationMark[] = _("!");
 static const u8 sText_ExclamationMark2[] = _("!");
 static const u8 sText_ExclamationMark3[] = _("!");
@@ -193,63 +193,63 @@ static const u8 sText_TerrainReturnedToNormal[] = _("The terrain returned to nor
 const u8 *const gBattleStringsTable[STRINGID_COUNT] =
 {
     [STRINGID_TRAINER1LOSETEXT]                     = COMPOUND_STRING("{B_TRAINER1_LOSE_TEXT}"),
-    [STRINGID_PKMNGAINEDEXP]                        = COMPOUND_STRING("{B_BUFF1} gained{B_BUFF2} {B_BUFF3} Exp. Points!\p"),
-    [STRINGID_PKMNGREWTOLV]                         = COMPOUND_STRING("{B_BUFF1} grew to Lv. {B_BUFF2}!{WAIT_SE}\p"),
-    [STRINGID_PKMNLEARNEDMOVE]                      = COMPOUND_STRING("{B_BUFF1} learned {B_BUFF2}!{WAIT_SE}\p"),
-    [STRINGID_TRYTOLEARNMOVE1]                      = COMPOUND_STRING("{B_BUFF1} wants to learn the move {B_BUFF2}.\p"),
-    [STRINGID_TRYTOLEARNMOVE2]                      = COMPOUND_STRING("However, {B_BUFF1} already knows four moves.\p"),
-    [STRINGID_TRYTOLEARNMOVE3]                      = COMPOUND_STRING("Should another move be forgotten and replaced with {B_BUFF2}?"),
-    [STRINGID_PKMNFORGOTMOVE]                       = COMPOUND_STRING("{B_BUFF1} forgot {B_BUFF2}…\p"),
-    [STRINGID_STOPLEARNINGMOVE]                     = COMPOUND_STRING("{PAUSE 32}Do you want to give up on having {B_BUFF1} learn {B_BUFF2}?"),
-    [STRINGID_DIDNOTLEARNMOVE]                      = COMPOUND_STRING("{B_BUFF1} did not learn {B_BUFF2}.\p"),
-    [STRINGID_PKMNLEARNEDMOVE2]                     = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} learned {B_BUFF1}!"),
-    [STRINGID_ATTACKMISSED]                         = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}'s attack missed!"),
-    [STRINGID_PKMNPROTECTEDITSELF]                  = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} protected itself!"),
+    [STRINGID_PKMNGAINEDEXP]                        = COMPOUND_STRING("{JPN}{B_BUFF1}は{B_BUFF2} {B_BUFF3}\nけいけんちを もらった！\p"),
+    [STRINGID_PKMNGREWTOLV]                         = COMPOUND_STRING("{JPN}{B_BUFF1}は レベル{B_BUFF2}に\nあがった！{WAIT_SE}\p"),
+    [STRINGID_PKMNLEARNEDMOVE]                      = COMPOUND_STRING("{JPN}{B_BUFF1}は あたらしく\n{B_BUFF2}を おぼえた！{WAIT_SE}\p"),
+    [STRINGID_TRYTOLEARNMOVE1]                      = COMPOUND_STRING("{JPN}{B_BUFF1}は {B_BUFF2}を\nおぼえたがっている…\p"),
+    [STRINGID_TRYTOLEARNMOVE2]                      = COMPOUND_STRING("{JPN}しかし {B_BUFF1}は わざを\n4つ おぼえている！\p"),
+    [STRINGID_TRYTOLEARNMOVE3]                      = COMPOUND_STRING("{JPN}どの わざを わすれて\n{B_BUFF2}を おぼえる？"),
+    [STRINGID_PKMNFORGOTMOVE]                       = COMPOUND_STRING("{JPN}{B_BUFF1}は {B_BUFF2}を\nきれいに わすれた！\p"),
+    [STRINGID_STOPLEARNINGMOVE]                     = COMPOUND_STRING("{JPN}{PAUSE 32}{B_BUFF2}を おぼえるのを\nあきらめますか？"),
+    [STRINGID_DIDNOTLEARNMOVE]                      = COMPOUND_STRING("{JPN}{B_BUFF1}は {B_BUFF2}を\nおぼえなかった。\p"),
+    [STRINGID_PKMNLEARNEDMOVE2]                     = COMPOUND_STRING("{JPN}{B_ATK_NAME}は {B_BUFF1}を\nおぼえた！"),
+    [STRINGID_ATTACKMISSED]                         = COMPOUND_STRING("{JPN}{B_ATK_NAME}の\nこうげきは はずれた！"),
+    [STRINGID_PKMNPROTECTEDITSELF]                  = COMPOUND_STRING("{JPN}{B_SCR_NAME}は\nこうげきから みを まもった！"),
     [STRINGID_STATSWONTINCREASE2]                   = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}'s stats won't go any higher!"),
-    [STRINGID_ITDOESNTAFFECT]                       = COMPOUND_STRING("It doesn't affect {B_DEF_NAME_WITH_PREFIX2}…"),
-    [STRINGID_SCR_ITDOESNTAFFECT]                   = COMPOUND_STRING("It doesn't affect {B_SCR_NAME_WITH_PREFIX2}…"),
-    [STRINGID_BATTLERFAINTED]                       = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} fainted!\p"),
-    [STRINGID_PLAYERGOTMONEY]                       = COMPOUND_STRING("You got ¥{B_BUFF1} for winning!\p"),
-    [STRINGID_PLAYERWHITEOUT]                       = COMPOUND_STRING("You have no more Pokémon that can fight!\p"),
+    [STRINGID_ITDOESNTAFFECT]                       = COMPOUND_STRING("{JPN}{B_DEF_NAME}には\nこうかが ないようだ…"),
+    [STRINGID_SCR_ITDOESNTAFFECT]                   = COMPOUND_STRING("{JPN}{B_SCR_NAME}には\nこうかが ないようだ…"),
+    [STRINGID_BATTLERFAINTED]                       = COMPOUND_STRING("{JPN}{B_SCR_NAME}は たおれた！\p"),
+    [STRINGID_PLAYERGOTMONEY]                       = COMPOUND_STRING("{JPN}{ENG}{B_PLAYER_NAME}{JPN}は しょうきんとして\n¥{B_BUFF1} てにいれた！\p"),
+    [STRINGID_PLAYERWHITEOUT]                       = COMPOUND_STRING("{JPN}たたかえる ポケモンが\nいなくなって しまった！\p"),
     [STRINGID_PLAYERWHITEOUT2_WILD]                 = COMPOUND_STRING("You panicked and dropped ¥{B_BUFF1}…"),
     [STRINGID_PLAYERWHITEOUT2_TRAINER]              = COMPOUND_STRING("You gave ¥{B_BUFF1} to the winner…"),
     [STRINGID_PLAYERWHITEOUT3]                      = COMPOUND_STRING("You were overwhelmed by your defeat!"),
     [STRINGID_PREVENTSESCAPE]                       = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} prevents escape with {B_SCR_ABILITY}!\p"),
-    [STRINGID_HITXTIMES]                            = COMPOUND_STRING("The Pokémon was hit {B_BUFF1} time(s)!"), //SV has dynamic plural here
-    [STRINGID_PKMNFELLASLEEP]                       = COMPOUND_STRING("{B_EFF_NAME_WITH_PREFIX} fell asleep!"),
+    [STRINGID_HITXTIMES]                            = COMPOUND_STRING("{JPN}{B_BUFF1}かい あたった！"), //SV has dynamic plural here
+    [STRINGID_PKMNFELLASLEEP]                       = COMPOUND_STRING("{JPN}{B_EFF_NAME}は\nねむって しまった！"),
     [STRINGID_PKMNMADESLEEP]                        = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} made {B_EFF_NAME_WITH_PREFIX2} sleep!"), //not in gen 5+, ability popup
-    [STRINGID_PKMNALREADYASLEEP]                    = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX} is already asleep!"),
-    [STRINGID_PKMNALREADYASLEEP2]                   = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} is already asleep!"),
-    [STRINGID_PKMNWASPOISONED]                      = COMPOUND_STRING("{B_EFF_NAME_WITH_PREFIX} was poisoned!"),
+    [STRINGID_PKMNALREADYASLEEP]                    = COMPOUND_STRING("{JPN}{B_DEF_NAME}は\nすでに ねむっている！"),
+    [STRINGID_PKMNALREADYASLEEP2]                   = COMPOUND_STRING("{JPN}{B_ATK_NAME}は\nすでに ねむっている！"),
+    [STRINGID_PKMNWASPOISONED]                      = COMPOUND_STRING("{JPN}{B_EFF_NAME}は\nどくを あびた！"),
     [STRINGID_PKMNPOISONEDBY]                       = COMPOUND_STRING("{B_EFF_NAME_WITH_PREFIX} was poisoned by {B_SCR_NAME_WITH_PREFIX2}'s {B_BUFF1}!"), //not in gen 5+, ability popup
-    [STRINGID_PKMNHURTBYPOISON]                     = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} was hurt by its poisoning!"),
-    [STRINGID_PKMNALREADYPOISONED]                  = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX} is already poisoned!"),
-    [STRINGID_PKMNBADLYPOISONED]                    = COMPOUND_STRING("{B_EFF_NAME_WITH_PREFIX} was badly poisoned!"),
-    [STRINGID_PKMNENERGYDRAINED]                    = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX} had its energy drained!"),
-    [STRINGID_PKMNWASBURNED]                        = COMPOUND_STRING("{B_EFF_NAME_WITH_PREFIX} was burned!"),
+    [STRINGID_PKMNHURTBYPOISON]                     = COMPOUND_STRING("{JPN}{B_ATK_NAME}は\nどくの ダメージを うけている！"),
+    [STRINGID_PKMNALREADYPOISONED]                  = COMPOUND_STRING("{JPN}{B_DEF_NAME}は\nすでに どくを あびている！"),
+    [STRINGID_PKMNBADLYPOISONED]                    = COMPOUND_STRING("{JPN}{B_EFF_NAME}は\nもうどくを あびた！"),
+    [STRINGID_PKMNENERGYDRAINED]                    = COMPOUND_STRING("{JPN}{B_DEF_NAME}は\nたいりょくを すいとられた！"),
+    [STRINGID_PKMNWASBURNED]                        = COMPOUND_STRING("{JPN}{B_EFF_NAME}は\nやけどを おった！"),
     [STRINGID_PKMNBURNEDBY]                         = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} burned {B_EFF_NAME_WITH_PREFIX2}!"), //not in gen 5+, ability popup
-    [STRINGID_PKMNHURTBYBURN]                       = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} was hurt by its burn!"),
-    [STRINGID_PKMNWASFROZEN]                        = COMPOUND_STRING("{B_EFF_NAME_WITH_PREFIX} was frozen solid!"),
+    [STRINGID_PKMNHURTBYBURN]                       = COMPOUND_STRING("{JPN}{B_ATK_NAME}は\nやけどの ダメージを うけた！"),
+    [STRINGID_PKMNWASFROZEN]                        = COMPOUND_STRING("{JPN}{B_EFF_NAME}は\nこおりづけに なった！"),
     [STRINGID_PKMNFROZENBY]                         = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} froze {B_EFF_NAME_WITH_PREFIX2} solid!"), //not in gen 5+, ability popup
-    [STRINGID_PKMNISFROZEN]                         = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} is frozen solid!"),
-    [STRINGID_PKMNWASDEFROSTED]                     = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} thawed out!"),
+    [STRINGID_PKMNISFROZEN]                         = COMPOUND_STRING("{JPN}{B_ATK_NAME}は\nこおって うごけない！"),
+    [STRINGID_PKMNWASDEFROSTED]                     = COMPOUND_STRING("{JPN}{B_SCR_NAME}の\nこおりが とけた！"),
     [STRINGID_PKMNWASDEFROSTEDBY]                   = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE} melted the ice!"),
-    [STRINGID_PKMNWASPARALYZED]                     = COMPOUND_STRING("{B_EFF_NAME_WITH_PREFIX} is paralyzed, so it may be unable to move!"),
+    [STRINGID_PKMNWASPARALYZED]                     = COMPOUND_STRING("{JPN}{B_EFF_NAME}は まひして\nわざが でにくくなった！"),
     [STRINGID_PKMNWASPARALYZEDBY]                   = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} paralyzed {B_EFF_NAME_WITH_PREFIX2}, so it may be unable to move!"), //not in gen 5+, ability popup
-    [STRINGID_PKMNISPARALYZED]                      = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} couldn't move because it's paralyzed!"),
-    [STRINGID_PKMNISALREADYPARALYZED]               = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX} is already paralyzed!"),
-    [STRINGID_PKMNHEALEDPARALYSIS]                  = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX} was cured of paralysis!"),
+    [STRINGID_PKMNISPARALYZED]                      = COMPOUND_STRING("{JPN}{B_ATK_NAME}は からだが\nしびれて うごけない！"),
+    [STRINGID_PKMNISALREADYPARALYZED]               = COMPOUND_STRING("{JPN}{B_DEF_NAME}は\nすでに まひしている！"),
+    [STRINGID_PKMNHEALEDPARALYSIS]                  = COMPOUND_STRING("{JPN}{B_DEF_NAME}の\nまひが なおった！"),
     [STRINGID_STATSWONTINCREASE]                    = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} won't go any higher!"),
     [STRINGID_STATSWONTDECREASE]                    = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} won't go any lower!"),
-    [STRINGID_PKMNISCONFUSED]                       = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} is confused!"),
-    [STRINGID_PKMNHEALEDCONFUSION]                  = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} snapped out of its confusion!"),
-    [STRINGID_PKMNWASCONFUSED]                      = COMPOUND_STRING("{B_EFF_NAME_WITH_PREFIX} became confused!"),
-    [STRINGID_PKMNALREADYCONFUSED]                  = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX} is already confused!"),
+    [STRINGID_PKMNISCONFUSED]                       = COMPOUND_STRING("{JPN}{B_ATK_NAME}は\nこんらんしている！"),
+    [STRINGID_PKMNHEALEDCONFUSION]                  = COMPOUND_STRING("{JPN}{B_ATK_NAME}の\nこんらんが とけた！"),
+    [STRINGID_PKMNWASCONFUSED]                      = COMPOUND_STRING("{JPN}{B_EFF_NAME}は\nこんらんした！"),
+    [STRINGID_PKMNALREADYCONFUSED]                  = COMPOUND_STRING("{JPN}{B_DEF_NAME}は\nすでに こんらんしている！"),
     [STRINGID_PKMNFELLINLOVE]                       = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX} fell in love!"),
     [STRINGID_PKMNINLOVE]                           = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} is in love with {B_SCR_NAME_WITH_PREFIX2}!"),
     [STRINGID_PKMNIMMOBILIZEDBYLOVE]                = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} is immobilized by love!"),
     [STRINGID_PKMNCHANGEDTYPE]                      = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} transformed into the {B_BUFF1} type!"),
-    [STRINGID_PKMNFLINCHED]                         = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} flinched and couldn't move!"),
+    [STRINGID_PKMNFLINCHED]                         = COMPOUND_STRING("{JPN}{B_ATK_NAME}は\nひるんで うごけなかった！"),
     [STRINGID_PKMNREGAINEDHEALTH]                   = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}'s HP was restored."),
     [STRINGID_PKMNHPFULL]                           = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}'s HP is full!"),
     [STRINGID_PKMNRAISEDSPDEF]                      = COMPOUND_STRING("Light Screen made {B_ATK_TEAM2} team stronger against special moves!"),
@@ -275,15 +275,15 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_PKMNSHROUDEDINMIST]                   = gText_PkmnShroudedInMist,
     [STRINGID_PKMNPROTECTEDBYMIST]                  = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} is protected by the mist!"),
     [STRINGID_PKMNGETTINGPUMPED]                    = gText_PkmnGettingPumped,
-    [STRINGID_PKMNHITWITHRECOIL]                    = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} was damaged by the recoil!"),
-    [STRINGID_PKMNPROTECTEDITSELF2]                 = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} protected itself!"),
+    [STRINGID_PKMNHITWITHRECOIL]                    = COMPOUND_STRING("{JPN}{B_ATK_NAME}は はんどうで\nダメージを うけた！"),
+    [STRINGID_PKMNPROTECTEDITSELF2]                 = COMPOUND_STRING("{JPN}{B_ATK_NAME}は\nこうげきから みを まもった！"),
     [STRINGID_PKMNBUFFETEDBYSANDSTORM]              = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} is buffeted by the sandstorm!"),
     [STRINGID_PKMNPELTEDBYHAIL]                     = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} is buffeted by the hail!"),
     [STRINGID_PKMNSEEDED]                           = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX} was seeded!"),
-    [STRINGID_PKMNEVADEDATTACK]                     = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX} avoided the attack!"),
+    [STRINGID_PKMNEVADEDATTACK]                     = COMPOUND_STRING("{JPN}{B_DEF_NAME}は\nこうげきを かわした！"),
     [STRINGID_PKMNSAPPEDBYLEECHSEED]                = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}'s health is sapped by Leech Seed!"),
-    [STRINGID_PKMNFASTASLEEP]                       = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} is fast asleep."),
-    [STRINGID_PKMNWOKEUP]                           = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} woke up!"),
+    [STRINGID_PKMNFASTASLEEP]                       = COMPOUND_STRING("{JPN}{B_ATK_NAME}は\nぐうぐう ねむっている。"),
+    [STRINGID_PKMNWOKEUP]                           = COMPOUND_STRING("{JPN}{B_ATK_NAME}は\nめを さました！"),
     [STRINGID_PKMNWOKEUPINUPROAR]                   = COMPOUND_STRING("The uproar woke {B_EFF_NAME_WITH_PREFIX2}!"),
     [STRINGID_PKMNCAUSEDUPROAR]                     = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} caused an uproar!"),
     [STRINGID_PKMNMAKINGUPROAR]                     = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} is making an uproar!"),
@@ -302,7 +302,7 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_PKMNHASSUBSTITUTE]                    = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} already has a substitute!"),
     [STRINGID_SUBSTITUTEDAMAGED]                    = COMPOUND_STRING("The substitute took damage for {B_DEF_NAME_WITH_PREFIX2}!\p"),
     [STRINGID_PKMNSUBSTITUTEFADED]                  = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}'s substitute faded!\p"),
-    [STRINGID_PKMNMUSTRECHARGE]                     = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} must recharge!"),
+    [STRINGID_PKMNMUSTRECHARGE]                     = COMPOUND_STRING("{JPN}{B_ATK_NAME}は\nはんどうで うごけない！"),
     [STRINGID_PKMNRAGEBUILDING]                     = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}'s rage is building!"),
     [STRINGID_PKMNMOVEWASDISABLED]                  = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} was disabled!"),
     [STRINGID_PKMNMOVEISDISABLED]                   = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE} is disabled!\p"),
@@ -326,7 +326,7 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_PKMNIDENTIFIED]                       = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX} was identified!"),
     [STRINGID_PKMNPERISHCOUNTFELL]                  = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}'s perish count fell to {B_BUFF1}!"),
     [STRINGID_PKMNBRACEDITSELF]                     = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} braced itself!"),
-    [STRINGID_PKMNENDUREDHIT]                       = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX} endured the hit!"),
+    [STRINGID_PKMNENDUREDHIT]                       = COMPOUND_STRING("{JPN}{B_DEF_NAME}は\nこうげきを もちこたえた！"),
     [STRINGID_MAGNITUDESTRENGTH]                    = COMPOUND_STRING("Magnitude {B_BUFF1}!"),
     [STRINGID_PKMNCUTHPMAXEDATTACK]                 = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} cut its own HP and maximized its ATTACK!"),
     [STRINGID_PKMNCOPIEDSTATCHANGES]                = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX} copied {B_EFF_NAME_WITH_PREFIX2}'s stat changes!"),
@@ -385,20 +385,20 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_SCRIPTINGSTATROSE]                    = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}rose!"),
     [STRINGID_ATTACKERSSTATFELL]                    = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}fell!"),
     [STRINGID_DEFENDERSSTATFELL]                    = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}fell!"),
-    [STRINGID_CRITICALHIT]                          = COMPOUND_STRING("A critical hit!"),
-    [STRINGID_ONEHITKO]                             = COMPOUND_STRING("It's a one-hit KO!"),
+    [STRINGID_CRITICALHIT]                          = COMPOUND_STRING("{JPN}きゅうしょに あたった！"),
+    [STRINGID_ONEHITKO]                             = COMPOUND_STRING("{JPN}いちげき ひっさつ！"),
     [STRINGID_123POOF]                              = COMPOUND_STRING("One…{PAUSE 10}two…{PAUSE 10}and…{PAUSE 10}{PAUSE 20}{PLAY_SE SE_BALL_BOUNCE_1}ta-da!\p"),
     [STRINGID_ANDELLIPSIS]                          = COMPOUND_STRING("And…\p"),
-    [STRINGID_NOTVERYEFFECTIVE]                     = COMPOUND_STRING("It's not very effective…"),
-    [STRINGID_SUPEREFFECTIVE]                       = COMPOUND_STRING("It's super effective!"),
+    [STRINGID_NOTVERYEFFECTIVE]                     = COMPOUND_STRING("{JPN}こうかは いまひとつの ようだ…"),
+    [STRINGID_SUPEREFFECTIVE]                       = COMPOUND_STRING("{JPN}こうかは ばつぐんだ！"),
     [STRINGID_GOTAWAYSAFELY]                        = sText_GotAwaySafely,
-    [STRINGID_WILDPKMNFLED]                         = COMPOUND_STRING("{PLAY_SE SE_FLEE}The wild {B_BUFF1} fled!"),
-    [STRINGID_NORUNNINGFROMTRAINERS]                = COMPOUND_STRING("No! There's no running from a Trainer battle!\p"),
-    [STRINGID_CANTESCAPE]                           = COMPOUND_STRING("You can't escape!\p"),
+    [STRINGID_WILDPKMNFLED]                         = COMPOUND_STRING("{JPN}{PLAY_SE SE_FLEE}やせいの {B_BUFF1}は\nにげだした！"),
+    [STRINGID_NORUNNINGFROMTRAINERS]                = COMPOUND_STRING("{JPN}ダメだ！ しょうぶの さいちゅうに\nあいてに せなかは みせられない！\p"),
+    [STRINGID_CANTESCAPE]                           = COMPOUND_STRING("{JPN}にげられない！\p"),
     [STRINGID_DONTLEAVEBIRCH]                       = COMPOUND_STRING("PROF. BIRCH: Don't leave me like this!\p"), //no decapitalize until it is everywhere
-    [STRINGID_BUTNOTHINGHAPPENED]                   = COMPOUND_STRING("But nothing happened!"),
-    [STRINGID_BUTITFAILED]                          = COMPOUND_STRING("But it failed!"),
-    [STRINGID_ITHURTCONFUSION]                      = COMPOUND_STRING("It hurt itself in its confusion!"),
+    [STRINGID_BUTNOTHINGHAPPENED]                   = COMPOUND_STRING("{JPN}しかし なにも おこらなかった！"),
+    [STRINGID_BUTITFAILED]                          = COMPOUND_STRING("{JPN}しかし うまく きまらなかった！"),
+    [STRINGID_ITHURTCONFUSION]                      = COMPOUND_STRING("{JPN}わけも わからず\nじぶんを こうげきした！"),
     [STRINGID_STARTEDTORAIN]                        = COMPOUND_STRING("It started to rain!"),
     [STRINGID_DOWNPOURSTARTED]                      = COMPOUND_STRING("A downpour started!"), // corresponds to DownpourText in pokegold and pokecrystal and is used by Rain Dance in GSC
     [STRINGID_RAINCONTINUES]                        = COMPOUND_STRING("Rain continues to fall."), //not in gen 5+
@@ -419,29 +419,29 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_SHAREDPAIN]                           = COMPOUND_STRING("The battlers shared their pain!"),
     [STRINGID_BELLCHIMED]                           = COMPOUND_STRING("A bell chimed!"),
     [STRINGID_FAINTINTHREE]                         = COMPOUND_STRING("All Pokémon that heard the song will faint in three turns!"),
-    [STRINGID_NOPPLEFT]                             = COMPOUND_STRING("There's no PP left for this move!\p"), //not in gen 5+
-    [STRINGID_BUTNOPPLEFT]                          = COMPOUND_STRING("But there was no PP left for the move!"),
-    [STRINGID_PLAYERUSEDITEM]                       = COMPOUND_STRING("You used {B_LAST_ITEM}!"),
+    [STRINGID_NOPPLEFT]                             = COMPOUND_STRING("{JPN}わざの のこりポイントが ない！\p"), //not in gen 5+
+    [STRINGID_BUTNOPPLEFT]                          = COMPOUND_STRING("{JPN}しかし わざの\nのこりポイントが なかった！"),
+    [STRINGID_PLAYERUSEDITEM]                       = COMPOUND_STRING("{JPN}{ENG}{B_PLAYER_NAME}{JPN}は\n{B_LAST_ITEM}を つかった！"),
     [STRINGID_WALLYUSEDITEM]                        = COMPOUND_STRING("WALLY used {B_LAST_ITEM}!"), //no decapitalize until it is everywhere
     [STRINGID_TRAINERBLOCKEDBALL]                   = COMPOUND_STRING("The Trainer blocked your Poké Ball!"),
     [STRINGID_DONTBEATHIEF]                         = COMPOUND_STRING("Don't be a thief!"),
     [STRINGID_ITDODGEDBALL]                         = COMPOUND_STRING("It dodged your thrown Poké Ball! This Pokémon can't be caught!"),
-    [STRINGID_PKMNBROKEFREE]                        = COMPOUND_STRING("Oh no! The Pokémon broke free!"),
-    [STRINGID_ITAPPEAREDCAUGHT]                     = COMPOUND_STRING("Aww! It appeared to be caught!"),
-    [STRINGID_AARGHALMOSTHADIT]                     = COMPOUND_STRING("Aargh! Almost had it!"),
-    [STRINGID_SHOOTSOCLOSE]                         = COMPOUND_STRING("Gah! It was so close, too!"),
+    [STRINGID_PKMNBROKEFREE]                        = COMPOUND_STRING("{JPN}ああ！\nつかまえたと おもったのに！"),
+    [STRINGID_ITAPPEAREDCAUGHT]                     = COMPOUND_STRING("{JPN}あれ！\nつかまえたと おもったのに！"),
+    [STRINGID_AARGHALMOSTHADIT]                     = COMPOUND_STRING("{JPN}おしい！\nあと ちょっとの ところだったのに！"),
+    [STRINGID_SHOOTSOCLOSE]                         = COMPOUND_STRING("{JPN}ざんねん！\nもう すこしで つかまえられたのに！"),
 #if IS_HNS
-    [STRINGID_GOTCHAPKMNCAUGHTPLAYER]               = COMPOUND_STRING("Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM 659}\p"),
-    [STRINGID_GOTCHAPKMNCAUGHTWALLY]                = COMPOUND_STRING("Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM 659}{PAUSE 127}"),
+    [STRINGID_GOTCHAPKMNCAUGHTPLAYER]               = COMPOUND_STRING("{JPN}やったー！\n{B_DEF_NAME}を つかまえたぞ！{WAIT_SE}{PLAY_BGM 659}\p"),
+    [STRINGID_GOTCHAPKMNCAUGHTWALLY]                = COMPOUND_STRING("{JPN}やったー！\n{B_DEF_NAME}を つかまえたぞ！{WAIT_SE}{PLAY_BGM 659}{PAUSE 127}"),
 #else
-    [STRINGID_GOTCHAPKMNCAUGHTPLAYER]               = COMPOUND_STRING("Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\p"),
-    [STRINGID_GOTCHAPKMNCAUGHTWALLY]                = COMPOUND_STRING("Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}"),
+    [STRINGID_GOTCHAPKMNCAUGHTPLAYER]               = COMPOUND_STRING("{JPN}やったー！\n{B_DEF_NAME}を つかまえたぞ！{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\p"),
+    [STRINGID_GOTCHAPKMNCAUGHTWALLY]                = COMPOUND_STRING("{JPN}やったー！\n{B_DEF_NAME}を つかまえたぞ！{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}"),
 #endif
-    [STRINGID_GIVENICKNAMECAPTURED]                 = COMPOUND_STRING("Would you like to give {B_DEF_NAME} a nickname?"),
-    [STRINGID_PKMNDATAADDEDTODEX]                   = COMPOUND_STRING("{B_DEF_NAME}'s data has been added to the Pokédex!\p"),
+    [STRINGID_GIVENICKNAMECAPTURED]                 = COMPOUND_STRING("{JPN}つかまえた {B_DEF_NAME}に\nニックネームを つけますか？"),
+    [STRINGID_PKMNDATAADDEDTODEX]                   = COMPOUND_STRING("{JPN}{B_DEF_NAME}の データが\nポケモンずかんに とうろくされた！\p"),
     [STRINGID_ITISRAINING]                          = COMPOUND_STRING("It's raining!"),
     [STRINGID_SANDSTORMISRAGING]                    = COMPOUND_STRING("The sandstorm is raging!"),
-    [STRINGID_CANTESCAPE2]                          = COMPOUND_STRING("You couldn't get away!\p"),
+    [STRINGID_CANTESCAPE2]                          = COMPOUND_STRING("{JPN}にげられなかった！\p"),
     [STRINGID_PKMNIGNORESASLEEP]                    = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} ignored orders and kept sleeping!"),
     [STRINGID_PKMNIGNOREDORDERS]                    = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} ignored orders!"),
     [STRINGID_PKMNBEGANTONAP]                       = COMPOUND_STRING("{B_ATK_NAME_WITH_PREFIX} began to nap!"),
@@ -495,7 +495,7 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_PKMNSXMADEYUSELESS]                   = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} made {B_CURRENT_MOVE} useless!"), //not in gen 5+, ability popup
     [STRINGID_PKMNTRAPPEDBYSANDTOMB]                = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX} became trapped by the quicksand!"),
     [STRINGID_EMPTYSTRING4]                         = COMPOUND_STRING(""),
-    [STRINGID_ABOOSTED]                             = COMPOUND_STRING(" a boosted"),
+    [STRINGID_ABOOSTED]                             = COMPOUND_STRING("{JPN} いつもより おおく"),
     [STRINGID_PKMNSXINTENSIFIEDSUN]                 = COMPOUND_STRING("{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} intensified the sun's rays!"), //not in gen 5+, ability popup
     [STRINGID_YOUTHROWABALLNOWRIGHT]                = COMPOUND_STRING("You throw a Ball now, right? I… I'll do my best!"),
     [STRINGID_PKMNSXTOOKATTACK]                     = COMPOUND_STRING("{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} took the attack!"), //In gen 5+ but without naming the ability
@@ -3236,7 +3236,9 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst, u32 dstSize)
                 GetBattlerNick(gLinkPlayers[multiplayerId].id ^ 3, text);
                 toCpy = text;
                 break;
-            case B_TXT_ATK_NAME_WITH_PREFIX_MON1: // Unused, to change into sth else.
+            case B_TXT_ATK_NAME: // attacker name
+                GetBattlerNick(gBattlerAttacker, text);
+                toCpy = text;
                 break;
             case B_TXT_ATK_PARTNER_NAME: // attacker partner name
                 GetBattlerNick(BATTLE_PARTNER(gBattlerAttacker), text);
@@ -3259,8 +3261,16 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst, u32 dstSize)
             case B_TXT_EFF_NAME_WITH_PREFIX: // effect battler name with prefix
                 HANDLE_NICKNAME_STRING_CASE(gEffectBattler)
                 break;
+            case B_TXT_EFF_NAME: // effect battler name
+                GetBattlerNick(gEffectBattler, text);
+                toCpy = text;
+                break;
             case B_TXT_SCR_ACTIVE_NAME_WITH_PREFIX: // scripting active battler name with prefix
                 HANDLE_NICKNAME_STRING_CASE(gBattleScripting.battler)
+                break;
+            case B_TXT_SCR_ACTIVE_NAME: // scripting active battler name
+                GetBattlerNick(gBattleScripting.battler, text);
+                toCpy = text;
                 break;
             case B_TXT_CURRENT_MOVE: // current move name
                 if (gBattleMsgDataPtr->currentMove >= MOVES_COUNT

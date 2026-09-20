@@ -28,12 +28,12 @@
 #define B_TXT_LINK_OPPONENT_MON1_NAME 0xA
 #define B_TXT_LINK_PLAYER_MON2_NAME 0xB
 #define B_TXT_LINK_OPPONENT_MON2_NAME 0xC
-#define B_TXT_ATK_NAME_WITH_PREFIX_MON1 0xD
+#define B_TXT_ATK_NAME 0xD
 #define B_TXT_ATK_PARTNER_NAME 0xE
 #define B_TXT_ATK_NAME_WITH_PREFIX 0xF
 #define B_TXT_DEF_NAME_WITH_PREFIX 0x10
 #define B_TXT_EFF_NAME_WITH_PREFIX 0x11 // EFF = short for gEffectBank
-// #define B_TXT_ACTIVE_NAME_WITH_PREFIX 0x12 - removed
+#define B_TXT_EFF_NAME 0x12
 #define B_TXT_SCR_ACTIVE_NAME_WITH_PREFIX 0x13
 #define B_TXT_CURRENT_MOVE 0x14
 #define B_TXT_LAST_MOVE 0x15
@@ -76,7 +76,7 @@
 #define B_TXT_DEF_TEAM1 0x3A // Your/The opposing
 #define B_TXT_DEF_TEAM2 0x3B // your/the opposing
 #define B_TXT_DEF_PARTNER_NAME 0x3C
-// #define B_UNUSED_0x3D 0x3D
+#define B_TXT_SCR_ACTIVE_NAME 0x3D
 #define B_TXT_ATK_NAME_WITH_PREFIX2 0x3E //lowercase
 #define B_TXT_DEF_NAME_WITH_PREFIX2 0x3F //lowercase
 #define B_TXT_EFF_NAME_WITH_PREFIX2 0x40 //lowercase
