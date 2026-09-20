@@ -41,8 +41,8 @@ Route33_Text_HikerAnthony2Seen:
 	.string "of energy left.$"
 
 Route33_Text_HikerAnthony2Beaten:
-	.string "{JPN}うおっ！{UNK_SPACER}おれより\n"
-	.string "げんきが{UNK_SPACER}あるな！$"
+	.string "{JPN}うおっ！おれより\n"
+	.string "げんきがあるな！$"
 
 Route33_Text_HikerAnthony2After:
 	.string "We HIKERS are at our best\n"
@@ -58,8 +58,8 @@ Route33_Text_AnthonyRematchIntro:
 	.string "of energy left.$"
 
 Route33_Text_AnthonyRematchDefeat:
-	.string "{JPN}うおっ！{UNK_SPACER}おれより\n"
-	.string "げんきが{UNK_SPACER}あるな！$"
+	.string "{JPN}うおっ！おれより\n"
+	.string "げんきがあるな！$"
 
 Route33_Text_AnthonyPostRematch:
 	.string "We HIKERS are at our best\n"

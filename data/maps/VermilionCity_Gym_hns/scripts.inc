@@ -301,8 +301,8 @@ VermilionGym_Text_LtSurgeIntro:
 	.string "enemies in war!$"
 
 VermilionGym_Text_LtSurgeWinLoss:
-	.string "{JPN}マチス:{UNK_SPACER}ぐおおっ！{UNK_SPACER}ユーは{UNK_SPACER}つよい！\p"
-	.string "オーケー！{UNK_SPACER}オレンジバッジを{UNK_SPACER}やろう！$"
+	.string "{JPN}マチス:ぐおおっ！ユーはつよい！\p"
+	.string "オーケー！オレンジバッジをやろう！$"
 
 VermilionGym_Text_ReceivedThunderBadge:
 	.string "{PLAYER} received THUNDERBADGE.$"

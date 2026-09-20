@@ -126,8 +126,8 @@ SlowpokeWell_B1F_Text_ProtonSeen:
 	.string "don't expect any mercy!$"
 
 SlowpokeWell_B1F_Text_ProtonBeaten:
-	.string "{JPN}きょうは{UNK_SPACER}これくらいに{UNK_SPACER}してやる。\n"
-	.string "つぎは{UNK_SPACER}そうはいかないぞ！$"
+	.string "{JPN}きょうはこれくらいにしてやる。\n"
+	.string "つぎはそうはいかないぞ！$"
 
 SlowpokeWell_B1F_Text_ProtonAfter:
 	.string "Yeah, TEAM ROCKET was broken up\n"

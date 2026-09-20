@@ -91,8 +91,8 @@ SeafoamIslands_Gym_Text_BlaineIntro:
 	.string "Ha! You'd better have BURN HEAL!$"
 
 SeafoamIslands_Gym_Text_BlaineWinLoss:
-	.string "{JPN}カツラ:{UNK_SPACER}みごと！{UNK_SPACER}もえつきたぞ……\p"
-	.string "クリムゾンバッジは{UNK_SPACER}きみのものだ！$"
+	.string "{JPN}カツラ:みごと！もえつきたぞ……\p"
+	.string "クリムゾンバッジはきみのものだ！$"
 
 SeafoamIslands_Gym_Text_ReceivedVolcanoBadge:
 	.string "{PLAYER} received VOLCANOBADGE.$"

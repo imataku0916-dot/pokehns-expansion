@@ -94,9 +94,9 @@ MtMoon_Cave_Text_Rival_Before:
 
 MtMoon_Cave_Text_Rival_Win:
 	.string "{JPN}…………………………\p"
-	.string "ポケモンを{UNK_SPACER}さいこうに{UNK_SPACER}そだてたと\n"
+	.string "ポケモンをさいこうにそだてたと\n"
 	.string "おもっていたのに……\p"
-	.string "……それでも{UNK_SPACER}たりなかったのか……$"
+	.string "……それでもたりなかったのか……$"
 
 MtMoon_Cave_Text_Rival_After:
 	.string "..................................\p"

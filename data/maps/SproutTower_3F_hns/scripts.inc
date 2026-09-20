@@ -198,7 +198,7 @@ SproutTower_Text_SageLi_Seen:
 	.string "between your POKéMON and you!$"
 
 SproutTower_Text_SageLi_Beaten:
-	.string "{JPN}おお{UNK_SPACER}みごとだ！$"
+	.string "{JPN}おおみごとだ！$"
 
 SproutTower_Text_SageLi_TakeFlash:
 	.string "You and your POKéMON should\n"

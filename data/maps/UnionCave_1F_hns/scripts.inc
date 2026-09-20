@@ -76,7 +76,7 @@ UnionCave_1F_Text_HikerRussellSeen:
 	.string "enough to battle.$"
 
 UnionCave_1F_Text_HikerRussellBeaten:
-	.string "{JPN}おお{UNK_SPACER}おお{UNK_SPACER}おおっ！$"
+	.string "{JPN}おおおおおおっ！$"
 
 UnionCave_1F_Text_HikerRussellAfter:
 	.string "All right, then! I've decided.\p"
@@ -90,7 +90,7 @@ UnionCave_1F_Text_PokemaniacLarrySeen:
 	.string "Then you're my collecting rival!$"
 
 UnionCave_1F_Text_PokemaniacLarryBeaten:
-	.string "{JPN}ううっ。{UNK_SPACER}かわいそうな{UNK_SPACER}ポケモン……$"
+	.string "{JPN}ううっ。かわいそうなポケモン……$"
 
 UnionCave_1F_Text_PokemaniacLarryAfter:
 	.string "Sometimes, you can hear POKéMON\n"
@@ -101,7 +101,7 @@ UnionCave_1F_Text_HikerDanielSeen:
 	.string "I didn't expect to see anyone here!$"
 
 UnionCave_1F_Text_HikerDanielBeaten:
-	.string "{JPN}うわっ！{UNK_SPACER}かんぺきに{UNK_SPACER}まけた！$"
+	.string "{JPN}うわっ！かんぺきにまけた！$"
 
 UnionCave_1F_Text_HikerDanielAfter:
 	.string "I was conned into buying a\n"

@@ -68,10 +68,10 @@ ViridianCity_Gym_Text_LeaderBlue_Before:
 	.string "Ready, JOHTO CHAMP?$"
 
 ViridianCity_Gym_Text_LeaderBlue_Win:
-	.string "{JPN}グリーン:{UNK_SPACER}なに！？\p"
-	.string "どうして{UNK_SPACER}おれが{UNK_SPACER}まけるんだ！？\p"
+	.string "{JPN}グリーン:なに！？\p"
+	.string "どうしておれがまけるんだ！？\p"
 	.string "……\p"
-	.string "ちっ{UNK_SPACER}わかったよ……{UNK_SPACER}こいつを{UNK_SPACER}もってけ。\n"
+	.string "ちっわかったよ……こいつをもってけ。\n"
 	.string "グリーンバッジだ！$"
 
 ViridianCity_Gym_Text_ReceivedEarthBadge:

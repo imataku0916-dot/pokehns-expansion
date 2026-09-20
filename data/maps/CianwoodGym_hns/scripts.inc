@@ -137,7 +137,7 @@ CianwoodGym_Text_ChuckIntro1:
 	.string "Watch this!$"
 
 CianwoodGym_Text_ChuckIntro2:
-	.string "{JPN}シジマ:{UNK_SPACER}ぐおおっ！\n"
+	.string "{JPN}シジマ:ぐおおっ！\n"
 	.string "……\p"
 	.string "うおおおおっ！$"
 

@@ -72,11 +72,11 @@ SaffronCity_Gym_Text_SabrinaIntro:
 	.string "you my psychic powers!$"
 
 SaffronCity_Gym_Text_SabrinaWinLoss:
-	.string "{JPN}ナツメ:{UNK_SPACER}あなたの{UNK_SPACER}ちから……\p"
-	.string "わたしの{UNK_SPACER}よそうを{UNK_SPACER}はるかに{UNK_SPACER}こえた……\p"
-	.string "みらいの{UNK_SPACER}すべてを{UNK_SPACER}よそくすることは\n"
-	.string "できないのかも{UNK_SPACER}しれない……\p"
-	.string "あなたの{UNK_SPACER}かち。{UNK_SPACER}ゴールドバッジを\n"
+	.string "{JPN}ナツメ:あなたのちから……\p"
+	.string "わたしのよそうをはるかにこえた……\p"
+	.string "みらいのすべてをよそくすることは\n"
+	.string "できないのかもしれない……\p"
+	.string "あなたのかち。ゴールドバッジを\n"
 	.string "うけとって。$"
 
 SaffronCity_Gym_Text_ReceivedMarshBadge:

@@ -220,7 +220,7 @@ TohjoFalls_GiovanniRoom_Text_GiovanniBeforeBattle:
 	.string "three years ago!$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniDefeat:
-	.string "{JPN}おまえは{UNK_SPACER}いったい\n"
+	.string "{JPN}おまえはいったい\n"
 	.string "なにものなのだ！？$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniAfter:

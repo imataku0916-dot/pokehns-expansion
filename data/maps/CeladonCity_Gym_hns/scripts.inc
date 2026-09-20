@@ -43,9 +43,9 @@ CeladonCity_Gym_Text_ErikaBeforeBattle:
 	.string "Very well, but I shall not lose.$"
 
 CeladonCity_Gym_Text_ErikaBeaten:
-	.string "{JPN}エリカ:{UNK_SPACER}あら……{UNK_SPACER}わたくしの{UNK_SPACER}まけです。\p"
-	.string "あなたは{UNK_SPACER}とても{UNK_SPACER}おつよいのですね……\p"
-	.string "レインボーバッジを{UNK_SPACER}さしあげます……$"
+	.string "{JPN}エリカ:あら……わたくしのまけです。\p"
+	.string "あなたはとてもおつよいのですね……\p"
+	.string "レインボーバッジをさしあげます……$"
 
 CeladonCity_Gym_Text_PlayerReceivedRainbowBadge:
 	.string "{PLAYER} received RAINBOWBADGE.$"
