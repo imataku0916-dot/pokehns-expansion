@@ -395,7 +395,7 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_WILDPKMNFLED]                         = COMPOUND_STRING("{JPN}{PLAY_SE SE_FLEE}やせいの {B_BUFF1}は\nにげだした！"),
     [STRINGID_NORUNNINGFROMTRAINERS]                = COMPOUND_STRING("{JPN}ダメだ！ しょうぶの さいちゅうに\nあいてに せなかは みせられない！\p"),
     [STRINGID_CANTESCAPE]                           = COMPOUND_STRING("{JPN}にげられない！\p"),
-    [STRINGID_DONTLEAVEBIRCH]                       = COMPOUND_STRING("{JPN}オダマキはかせ：\nわしを おいていかないでくれ！\p"), //no decapitalize until it is everywhere
+    [STRINGID_DONTLEAVEBIRCH]                       = COMPOUND_STRING("{JPN}オダマキはかせ:\nわしを おいていかないでくれ！\p"), //no decapitalize until it is everywhere
     [STRINGID_BUTNOTHINGHAPPENED]                   = COMPOUND_STRING("{JPN}しかし なにも おこらなかった！"),
     [STRINGID_BUTITFAILED]                          = COMPOUND_STRING("{JPN}しかし うまく きまらなかった！"),
     [STRINGID_ITHURTCONFUSION]                      = COMPOUND_STRING("{JPN}わけも わからず\nじぶんを こうげきした！"),
@@ -874,7 +874,7 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_POWERCONSTRUCTTRANSFORM]              = COMPOUND_STRING("{JPN}{B_ATK_NAME}は\nパーフェクトフォルムに なった！"),
     [STRINGID_ABILITYSHIELDPROTECTS]                = COMPOUND_STRING("{JPN}{B_ATK_NAME}の とくせいは\n{B_LAST_ITEM}に まもられている！"),
     [STRINGID_MONTOOSCAREDTOMOVE]                   = COMPOUND_STRING("{JPN}{B_ATK_NAME}は おびえて\nうごけない！"),
-    [STRINGID_GHOSTGETOUTGETOUT]                    = COMPOUND_STRING("{JPN}ゆうれい： タチサレ…… タチサレ……"),
+    [STRINGID_GHOSTGETOUTGETOUT]                    = COMPOUND_STRING("{JPN}ゆうれい: タチサレ…… タチサレ……"),
     [STRINGID_SILPHSCOPEUNVEILED]                   = COMPOUND_STRING("{JPN}シルフスコープで ゆうれいの\nしょうたいを みやぶった！"),
     [STRINGID_GHOSTWASMAROWAK]                      = COMPOUND_STRING("{JPN}ゆうれいの しょうたいは\nガラガラだった！\p\n"),
     [STRINGID_TRAINER1MON1COMEBACK]                 = COMPOUND_STRING("{JPN}{B_OPPONENT_MON1_NAME}！\nもどれ！"),
@@ -1501,15 +1501,15 @@ const u16 gBattlePalaceFlavorTextTable[] =
 
 const u8 *const gRefereeStringsTable[] =
 {
-    [B_MSG_REF_NOTHING_IS_DECIDED] = COMPOUND_STRING("{JPN}しんぱん： あと 3ターンで\nきまらなければ はんていです！"),
-    [B_MSG_REF_THATS_IT]           = COMPOUND_STRING("{JPN}しんぱん： そこまで！\nしょうはいを はんていします！"),
-    [B_MSG_REF_JUDGE_MIND]         = COMPOUND_STRING("{JPN}しんぱん： はんてい その1 こころ！\nもっとも きあいを みせた ポケモン！\p"),
-    [B_MSG_REF_JUDGE_SKILL]        = COMPOUND_STRING("{JPN}しんぱん： はんてい その2 わざ！\nもっとも わざを つかいこなした ポケモン！\p"),
-    [B_MSG_REF_JUDGE_BODY]         = COMPOUND_STRING("{JPN}しんぱん： はんてい その3 からだ！\nもっとも たいりょくの ある ポケモン！\p"),
-    [B_MSG_REF_PLAYER_WON]         = COMPOUND_STRING("{JPN}しんぱん： {B_BUFF1}たい{B_BUFF2}！\nしょうしゃは {B_PLAYER_MON1_NAME}！\p"),
-    [B_MSG_REF_OPPONENT_WON]       = COMPOUND_STRING("{JPN}しんぱん： {B_BUFF1}たい{B_BUFF2}！\nしょうしゃは {B_OPPONENT_MON1_NAME}！\p"),
-    [B_MSG_REF_DRAW]               = COMPOUND_STRING("{JPN}しんぱん： 3たい3！\nしょうぶは ひきわけ！\p"),
-    [B_MSG_REF_COMMENCE_BATTLE]    = COMPOUND_STRING("{JPN}しんぱん： {B_PLAYER_MON1_NAME}たい\n{B_OPPONENT_MON1_NAME}！ しょうぶ かいし！"),
+    [B_MSG_REF_NOTHING_IS_DECIDED] = COMPOUND_STRING("{JPN}しんぱん: あと 3ターンで\nきまらなければ はんていです！"),
+    [B_MSG_REF_THATS_IT]           = COMPOUND_STRING("{JPN}しんぱん: そこまで！\nしょうはいを はんていします！"),
+    [B_MSG_REF_JUDGE_MIND]         = COMPOUND_STRING("{JPN}しんぱん: はんてい その1 こころ！\nもっとも きあいを みせた ポケモン！\p"),
+    [B_MSG_REF_JUDGE_SKILL]        = COMPOUND_STRING("{JPN}しんぱん: はんてい その2 わざ！\nもっとも わざを つかいこなした ポケモン！\p"),
+    [B_MSG_REF_JUDGE_BODY]         = COMPOUND_STRING("{JPN}しんぱん: はんてい その3 からだ！\nもっとも たいりょくの ある ポケモン！\p"),
+    [B_MSG_REF_PLAYER_WON]         = COMPOUND_STRING("{JPN}しんぱん: {B_BUFF1}たい{B_BUFF2}！\nしょうしゃは {B_PLAYER_MON1_NAME}！\p"),
+    [B_MSG_REF_OPPONENT_WON]       = COMPOUND_STRING("{JPN}しんぱん: {B_BUFF1}たい{B_BUFF2}！\nしょうしゃは {B_OPPONENT_MON1_NAME}！\p"),
+    [B_MSG_REF_DRAW]               = COMPOUND_STRING("{JPN}しんぱん: 3たい3！\nしょうぶは ひきわけ！\p"),
+    [B_MSG_REF_COMMENCE_BATTLE]    = COMPOUND_STRING("{JPN}しんぱん: {B_PLAYER_MON1_NAME}たい\n{B_OPPONENT_MON1_NAME}！ しょうぶ かいし！"),
 };
 
 static const u8 sText_Trainer1Fled[] = _("{JPN}{PLAY_SE SE_FLEE}{ENG}{B_TRAINER1_NAME_WITH_CLASS}{JPN}は\nにげだした！");
