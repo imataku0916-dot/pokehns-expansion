@@ -139,8 +139,8 @@ Route30_Text_YoungsterJoey1Seen:
 	.string "let's battle!$"
 
 Route30_Text_YoungsterJoey1Beaten:
-	.string "Ack! I lost again!\n"
-	.string "Doggone it!$"
+	.string "{JPN}あっ！ また まけた！\n"
+	.string "ちくしょう！$"
 
 Route30_Text_YoungsterJoey1After:
 	.string "Do I have to have more POKéMON\n"
@@ -154,8 +154,8 @@ Route30_Text_YoungsterMikeySeen:
 	.string "Then you have to battle!$"
 
 Route30_Text_YoungsterMikeyBeaten:
-	.string "That's strange.\n"
-	.string "I won before.$"
+	.string "{JPN}おかしいな。\n"
+	.string "まえは かったのに。$"
 
 Route30_Text_YoungsterMikeyAfter:
 	.string "Becoming a good trainer is\n"
@@ -168,7 +168,7 @@ Route30_Text_BugCatcherDonSeen:
 	.string "I found a trainer!$"
 
 Route30_Text_BugCatcherDonBeaten:
-	.string "Argh! You're too strong!$"
+	.string "{JPN}うわっ！ きみ つよすぎるよ！$"
 
 Route30_Text_BugCatcherDonAfter:
 	.string "I ran out of POKé BALLS while\n"
@@ -221,8 +221,8 @@ Route30_Text_JoeyRematchIntro:
 	.string "different! Let's battle!$"
 
 Route30_Text_JoeyRematchDefeat:
-	.string "Ack! I lost again!\n"
-	.string "Doggone it!$"
+	.string "{JPN}あっ！ また まけた！\n"
+	.string "ちくしょう！$"
 
 Route30_Text_JoeyPostRematch:
 	.string "I'm checking out my\n"
