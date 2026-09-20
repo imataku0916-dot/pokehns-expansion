@@ -2560,7 +2560,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
 {
     [NATURE_HARDY] =
     {
-        .name = COMPOUND_STRING("がんばりや"),
+        .name = COMPOUND_STRING("{JPN}がんばりや"),
         .statUp = STAT_ATK,
         .statDown = STAT_ATK,
         .backAnim = 0,
@@ -2572,7 +2572,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_LONELY] =
     {
-        .name = COMPOUND_STRING("さみしがり"),
+        .name = COMPOUND_STRING("{JPN}さみしがり"),
         .statUp = STAT_ATK,
         .statDown = STAT_DEF,
         .backAnim = 2,
@@ -2584,7 +2584,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_BRAVE] =
     {
-        .name = COMPOUND_STRING("ゆうかん"),
+        .name = COMPOUND_STRING("{JPN}ゆうかん"),
         .statUp = STAT_ATK,
         .statDown = STAT_SPEED,
         .backAnim = 0,
@@ -2596,7 +2596,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_ADAMANT] =
     {
-        .name = COMPOUND_STRING("いじっぱり"),
+        .name = COMPOUND_STRING("{JPN}いじっぱり"),
         .statUp = STAT_ATK,
         .statDown = STAT_SPATK,
         .backAnim = 0,
@@ -2608,7 +2608,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_NAUGHTY] =
     {
-        .name = COMPOUND_STRING("やんちゃ"),
+        .name = COMPOUND_STRING("{JPN}やんちゃ"),
         .statUp = STAT_ATK,
         .statDown = STAT_SPDEF,
         .backAnim = 0,
@@ -2620,7 +2620,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_BOLD] =
     {
-        .name = COMPOUND_STRING("ずぶとい"),
+        .name = COMPOUND_STRING("{JPN}ずぶとい"),
         .statUp = STAT_DEF,
         .statDown = STAT_ATK,
         .backAnim = 1,
@@ -2632,7 +2632,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_DOCILE] =
     {
-        .name = COMPOUND_STRING("すなお"),
+        .name = COMPOUND_STRING("{JPN}すなお"),
         .statUp = STAT_DEF,
         .statDown = STAT_DEF,
         .backAnim = 1,
@@ -2644,7 +2644,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_RELAXED] =
     {
-        .name = COMPOUND_STRING("のんき"),
+        .name = COMPOUND_STRING("{JPN}のんき"),
         .statUp = STAT_DEF,
         .statDown = STAT_SPEED,
         .backAnim = 1,
@@ -2656,7 +2656,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_IMPISH] =
     {
-        .name = COMPOUND_STRING("わんぱく"),
+        .name = COMPOUND_STRING("{JPN}わんぱく"),
         .statUp = STAT_DEF,
         .statDown = STAT_SPATK,
         .backAnim = 0,
@@ -2668,7 +2668,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_LAX] =
     {
-        .name = COMPOUND_STRING("のうてんき"),
+        .name = COMPOUND_STRING("{JPN}のうてんき"),
         .statUp = STAT_DEF,
         .statDown = STAT_SPDEF,
         .backAnim = 1,
@@ -2680,7 +2680,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_TIMID] =
     {
-        .name = COMPOUND_STRING("おくびょう"),
+        .name = COMPOUND_STRING("{JPN}おくびょう"),
         .statUp = STAT_SPEED,
         .statDown = STAT_ATK,
         .backAnim = 2,
@@ -2692,7 +2692,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_HASTY] =
     {
-        .name = COMPOUND_STRING("せっかち"),
+        .name = COMPOUND_STRING("{JPN}せっかち"),
         .statUp = STAT_SPEED,
         .statDown = STAT_DEF,
         .backAnim = 0,
@@ -2704,7 +2704,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_SERIOUS] =
     {
-        .name = COMPOUND_STRING("まじめ"),
+        .name = COMPOUND_STRING("{JPN}まじめ"),
         .statUp = STAT_SPEED,
         .statDown = STAT_SPEED,
         .backAnim = 1,
@@ -2716,7 +2716,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_JOLLY] =
     {
-        .name = COMPOUND_STRING("ようき"),
+        .name = COMPOUND_STRING("{JPN}ようき"),
         .statUp = STAT_SPEED,
         .statDown = STAT_SPATK,
         .backAnim = 0,
@@ -2728,7 +2728,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_NAIVE] =
     {
-        .name = COMPOUND_STRING("むじゃき"),
+        .name = COMPOUND_STRING("{JPN}むじゃき"),
         .statUp = STAT_SPEED,
         .statDown = STAT_SPDEF,
         .backAnim = 0,
@@ -2740,7 +2740,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_MODEST] =
     {
-        .name = COMPOUND_STRING("ひかえめ"),
+        .name = COMPOUND_STRING("{JPN}ひかえめ"),
         .statUp = STAT_SPATK,
         .statDown = STAT_ATK,
         .backAnim = 2,
@@ -2752,7 +2752,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_MILD] =
     {
-        .name = COMPOUND_STRING("おっとり"),
+        .name = COMPOUND_STRING("{JPN}おっとり"),
         .statUp = STAT_SPATK,
         .statDown = STAT_DEF,
         .backAnim = 2,
@@ -2764,7 +2764,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_QUIET] =
     {
-        .name = COMPOUND_STRING("れいせい"),
+        .name = COMPOUND_STRING("{JPN}れいせい"),
         .statUp = STAT_SPATK,
         .statDown = STAT_SPEED,
         .backAnim = 2,
@@ -2776,7 +2776,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_BASHFUL] =
     {
-        .name = COMPOUND_STRING("てれや"),
+        .name = COMPOUND_STRING("{JPN}てれや"),
         .statUp = STAT_SPATK,
         .statDown = STAT_SPATK,
         .backAnim = 2,
@@ -2788,7 +2788,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_RASH] =
     {
-        .name = COMPOUND_STRING("うっかりや"),
+        .name = COMPOUND_STRING("{JPN}うっかりや"),
         .statUp = STAT_SPATK,
         .statDown = STAT_SPDEF,
         .backAnim = 1,
@@ -2800,7 +2800,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_CALM] =
     {
-        .name = COMPOUND_STRING("おだやか"),
+        .name = COMPOUND_STRING("{JPN}おだやか"),
         .statUp = STAT_SPDEF,
         .statDown = STAT_ATK,
         .backAnim = 1,
@@ -2812,7 +2812,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_GENTLE] =
     {
-        .name = COMPOUND_STRING("おとなしい"),
+        .name = COMPOUND_STRING("{JPN}おとなしい"),
         .statUp = STAT_SPDEF,
         .statDown = STAT_DEF,
         .backAnim = 2,
@@ -2824,7 +2824,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_SASSY] =
     {
-        .name = COMPOUND_STRING("なまいき"),
+        .name = COMPOUND_STRING("{JPN}なまいき"),
         .statUp = STAT_SPDEF,
         .statDown = STAT_SPEED,
         .backAnim = 1,
@@ -2836,7 +2836,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_CAREFUL] =
     {
-        .name = COMPOUND_STRING("しんちょう"),
+        .name = COMPOUND_STRING("{JPN}しんちょう"),
         .statUp = STAT_SPDEF,
         .statDown = STAT_SPATK,
         .backAnim = 2,
@@ -2848,7 +2848,7 @@ const struct NatureInfo gNaturesInfo[NUM_NATURES] =
     },
     [NATURE_QUIRKY] =
     {
-        .name = COMPOUND_STRING("きまぐれ"),
+        .name = COMPOUND_STRING("{JPN}きまぐれ"),
         .statUp = STAT_SPDEF,
         .statDown = STAT_SPDEF,
         .backAnim = 1,
