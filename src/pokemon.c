@@ -8353,7 +8353,7 @@ void SetMonPreventsSwitchingString(void)
     gLastUsedAbility = gBattleStruct->abilityPreventingSwitchout;
 
     gBattleTextBuff1[0] = B_BUFF_PLACEHOLDER_BEGIN;
-    gBattleTextBuff1[1] = B_BUFF_MON_NICK_WITH_PREFIX;
+    gBattleTextBuff1[1] = B_BUFF_MON_NICK;
     gBattleTextBuff1[2] = gBattleStruct->battlerPreventingSwitchout;
     gBattleTextBuff1[4] = B_BUFF_EOS;
 
