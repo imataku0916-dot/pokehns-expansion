@@ -676,12 +676,12 @@ AzaleaTown_Gym_Text_BugsyIntro:
 	.string "learned from my studies.$"
 
 AzaleaTown_Gym_Text_BugsyBeaten:
-	.string "Whoa, amazing! You're an\n"
-	.string "expert on POKéMON!\p"
-	.string "My research isn't complete\n"
-	.string "yet.\p"
-	.string "OK, you win. Take this\n"
-	.string "BADGE.$"
+	.string "{JPN}すごい！ きみは\n"
+	.string "ポケモンの たつじんだね！\p"
+	.string "ぼくの けんきゅうは\n"
+	.string "まだ かんせいしていない。\p"
+	.string "わかったよ。 きみの かちだ。\n"
+	.string "この バッジを うけとって！$"
 
 AzaleaTown_Gym_Text_ReceivedHiveBadge:
 	.string "{PLAYER} received HIVEBADGE.$"

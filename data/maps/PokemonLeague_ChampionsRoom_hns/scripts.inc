@@ -356,12 +356,12 @@ PokemonLeague_ChampionsRoom_Text_BattleIntro:
     .string "your challenge!$"
 
 PokemonLeague_ChampionsRoom_Text_BattleWin:
-    .string "…It's over.\p"
-    .string "But it's an odd feeling.\p"
-    .string "I'm not angry that I lost. In fact,\n"
-    .string "I feel happy.\p"
-    .string "Happy that I witnessed the rise\n"
-    .string "of a great new CHAMPION!$"
+    .string "{JPN}……おわったな。\p"
+    .string "ふしぎな きぶんだ。\p"
+    .string "まけたのに くやしくない。\n"
+    .string "むしろ うれしいくらいだ。\p"
+    .string "あたらしい すばらしい チャンピオンの\n"
+    .string "たんじょうを みとどけられたからな！$"
 
 PokemonLeague_ChampionsRoom_Text_BattleAfter:
     .string "…Whew.\p"
@@ -428,4 +428,3 @@ PokemonLeague_ChampionsRoom_Text_MaryNoInterview:
 PokemonLeague_ChampionsRoom_Text_RematchMaryNoInterview:
     .string "MARY: Come on! You can't blow off\n"
     .string "the interview AGAIN!$"
-

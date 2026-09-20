@@ -110,7 +110,8 @@ GoldenrodCity_RadioTower_5F_Text_FakeDirector2:
 	.string "can beat me!$"
 
 GoldenrodCity_RadioTower_5F_Text_FakeDirectorWin:
-	.string "OK, OK. I'll tell you where he is.$"
+	.string "{JPN}わかった わかった！\n"
+	.string "どこに いるか おしえてやる！$"
 
 GoldenrodCity_RadioTower_5F_Text_FakeDirectorAfter:
 	.string "The boss stashed the DIRECTOR in\n"
@@ -353,7 +354,8 @@ GoldenrodCity_RadioTower_5F_Text_RocketBossSeen:
 	.string "our meticulous plans!$"
 
 GoldenrodCity_RadioTower_5F_Text_RocketBossBeaten:
-	.string "No! Forgive me, GIOVANNI!$"
+	.string "{JPN}そんな！ おゆるしください\n"
+	.string "サカキさま！$"
 
 GoldenrodCity_RadioTower_5F_Text_RocketBossAfter:
 	.string "How could this be?\p"

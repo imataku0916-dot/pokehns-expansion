@@ -93,9 +93,9 @@ FuchsiaCity_Gym_Text_Janine_DisappointYou:
 	.string "JANINE of FUCHSIA GYM, that's me!$"
 
 FuchsiaCity_Gym_Text_Janine_ToughOne:
-	.string "JANINE: You're a tough one. You\n"
-	.string "definitely won…\p"
-	.string "Here's SOULBADGE. Take it.$"
+	.string "{JPN}アンズ: あなた つよいね。\n"
+	.string "かんぜんに わたしの まけ……\p"
+	.string "ピンクバッジを うけとって！$"
 
 FuchsiaCity_Gym_Text_ReceivedSoulBadge:
 	.string "{PLAYER} received SOULBADGE.$"
@@ -297,4 +297,3 @@ FuchsiaCity_Gym_Text_Guide:
 FuchsiaCity_Gym_Text_GuideWin:
 	.string "That was a great battle, trainer\n"
 	.string "from JOHTO!$"
-

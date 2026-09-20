@@ -163,10 +163,10 @@ BurnedTowerSilver_BeforeText:
 	.string "It's all your fault!$"
 
 BurnedTowerSilver_WinText:
-	.string "...Humph!\p"
-	.string "I only lost because my\n"
-	.string "POKéMON are incredibly weak.\p"
-	.string "How pathetic.$"
+	.string "{JPN}……ふん！\p"
+	.string "まけたのは おれの ポケモンが\n"
+	.string "どうしようもなく よわいからだ。\p"
+	.string "なさけないぜ。$"
 
 BurnedTowerSilver_AfterText1:
 	.string "...Aw, whatever.\p"

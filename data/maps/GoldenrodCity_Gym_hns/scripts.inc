@@ -131,10 +131,10 @@ GoldenrodCity_Gym_Text_WhitneyBefore:
     .string "you- I'm good!$"
 
 GoldenrodCity_Gym_Text_WhitneyShouldntBeSoSerious:
-    .string "Sob…\p"
-    .string "…Waaaaaaah! You're mean!\p"
-    .string "You shouldn't be so serious! You…\n"
-    .string "you child, you!$"
+    .string "{JPN}ぐすっ……\p"
+    .string "うわーん！ いじわる！\p"
+    .string "そんなに ほんきに ならなくても\n"
+    .string "いいじゃない！ こどもね！$"
 
 GoldenrodCity_Gym_Text_WhitneyYouMeanie:
     .string "Waaaaah!\p"
@@ -244,4 +244,3 @@ GoldenrodCity_Gym_Text_GymGuide:
 GoldenrodCity_Gym_Text_GymGuideWin:
     .string "You won? Great! I was busy admiring\n"
     .string "the ladies here.$"
-

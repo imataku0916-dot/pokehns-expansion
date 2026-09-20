@@ -533,10 +533,10 @@ GoldenrodUnderground_Text_SilverBefore:
     .string "I will repay my debts!$"
 
 GoldenrodUnderground_Text_SilverWin:
-    .string "…Why… Why do I lose?\p"
-    .string "I've assembled the toughest POKéMON.\p"
-    .string "I didn't ease up on the gas.\p"
-    .string "So why do I lose?$"
+    .string "{JPN}……なぜだ…… なぜ おれが まける？\p"
+    .string "さいきょうの ポケモンを そろえた。\p"
+    .string "てかげんだって していない。\p"
+    .string "なのに なぜ まけるんだ！？$"
 
 GoldenrodUnderground_Text_SilverAfter:
     .string "…I don't understand…\p"

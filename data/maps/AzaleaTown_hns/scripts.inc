@@ -351,9 +351,9 @@ AzaleaTown_Text_RivalBefore:
 	.string "Then let's see how good you are.$"
 
 AzaleaTown_Text_RivalWin:
-	.string "…Humph! Useless POKéMON!\p"
-	.string "Listen, you. You only won because\n"
-	.string "my POKéMON were weak.$"
+	.string "{JPN}……ふん！ やくにたたない ポケモンだ！\p"
+	.string "いいか！ おまえが かったのは\n"
+	.string "おれの ポケモンが よわかったからだ！$"
 
 AzaleaTown_Text_RivalAfter:
 	.string "I hate the weak.\p"

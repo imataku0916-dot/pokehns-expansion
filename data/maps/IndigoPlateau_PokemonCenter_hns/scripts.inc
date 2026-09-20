@@ -96,8 +96,8 @@ IndigoPlateau_Text_RivalEntrance1:
     .string "I challenge you!$"
 
 IndigoPlateau_Text_RivalWin:
-    .string "…\p"
-    .string "OK--I lost…$"
+    .string "{JPN}……\p"
+    .string "わかった…… おれの まけだ……$"
 
 IndigoPlateau_Text_RivalAfter:
     .string "…Darn… I still can't win…\p"

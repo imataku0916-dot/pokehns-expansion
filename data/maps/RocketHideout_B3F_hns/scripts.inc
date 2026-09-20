@@ -593,8 +593,8 @@ RocketHideout_B3F_Text_PetrelReveal:
     .string "my voice.$"
 
 RocketHideout_B3F_Text_PetrelBeaten:
-    .string "I… I couldn't do a thing…\p"
-    .string "GIOVANNI, please forgive me…$"
+    .string "{JPN}な…… なにも できなかった……\p"
+    .string "サカキさま おゆるしください……$"
 
 RocketHideout_B3F_Text_PetrelAfterBattle:
     .string "PETREL: Since disbanding Team\n"

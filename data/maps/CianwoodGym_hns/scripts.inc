@@ -137,9 +137,9 @@ CianwoodGym_Text_ChuckIntro1:
 	.string "Watch this!$"
 
 CianwoodGym_Text_ChuckIntro2:
-	.string "CHUCK: Urggh!\n"
-	.string "…\p"
-	.string "Oooarrgh!$"
+	.string "{JPN}シジマ: ぐおおっ！\n"
+	.string "……\p"
+	.string "うおおおおっ！$"
 
 CianwoodGym_Text_ChuckIntro3:
 	.string "There! Scared now, are you?\p"
@@ -247,4 +247,3 @@ CianwoodGym_Text_BlackbeltLungBeaten:
 CianwoodGym_Text_BlackbeltLungAfter:
 	.string "My POKéMON lost…\n"
 	.string "My… my pride is shattered…$"
-

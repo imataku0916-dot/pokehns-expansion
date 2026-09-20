@@ -103,8 +103,9 @@ MortyIntroText:
 	.string "that level!$"
 
 MortyWinLossText:
-	.string "I'm not good enough yet...\p"
-	.string "All right. This BADGE is yours.$"
+	.string "{JPN}ぼくも まだまだ しゅぎょうが\n"
+	.string "たりないようだ……\p"
+	.string "わかった。 この バッジは きみのものだ。$"
 
 Text_ReceivedFogBadge:
 	.string "{PLAYER} received the FOGBADGE.$"

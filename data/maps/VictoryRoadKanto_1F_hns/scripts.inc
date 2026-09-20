@@ -140,11 +140,11 @@ VictoryRoad_Text_RivalBefore:
     .string "I challenge you!$"
 
 VictoryRoad_Text_RivalDefeat:
-    .string "…I couldn't win…\p"
-    .string "I gave it every-thing I had…\p"
-    .string "What you possess, and what I lack…\p"
-    .string "I'm beginning to understand what\n"
-    .string "that dragon master said to me…$"
+    .string "{JPN}……かてなかった……\p"
+    .string "もてる ちからを ぜんぶ だしたのに……\p"
+    .string "おまえに あって おれに ないもの……\p"
+    .string "あの ドラゴンつかいが いったことが\n"
+    .string "すこし わかってきた……$"
 
 VictoryRoad_Text_RivalAfter:
     .string "…I haven't given up on becoming the\n"

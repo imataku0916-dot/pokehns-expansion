@@ -49,10 +49,10 @@ PewterCity_Gym_Text_Brock_Intro:
 	.string "Come on!$"
 
 PewterCity_Gym_Text_Brock_WinLoss:
-	.string "BROCK: Your POKéMON's powerful attacks\n"
-	.string "overcame my rock-hard defense…\p"
-	.string "You're stronger than I expected…\p"
-	.string "Go ahead--take this BADGE.$"
+	.string "{JPN}タケシ: きみの ポケモンの こうげきが\n"
+	.string "おれの いわの まもりを うちやぶった……\p"
+	.string "よそういじょうの つよさだ……\p"
+	.string "この バッジを うけとってくれ！$"
 
 PewterCity_Gym_Text_ReceivedBoulderBadge:
 	.string "{PLAYER} received BOULDERBADGE.$"

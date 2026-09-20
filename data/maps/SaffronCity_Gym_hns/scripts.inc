@@ -72,12 +72,12 @@ SaffronCity_Gym_Text_SabrinaIntro:
 	.string "you my psychic powers!$"
 
 SaffronCity_Gym_Text_SabrinaWinLoss:
-	.string "SABRINA: Your power…\p"
-	.string "It far exceeds what I foresaw…\p"
-	.string "Maybe it isn't possible to fully\n"
-	.string "predict what the future holds…\p"
-	.string "OK, you win. You earned yourself\n"
-	.string "MARSHBADGE.$"
+	.string "{JPN}ナツメ: あなたの ちから……\p"
+	.string "わたしの よそうを はるかに こえた……\p"
+	.string "みらいの すべてを よそくすることは\n"
+	.string "できないのかも しれない……\p"
+	.string "あなたの かち。 ゴールドバッジを\n"
+	.string "うけとって。$"
 
 SaffronCity_Gym_Text_ReceivedMarshBadge:
 	.string "{PLAYER} received MARSHBADGE.$"

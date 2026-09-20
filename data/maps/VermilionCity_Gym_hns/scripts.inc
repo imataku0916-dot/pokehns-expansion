@@ -301,8 +301,8 @@ VermilionGym_Text_LtSurgeIntro:
 	.string "enemies in war!$"
 
 VermilionGym_Text_LtSurgeWinLoss:
-	.string "SURGE: Arrrgh! You are strong!\p"
-	.string "OK, kid. You get THUNDERBADGE!$"
+	.string "{JPN}マチス: ぐおおっ！ ユーは つよい！\p"
+	.string "オーケー！ オレンジバッジを やろう！$"
 
 VermilionGym_Text_ReceivedThunderBadge:
 	.string "{PLAYER} received THUNDERBADGE.$"
@@ -433,4 +433,3 @@ VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
     .string "There's only trash here.\p"
     .string "Hey!\n"
     .string "The electric locks were reset!$"
-

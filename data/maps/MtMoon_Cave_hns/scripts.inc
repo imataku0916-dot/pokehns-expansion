@@ -93,10 +93,10 @@ MtMoon_Cave_Text_Rival_Before:
 	.string "{PLAYER}, now we'll show you!$"
 
 MtMoon_Cave_Text_Rival_Win:
-	.string "..................................\p"
-	.string "I thought I raised my POKéMON to be the\n"
-	.string "best they could be…\p"
-	.string "…But it still wasn't enough…$"
+	.string "{JPN}…………………………\p"
+	.string "ポケモンを さいこうに そだてたと\n"
+	.string "おもっていたのに……\p"
+	.string "……それでも たりなかったのか……$"
 
 MtMoon_Cave_Text_Rival_After:
 	.string "..................................\p"

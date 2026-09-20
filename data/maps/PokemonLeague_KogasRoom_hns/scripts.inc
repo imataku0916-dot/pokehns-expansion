@@ -86,8 +86,8 @@ PokemonLeague_KogasRoom_Text_Before:
     .string "force--you shall see soon enough!$"
 
 PokemonLeague_KogasRoom_Text_Beaten:
-    .string "Ah!\n"
-    .string "You have proven your worth!$"
+    .string "{JPN}むう！\n"
+    .string "おぬしの じつりょく みとめよう！$"
 
 PokemonLeague_KogasRoom_Text_Defeat:
     .string "I subjected you to everything I\n"

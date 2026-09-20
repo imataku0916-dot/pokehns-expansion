@@ -136,11 +136,11 @@ MahoganyTown_Gym_Text_PryceIntro:
     .string "shall demonstrate my power!$"
 
 MahoganyTown_Gym_Text_PryceImpressed:
-    .string "Ah, I am impressed by your\n"
-    .string "prowess.\p"
-    .string "With your strong will, I know you\n"
-    .string "will overcome all life's obstacles.\p"
-    .string "You are worthy of this BADGE!$"
+    .string "{JPN}みごとじゃ。 おぬしの うでまえには\n"
+    .string "かんしんしたぞ。\p"
+    .string "その つよい こころが あれば\n"
+    .string "どんな こんなんも のりこえられよう。\p"
+    .string "この バッジを うけとるがよい！$"
 
 MahoganyTown_Gym_Text_ReceivedBadge:
     .string "{PLAYER} received GLACIERBADGE.$"
@@ -257,4 +257,3 @@ MahoganyTown_Gym_Text_SkierClarissaBeaten:
 MahoganyTown_Gym_Text_SkierClarissaAfter:
     .string "I shouldn't have been bragging\n"
     .string "about my skiing…$"
-

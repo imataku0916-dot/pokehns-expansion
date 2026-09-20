@@ -243,9 +243,9 @@ BlackthornGym_Text_ClairIntroText:
     .string "power against any opponent!$"
 
 BlackthornGym_Text_ClairWinText:
-    .string "I lost?\p"
-    .string "I don't believe it. There must be\n"
-    .string "some mistake…$"
+    .string "{JPN}わたしが まけた？\p"
+    .string "しんじられない。 なにかの\n"
+    .string "まちがいに きまってる……$"
 
 BlackthornGym_Text_ClairText_GoToDragonsDen:
     .string "I won't admit this.\p"
