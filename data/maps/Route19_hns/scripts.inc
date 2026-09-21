@@ -68,32 +68,32 @@ Route19_EventScript_Item_Brine::
     end
 
 Route19_Text_SwimmermHaroldSeen:
-	.string "Have you ever gone swimming in the\n"
-	.string "sea at night?$"
+	.string "{JPN}よるうみでおよいだことはある？$"
 
 Route19_Text_SwimmermHaroldBeaten:
-	.string "Glub…$"
+	.string "{JPN}グルッ……$"
 
 Route19_Text_SwimmermHaroldAfterBattle:
 	.string "At night, the sea turns black. It\n"
 	.string "feels like it will swallow you up.$"
 
 Route19_Text_SwimmermTuckerSeen:
-	.string "Pant, pant… Just… a little…\p"
-	.string "farther… to… FUCHSIA…$"
+	.string "{JPN}ハァハァ……あと……ほんの……\p"
+	.string "すこし……さき……セキチク……$"
 
 Route19_Text_SwimmermTuckerBeaten:
-	.string "I'm drowning!$"
+	.string "{JPN}おぼれそうだ！$"
 
 Route19_Text_SwimmermTuckerAfterBattle:
 	.string "I… asked my girlfriend to swim to\n"
 	.string "FUCHSIA… Gasp…$"
 
 Route19_Text_SwimmerfDawnSeen:
-	.string "I'm disgusted by wimpy people!$"
+	.string "{JPN}よわむしなにんげんにはうんざりだ！$"
 
 Route19_Text_SwimmerfDawnBeaten:
-	.string "I could beat you at swimming…$"
+	.string "{JPN}すいえいならきみにかてるんだけど…\n"
+	.string "…$"
 
 Route19_Text_SwimmerfDawnAfterBattle:
 	.string "It's a quick swim between FUCHSIA\n"
@@ -102,12 +102,12 @@ Route19_Text_SwimmerfDawnAfterBattle:
 	.string "is! What a wimp!$"
 
 Route19_Text_SwimmermJeromeSeen:
-	.string "Swimming? I'm lousy at it.\p"
-	.string "I'm just splashing around in these\n"
-	.string "shallow waters.$"
+	.string "{JPN}およぐの？ぼくおよぎがへたなんだ。\p"
+	.string "このあさせでただバシャバシャとみず\n"
+	.string "あそびしてるだけさ。$"
 
 Route19_Text_SwimmermJeromeBeaten:
-	.string "I thought I could win.$"
+	.string "{JPN}かてるとおもったんだけど。$"
 
 Route19_Text_SwimmermJeromeAfterBattle:
 	.string "I might be bad at swimming, but I\n"

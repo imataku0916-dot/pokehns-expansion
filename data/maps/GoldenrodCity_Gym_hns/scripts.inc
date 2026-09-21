@@ -131,10 +131,10 @@ GoldenrodCity_Gym_Text_WhitneyBefore:
     .string "you- I'm good!$"
 
 GoldenrodCity_Gym_Text_WhitneyShouldntBeSoSerious:
-    .string "Sob…\p"
-    .string "…Waaaaaaah! You're mean!\p"
-    .string "You shouldn't be so serious! You…\n"
-    .string "you child, you!$"
+    .string "{JPN}ぐすっ……\p"
+    .string "うわーん！いじわる！\p"
+    .string "そんなにほんきにならなくても\n"
+    .string "いいじゃない！こどもね！$"
 
 GoldenrodCity_Gym_Text_WhitneyYouMeanie:
     .string "Waaaaah!\p"
@@ -179,29 +179,31 @@ GoldenrodCity_Gym_Text_WhitneyRematchDefeat:
     .string "…Snivel, hic… …You meanie!$"
 
 GoldenrodCity_Gym_Text_LassCarrieSeen:
-    .string "Don't let my POKéMON's cute looks\n"
-    .string "fool you.\p"
-    .string "They can whip you!$"
+    .string "{JPN}わたしのポケモンのかわいみためにだ\n"
+    .string "まされないでね。\p"
+    .string "こいつらあなたをぶっとばすぞ！$"
 
 GoldenrodCity_Gym_Text_LassCarrieBeaten:
-    .string "Darn… I thought you were weak…$"
+    .string "{JPN}もう……よわいとおもったのに……$"
 
 GoldenrodCity_Gym_Text_LassCarrieAfter:
-    .string "Do my POKéMON think I'm cute?$"
+    .string "{JPN}わたしのポケモンたちはわたしをかわ\n"
+    .string "いいとおもってるかな？$"
 
 GoldenrodCity_Gym_Text_LassBridgetSeen:
-    .string "I like cute POKéMON better than\n"
-    .string "strong POKéMON.\p"
-    .string "But I have strong and cute POKéMON!$"
+    .string "{JPN}つよいポケモンよりかわいいポケモン\n"
+    .string "のほうがすき。\p"
+    .string "でもわたしにはつよくてかわいいポケ\n"
+    .string "モンがいるんだ！$"
 
 GoldenrodCity_Gym_Text_LassBridgetBeaten:
-    .string "Oh, no, no, no!$"
+    .string "{JPN}いやいやいやーっ！$"
 
 GoldenrodCity_Gym_Text_LassBridgetAfter:
-    .string "I'm trying to beat WHITNEY, but…\n"
-    .string "It's depressing.\p"
-    .string "I'm okay! If I lose, I'll just try\n"
-    .string "harder next time!$"
+    .string "{JPN}アカネにかとうとしてるんだけど……\n"
+    .string "きぶんがおちこむな。\p"
+    .string "だいじょうぶ！まけてもつぎはもっと\n"
+    .string "がんばればいいだけだ！$"
 
 GoldenrodCity_Gym_Text_BridgetWhitneyCries:
     .string "Oh, no. You made WHITNEY cry.\p"
@@ -209,26 +211,28 @@ GoldenrodCity_Gym_Text_BridgetWhitneyCries:
     .string "always cries when she loses.$"
 
 GoldenrodCity_Gym_Text_BeautyVictoriaSeen:
-    .string "Oh, you are a cute little trainer!\p"
-    .string "I like you, but I won't hold back!$"
+    .string "{JPN}おっきみはかわいいトレーナーだね！\p"
+    .string "きみはすきだけどてかげんはしないよ\n"
+    .string "！$"
 
 GoldenrodCity_Gym_Text_BeautyVictoriaBeaten:
-    .string "Let's see… Oops, it's over?$"
+    .string "{JPN}ええと……あら？もうおわり？$"
 
 GoldenrodCity_Gym_Text_BeautyVictoriaAfter:
-    .string "Wow, you must be good to beat me!\n"
-    .string "Keep it up!$"
+    .string "{JPN}うわっわたしにかつなんてすごいね！\n"
+    .string "そのちょうしでがんばれ！$"
 
 GoldenrodCity_Gym_Text_BeautySamanthaSeen:
-    .string "Give it your best shot, or I'll take\n"
-    .string "you down!$"
+    .string "{JPN}ぜんりょくをつくせさもないとぶっつ\n"
+    .string "ぶしてやる！$"
 
 GoldenrodCity_Gym_Text_BeautySamanthaBeaten:
-    .string "No! Oh, MEOWTH, I'm so sorry!$"
+    .string "{JPN}そんな！ニャースごめんなさい！$"
 
 GoldenrodCity_Gym_Text_BeautySamanthaAfter:
-    .string "I taught MEOWTH moves for taking on\n"
-    .string "any type…$"
+    .string "{JPN}どんなタイプのポケモンにもたちむか\n"
+    .string "えるようニャースにわざをおしえた…\l"
+    .string "…$"
 
 GoldenrodCity_Gym_Text_GymGuide:
     .string "Yo! CHAMP in making!\p"
@@ -244,4 +248,3 @@ GoldenrodCity_Gym_Text_GymGuide:
 GoldenrodCity_Gym_Text_GymGuideWin:
     .string "You won? Great! I was busy admiring\n"
     .string "the ladies here.$"
-

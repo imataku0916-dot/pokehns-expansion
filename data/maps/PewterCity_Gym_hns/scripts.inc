@@ -49,10 +49,10 @@ PewterCity_Gym_Text_Brock_Intro:
 	.string "Come on!$"
 
 PewterCity_Gym_Text_Brock_WinLoss:
-	.string "BROCK: Your POKéMON's powerful attacks\n"
-	.string "overcame my rock-hard defense…\p"
-	.string "You're stronger than I expected…\p"
-	.string "Go ahead--take this BADGE.$"
+	.string "{JPN}タケシ:きみのポケモンのこうげきが\n"
+	.string "おれのいわのまもりをうちやぶった……\p"
+	.string "よそういじょうのつよさだ……\p"
+	.string "このバッジをうけとってくれ！$"
 
 PewterCity_Gym_Text_ReceivedBoulderBadge:
 	.string "{PLAYER} received BOULDERBADGE.$"
@@ -80,14 +80,15 @@ PewterCity_Gym_Text_Brock_FightDone:
 	.string "a lot stronger too.$"
 
 PewterCity_Gym_Text_CamperJerry_Seen:
-	.string "The trainers of this GYM use ROCK-type\n"
-	.string "POKéMON.\p"
-	.string "The ROCK-type has high DEFENSE.\p"
-	.string "Battles could end up going a long time.\n"
-	.string "Are you ready for this?$"
+	.string "{JPN}このジムのトレーナーたちはいわタイ\n"
+	.string "プのポケモンをつかっています。\p"
+	.string "いわタイプはぼうぎょりょくがたかい\n"
+	.string "です。\p"
+	.string "しょうぶはながびくかのうせいがあり\n"
+	.string "ます。かくごはできていますか？$"
 
 PewterCity_Gym_Text_CamperJerry_Beaten:
-	.string "I have to win these battles…$"
+	.string "{JPN}このしょうぶにかたなきゃ……$"
 
 PewterCity_Gym_Text_CamperJerry_AfterBattle:
 	.string "Hey, you! Trainer from JOHTO! BROCK is\n"

@@ -22,21 +22,21 @@ Route1_EventScript_Sign::
 	end
 
 Route1_Text_SchoolboyDanny_Seen:
-	.string "If trainers meet, the first\n"
-	.string "thing to do is battle.$"
+	.string "{JPN}トレーナーどうしがであったらまずさ\n"
+	.string "いしょにしょうぶをする。$"
 
 Route1_Text_SchoolboyDanny_Beaten:
-	.string "Awww… I've got a losing record…$"
+	.string "{JPN}あー…まけこしちゃったな……$"
 
 Route1_Text_SchoolboyDanny_AfterBattle:
 	.string "For trainers, it's a given that\n"
 	.string "we'll battle whenever we meet.$"
 
 Route1_Text_CooltrainerFQuinn_Seen:
-	.string "You there! Want to battle?$"
+	.string "{JPN}おいそこのきみ！しょうぶしないか？$"
 
 Route1_Text_CooltrainerFQuinn_Beaten:
-	.string "Down and out…$"
+	.string "{JPN}どんそこ……$"
 
 Route1_Text_CooltrainerFQuinn_AfterBattle:
 	.string "You're strong.\p"

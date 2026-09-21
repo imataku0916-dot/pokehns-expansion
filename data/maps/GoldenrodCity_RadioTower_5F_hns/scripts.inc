@@ -110,17 +110,17 @@ GoldenrodCity_RadioTower_5F_Text_FakeDirector2:
 	.string "can beat me!$"
 
 GoldenrodCity_RadioTower_5F_Text_FakeDirectorWin:
-	.string "OK, OK. I'll tell you where he is.$"
+	.string "{JPN}わかったわかった！\n"
+	.string "どこにいるかおしえてやる！$"
 
 GoldenrodCity_RadioTower_5F_Text_FakeDirectorAfter:
-	.string "The boss stashed the DIRECTOR in\n"
-	.string "the UNDERGROUND WAREHOUSE.\p"
-	.string "It's at the far end of the UNDER-\n"
-	.string "GROUND.\p"
-	.string "I am a nice guy, I will give you\n"
-	.string "the BASEMENT KEY to get to the\l"
-	.string "UNDERGROUND WAREHOUSE.\p"
-	.string "But I doubt you'll get that far.$"
+	.string "{JPN}ボスはきょくちょうをちかそうこにか\n"
+	.string "くした。\p"
+	.string "ちかのいちばんおくにある。\p"
+	.string "ぼくはいいやつだからちかそうこにい\n"
+	.string "くためのちかしつのかぎをあげるよ。\p"
+	.string "でもきみがそこまでたどりつけるかは\n"
+	.string "うたがわしいな。$"
 
 GoldenrodCity_RadioTower_5F_Text_FakeDirectorAfter2:
 	.string "The boss stashed the DIRECTOR in\n"
@@ -329,16 +329,18 @@ GoldenrodCity_RadioTower_5F_Text_ExecutiveF1Seen:
 	.string "I lost then, but I won't this time.$"
 
 GoldenrodCity_RadioTower_5F_Text_ExecutiveF1Beaten:
-	.string "This can't be happening!\p"
-	.string "I fought hard, but I still lost…\p"
-	.string "I'm so sorry GIOVANNI…$"
+	.string "{JPN}まさかこんなことあるわけない！\p"
+	.string "ひっしにたたかったのにやっぱりまけ\n"
+	.string "てしまった……\p"
+	.string "サカキほんとうにごめんなさい……$"
 
 GoldenrodCity_RadioTower_5F_Text_ExecutiveF1After:
-	.string "{PLAYER}, isn't it?\p"
-	.string "A brat like you won't appreciate\n"
-	.string "the magnificence of TEAM ROCKET.\p"
-	.string "That's too bad. I really admire\n"
-	.string "your power.$"
+	.string "{JPN}{PLAYER}だろ？\p"
+	.string "おまえみたいなガキにはロケットだん\n"
+	.string "のすばらしさなんてりかいできないだ\l"
+	.string "ろうな。\p"
+	.string "ざんねんだな。おまえのちからはほん\n"
+	.string "とうにうらやましいよ。$"
 
 GoldenrodCity_RadioTower_5F_Text_RocketBossSeen:
 	.string "Oh? You managed to get this far?\p"
@@ -353,15 +355,19 @@ GoldenrodCity_RadioTower_5F_Text_RocketBossSeen:
 	.string "our meticulous plans!$"
 
 GoldenrodCity_RadioTower_5F_Text_RocketBossBeaten:
-	.string "No! Forgive me, GIOVANNI!$"
+	.string "{JPN}そんな！おゆるしください\n"
+	.string "サカキさま！$"
 
 GoldenrodCity_RadioTower_5F_Text_RocketBossAfter:
-	.string "How could this be?\p"
-	.string "Our dreams have come to naught.\p"
-	.string "I wasn't up to the task after all.\p"
-	.string "Like GIOVANNI did before me, I will\n"
-	.string "disband TEAM ROCKET here today.\p"
-	.string "Farewell.$"
+	.string "{JPN}まさかこんなことになるとは。\p"
+	.string "わたしたちのゆめはみずのあわとなっ\n"
+	.string "てしまった。\p"
+	.string "やはりわたしにはかがおもすぎたよう\n"
+	.string "だ。\p"
+	.string "かつてサカキがそうしたようにわたし\n"
+	.string "もきょうここでロケットだんをかいさ\l"
+	.string "んする。\p"
+	.string "さようなら。$"
 
 GoldenrodCity_RadioTower_5F_Text_DirectorThanks:
 	.string "DIRECTOR: {PLAYER}, thank you!\p"

@@ -34,13 +34,15 @@ Route49_EventScript_SkylarAfter::
 	end
 
 Route49_Text_SkylarDefeat:
-	.string "OKAY, you can have the PLATE.$"
+	.string "{JPN}わかったそのプレートはきみにあげる\n"
+	.string "よ。$"
 
 Route49_Text_SkylarAfter:
-	.string "As cool as that PLATE is,\n"
-	.string "you earned it fair and square.\p"
-	.string "I'll just buy something at the gift\n"
-	.string "shop instead.$"
+	.string "{JPN}そのプレートはたしかにかっこいいけ\n"
+	.string "どきみはせいせいどうどうとてにいれ\l"
+	.string "たんだ。\p"
+	.string "かわりにギフトショップでなにかかう\n"
+	.string "よ。$"
 
 Route49_Text_SkylarBeforeBattle:
 	.string "What?\p"

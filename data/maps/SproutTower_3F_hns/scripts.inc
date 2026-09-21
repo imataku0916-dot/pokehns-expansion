@@ -198,7 +198,7 @@ SproutTower_Text_SageLi_Seen:
 	.string "between your POKéMON and you!$"
 
 SproutTower_Text_SageLi_Beaten:
-	.string "Ah, excellent!$"
+	.string "{JPN}おおみごとだ！$"
 
 SproutTower_Text_SageLi_TakeFlash:
 	.string "You and your POKéMON should\n"
@@ -216,11 +216,12 @@ SproutTower_Text_SageLi_AfterBattle:
 	.string "your journey.$"
 
 SproutTower_Text_SageJin_Seen:
-	.string "I train to find enlightenment\n"
-	.string "in POKéMON!$"
+	.string "{JPN}ぼくはポケモンでさとりをひらくため\n"
+	.string "にトレーニングしている！$"
 
 SproutTower_Text_SageJin_Beaten:
-	.string "My training is incomplete…$"
+	.string "{JPN}ぼくのトレーニングはまだふじゅうぶ\n"
+	.string "んだ……$"
 
 SproutTower_Text_SageJin_AfterBattle:
 	.string "As POKéMON grow stronger,\n"
@@ -230,21 +231,22 @@ SproutTower_Text_SageJin_AfterBattle:
 	.string "POKéMON.$"
 
 SproutTower_Text_SageTroy_Seen:
-	.string "Let me see how much you trust\n"
-	.string "your POKéMON.$"
+	.string "{JPN}きみがじぶんのポケモンをどれだけし\n"
+	.string "んらいしているかみせてごらん。$"
 
 SproutTower_Text_SageTroy_Beaten:
-	.string "Yes, your trust is real!$"
+	.string "{JPN}はいあなたのしんらいはほんものです\n"
+	.string "！$"
 
 SproutTower_Text_SageTroy_AfterBattle:
 	.string "It is not far to the ELDER.$"
 
 SproutTower_Text_SageNeal_Seen:
-	.string "The ELDER's HM lights even\n"
-	.string "pitch-black darkness.$"
+	.string "{JPN}エルダーのひでんマシンはまっくらや\n"
+	.string "みさえもてらしだします。$"
 
 SproutTower_Text_SageNeal_Beaten:
-	.string "It is my head that is bright!$"
+	.string "{JPN}あたまがいいのはぼくのほうだ！$"
 
 SproutTower_Text_SageNeal_AfterBattle:
 	.string "Let there be light on your\n"

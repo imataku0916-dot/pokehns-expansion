@@ -30,51 +30,55 @@ UnionCave_B1F_EventScript_Item_Xdefend::
 	end
 
 UnionCave_B1F_Text_HikerPhillipSeen:
-	.string "It's been a while since I last saw\n"
-	.string "another person.\p"
-	.string "Don't be shy. Let's battle!$"
+	.string "{JPN}ほかのにんとあうのはひさしぶりだ。\p"
+	.string "えんりょしないで。しょうぶしよう！$"
 
 UnionCave_B1F_Text_HikerPhillipBeaten:
-	.string "Uurggh…$"
+	.string "{JPN}ううっ……$"
 
 UnionCave_B1F_Text_HikerPhillipAfter:
-	.string "I've been lost for a long time…\p"
-	.string "I don't mind it here, but I am\n"
-	.string "soooo hungry!$"
+	.string "{JPN}ずいぶんながいかんみちにまよってい\n"
+	.string "た……\p"
+	.string "ここにいるのはべつにかまわないけど\n"
+	.string "すっごくおなかがあいた！$"
 
 UnionCave_B1F_Text_HikerLeonardSeen:
-	.string "What do you know! A visitor!$"
+	.string "{JPN}まあなんてことだ！らいきゃくだ！$"
 
 UnionCave_B1F_Text_HikerLeonardBeaten:
-	.string "Wahahah! You're a feisty one!$"
+	.string "{JPN}ワハハハ！おまえはなかなかきのつよ\n"
+	.string "いやつだな！$"
 
 UnionCave_B1F_Text_HikerLeonardAfter:
-	.string "I live down here.\p"
-	.string "You can, too, if you'd like.\p"
-	.string "There's plenty of room, you see.$"
+	.string "{JPN}ぼくはここにすんでるんだ。\p"
+	.string "きみももしよければここにすんでもい\n"
+	.string "いよ。\p"
+	.string "だってここにはたっぷりスペースがあ\n"
+	.string "るからね。$"
 
 UnionCave_B1F_Text_PokemaniacAndrewSeen:
-	.string "Who's there?\p"
-	.string "Leave me and my POKéMON alone!$"
+	.string "{JPN}だれだ？\p"
+	.string "わたしとわたしのポケモンをほうっっ\n"
+	.string "ておいてくれ！$"
 
 UnionCave_B1F_Text_PokemaniacAndrewBeaten:
-	.string "Go… Go away!$"
+	.string "{JPN}いけ…きえろ！$"
 
 UnionCave_B1F_Text_PokemaniacAndrewAfter:
-	.string "Just me and my POKéMON. I'm de-\n"
-	.string "lirious with joy.$"
+	.string "{JPN}ぼくとぼくのポケモンだけ。うれしさ\n"
+	.string "のあまりうきうきしている。$"
 
 UnionCave_B1F_Text_PokemaniacCalvinSeen:
-	.string "I came all the way here to conduct\n"
-	.string "my POKéMON research.\p"
-	.string "Let me demonstrate my findings in a\n"
-	.string "real battle!$"
+	.string "{JPN}ポケモンのけんきゅうをするためにわ\n"
+	.string "ざわざここまできたんだ。\p"
+	.string "じっさいのしょうぶでけんきゅうのせ\n"
+	.string "いかをおみせしよう！$"
 
 UnionCave_B1F_Text_PokemaniacCalvinBeaten:
-	.string "You demonstrated on me!$"
+	.string "{JPN}ぼくをあいてにじつえんしたんだね！$"
 
 UnionCave_B1F_Text_PokemaniacCalvinAfter:
-	.string "I should compile and announce my\n"
-	.string "study findings.\p"
-	.string "I might even become famous like\n"
-	.string "PROF.ELM.$"
+	.string "{JPN}けんきゅうけっかをまとめてはっぴょ\n"
+	.string "うすべきだ。\p"
+	.string "もしかしたらウツギきょうじゅみたい\n"
+	.string "にゆうめいになれるかもしれない。$"

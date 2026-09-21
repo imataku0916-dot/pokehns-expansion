@@ -12,11 +12,11 @@ SSAqua_RoomNNE_EventScript_Carol::
 	end
 
 SSAqua_RoomNNE_Text_CooltrainermSeanSeen:
-    .string "I'm going to KANTO\n"
-    .string "to test my skills.$"
+    .string "{JPN}じぶんのうでをためすためにカントー\n"
+    .string "へいくつもりだ。$"
 
 SSAqua_RoomNNE_Text_CooltrainermSeanBeaten:
-    .string "I wanted to win!$"
+    .string "{JPN}かちたかったんだ！$"
 
 SSAqua_RoomNNE_Text_CooltrainermSeanAfterBattle:
     .string "Trainers from JOHTO\n"
@@ -24,12 +24,11 @@ SSAqua_RoomNNE_Text_CooltrainermSeanAfterBattle:
     .string "GYM LEADERS.$"
 
 SSAqua_RoomNNE_Text_CooltrainerfCarolSeen:
-    .string "I'm training to\n"
-    .string "become the CHAMP!$"
+    .string "{JPN}わたしはチャンピオンになるためにト\n"
+    .string "レーニングなかだ！$"
 
 SSAqua_RoomNNE_Text_CooltrainerfCarolBeaten:
-    .string "What's so different\n"
-    .string "between us?$"
+    .string "{JPN}わたしたちなにがそんなにちがうの？$"
 
 SSAqua_RoomNNE_Text_CooltrainerfCarolAfterBattle:
     .string "I'm going to beat\n"

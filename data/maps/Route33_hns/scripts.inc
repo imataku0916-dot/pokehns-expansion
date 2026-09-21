@@ -36,30 +36,28 @@ Route33_EventScript_Lass::
 	end
 
 Route33_Text_HikerAnthony2Seen:
-	.string "I came through the tunnel,\n"
-	.string "but I still have plenty\l"
-	.string "of energy left.$"
+	.string "{JPN}トンネルをぬけてきたけどまだたいり\n"
+	.string "ょくはたっぷりのこってるよ。$"
 
 Route33_Text_HikerAnthony2Beaten:
-	.string "Whoa! You've got more zip\n"
-	.string "than me!$"
+	.string "{JPN}うおっ！おれより\n"
+	.string "げんきがあるな！$"
 
 Route33_Text_HikerAnthony2After:
-	.string "We HIKERS are at our best\n"
-	.string "in the mountains.$"
+	.string "{JPN}わたしたちハイカーはやまのなかでこ\n"
+	.string "そほんりょうをはっきする。$"
 
 Route33_Text_AnthonyRegister:
 	.string "We HIKERS are at our best\n"
 	.string "in the mountains.$"
 
 Route33_Text_AnthonyRematchIntro:
-	.string "I came through the tunnel,\n"
-	.string "but I still have plenty\l"
-	.string "of energy left.$"
+	.string "{JPN}トンネルをぬけてきたけどまだたいり\n"
+	.string "ょくはたっぷりのこってるよ。$"
 
 Route33_Text_AnthonyRematchDefeat:
-	.string "Whoa! You've got more zip\n"
-	.string "than me!$"
+	.string "{JPN}うおっ！おれより\n"
+	.string "げんきがあるな！$"
 
 Route33_Text_AnthonyPostRematch:
 	.string "We HIKERS are at our best\n"

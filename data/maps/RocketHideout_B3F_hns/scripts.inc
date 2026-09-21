@@ -593,8 +593,8 @@ RocketHideout_B3F_Text_PetrelReveal:
     .string "my voice.$"
 
 RocketHideout_B3F_Text_PetrelBeaten:
-    .string "I… I couldn't do a thing…\p"
-    .string "GIOVANNI, please forgive me…$"
+    .string "{JPN}な……なにもできなかった……\p"
+    .string "サカキさまおゆるしください……$"
 
 RocketHideout_B3F_Text_PetrelAfterBattle:
     .string "PETREL: Since disbanding Team\n"
@@ -631,66 +631,69 @@ RocketHideout_B3F_Text_Murkrow:
     .string "HAIL GIOVANNI.$"
 
 RocketHideout_B3F_Text_GruntF5Seen:
-    .string "Do I know the password?\p"
-    .string "Maybe.\p"
-    .string "But no weakling's going to get\n"
-    .string "it!$"
+    .string "{JPN}パスワードをしってるかって？\p"
+    .string "たぶんね。\p"
+    .string "でもよわむしにはぜったいにおしえな\n"
+    .string "いよ！$"
 
 RocketHideout_B3F_Text_GruntF5Beaten:
-    .string "All right. Stop. I'll tell you.$"
+    .string "{JPN}わかったよ。もういい。おしえてあげ\n"
+    .string "る。$"
 
 RocketHideout_B3F_Text_GruntF5After:
-    .string "The password to the boss' room\n"
-    .string "is SLOWPOKETAIL.\p"
-    .string "But it's useless unless you have\n"
-    .string "two passwords.$"
+    .string "{JPN}ボスへやのパスワードはヤドンのしっ\n"
+    .string "ぽです。\p"
+    .string "ただしパスワードが2つそろっていな\n"
+    .string "ければいみがありません。$"
 
 RocketHideout_B3F_Text_GruntM28Seen:
-    .string "Hyuck-hyuck-hyuck!\p"
-    .string "I remember you from the well!\p"
-    .string "You're challenging me again?\p"
-    .string "Hah! You're nuts, but you have\n"
-    .string "guts!\p"
-    .string "I'll warn you, I got better!\p"
-    .string "If you can beat me, I'll tell\l"
-    .string "you a password to the boss'\n"
-    .string "room!$"
+    .string "{JPN}ヒュッヒュッヒュッ！\p"
+    .string "いどであったことおぼえてるぞ！\p"
+    .string "またおれにちょうんでくるのか？\p"
+    .string "ハッ！あたまはおかしいがどきょうは\n"
+    .string "あるな！\p"
+    .string "いっておくがおれはいぜんよりつよく\n"
+    .string "なってるぞ！\p"
+    .string "もしおれにかてたらボスのへやへのあ\n"
+    .string "いことばをおしえてやるよ！$"
 
 RocketHideout_B3F_Text_GruntM28Beaten:
-    .string "Hyuck-hyuck-hyuck! You're good!$"
+    .string "{JPN}ヒュックヒュックヒュック！さすがだ\n"
+    .string "！$"
 
 RocketHideout_B3F_Text_GruntM28After:
-    .string "Hyuck-hyuck-hyuck!\p"
-    .string "The password to the boss' room…\p"
-    .string "Uh…, I think it is RATICATE TAIL.$"
+    .string "{JPN}ヒュッヒュッヒュッ！\p"
+    .string "ボスのへやのパスワードは……\p"
+    .string "えっと……たぶんラティカートのしっ\n"
+    .string "ぽだとおもう。$"
 
 RocketHideout_B3F_Text_ScientistRossSeen:
-    .string "I used to work for SILPH, but now\n"
-    .string "I run research for TEAM ROCKET.\p"
-    .string "A meddlesome child like you needs\n"
-    .string "to be punished.$"
+    .string "{JPN}いぜんはシルフではたらいていました\n"
+    .string "がいまはロケットだんのけんきゅうぶ\l"
+    .string "もんをひきいています。\p"
+    .string "おまえのようなおせっかいなガキには\n"
+    .string "おしおきがひつようだ。$"
 
 RocketHideout_B3F_Text_ScientistRossBeaten:
-    .string "A mere tactical error cost me…$"
+    .string "{JPN}たったひとつのせんじゅつてきなミス\n"
+    .string "がわたしを……$"
 
 RocketHideout_B3F_Text_ScientistRossAfter:
-    .string "A radio signal that drives\n"
-    .string "POKéMON mad…\p"
-    .string "My experiment is a complete\n"
-    .string "success.\p"
-    .string "My promotion is assured. This\n"
-    .string "loss means absolutely nothing.$"
+    .string "{JPN}ポケモンをくるわせるでんぱ……\p"
+    .string "わたしのじっけんはかんぜんなせいこ\n"
+    .string "うだ。\p"
+    .string "しょうしんはかくじつだ。このはいぼ\n"
+    .string "くなどなんのいみもない。$"
 
 RocketHideout_B3F_Text_ScientistMitchSeen:
-    .string "I don't care that POKéMON are hurt\n"
-    .string "by our experiment.$"
+    .string "{JPN}わたしたちのじっけんでポケモンがき\n"
+    .string "ずついてもわたしはきにしない。$"
 
 RocketHideout_B3F_Text_ScientistMitchBeaten:
-    .string "Thinking is my strong suit, not\n"
-    .string "battling.$"
+    .string "{JPN}しょうぶよりかんがえるのがとくいな\n"
+    .string "んだ。$"
 
 RocketHideout_B3F_Text_ScientistMitchAfter:
-    .string "If we turn up the power of our\n"
-    .string "radio signal for broadcast\l"
-    .string "nationwide…\p"
-    .string "The very thought excites me!$"
+    .string "{JPN}もしラジオのでんぱしゅつりょくをあ\n"
+    .string "げてぜんこくほうそうにしたら……\p"
+    .string "そうおもうだけでワクワクする！$"

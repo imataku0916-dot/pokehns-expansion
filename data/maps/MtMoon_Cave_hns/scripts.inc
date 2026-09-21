@@ -93,21 +93,25 @@ MtMoon_Cave_Text_Rival_Before:
 	.string "{PLAYER}, now we'll show you!$"
 
 MtMoon_Cave_Text_Rival_Win:
-	.string "..................................\p"
-	.string "I thought I raised my POKéMON to be the\n"
-	.string "best they could be…\p"
-	.string "…But it still wasn't enough…$"
+	.string "{JPN}…………………………\p"
+	.string "ポケモンをさいこうにそだてたと\n"
+	.string "おもっていたのに……\p"
+	.string "……それでもたりなかったのか……$"
 
 MtMoon_Cave_Text_Rival_After:
-	.string "..................................\p"
-	.string "…You won, fair and square.\p"
-	.string "I admit it. But this isn't the end.\p"
-	.string "I'm going to be the greatest POKéMON\n"
-	.string "trainer ever.\p"
-	.string "Because these guys are behind me.\p"
-	.string "…Listen, {PLAYER}.\p"
-	.string "One of these days I'm going to prove\n"
-	.string "how good I am by beating you.$"
+	.string "{JPN}............................\n"
+	.string "......\p"
+	.string "…きみのかちだ。せいせいどうどうと\n"
+	.string "したかちほうだった。\p"
+	.string "みとめるよ。でもこれでおわりじゃな\n"
+	.string "い。\p"
+	.string "おれはしじょうさいこうのポケモント\n"
+	.string "レーナーになる。\p"
+	.string "だってこのこたちがおれをささえてく\n"
+	.string "れているから。\p"
+	.string "…ねえ{PLAYER}。\p"
+	.string "いつかきみをたおしておれがどれだけ\n"
+	.string "つよいのかしょうめいしてやる。$"
 
 MtMoon_Cave_Text_Rival_Loss:
 	.string "..................................\p"

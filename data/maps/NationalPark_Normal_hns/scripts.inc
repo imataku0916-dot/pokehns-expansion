@@ -178,13 +178,12 @@ NationalPark_Normal_EventScript_Item_Soothe_Bell::
 	end
 
 NationalPark_Normal_Text_SchoolboyJack1_Seen:
-	.string "The world of POKéMON is deep.\p"
-	.string "There are still lots of things we\n"
-	.string "don't know.\p"
-	.string "But I know more than you do!$"
+	.string "{JPN}ポケモンのせかいはおくがふかい。\p"
+	.string "まだわからないことがたくさんある。\p"
+	.string "でもぼくはきみよりくわしいんだ！$"
 
 NationalPark_Normal_Text_SchoolboyJack1_Beaten:
-	.string "Wha-wha-what?$"
+	.string "{JPN}えっえっえっ？$"
 
 NationalPark_Normal_Text_SchoolboyJack_After:
 	.string "There is a lot to learn.\p"
@@ -199,11 +198,11 @@ NationalPark_Normal_Text_JackRegister:
 	.string "Traded POKéMON level up faster.$"
 
 NationalPark_Normal_Text_JackRematchIntro:
-	.string "I've learned a lot since we\n"
-	.string "last battled! Let's go!$"
+	.string "{JPN}ぜんかいしょうぶしていらいずいぶん\n"
+	.string "せいちょうしたよ！さあいこう！$"
 
 NationalPark_Normal_Text_JackRematchDefeat:
-	.string "Wha-wha-what?$"
+	.string "{JPN}えっえっえっ？$"
 
 NationalPark_Normal_Text_JackPostRematch:
 	.string "There is a lot to learn.\p"
@@ -212,39 +211,44 @@ NationalPark_Normal_Text_JackPostRematch:
 	.string "Traded POKéMON level up faster.$"
 
 NationalPark_Normal_Text_PokefanFBeverly1_Seen:
-	.string "My POKéMON are simply darling.\p"
-	.string "Let me tell you how proud my\n"
-	.string "darlings make me.$"
+	.string "{JPN}わたしのポケモンたちはほんとうにあ\n"
+	.string "いらしいわ。\p"
+	.string "わたしのいとしいこたちがどれほどわ\n"
+	.string "たしをほこらしくさせてくれるかはな\l"
+	.string "させてね。$"
 
 NationalPark_Normal_Text_PokefanFBeverly1_Beaten:
-	.string "I can beat you in pride, but…$"
+	.string "{JPN}プライドならきみにかてるけど……$"
 
 NationalPark_Normal_Text_PokefanFBeverly_After:
 	.string "I must say, your POKéMON are quite\n"
 	.string "cute, too.$"
 
 NationalPark_Normal_Text_PokefanmWilliam_Seen:
-	.string "We adore our POKéMON, even if they\n"
-	.string "dislike us.\p"
-	.string "That's what being a FAN is about.$"
+	.string "{JPN}たとえポケモンにきらわれていてもわ\n"
+	.string "たしたちはポケモンをいとしている。\p"
+	.string "それこそがファンというもののほんし\n"
+	.string "つだ。$"
 
 NationalPark_Normal_Text_PokefanmWilliam_Beaten:
-	.string "M-my POKéMON!$"
+	.string "{JPN}わわぼくのポケモン！$"
 
 NationalPark_Normal_Text_PokefanmWilliam_After:
-	.string "I lost the battle, but my POKéMON win\n"
-	.string "the prize for being most lovely.$"
+	.string "{JPN}しょうぶにはまけてしまったけどぼく\n"
+	.string "のポケモンはいちばんかわいいしょう\l"
+	.string "をかちとったよ。$"
 
 NationalPark_Normal_Text_LassKrise_Seen:
-	.string "Hello? Why are you staring at me?\p"
-	.string "Oh, a battle?$"
+	.string "{JPN}もしもし？なんでわたしをじっとみて\n"
+	.string "るの？\p"
+	.string "あしょうぶ？$"
 
 NationalPark_Normal_Text_LassKrise_Beaten:
-	.string "…Hmmm…$"
+	.string "{JPN}…うーん…$"
 
 NationalPark_Normal_Text_LassKrise_After:
-	.string "I thought you were staring at me\n"
-	.string "because I'm cute!$"
+	.string "{JPN}わたしがかわいいからじっとみてたん\n"
+	.string "だとおもってたのに！$"
 
 NationalPark_Normal_Text_Sign_RelaxationSquare:
 	.string "RELAXATION SQUARE\n"

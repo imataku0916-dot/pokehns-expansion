@@ -123,10 +123,12 @@ Route13_EventScript_DirectionsSign::
 	end
 
 Route13_Text_PokefanmAlexSeen:
-	.string "Bow down before my regal POKéMON!$"
+	.string "{JPN}わがいふうどうどうたるポケモンにひ\n"
+	.string "れふせ！$"
 
 Route13_Text_PokefanmAlexBeaten:
-	.string "How… How dare you mock royalty!$"
+	.string "{JPN}なんて……なんてことを！おうぞくを\n"
+	.string "せせらわらうなんて！$"
 
 Route13_Text_PokefanmAlexAfterBattle:
 	.string "Doesn't everyone wish to someday\n"
@@ -137,21 +139,22 @@ Route13_Text_AlexRegister:
 	.string "Let me get your number.$"
 
 Route13_Text_AlexRematchIntro:
-	.string "I've added knights to my court!\n"
-	.string "Let's battle!$"
+	.string "{JPN}わたしのきゅうていにきしたちをむか\n"
+	.string "えいれたぞ！さあせんおう！$"
 
 Route13_Text_AlexRematchDefeat:
-	.string "Dethroned again…$"
+	.string "{JPN}またもおうざからひきずりくだろされ\n"
+	.string "た……$"
 
 Route13_Text_AlexPostRematch:
 	.string "Maybe I'm just a pawn after all.$"
 
 Route13_Text_PokefanmJoshuaSeen:
-	.string "Nihihi! Would you like to battle\n"
-	.string "my PIKACHU gang?$"
+	.string "{JPN}ニヒヒ！ぼくのピカチュウのなかまた\n"
+	.string "ちとしょうぶしない？$"
 
 Route13_Text_PokefanmJoshuaBeaten:
-	.string "PI-PIKACHU!$"
+	.string "{JPN}ピ……ピカチュウ！$"
 
 Route13_Text_PokefanmJoshuaAfterBattle:
 	.string "You look like you have many\n"
@@ -159,34 +162,34 @@ Route13_Text_PokefanmJoshuaAfterBattle:
 	.string "is still the best.$"
 
 Route13_Text_BirdKeeperPerrySeen:
-	.string "Agility is the key attribute of\n"
-	.string "bird POKéMON.$"
+	.string "{JPN}すばやさはとりタイプのポケモンにと\n"
+	.string "ってじゅうようなステータスです。$"
 
 Route13_Text_BirdKeeperPerryBeaten:
-	.string "You beat me with your speed…$"
+	.string "{JPN}きみのスピードにはかなわなかったな\n"
+	.string "……$"
 
 Route13_Text_BirdKeeperPerryAfterBattle:
 	.string "Your POKéMON are remarkably well-\n"
 	.string "trained.$"
 
 Route13_Text_BirdKeeperBretSeen:
-	.string "Check out my POKéMON. Just look\n"
-	.string "at their coloring and their\l"
-	.string "plumage.$"
+	.string "{JPN}ぼくのポケモンをみてよ。このいろあ\n"
+	.string "いやはなみみをみてごらん。$"
 
 Route13_Text_BirdKeeperBretBeaten:
-	.string "Shoot! Not good enough!$"
+	.string "{JPN}しまった！まだたりない！$"
 
 Route13_Text_BirdKeeperBretAfterBattle:
 	.string "If you groom them, POKéMON get\n"
 	.string "happy.$"
 
 Route13_Text_HikerKennySeen:
-	.string "I should go to ROCK TUNNEL to get\n"
-	.string "myself an ONIX.$"
+	.string "{JPN}イワークをてにいれるためにイワヤマ\n"
+	.string "トンネルにいかなきゃ。$"
 
 Route13_Text_HikerKennyBeaten:
-	.string "I lost…$"
+	.string "{JPN}まけた……$"
 
 Route13_Text_HikerKennyAfterBattle:
 	.string "Geological features don't appear\n"
@@ -199,11 +202,11 @@ Route13_Text_KennyRegister:
 	.string "Let's battle again sometime!$"
 
 Route13_Text_KennyRematchIntro:
-	.string "I've learned from geology!\n"
-	.string "Let's go!$"
+	.string "{JPN}ちしつがくでまなんだんだ！さあいこ\n"
+	.string "う！$"
 
 Route13_Text_KennyRematchDefeat:
-	.string "Still not enough…$"
+	.string "{JPN}それでもまだふじゅうぶんです…$"
 
 Route13_Text_KennyPostRematch:
 	.string "The power of POKéMON is like\n"

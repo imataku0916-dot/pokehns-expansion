@@ -35,11 +35,11 @@ Route4_EventScript_Sign::
 	end
 
 Route4_Text_BirdKeeperHank_Seen:
-	.string "I'm raising my POKéMON. Want to battle\n"
-	.string "with me?$"
+	.string "{JPN}ポケモンをそだててるんだ。しょうぶ\n"
+	.string "しない？$"
 
 Route4_Text_BirdKeeperHank_Beaten:
-	.string "Ack! I lost that one…$"
+	.string "{JPN}うわっ！あれのがしちゃった……$"
 
 Route4_Text_BirdKeeperHank_AfterBattle:
 	.string "If you have a specific POKéMON that you\n"
@@ -48,22 +48,22 @@ Route4_Text_BirdKeeperHank_AfterBattle:
 	.string "That's how to do it.$"
 
 Route4_Text_PicnickerHope_Seen:
-	.string "I have a feeling that I can win.\p"
-	.string "Let's see if I'm right!$"
+	.string "{JPN}かてそうなきがする。\p"
+	.string "はたしてわたしのよそうはあたるかな\n"
+	.string "！$"
 
 Route4_Text_PicnickerHope_Beaten:
-	.string "Aww, you are too strong.$"
+	.string "{JPN}うわぁつよすぎるよ。$"
 
 Route4_Text_PicnickerHope_AfterBattle:
 	.string "I heard CLEFAIRY appear at MT.MOON.\p"
 	.string "But where could they be?$"
 
 Route4_Text_PicnickerSharon_Seen:
-	.string "Um…\n"
-	.string "I…$"
+	.string "{JPN}えっと……わたし……$"
 
 Route4_Text_PicnickerSharon_Beaten:
-	.string "…$"
+	.string "{JPN}…$"
 
 Route4_Text_PicnickerSharon_AfterBattle:
 	.string "……I'll go train some more…$"

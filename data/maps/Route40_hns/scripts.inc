@@ -17,16 +17,16 @@ Route40_EventScript_Simon::
 	end
 
 Route40_Text_SwimmermSimonSeen:
-	.string "You have to warm up before\n"
-	.string "going into the water.\p"
-	.string "That's basic.$"
+	.string "{JPN}みずにいるまえにはウォームアップを\n"
+	.string "しなきゃ。\p"
+	.string "それはきほんだよ。$"
 
 Route40_Text_SwimmermSimonBeaten:
-	.string "OK! Uncle! I give!$"
+	.string "{JPN}わかった！おじさん！こうさんだ！$"
 
 Route40_Text_SwimmermSimonAfter:
-	.string "CIANWOOD CITY is a good\n"
-	.string "distance away from here.$"
+	.string "{JPN}タンバシティはここからかなりはなれ\n"
+	.string "ています。$"
 
 Route40_EventScript_Randall::
 	trainerbattle_single TRAINER_RANDALL_HNS, Route40_Text_SwimmermRandallSeen, Route40_Text_SwimmermRandallBeaten
@@ -34,16 +34,16 @@ Route40_EventScript_Randall::
 	end
 
 Route40_Text_SwimmermRandallSeen:
-	.string "Hey, you're young and fit!\p"
-	.string "Don't ride your POKéMON!\n"
-	.string "Swim!$"
+	.string "{JPN}ねえきみわかくてけんこうそうね！\p"
+	.string "ポケモンにのってはいけないよ！およ\n"
+	.string "いで！$"
 
 Route40_Text_SwimmermRandallBeaten:
-	.string "Uh-oh. I lost…$"
+	.string "{JPN}しまった。まけてしまった……$"
 
 Route40_Text_SwimmermRandallAfter:
-	.string "Swimming exercises your\n"
-	.string "entire body. It's healthy.$"
+	.string "{JPN}すいえいはぜんしんのうんどうになり\n"
+	.string "ます。けんこうによいですよ。$"
 
 Route40_EventScript_Elaine::
 	trainerbattle_single TRAINER_ELAINE_HNS, Route40_Text_SwimmerfElaineSeen, Route40_Text_SwimmerfElaineBeaten
@@ -51,16 +51,15 @@ Route40_EventScript_Elaine::
 	end
 
 Route40_Text_SwimmerfElaineSeen:
-	.string "Are you going to CIANWOOD?\p"
-	.string "How about a quick battle\n"
-	.string "first?$"
+	.string "{JPN}タンバにいくの？\p"
+	.string "まずはさっとしょうぶでもどう？$"
 
 Route40_Text_SwimmerfElaineBeaten:
-	.string "I lost that one!$"
+	.string "{JPN}あれまけた！$"
 
 Route40_Text_SwimmerfElaineAfter:
-	.string "I'd say I'm a better swimmer\n"
-	.string "than you. Yeah!$"
+	.string "{JPN}わたしのほうがきみよりおよぎがうま\n"
+	.string "いとおもうよ。そうだね！$"
 
 Route40_EventScript_Paula::
 	trainerbattle_single TRAINER_PAULA_HNS, Route40_Text_SwimmerfPaulaSeen, Route40_Text_SwimmerfPaulaBeaten
@@ -68,16 +67,16 @@ Route40_EventScript_Paula::
 	end
 
 Route40_Text_SwimmerfPaulaSeen:
-	.string "No inner tube for me.\p"
-	.string "I'm hanging on to a sea\n"
-	.string "POKéMON!$"
+	.string "{JPN}うきわなんていらないよ。\p"
+	.string "うみのポケモンにしがみついてるんだ\n"
+	.string "！$"
 
 Route40_Text_SwimmerfPaulaBeaten:
-	.string "Ooh, I'm feeling dizzy!$"
+	.string "{JPN}うわっめまいがする！$"
 
 Route40_Text_SwimmerfPaulaAfter:
-	.string "While I float like this,\n"
-	.string "the waves carry me along.$"
+	.string "{JPN}こうしてただよっているとなみにみを\n"
+	.string "まかせてながされていく。$"
 
 Route40_EventScript_Woman1::
 	lock

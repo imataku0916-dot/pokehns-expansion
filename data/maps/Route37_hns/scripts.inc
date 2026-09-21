@@ -81,40 +81,42 @@ Route37_EventScript_Sign::
 	end
 
 Route37_Text_TwinsAnnAndAnne1_Seen:
-	.string "ANN: ANNE and I are in this\n"
-	.string "together!$"
+	.string "{JPN}アン:アンとわたしはいっしょにこの\n"
+	.string "たたかいにいどむの！$"
 
 Route37_Text_TwinsAnnAndAnne1_Beaten:
-	.string "ANN & ANNE: Nnn… A little too\n"
-	.string "strong.$"
+	.string "{JPN}アンとアンヌ:うーん…ちょっとつよ\n"
+	.string "すぎるかな。$"
 
 Route37_Text_TwinsAnnAndAnne1_After:
-	.string "ANN: I can tell what my sister and\n"
-	.string "my POKéMON are thinking.$"
+	.string "{JPN}アン:おねえちゃんとポケモンがかん\n"
+	.string "がえてることわかるの。$"
 
 Route37_Text_TwinsAnnAndAnne2_Seen:
-	.string "ANNE: ANN and I are in this\n"
-	.string "together!$"
+	.string "{JPN}アン:アンとわたしはこのたたかいを\n"
+	.string "ともにのりこえるのよ！$"
 
 Route37_Text_TwinsAnnAndAnne2_Beaten:
-	.string "ANN & ANNE: Nnn… A little too\n"
-	.string "strong.$"
+	.string "{JPN}アンとアンヌ:うーん…ちょっとつよ\n"
+	.string "すぎるかな。$"
 
 Route37_Text_TwinsAnnAndAnne2_After:
-	.string "ANNE: We share the same feelings as\n"
-	.string "our POKéMON.$"
+	.string "{JPN}アン:わたしたちはポケモンとおなじ\n"
+	.string "きもちをだいているの。$"
 
 Route37_Text_PsychicGreg_Seen:
-	.string "POKéMON can't do a thing if they are\n"
-	.string "asleep.\p"
-	.string "I'll show you how scary that is!$"
+	.string "{JPN}ポケモンはねむっているかんはなにも\n"
+	.string "できないんだ。\p"
+	.string "それがどれほどこわいことかみせてや\n"
+	.string "る！$"
 
 Route37_Text_PsychicGreg_Beaten:
-	.string "I lost. That's pretty sad…$"
+	.string "{JPN}まけた。ちょっとかなしいな……$"
 
 Route37_Text_PsychicGreg_After:
-	.string "Putting POKéMON to sleep or paralyz-\n"
-	.string "ing them are good battle techniques.$"
+	.string "{JPN}ポケモンをねむらせたりまひさせたり\n"
+	.string "するのはこうかてきなしょうぶテクニ\l"
+	.string "ックです。$"
 
 Route37_Text_Sunny_Meet:
 	.string "SUNNY: Hi!\p"

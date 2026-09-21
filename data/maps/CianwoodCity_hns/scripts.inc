@@ -287,16 +287,18 @@ CianwoodCity_Text_EusineSuicune:
 	.string "Come on, {PLAYER}. Let's battle now!$"
 
 CianwoodCity_Text_EusineBeaten:
-	.string "I hate to admit it, but you win.$"
+	.string "{JPN}みとめたくはないが……\n"
+	.string "きみのかちだ。$"
 
 CianwoodCity_Text_EusineAfter:
-	.string "You're amazing, {PLAYER}!\p"
-	.string "No wonder POKéMON gravitate to you.\p"
-	.string "I get it now.\p"
-	.string "I'm going to keep searching for\n"
-	.string "SUICUNE.\p"
-	.string "I'm sure we'll see each other again.\p"
-	.string "See you around!$"
+	.string "{JPN}{PLAYER}きみはすごいね！\p"
+	.string "ポケモンがきみにひかれるのもなっと\n"
+	.string "くだ。\p"
+	.string "やっとわかったよ。\p"
+	.string "これからもスイクンをさがしつづける\n"
+	.string "よ。\p"
+	.string "きっとまたあえるはずだ。\p"
+	.string "じゃあまたね！$"
 
 CianwoodCity_EventScript_CitySign::
 	lock

@@ -220,14 +220,15 @@ TohjoFalls_GiovanniRoom_Text_GiovanniBeforeBattle:
 	.string "three years ago!$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniDefeat:
-	.string "What in the world are you?$"
+	.string "{JPN}おまえはいったい\n"
+	.string "なにものなのだ！？$"
 
 TohjoFalls_GiovanniRoom_Text_GiovanniAfter:
-	.string "GIOVANNI: How is this possible...?\n"
-	.string "The past three years have been a\l"
-	.string "waste...?\p"
-	.string "How can a kid like you manage to\n"
-	.string "destroy my dream once again?\p"
-	.string "The precious dream of TEAM ROCKET\n"
-	.string "has become little more than an\l"
-	.string "illusion...$"
+	.string "{JPN}サカキ:まさか……？この3ねんかん\n"
+	.string "はむだだったのか……？\p"
+	.string "おまえのようなガキがどうしてまたお\n"
+	.string "れのゆめをうちくだくことができるん\l"
+	.string "だ？\p"
+	.string "ロケットだんのたいせつなゆめはもは\n"
+	.string "やまぼろしにすぎなくなってしまった\l"
+	.string "……$"

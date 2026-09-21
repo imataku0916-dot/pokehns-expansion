@@ -676,12 +676,12 @@ AzaleaTown_Gym_Text_BugsyIntro:
 	.string "learned from my studies.$"
 
 AzaleaTown_Gym_Text_BugsyBeaten:
-	.string "Whoa, amazing! You're an\n"
-	.string "expert on POKéMON!\p"
-	.string "My research isn't complete\n"
-	.string "yet.\p"
-	.string "OK, you win. Take this\n"
-	.string "BADGE.$"
+	.string "{JPN}すごい！きみは\n"
+	.string "ポケモンのたつじんだね！\p"
+	.string "ぼくのけんきゅうは\n"
+	.string "まだかんせいしていない。\p"
+	.string "わかったよ。きみのかちだ。\n"
+	.string "このバッジをうけとって！$"
 
 AzaleaTown_Gym_Text_ReceivedHiveBadge:
 	.string "{PLAYER} received HIVEBADGE.$"
@@ -719,76 +719,79 @@ AzaleaTown_Gym_Text_BugsyRematch:
 	.string "Want to have a rematch with me?$"
 
 AzaleaTown_Gym_Text_BugsyRematchDefeat:
-	.string "Wow, you must be an expert trainer.\n"
-	.string "My research must not be complete...$"
+	.string "{JPN}うわっきみはかなりのじゅくれんトレ\n"
+	.string "ーナーだね。わたしのちょうさはまだ\l"
+	.string "ふじゅうぶんだったようだ……$"
 
 AzaleaTown_Gym_Text_BugCatcherBennySeen:
-	.string "Bug POKéMON evolve young. So they\n"
-	.string "get stronger that much faster.$"
+	.string "{JPN}むしポケモンはおさないうちにしんか\n"
+	.string "します。そのためそれだけはやくつよ\l"
+	.string "くなれるのです。$"
 
 AzaleaTown_Gym_Text_BugCatcherBennyBeaten:
-	.string "Just evolving isn't enough!$"
+	.string "{JPN}しんかさせるだけじゃだめなのか！$"
 
 AzaleaTown_Gym_Text_BugCatcherBennyAfter:
-	.string "POKéMON become stronger\n"
-	.string "if they evolve. Really!$"
+	.string "{JPN}ポケモンはしんかするとつよくなるん\n"
+	.string "だ。ほんとうだよ！$"
 
 AzaleaTown_Gym_Text_BugCatcherAlSeen:
-	.string "Bug POKéMON are cool and tough!\n"
-	.string "I'll prove it to you!$"
+	.string "{JPN}むしポケモンはカッコよくてタフなん\n"
+	.string "だ！それをおまえにみせてやる！$"
 
 AzaleaTown_Gym_Text_BugCatcherAlBeaten:
-	.string "You proved how tough you are…$"
+	.string "{JPN}きみのつよさはよくわかったよ……$"
 
 AzaleaTown_Gym_Text_BugCatcherAlAfter:
-	.string "They're so cool, but most girls\n"
-	.string "don't like bug POKéMON.\p"
-	.string "I don't know why…$"
+	.string "{JPN}すごくかっこいいのにほとんどのおん\n"
+	.string "なのこはむしタイプのポケモンがきら\l"
+	.string "いなんだよね。\p"
+	.string "なんでだろう……$"
 
 AzaleaTown_Gym_Text_BugCatcherJoshSeen:
-	.string "You saved all the SLOWPOKE?\n"
-	.string "Whew, you're mighty!\p"
-	.string "But my grown-up POKéMON are\n"
-	.string "pretty tough too!$"
+	.string "{JPN}ヤドンをぜんぶたすけたの？ふぅすご\n"
+	.string "いね！\p"
+	.string "でもぼくのせいちょうしたポケモンた\n"
+	.string "ちもけっこうタフなんだよ！$"
 
 AzaleaTown_Gym_Text_BugCatcherJoshBeaten:
-	.string "Urrgggh!$"
+	.string "{JPN}うぐぐぐっ！$"
 
 AzaleaTown_Gym_Text_BugCatcherJoshAfter:
-	.string "I guess I should teach them\n"
-	.string "better moves…$"
+	.string "{JPN}もっとよいわざをおしえてあげたほう\n"
+	.string "がいいかな……$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay1Seen:
-	.string "AMY: Hi! Are you challenging\n"
-	.string "the LEADER? No way!$"
+	.string "{JPN}エイミー:やあ！リーダーにいどむの\n"
+	.string "？まさか！$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay1Beaten:
-	.string "AMY & MAY: Oh, double\n"
-	.string "goodness!$"
+	.string "{JPN}エイミーとメイ:ふたりそろって\n"
+	.string "まけちゃった！$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay1After:
-	.string "AMY: You're really strong!\p"
-	.string "But BUGSY's even stronger!\n"
-	.string "His SCYTHER's CUT almost\l"
-	.string "always makes critical hits!$"
+	.string "{JPN}エイミー:あなたつよいね！\p"
+	.string "でもツクシはもっとつよいよ！ストラ\n"
+	.string "イクのいあいぎりはきゅうしょにあた\l"
+	.string "りやすいんだ！$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay2Seen:
-	.string "MAY: You want to see the\n"
-	.string "LEADER? Good luck!\p"
-	.string "BUGSY is so strong!\n"
-	.string "His SCYTHER's CUT always\l"
-	.string "seems to crit!$"
+	.string "{JPN}メイ:ジムリーダーにあいたいの？が\n"
+	.string "んばってね！\p"
+	.string "ツクシはとってもつよいよ！ストライ\n"
+	.string "クのいあいぎりはきゅうしょにあたり\l"
+	.string "やすいんだ！$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay2Beaten:
-	.string "AMY & MAY: Oh, double\n"
-	.string "goodness!$"
+	.string "{JPN}エイミーとメイ:ふたりそろって\n"
+	.string "まけちゃった！$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay2After:
-	.string "MAY: Our bug POKéMON lost!\n"
-	.string "Oh, what a shame.\p"
-	.string "BUGSY's won't lose though!\p"
-	.string "His PINECO makes short work\n"
-	.string "of ROCK-type POKéMON!$"
+	.string "{JPN}メイ:わたしたちのむしポケモンがま\n"
+	.string "けちゃった！ざんねん。\p"
+	.string "でもツクシはまけないよ！クヌギダマ\n"
+	.string "ならいわポケモンもあっというまにた\l"
+	.string "おすんだ！$"
 
 AzaleaTown_Gym_Text_GymGuide:
 	.string "Yo, challenger!\p"

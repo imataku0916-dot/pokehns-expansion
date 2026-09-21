@@ -348,8 +348,8 @@ SinjohRuins_Text_ChallengeSteven:
 	.string "a serious challenge, expect the worst!$"
 
 SinjohRuins_Text_StevenDefeat:
-	.string "You...\n"
-	.string "You are ready.$"
+	.string "{JPN}きみ……きみはじゅんびができている\n"
+	.string "。$"
 
 SinjohRuins_EventScript_Steven::
     msgbox SinjohRuins_Text_StevenAfterPlate, MSGBOX_NPC

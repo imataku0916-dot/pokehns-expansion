@@ -71,63 +71,69 @@ UnionCave_1F_EventScript_Item_Awakening::
 	end
 
 UnionCave_1F_Text_HikerRussellSeen:
-	.string "You're headed to AZALEA, are you?\p"
-	.string "Let my POKéMON see if you are good\n"
-	.string "enough to battle.$"
+	.string "{JPN}ヒワダへむかってるんだね？\p"
+	.string "ぼくのポケモンにきみがしょうぶでき\n"
+	.string "るじつりょくがあるかたしかめさせて\l"
+	.string "くれ。$"
 
 UnionCave_1F_Text_HikerRussellBeaten:
-	.string "Oh, oh, oh!$"
+	.string "{JPN}おおおおおおっ！$"
 
 UnionCave_1F_Text_HikerRussellAfter:
-	.string "All right, then! I've decided.\p"
-	.string "I'm not leaving until my POKéMON\n"
-	.string "get tougher!$"
+	.string "{JPN}よしきめた！\p"
+	.string "ぼくのポケモンがもっとつよくなるま\n"
+	.string "ではここをはなれないぞ！$"
 
 UnionCave_1F_Text_PokemaniacLarrySeen:
-	.string "I roam far and wide in search of\n"
-	.string "POKéMON.\p"
-	.string "Are you looking for POKéMON too?\p"
-	.string "Then you're my collecting rival!$"
+	.string "{JPN}ぼくはポケモンをさがしてあちこちを\n"
+	.string "たびしているんだ。\p"
+	.string "きみもポケモンをさがしているの？\p"
+	.string "それならきみはぼくのコレクションの\n"
+	.string "ライバルだね！$"
 
 UnionCave_1F_Text_PokemaniacLarryBeaten:
-	.string "Ugh. My poor POKéMON…$"
+	.string "{JPN}ううっ。かわいそうなポケモン……$"
 
 UnionCave_1F_Text_PokemaniacLarryAfter:
-	.string "Sometimes, you can hear POKéMON\n"
-	.string "roars from deep inside the cave.$"
+	.string "{JPN}ときおりどうくつのおくふかくからポ\n"
+	.string "ケモンのほうこうがきこえてくること\l"
+	.string "がある。$"
 
 UnionCave_1F_Text_HikerDanielSeen:
-	.string "Whoa! What a surprise!\p"
-	.string "I didn't expect to see anyone here!$"
+	.string "{JPN}うわっ！なんておどろきだ！\p"
+	.string "ここでだれかにあえるなんておもって\n"
+	.string "もみなかった！$"
 
 UnionCave_1F_Text_HikerDanielBeaten:
-	.string "Whoa! I'm beaten big time!$"
+	.string "{JPN}うわっ！かんぺきにまけた！$"
 
 UnionCave_1F_Text_HikerDanielAfter:
-	.string "I was conned into buying a\n"
-	.string "SLOWPOKETAIL.\p"
-	.string "I feel sorry for the poor POKéMON.$"
+	.string "{JPN}だまされてヤドンテールをかわされて\n"
+	.string "しまった。\p"
+	.string "かわいそうなポケモンがきのどくだ。$"
 
 UnionCave_1F_Text_FirebreatherBillSeen:
-	.string "ZUBAT's SUPERSONIC keeps confusing\n"
-	.string "my POKéMON.\p"
-	.string "I'm seriously upset about that!$"
+	.string "{JPN}ズバットのちょうおんぱのせいでぼく\n"
+	.string "のポケモンがこんらんしちゃうんだ。\p"
+	.string "それにはマジではらがたつよ！$"
 
 UnionCave_1F_Text_FirebreatherBillBeaten:
-	.string "I flamed out!$"
+	.string "{JPN}もえつきたぜ！$"
 
 UnionCave_1F_Text_FirebreatherBillAfter:
-	.string "On weekends, you can hear strange\n"
-	.string "roars from deep in the cave.$"
+	.string "{JPN}しゅうまつになるとどうくつのおくふ\n"
+	.string "かくからきみょうなほうこうがきこえ\l"
+	.string "てくる。$"
 
 UnionCave_1F_Text_FirebreatherRaySeen:
-	.string "If it's light, a cave isn't scary.\p"
-	.string "If you're strong, POKéMON aren't\n"
-	.string "scary.$"
+	.string "{JPN}あかるければどうくつなんてこわくな\n"
+	.string "い。\p"
+	.string "つよければポケモンなんてこわくない\n"
+	.string "。$"
 
 UnionCave_1F_Text_FirebreatherRayBeaten:
-	.string "FLASH!$"
+	.string "{JPN}ピカーッ！$"
 
 UnionCave_1F_Text_FirebreatherRayAfter:
-	.string "It's my POKéMON's fire that lights\n"
-	.string "up this cave.$"
+	.string "{JPN}このどうくつをてらしているのはぼく\n"
+	.string "のポケモンのほのおだ。$"

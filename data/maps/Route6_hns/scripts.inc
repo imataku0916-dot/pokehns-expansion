@@ -39,28 +39,28 @@ Route6_Text_UndergroundPathSign:
 	.string "CERULEAN CITY - VERMILION CITY$"
 
 PokefanM_Text_RexSeen:
-	.string "My STANTLER is the cutest in the\n"
-	.string "world.$"
+	.string "{JPN}ぼくのスタンラーはせかいでいちばん\n"
+	.string "かわいいよ。$"
 
 PokefanM_Text_RexBeaten:
-	.string "My STANTLER!$"
+	.string "{JPN}ぼくのスタンラー！$"
 
 PokefanM_Text_RexAfter:
-	.string "Look how adorable my STANTLER\n"
-	.string "acts!\p"
-	.string "Isn't it cute enough to make\n"
-	.string "your heart melt?$"
+	.string "{JPN}わたしのスタントラーのこうどうなん\n"
+	.string "てあいらしいんだ！\p"
+	.string "こころがとけてしまいそうなくらいか\n"
+	.string "わいとおもわない？$"
 
 PokefanM_Text_AllanSeen:
-	.string "My GRANBULL is the cutest in the\n"
-	.string "world.$"
+	.string "{JPN}ぼくのグランブルはせかいでいちばん\n"
+	.string "かわいいよ。$"
 
 PokefanM_Text_AllanBeaten:
-	.string "My GRANBULL!$"
+	.string "{JPN}おれのグランブル！$"
 
 PokefanM_Text_AllanAfter:
-	.string "Look how adorable my GRANBULL\n"
-	.string "acts!\p"
-	.string "Isn't it cute enough to make\n"
-	.string "your heart melt?$"
+	.string "{JPN}わたしのグランブルのふるまいなんて\n"
+	.string "あいらしいんでしょう！\p"
+	.string "こころがとけてしまいそうなくらいか\n"
+	.string "わいとおもいませんか？$"
 

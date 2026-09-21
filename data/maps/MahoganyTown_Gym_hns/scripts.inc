@@ -136,11 +136,11 @@ MahoganyTown_Gym_Text_PryceIntro:
     .string "shall demonstrate my power!$"
 
 MahoganyTown_Gym_Text_PryceImpressed:
-    .string "Ah, I am impressed by your\n"
-    .string "prowess.\p"
-    .string "With your strong will, I know you\n"
-    .string "will overcome all life's obstacles.\p"
-    .string "You are worthy of this BADGE!$"
+    .string "{JPN}みごとじゃ。おぬしのうでまえには\n"
+    .string "かんしんしたぞ。\p"
+    .string "そのつよいこころがあれば\n"
+    .string "どんなこんなんものりこえられよう。\p"
+    .string "このバッジをうけとるがよい！$"
 
 MahoganyTown_Gym_Text_ReceivedBadge:
     .string "{PLAYER} received GLACIERBADGE.$"
@@ -200,61 +200,62 @@ MahoganyTown_Gym_Text_GuideWin:
     .string "bridged the generation gap!$"
 
 MahoganyTown_Gym_Text_BoarderRonaldSeen:
-    .string "I'll freeze your POKéMON,\n"
-    .string "so you can't do a thing!$"
+    .string "{JPN}おまえのポケモンをこおらせてやる！\n"
+    .string "そうすればなにもできなくなるぞ！$"
 
 MahoganyTown_Gym_Text_BoarderRonaldBeaten:
-    .string "Darn. I couldn't do a thing.$"
+    .string "{JPN}ちっ。どうにもできなかったよ。$"
 
 MahoganyTown_Gym_Text_BoarderRonaldAfter:
-    .string "I think there's a move a\n"
-    .string "POKéMON can use while it's\l"
-    .string "frozen.$"
+    .string "{JPN}ポケモンがこごっているまにもつかえ\n"
+    .string "るわざがあるとおもう。$"
 
 MahoganyTown_Gym_Text_BoarderBradSeen:
-    .string "This GYM has a slippery floor.\p"
-    .string "It's fun, isn't it?\p"
-    .string "But hey--we're not playing\n"
-    .string "games here!$"
+    .string "{JPN}このジムのとこはすべりやすい。\p"
+    .string "たのしいよね？\p"
+    .string "でもなあ……ここはあそびばじゃない\n"
+    .string "んだぞ！$"
 
 MahoganyTown_Gym_Text_BoarderBradBeaten:
-    .string "Do you see how serious we are?$"
+    .string "{JPN}わたしたちがどれほどしんけんかおわ\n"
+    .string "かりいただけたでしょうか？$"
 
 MahoganyTown_Gym_Text_BoarderBradAfter:
-    .string "This GYM is great.\n"
-    .string "I love boarding with my\l"
-    .string "POKéMON!$"
+    .string "{JPN}このジムさいこう！ポケモンとすべる\n"
+    .string "のがだいすき！$"
 
 MahoganyTown_Gym_Text_BoarderDouglasSeen:
-    .string "I know PRYCE's secret.$"
+    .string "{JPN}ヤナギのひみつをしっている。$"
 
 MahoganyTown_Gym_Text_BoarderDouglasBeaten:
-    .string "OK. I'll tell you PRYCE's secret.$"
+    .string "{JPN}わかった。ヤナギのひみつをおしえて\n"
+    .string "あげるよ。$"
 
 MahoganyTown_Gym_Text_BoarderDouglasAfter:
-    .string "The secret behind PRYCE's power…\p"
-    .string "He meditates under a waterfall\n"
-    .string "daily to strengthen his mind\l"
-    .string "and body.$"
+    .string "{JPN}ヤナギのちからのひみつとは……\p"
+    .string "かれはしんしんをきたえるためまいに\n"
+    .string "ちたきのしたでめいそうしている。$"
 
 MahoganyTown_Gym_Text_SkierRoxanneSeen:
-    .string "To get to PRYCE, our GYM LEADER,\n"
-    .string "you need to think before you skate.$"
+    .string "{JPN}ジムリーダーのヤナギにたどりつくに\n"
+    .string "はスケートをするまえにじっくりかん\l"
+    .string "がえるひつようがあります。$"
 
 MahoganyTown_Gym_Text_SkierRoxanneBeaten:
-    .string "I wouldn't lose to you in skiing!$"
+    .string "{JPN}スキーならきみにまけるわけないよ！$"
 
 MahoganyTown_Gym_Text_SkierRoxanneAfter:
-    .string "If you don't skate with precision,\n"
-    .string "you won't get far in this GYM.$"
+    .string "{JPN}せいかくにすべれなければこのジムで\n"
+    .string "はさきへすすめないぞ。$"
 
 MahoganyTown_Gym_Text_SkierClarissaSeen:
-    .string "Check out my parallel turn!$"
+    .string "{JPN}わたしのへいこうターンもチェックし\n"
+    .string "てみてください！$"
 
 MahoganyTown_Gym_Text_SkierClarissaBeaten:
-    .string "No! You made me wipe out!$"
+    .string "{JPN}いやだ！おまえのせいでぜんめつしち\n"
+    .string "ゃった！$"
 
 MahoganyTown_Gym_Text_SkierClarissaAfter:
-    .string "I shouldn't have been bragging\n"
-    .string "about my skiing…$"
-
+    .string "{JPN}スキーのうでまえをじまんするべきじ\n"
+    .string "ゃなかったな……$"

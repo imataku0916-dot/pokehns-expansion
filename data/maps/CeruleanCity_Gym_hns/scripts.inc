@@ -247,9 +247,9 @@ CeruleanGym_Text_MistyIntro:
 	.string "tough!$"
 
 CeruleanGym_Text_MistyWinLoss:
-	.string "MISTY: You really are good…\p"
-	.string "I'll admit that you are skilled…\p"
-	.string "Here you go. It's CASCADEBADGE.$"
+	.string "{JPN}カスミ:あなたほんとうにつよいわ……\p"
+	.string "そのうでまえはみとめる。\p"
+	.string "これをどうぞ。ブルーバッジよ！$"
 
 CeruleanGym_Text_ReceivedBadge:
 	.string "{PLAYER} received CASCADEBADGE.$"
@@ -274,40 +274,40 @@ CeruleanGym_Text_MistyRematchDefeat:
 	.string "MISTY: You really are good…$"
 
 CeruleanGym_Text_SwimmerfDianaSeen:
-	.string "Sorry about being away. Let's get\n"
-	.string "on with it!$"
+	.string "{JPN}しばらくるすにしてしまってすみませ\n"
+	.string "ん。さあはじめましょう！$"
 
 CeruleanGym_Text_SwimmerfDianaBeaten:
-	.string "I give up! You're the winner!$"
+	.string "{JPN}もうあきらめる！きみのかちだ！$"
 
 CeruleanGym_Text_SwimmerfDianaAfter:
-	.string "I'll be swimming quietly.$"
+	.string "{JPN}しずかにおよいでいくよ。$"
 
 CeruleanGym_Text_SwimmerfBrianaSeen:
-	.string "Don't let my elegant swimming\n"
-	.string "unnerve you.$"
+	.string "{JPN}わたしのゆうがなおよぎにどうようし\n"
+	.string "ないでね。$"
 
 CeruleanGym_Text_SwimmerfBrianaBeaten:
-	.string "Ooh, you calmly disposed of me…$"
+	.string "{JPN}おぉきみはれいせいにわたしをしまつ\n"
+	.string "したな……$"
 
 CeruleanGym_Text_SwimmerfBrianaAfter:
-	.string "Don't be too smug about beating\n"
-	.string "me.\p"
-	.string "MISTY will destroy you if you get\n"
-	.string "complacent.$"
+	.string "{JPN}わたしにかったからってあまりとくい\n"
+	.string "げにならないでよ。\p"
+	.string "ゆだんしたらカスミにやられてしまう\n"
+	.string "ぞ。$"
 
 CeruleanGym_Text_SwimmermParkerSeen:
-	.string "Glub…\p"
-	.string "I'm first! Come and get me!$"
+	.string "{JPN}グルッ……\p"
+	.string "おれがさきだ！さあつかまえてみろ！$"
 
 CeruleanGym_Text_SwimmermParkerBeaten:
-	.string "This can't be…$"
+	.string "{JPN}まさか……$"
 
 CeruleanGym_Text_SwimmermParkerAfter:
-	.string "MISTY has gotten much better in\n"
-	.string "the past few years.\p"
-	.string "Don't let your guard down, or\n"
-	.string "you'll be crushed!$"
+	.string "{JPN}カスミはここすうねんでずいぶんじょ\n"
+	.string "うたつした。\p"
+	.string "ゆだんするとやられてしまうぞ！$"
 
 CeruleanGym_Text_GuideIntro:
 	.string "Yo! CHAMP in making!\p"

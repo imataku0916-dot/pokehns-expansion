@@ -10,10 +10,12 @@ Alola_MelemeleSea_TrainerBattleSwimmer::
 
 
 Alola_MelemeleSea_TrainerBattleSwimmer_Text_0:
-	.string "So much open water here!$"
+	.string "{JPN}ここにはこうだいなうみがひろがって\n"
+	.string "いる！$"
 
 Alola_MelemeleSea_TrainerBattleSwimmer_Text_1:
-	.string "Ouch,\npulled a hamstring…$"
+	.string "{JPN}うわっハムストリングをいためちゃっ\n"
+	.string "た……$"
 
 Alola_MelemeleSea_TrainerBattleSwimmer_Text_2:
 	.string "There are some strong currents here.\n"

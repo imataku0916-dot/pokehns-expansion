@@ -356,21 +356,23 @@ PokemonLeague_ChampionsRoom_Text_BattleIntro:
     .string "your challenge!$"
 
 PokemonLeague_ChampionsRoom_Text_BattleWin:
-    .string "…It's over.\p"
-    .string "But it's an odd feeling.\p"
-    .string "I'm not angry that I lost. In fact,\n"
-    .string "I feel happy.\p"
-    .string "Happy that I witnessed the rise\n"
-    .string "of a great new CHAMPION!$"
+    .string "{JPN}……おわったな。\p"
+    .string "ふしぎなきぶんだ。\p"
+    .string "まけたのにくやしくない。\n"
+    .string "むしろうれしいくらいだ。\p"
+    .string "あたらしいすばらしいチャンピオンの\n"
+    .string "たんじょうをみとどけられたからな！$"
 
 PokemonLeague_ChampionsRoom_Text_BattleAfter:
-    .string "…Whew.\p"
-    .string "You have become truly powerful,\n"
-    .string "{PLAYER}.\p"
-    .string "Your POKéMON have responded to your\n"
-    .string "strong and upstanding nature.\p"
-    .string "As a trainer, you will continue to\n"
-    .string "grow strong with your POKéMON.$"
+    .string "{JPN}…ふぅ。\p"
+    .string "{PLAYER}きみはほんとうにつ\n"
+    .string "よくなったね。\p"
+    .string "きみのちからづよくこうけつなひとが\n"
+    .string "らにきみのポケモンたちがこたえてく\l"
+    .string "れたんだ。\p"
+    .string "トレーナーとしてきみはこれからもポ\n"
+    .string "ケモンとともにさらにつよくなってい\l"
+    .string "くことでしょう。$"
 
 PokemonLeague_ChampionsRoom_Text_MaryOhNoOak:
     .string "MARY: Oh, no! It's all over!\p"
@@ -428,4 +430,3 @@ PokemonLeague_ChampionsRoom_Text_MaryNoInterview:
 PokemonLeague_ChampionsRoom_Text_RematchMaryNoInterview:
     .string "MARY: Come on! You can't blow off\n"
     .string "the interview AGAIN!$"
-

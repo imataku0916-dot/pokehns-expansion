@@ -402,86 +402,85 @@ Route25_Text_MistyDate:
 	.string "CERULEAN.$"
 
 Route25_Text_SchoolboyDudleySeen:
-	.string "Beat the six of us trainers to\n"
-	.string "win a fabulous prize!\p"
-	.string "Think you've got what it takes?$"
+	.string "{JPN}わたしたちトレーナー6にんをたおし\n"
+	.string "てごうかなしょうひんをかちとろう！\p"
+	.string "かてるじしんはある？$"
 
 Route25_Text_SchoolboyDudleyBeaten:
-	.string "Whoo! Good stuff.$"
+	.string "{JPN}わあ！いいね。$"
 
 Route25_Text_SchoolboyDudleyAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "{JPN}せいいっぱいやった。こうかいはない\n"
+	.string "。$"
 
 Route25_Text_LassEllenSeen:
-	.string "I'm second.\n"
-	.string "Now it's serious!$"
+	.string "{JPN}わたしが2ばんめだ。さあほんきだぞ\n"
+	.string "！$"
 
 Route25_Text_LassEllenBeaten:
-	.string "How could I lose?$"
+	.string "{JPN}どうしてまけたんだ？$"
 
 Route25_Text_LassEllenAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "{JPN}せいいっぱいやった。こうかいはない\n"
+	.string "。$"
 
 Route25_Text_SchoolboyJoeSeen:
-	.string "Here's No. 3!\n"
-	.string "I won't be easy.$"
+	.string "{JPN}さあ3ばんだ！そうかんたんにはかた\n"
+	.string "せないぞ。$"
 
 Route25_Text_SchoolboyJoeBeaten:
-	.string "Ow! Stomped flat!$"
+	.string "{JPN}うわっ！ふみつぶされた！$"
 
 Route25_Text_SchoolboyJoeAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "{JPN}せいいっぱいやった。こうかいはない\n"
+	.string "。$"
 
 Route25_Text_LassLauraSeen:
-	.string "I'm No. 4!\n"
-	.string "Getting tired?$"
+	.string "{JPN}わたしは4ばんだ！つかれてきた？$"
 
 Route25_Text_LassLauraBeaten:
-	.string "I lost too…$"
+	.string "{JPN}わたしもまけたよ……$"
 
 Route25_Text_LassLauraAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "{JPN}せいいっぱいやった。こうかいはない\n"
+	.string "。$"
 
 Route25_Text_CamperLloydSeen:
-	.string "OK! I'm No. 5.\n"
-	.string "I'll stomp you!$"
+	.string "{JPN}りょうかい！おれは5ばんだ。ぶっつ\n"
+	.string "ぶしてやる！$"
 
 Route25_Text_CamperLloydBeaten:
-	.string "Whoa! Too much.$"
+	.string "{JPN}うわっ！おおすぎだ。$"
 
 Route25_Text_CamperLloydAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "{JPN}せいいっぱいやった。こうかいはない\n"
+	.string "。$"
 
 Route25_Text_LassShannonSeen:
-	.string "I'm the last in line, but I tell\n"
-	.string "you, I'm tough!$"
+	.string "{JPN}わたしはつらのさいこうびだけどいっ\n"
+	.string "ておくよわたしはタフなんだ！$"
 
 Route25_Text_LassShannonBeaten:
-	.string "You're kidding.$"
+	.string "{JPN}じょうだんでしょ。$"
 
 Route25_Text_LassShannonAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "{JPN}せいいっぱいやった。こうかいはない\n"
+	.string "。$"
 
 Route25_Text_SupernerdPatSeen:
-	.string "Mufufufu…\p"
-	.string "I have nothing to do with the\n"
-	.string "six-pack trainers.\p"
-	.string "I waited here to beat you when\n"
-	.string "you were tired out by all the\l"
-	.string "battles.$"
+	.string "{JPN}ムフフフ…\p"
+	.string "シックスパックのトレーナーたちとは\n"
+	.string "わたしにはなんのかんけいもない。\p"
+	.string "きみがかずかずのしょうぶでつかれは\n"
+	.string "てるのをまってここでたおそうとおも\l"
+	.string "っていたんだ。$"
 
 Route25_Text_SupernerdPatBeaten:
-	.string "Aren't you tired at all?$"
+	.string "{JPN}ぜんぜんつかれてないの？$"
 
 Route25_Text_SupernerdPatAfter:
-	.string "I'm sorry… I won't cheat\n"
-	.string "anymore…$"
+	.string "{JPN}ごめん……もうカンニングはしないよ\n"
+	.string "……$"
 
 Route25_Text_CooltrainerKevinNugget:
 	.string "You took on one more battle than\n"
@@ -496,13 +495,13 @@ Route25_Text_CooltrainerKevinSeen:
 	.string "on.$"
 
 Route25_Text_CooltrainerKevinBeaten:
-	.string "I've never had a battle this\n"
-	.string "good!$"
+	.string "{JPN}こんなにたのしいしょうぶははじめて\n"
+	.string "だ！$"
 
 Route25_Text_CooltrainerKevinAfter:
-	.string "That was a great battle!\p"
-	.string "You and your POKéMON are truly\n"
-	.string "outstanding!$"
+	.string "{JPN}すばらしいしょうぶでした！\p"
+	.string "あなたとあなたのポケモンはほんとう\n"
+	.string "にすばらしいですね！$"
 
 Route25_Text_BillsHouseSign:
 	.string "SEA COTTAGE\n"

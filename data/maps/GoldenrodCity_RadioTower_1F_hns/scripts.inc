@@ -246,12 +246,12 @@ RadioTower1F_Text_GruntM3Seen:
     .string "We'll show you how scary we are!$"
 
 RadioTower1F_Text_GruntM3Beaten:
-    .string "Too strong! I'm sorry boss…$"
+    .string "{JPN}つよすぎる！ごめんなさいボス……$"
 
 RadioTower1F_Text_GruntM3After:
-    .string "You're too strong.\p"
-    .string "Our plan could be ruined. I must\n"
-    .string "warn the others…$"
+    .string "{JPN}きみはつよすぎる。\p"
+    .string "けいかくがだいなしになりそうだ。ほ\n"
+    .string "かのメンバーにけいこくしなきゃ……$"
 
 RadioTower1F_Text_Directory:
     .string "1F RECEPTION\n"

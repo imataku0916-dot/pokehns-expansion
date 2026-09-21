@@ -277,21 +277,22 @@ Route36_Text_Lass2_ClearedSudowoodo:
 	.string "POKéMON?$"
 
 Route36_Text_PsychicMarkSeen:
-	.string "I'm going to read your thoughts!$"
+	.string "{JPN}きみのかんがえをよみとるぞ！$"
 
 Route36_Text_PsychicMarkBeaten:
-	.string "I misread you!$"
+	.string "{JPN}よみまちがえた！$"
 
 Route36_Text_PsychicMarkAfter:
-	.string "I'd be strong if only I could tell\n"
-	.string "what my opponent was thinking.$"
+	.string "{JPN}あいてのかんがえがわかればもっとつ\n"
+	.string "よくなれるのに。$"
 
 Route36_Text_SchoolboyAlan1Seen:
-	.string "Thanks to my studies, I'm ready\n"
-	.string "for any POKéMON!$"
+	.string "{JPN}べんきょうのおかげでどんなポケモン\n"
+	.string "にもたちむかえるじゅんびはばんたん\l"
+	.string "だ！$"
 
 Route36_Text_SchoolboyAlan1Beaten:
-	.string "Oops! Computation error?$"
+	.string "{JPN}おっと！けいさんエラー？$"
 
 Route36_Text_SchoolboyAlanAfter:
 	.string "Darn. I study five hours a day too.\p"
@@ -347,11 +348,12 @@ Route36_Text_AlanRegister:
 	.string "reading books.$"
 
 Route36_Text_AlanRematchIntro:
-	.string "Thanks to my studies, I'm ready\n"
-	.string "for any POKéMON!$"
+	.string "{JPN}べんきょうのおかげでどんなポケモン\n"
+	.string "にもたちむかえるじゅんびはばんたん\l"
+	.string "だ！$"
 
 Route36_Text_AlanRematchDefeat:
-	.string "Oops! Computation error?$"
+	.string "{JPN}おっと！けいさんエラー？$"
 
 Route36_Text_AlanPostRematch:
 	.string "Darn. I study five hours a day too.\p"

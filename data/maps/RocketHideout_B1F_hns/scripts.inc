@@ -249,16 +249,16 @@ RocketHideout_B1F_Text_CameraGrunt1Seen:
     .string "Intruder alert!$"
 
 RocketHideout_B1F_Text_CameraGrunt1Beaten:
-    .string "Dang… I failed…$"
+    .string "{JPN}うわっ…しっぱいしちゃった…$"
 
 RocketHideout_B1F_Text_CameraGrunt2Seen:
     .string "It's my turn! There's no escape!$"
 
 RocketHideout_B1F_Text_CameraGrunt2Beaten:
-    .string "Surveillance cams are in the\n"
-    .string "POKéMON statues.\p"
-    .string "We'll keep appearing until you\n"
-    .string "trip a secret switch.$"
+    .string "{JPN}ポケモンのぞうのなかにかんしカメラ\n"
+    .string "がしこまれている。\p"
+    .string "ひみつのスイッチをそうさするまでぼ\n"
+    .string "くたちはあらわれつづけるよ。$"
 
 RocketHideout_B1F_EventScript_TrainerJed::
 	trainerbattle_single TRAINER_JED_HNS, RocketHideout_B1F_Text_ScientistJedSeen, RocketHideout_B1F_Text_ScientistJedBeaten
@@ -266,32 +266,34 @@ RocketHideout_B1F_EventScript_TrainerJed::
 	end
 
 RocketHideout_B1F_Text_ScientistJedSeen:
-    .string "This was once a ninja hideout.\p"
-    .string "There are traps to confound\n"
-    .string "intruders like you.$"
+    .string "{JPN}ここはかつてにんじゃのかくれいえだ\n"
+    .string "った。\p"
+    .string "きみのようなしんにゅうしゃをまどわ\n"
+    .string "すためのわながしかけられている。$"
 
 RocketHideout_B1F_Text_ScientistJedBeaten:
-    .string "I get it…$"
+    .string "{JPN}わかったよ……$"
 
 RocketHideout_B1F_Text_ScientistJedAfter:
-    .string "All right. I'll divulge a secret\n"
-    .string "about our hideout.\p"
-    .string "That thing on the floor up ahead\n"
-    .string "is a warp panel.\p"
-    .string "If you step on it, you'll be\n"
-    .string "warped back to the entrance.$"
+    .string "{JPN}わかったよ。おれたちのかくれいえの\n"
+    .string "ひみつをおしえてやる。\p"
+    .string "あそこぜんぽうのとこにあるあれはワ\n"
+    .string "ープパネルだ。\p"
+    .string "それをふめばいりぐちまでワープでき\n"
+    .string "る。$"
 
 RocketHideout_B1F_Text_GruntM16Seen:
-    .string "Heheh. Feeling lucky, punk?$"
+    .string "{JPN}へへっ。うんがいいとおもってるのか\n"
+    .string "こぞう？$"
 
 RocketHideout_B1F_Text_GruntM16Beaten:
-    .string "Kaboom!$"
+    .string "{JPN}ドカン！$"
 
 RocketHideout_B1F_Text_GruntM16After:
-    .string "I don't even know where the traps\n"
-    .string "are planted.\p"
-    .string "You'll just have to collect your\n"
-    .string "courage and walk.$"
+    .string "{JPN}わながどこにしかけられているのかま\n"
+    .string "ったくけんとうもつかないよ。\p"
+    .string "ゆうきをだしてあるいていくしかない\n"
+    .string "ね。$"
 
 RocketHideout_B1F_EventScript_Rocket16::
 	trainerbattle_single TRAINER_GRUNT_13_HNS, RocketHideout_B1F_Text_GruntM16Seen, RocketHideout_B1F_Text_GruntM16Beaten

@@ -92,22 +92,24 @@ Route15_EventScript_PPup::
 	end
 
 Route15_Text_TeacherColetteSeen:
-	.string "Have you forgotten anything?$"
+	.string "{JPN}なにかわすれていることはありません\n"
+	.string "か？$"
 
 Route15_Text_TeacherColetteBeaten:
-	.string "Kyaaah!$"
+	.string "{JPN}キャーッ！$"
 
 Route15_Text_TeacherColetteAfterBattle:
 	.string "Before I became a teacher, I used\n"
 	.string "to forget a lot of things.$"
 
 Route15_Text_TeacherHillarySeen:
-	.string "On sunny days, I think that the\n"
-	.string "kids would rather be playing in the\l"
-	.string "schoolyard than studying in class.$"
+	.string "{JPN}はれたにちにはこどもたちはきょうし\n"
+	.string "つでべんきょうするよりもこうていで\l"
+	.string "あそんでいたほうがたのしいだろうと\l"
+	.string "おもう。$"
 
 Route15_Text_TeacherHillaryBeaten:
-	.string "I didn't want to lose…$"
+	.string "{JPN}まけたくなかったんだ……$"
 
 Route15_Text_TeacherHillaryAfterBattle:
 	.string "Studying is important, but\n"
@@ -118,51 +120,55 @@ Route15_Text_HillaryRegister:
 	.string "May I have your number?$"
 
 Route15_Text_HillaryRematchIntro:
-	.string "I'll school you this time!$"
+	.string "{JPN}こんかいはおもいしらせてやる！$"
 
 Route15_Text_HillaryRematchDefeat:
-	.string "Back to the drawing board…$"
+	.string "{JPN}いちからやりなおし…$"
 
 Route15_Text_HillaryPostRematch:
 	.string "Teaching POKéMON is just like\n"
 	.string "teaching children. Patience!$"
 
 Route15_Text_SchoolboyKippSeen:
-	.string "Hang on. I have to phone my mom.$"
+	.string "{JPN}ちょっとまって。おかあさんにでんわ\n"
+	.string "しなきゃ。$"
 
 Route15_Text_SchoolboyKippBeaten:
-	.string "Sorry, Mom! I was beaten!$"
+	.string "{JPN}ごめんママ！まかされちゃった！$"
 
 Route15_Text_SchoolboyKippAfterBattle:
 	.string "My mom worries so much about me, I\n"
 	.string "have to phone her all the time.$"
 
 Route15_Text_SchoolboyTommySeen:
-	.string "Let's battle. I won't lose!$"
+	.string "{JPN}さあしょうぶだ。まけないぞ！$"
 
 Route15_Text_SchoolboyTommyBeaten:
-	.string "I forgot to do my homework!$"
+	.string "{JPN}しゅくだいをするのをわすれてしまっ\n"
+	.string "た！$"
 
 Route15_Text_SchoolboyTommyAfterBattle:
 	.string "Sayonara! I just learned that in\n"
 	.string "my Japanese class.$"
 
 Route15_Text_SchoolboyJohnnySeen:
-	.string "We're on a field trip to LAVENDER\n"
-	.string "RADIO TOWER for social studies.$"
+	.string "{JPN}しゃかいかのえんそくでシオンラジオ\n"
+	.string "タワーへきています。$"
 
 Route15_Text_SchoolboyJohnnyBeaten:
-	.string "You're wickedly tough!$"
+	.string "{JPN}おまえはとんでもなくタフだな！$"
 
 Route15_Text_SchoolboyJohnnyAfterBattle:
 	.string "I'm tired of walking. I need to\n"
 	.string "take a break.$"
 
 Route15_Text_SchoolboyBillySeen:
-	.string "My favorite class is Gym!$"
+	.string "{JPN}ぼくのいちばんすきなじゅぎょうはジ\n"
+	.string "ムせんだよ！$"
 
 Route15_Text_SchoolboyBillyBeaten:
-	.string "Oh, no! How could I lose?$"
+	.string "{JPN}えっまさか！どうしてまけてしまった\n"
+	.string "んだろう？$"
 
 Route15_Text_SchoolboyBillyAfterBattle:
 	.string "If POKéMON were a subject at\n"
@@ -173,11 +179,12 @@ Route15_Text_BillyRegister:
 	.string "Can I have your number?$"
 
 Route15_Text_BillyRematchIntro:
-	.string "I've been studying hard!\n"
-	.string "Let me show you what I learned!$"
+	.string "{JPN}いっしょうけんめいべんきょうしてき\n"
+	.string "たんだ！おぼえたことをみせてあげる\l"
+	.string "よ！$"
 
 Route15_Text_BillyRematchDefeat:
-	.string "I need to study more…$"
+	.string "{JPN}もっとべんきょうしなきゃ……$"
 
 Route15_Text_BillyPostRematch:
 	.string "Book smarts aren't everything.\n"

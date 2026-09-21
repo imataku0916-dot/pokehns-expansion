@@ -243,9 +243,9 @@ BlackthornGym_Text_ClairIntroText:
     .string "power against any opponent!$"
 
 BlackthornGym_Text_ClairWinText:
-    .string "I lost?\p"
-    .string "I don't believe it. There must be\n"
-    .string "some mistake…$"
+    .string "{JPN}わたしがまけた？\p"
+    .string "しんじられない。なにかの\n"
+    .string "まちがいにきまってる……$"
 
 BlackthornGym_Text_ClairText_GoToDragonsDen:
     .string "I won't admit this.\p"
@@ -309,11 +309,11 @@ BlackthornGym_Text_ClairRematchDefeatText:
     .string "some mistake…$"
 
 BlackthornGym_Text_CooltrainermCodySeenText:
-    .string "I just got access to use DRAGON-\n"
-    .string "type POKéMON!$"
+    .string "{JPN}ドラゴンタイプのポケモンをつかえる\n"
+    .string "ようになったばかりだ！$"
 
 BlackthornGym_Text_CooltrainermCodyBeatenText:
-    .string "Rats! If only I had a DRAGONITE!$"
+    .string "{JPN}ちっ！もしカイリューがいたらなあ！$"
 
 BlackthornGym_Text_CooltrainermCodyAfterBattleText:
     .string "Members of our dragon-user clan\n"
@@ -321,22 +321,25 @@ BlackthornGym_Text_CooltrainermCodyAfterBattleText:
     .string "our MASTER allows it.$"
 
 BlackthornGym_Text_CooltrainerfFranSeenText:
-    .string "I can't allow a nameless trainer\n"
-    .string "past me!\p"
-    .string "CLAIR would be livid if I did!$"
+    .string "{JPN}めいもなきトレーナーをわたしのまえ\n"
+    .string "をとおりすぎさせるわけにはいかない\l"
+    .string "！\p"
+    .string "もしそうしたらイブキがげきどするに\n"
+    .string "きまってる！$"
 
 BlackthornGym_Text_CooltrainerfFranBeatenText:
-    .string "Awww… I lost…$"
+    .string "{JPN}あー…まけた…$"
 
 BlackthornGym_Text_CooltrainerfFranAfterBattleText:
     .string "Uh-oh… CLAIR is going to be mad…$"
 
 BlackthornGym_Text_CooltrainermPaulSeenText:
-    .string "Your first battle against dragons?\p"
-    .string "I'll show you how tough they are!$"
+    .string "{JPN}ドラゴンとのはじめてのしょうぶか？\p"
+    .string "こいつらがどれだけてごわいかおもい\n"
+    .string "しらせてやる！$"
 
 BlackthornGym_Text_CooltrainermPaulBeatenText:
-    .string "My dragon POKéMON lost?$"
+    .string "{JPN}ぼくのドラゴンポケモンがまけた？$"
 
 BlackthornGym_Text_CooltrainermPaulAfterBattleText:
     .string "LANCE told you that he'd like to\n"
@@ -344,24 +347,25 @@ BlackthornGym_Text_CooltrainermPaulAfterBattleText:
     .string "Not a chance!$"
 
 BlackthornGym_Text_CooltrainermMikeSeenText:
-    .string "My chance of losing? Not even one\n"
-    .string "percent!$"
+    .string "{JPN}まけるかのうせい？1パーセントもな\n"
+    .string "いよ！$"
 
 BlackthornGym_Text_CooltrainermMikeBeatenText:
-    .string "That's odd.$"
+    .string "{JPN}おかしいな。$"
 
 BlackthornGym_Text_CooltrainermMikeAfterBattleText:
     .string "I know my short-comings now.\p"
     .string "Thanks for showing me!$"
 
 BlackthornGym_Text_CooltrainerfLolaSeenText:
-    .string "Dragons are sacred POKéMON.\p"
-    .string "They are full of life energy.\p"
-    .string "If you're not serious, you won't\n"
-    .string "be able to beat them.$"
+    .string "{JPN}ドラゴンはしんせいなポケモンだ。\p"
+    .string "かれらはせいめいエネルギーにみちあ\n"
+    .string "ふれている。\p"
+    .string "ほんきをださなければかれらにかつこ\n"
+    .string "とはできない。$"
 
 BlackthornGym_Text_CooltrainerfLolaBeatenText:
-    .string "Way to go!$"
+    .string "{JPN}よくできました！$"
 
 BlackthornGym_Text_CooltrainerfLolaAfterBattleText:
     .string "Dragons are weak against DRAGON-\n"

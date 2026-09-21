@@ -60,10 +60,11 @@ Alola_Akala_BattleRaichu_3:
 
 
 Alola_AkalaForest_TrainerBattleBugCatcher1_Text_0:
-	.string "Look at all the cool bugs here on the \nISLES!$"
+	.string "{JPN}このしまじまにはかっこいいむしがた\n"
+	.string "くさんいるよ！$"
 
 Alola_AkalaForest_TrainerBattleBugCatcher1_Text_1:
-	.string "Ouch, that stung!$"
+	.string "{JPN}うわっいたっ！$"
 
 Alola_AkalaForest_TrainerBattleBugCatcher1_Text_2:
 	.string "The ISLES are far away from other land,\n"
@@ -71,10 +72,10 @@ Alola_AkalaForest_TrainerBattleBugCatcher1_Text_2:
 	.string "adapted to the environment.$"
 
 Alola_AkalaForest_TrainerBattleBugCatcher2_Text_0:
-	.string "Look at what I caught!$"
+	.string "{JPN}みて！これつかまえたよ！$"
 
 Alola_AkalaForest_TrainerBattleBugCatcher2_Text_1:
-	.string "Awh, that bites!$"
+	.string "{JPN}うわっいたっ！$"
 
 Alola_AkalaForest_TrainerBattleBugCatcher2_Text_2:
 	.string "The climate is a bit different on the\n"

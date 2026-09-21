@@ -12,11 +12,11 @@ SSAqua_RoomSW_EventScript_Clyde::
 	end
 
 SSAqua_RoomSW_Text_BeautyCassieSeen:
-    .string "I'm trying to forget my woes.\n"
-    .string "Let's battle!$"
+    .string "{JPN}なやみをわすれよう。さあしょうぶだ\n"
+    .string "！$"
 
 SSAqua_RoomSW_Text_BeautyCassieBeaten:
-    .string "My heart weeps…$"
+    .string "{JPN}こころがいたむ……$"
 
 SSAqua_RoomSW_Text_BeautyCassieAfterBattle:
     .string "A voyage is best for getting over\n"
@@ -25,11 +25,11 @@ SSAqua_RoomSW_Text_BeautyCassieAfterBattle:
     .string "for grieving.$"
 
 SSAqua_RoomSW_Text_GuitaristClydeSeen:
-    .string "I'm going to audition my songs\n"
-    .string "at GOLDENROD's RADIO STATION.$"
+    .string "{JPN}コガネのラジオきょくでじぶんのきょ\n"
+    .string "くをオーディションにだすつもりだ。$"
 
 SSAqua_RoomSW_Text_GuitaristClydeBeaten:
-    .string "Yowza! Total distortion!$"
+    .string "{JPN}うわっ！かんぜんにひずんでる！$"
 
 SSAqua_RoomSW_Text_GuitaristClydeAfterBattleMobile:
     .string "I was going to make my debut at\n"

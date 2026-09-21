@@ -48,44 +48,47 @@ GoldenrodCity_UndergroundStorage_EventScript_Item_MaxEther::
     end
 
 RadioTowerBasement_Text_GruntM24Seen:
-    .string "How did you get this far?\p"
-    .string "I guess it can't be helped. I'll\n"
-    .string "dispose of you.$"
+    .string "{JPN}どうやってここまできたんだ？\p"
+    .string "しかたないな。おまえをしまつしてや\n"
+    .string "る。$"
 
 RadioTowerBasement_Text_GruntM24Beaten:
-    .string "I got disposed of…$"
+    .string "{JPN}やられてしまった……$"
 
 RadioTowerBasement_Text_GruntM24After:
-    .string "TEAM ROCKET will keep going, waiting\n"
-    .string "for the return of GIOVANNI.\p"
-    .string "We'll do whatever it takes.$"
+    .string "{JPN}ロケットだんはサカキのきかんをまち\n"
+    .string "つづけながらかつどうをつづける。\p"
+    .string "どんなしゅだんをつかってもやる。$"
 
 RadioTowerBasement_Text_GruntM14Seen:
-    .string "You're not going any farther!\p"
-    .string "I don't show mercy to my enemies,\n"
-    .string "not even brats!$"
+    .string "{JPN}これいじょうさきへはいかせないぞ！\p"
+    .string "てきにはようしゃしない。ガキだって\n"
+    .string "れいがいじゃない！$"
 
 RadioTowerBasement_Text_GruntM14Beaten:
-    .string "Blast it!$"
+    .string "{JPN}ちっ！$"
 
 RadioTowerBasement_Text_GruntM14After:
-    .string "I lost…\p"
-    .string "Please forgive me, GIOVANNI!$"
+    .string "{JPN}まけてしまった……\p"
+    .string "サカキどうかゆるしてください！$"
 
 RadioTowerBasement_Text_GruntM15Seen:
-    .string "Hyuck-hyuck-hyuck! Look who it is!\p"
-    .string "Ready? I'm really tough now!$"
+    .string "{JPN}ヒュッヒュッヒュッ！あれだれだ！\p"
+    .string "じゅんびはいい？いまならおれすごく\n"
+    .string "つよくなってるんだ！$"
 
 RadioTowerBasement_Text_GruntM15Beaten:
-    .string "Hyuck-hyuck-hyuck! You're so good!\p"
-    .string "This TEAM ROCKET thing is just\n"
-    .string "a job, but I can see it hurts others.\p"
-    .string "That's it, I'm leaving.\p"
-    .string "Thank you so much. Sorry GIOVANNI!$"
+    .string "{JPN}ヒュッヒュッヒュッ！きみすごいね！\p"
+    .string "このロケットだんってのはたんなるし\n"
+    .string "ごとだけどたにんをきずつけているの\l"
+    .string "はわかるよ。\p"
+    .string "もういいおれはここをさる。\p"
+    .string "ほんとうにありがとう。ごめんねサカ\n"
+    .string "キ！$"
 
 RadioTowerBasement_Text_GruntM15After:
-    .string "Hyuck-hyuck-hyuck! That was a blast!\n"
-    .string "I'll remember you!$"
+    .string "{JPN}ヒュックヒュックヒュック！さいこう\n"
+    .string "だった！きみのことはわすれないよ！$"
 
 RadioTowerBasement_Text_DirectorIntro:
     .string "DIRECTOR: Who? What? You came to\n"

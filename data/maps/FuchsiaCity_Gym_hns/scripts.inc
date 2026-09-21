@@ -93,9 +93,9 @@ FuchsiaCity_Gym_Text_Janine_DisappointYou:
 	.string "JANINE of FUCHSIA GYM, that's me!$"
 
 FuchsiaCity_Gym_Text_Janine_ToughOne:
-	.string "JANINE: You're a tough one. You\n"
-	.string "definitely won…\p"
-	.string "Here's SOULBADGE. Take it.$"
+	.string "{JPN}アンズ:あなたつよいね。\n"
+	.string "かんぜんにわたしのまけ……\p"
+	.string "ピンクバッジをうけとって！$"
 
 FuchsiaCity_Gym_Text_ReceivedSoulBadge:
 	.string "{PLAYER} received SOULBADGE.$"
@@ -217,20 +217,21 @@ FuchsiaCity_Gym_Text_LassAlice_Before:
 	.string "No, I'm not! Gotcha, sucker!$"
 
 FuchsiaCity_Gym_Text_LassAlice_Beaten:
-	.string "I had you fooled…$"
+	.string "{JPN}だまされたかとおもった……$"
 
 FuchsiaCity_Gym_Text_LassAlice_After:
-	.string "How will you distinguish our real\n"
-	.string "LEADER?$"
+	.string "{JPN}わたしたちのまことのリーダーをどう\n"
+	.string "やってみわけるつもりですか？$"
 
 FuchsiaCity_Gym_Text_LassLinda_Before:
 	.string "Fooled you! Hahaha!$"
 
 FuchsiaCity_Gym_Text_LassLinda_Beaten:
-	.string "Ooh… I lost… You're not weak…$"
+	.string "{JPN}うわっ…まけた…きみよわくないね…$"
 
 FuchsiaCity_Gym_Text_LassLinda_After:
-	.string "Well? Wasn't my disguise perfect?$"
+	.string "{JPN}どう？わたしのへんそうかんぺきだっ\n"
+	.string "たでしょ？$"
 
 FuchsiaCity_Gym_Text_PicnickerCindy_Before:
 	.string "I'm JANINE!\p"
@@ -238,21 +239,21 @@ FuchsiaCity_Gym_Text_PicnickerCindy_Before:
 	.string "Let's battle!$"
 
 FuchsiaCity_Gym_Text_PicnickerCindy_Beaten:
-	.string "Darn it! I wanted to win!$"
+	.string "{JPN}ちっ！かちたかったのに！$"
 
 FuchsiaCity_Gym_Text_PicnickerCindy_After:
-	.string "You must be getting tired.$"
+	.string "{JPN}もうつかれてきたんじゃない？$"
 
 FuchsiaCity_Gym_Text_CamperBarry_Before:
 	.string "Wahahaha!\p"
 	.string "You betcha! I'm JANINE!$"
 
 FuchsiaCity_Gym_Text_CamperBarry_Beaten:
-	.string "My disguise was right on! Dang!$"
+	.string "{JPN}へんそうはかんぺきだった！ちっ！$"
 
 FuchsiaCity_Gym_Text_CamperBarry_After:
-	.string "Hey, you. Was my disguise cute or\n"
-	.string "what, huh?$"
+	.string "{JPN}ねえきみ。わたしのへんそうかわいか\n"
+	.string "ったでしょ？$"
 
 FuchsiaCity_Gym_EventScript_GymGuy::
 	goto_if_set FLAG_DEFEATED_FUCHSIA_GYM, FuchsiaCity_Gym_EventScript_GymGuyAfter
@@ -297,4 +298,3 @@ FuchsiaCity_Gym_Text_Guide:
 FuchsiaCity_Gym_Text_GuideWin:
 	.string "That was a great battle, trainer\n"
 	.string "from JOHTO!$"
-

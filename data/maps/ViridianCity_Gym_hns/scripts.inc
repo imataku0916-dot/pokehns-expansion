@@ -68,21 +68,22 @@ ViridianCity_Gym_Text_LeaderBlue_Before:
 	.string "Ready, JOHTO CHAMP?$"
 
 ViridianCity_Gym_Text_LeaderBlue_Win:
-	.string "BLUE: What?\p"
-	.string "How the heck did I lose to you?\p"
-	.string "…\p"
-	.string "Tch, all right… Here, take this--it's\n"
-	.string "EARTHBADGE.$"
+	.string "{JPN}グリーン:なに！？\p"
+	.string "どうしておれがまけるんだ！？\p"
+	.string "……\p"
+	.string "ちっわかったよ……こいつをもってけ。\n"
+	.string "グリーンバッジだ！$"
 
 ViridianCity_Gym_Text_ReceivedEarthBadge:
 	.string "{PLAYER} received EARTHBADGE.$"
 
 ViridianCity_Gym_Text_LeaderBlue_After:
-	.string "BLUE: …\p"
-	.string "All right, I was wrong. You're the\n"
-	.string "real deal. You are a good trainer.\p"
-	.string "But I'm going to beat you someday.\p"
-	.string "Don't you forget it!$"
+	.string "{JPN}グリーン:…\p"
+	.string "わかったおれがまちがってた。きみは\n"
+	.string "ほんものだ。きみはゆうしゅうなトレ\l"
+	.string "ーナーだ。\p"
+	.string "でもいつかきみにかってやる。\p"
+	.string "ぜったいにわすれるなよ！$"
 
 ViridianCity_Gym_Text_LeaderBlue_GiveTM:
 	.string "Take this with you.$"
@@ -146,4 +147,3 @@ ViridianCity_Gym_Text_GymStatuePlayerWon::
     .string "LEADER: BLUE\p"
     .string "WINNING TRAINERS:\n"
 	.string "BLUE, RED, {PLAYER}$"
-

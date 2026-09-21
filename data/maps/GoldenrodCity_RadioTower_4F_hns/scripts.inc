@@ -88,23 +88,24 @@ GoldenrodCity_RadioTower_4F4_EventScript_Meowth::
 
 
 GoldenrodCity_RadioTower_4F4_Text_Proton_Seen:
-	.string "PROTON: Now wait just one second!\p"
-	.string "Aren't you the one who got in our\n"
-	.string "way at SLOWPOKE WELL?\p"
-	.string "I see... You're doing all this\n"
-	.string "because you want to make me angry.\l"
-	.string "Be careful!\p"
-	.string "But since you seem to wish it, I'll\n"
-	.string "show you the full extent of a TEAM\l"
-	.string "ROCKET EXECUTIVE's wrath!$"
+	.string "{JPN}ランス:ちょっとまてよ！\p"
+	.string "おまえヤドンのいどでおれたちのじゃ\n"
+	.string "まをしたやつじゃないか？\p"
+	.string "なるほど……おれをいからせたいから\n"
+	.string "こんなことをしているんだな。きをつ\l"
+	.string "けろ！\p"
+	.string "だがそうのぞんでいるようだからロケ\n"
+	.string "ットだんかんぶのいかりのぜんぼうを\l"
+	.string "おもいしらせてやる！$"
 
 GoldenrodCity_RadioTower_4F4_Text_Proton_Beaten:
-	.string "Phew...$"
+	.string "{JPN}ふぅ……$"
 
 GoldenrodCity_RadioTower_4F4_Text_Proton_After:
-	.string "PROTON: You may have won this\n"
-	.string "time... But all you did was make\p"
-	.string "TEAM ROCKET's wrath grow.$"
+	.string "{JPN}ランス:こんかいはかったかもしれな\n"
+	.string "い……だがそれによって\p"
+	.string "ロケットだんのいかりをさらにつのら\n"
+	.string "せてしまっただけだ。$"
 
 GoldenrodCity_RadioTower_4F4_Text_Fisher:
 	.string "I listened to the radio while I was\n"
@@ -132,15 +133,15 @@ GoldenrodCity_RadioTower_4F4_Text_Meowth:
 	.string "MEOWTH: Meowth…$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntM10Seen:
-	.string "You plan to rescue the DIRECTOR?\p"
-	.string "That won't be possible because I'm\n"
-	.string "going to beat you!$"
+	.string "{JPN}ディレクターをすくいだすつもりか？\p"
+	.string "そんなことできるわけないだろ！おれ\n"
+	.string "がおまえをぶっとばしてやるからな！$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntM10Beaten:
-	.string "No! Unbelievable!$"
+	.string "{JPN}えっ！しんじられない！$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntM10After:
-	.string "I don't believe it! I was beaten!$"
+	.string "{JPN}しんじられない！まけてしまった！$"
 
 GoldenrodCity_RadioTower_4F4_Text_ExecutiveM2Seen:
 	.string "Stop! I'm known as the TEAM ROCKET\n"
@@ -157,29 +158,34 @@ GoldenrodCity_RadioTower_4F4_Text_ExecutiveM2After:
 	.string "back.$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntF4Seen:
-	.string "Don't I think POKéMON are cute?\p"
-	.string "I'll think my POKéMON are cute--\p"
-	.string "after they beat yours!$"
+	.string "{JPN}ポケモンってかわいいとおもわない？\p"
+	.string "わたしのポケモンがかわいいとおもう\n"
+	.string "よ……\p"
+	.string "きみのポケモンをたおしてからね！$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntF4Beaten:
-	.string "Oh, no! They're so useless!$"
+	.string "{JPN}うわっやばい！こいつらまったくやく\n"
+	.string "にたたない！$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntF4After:
-	.string "I love my beautiful self!\p"
-	.string "Who cares about POKéMON?$"
+	.string "{JPN}わたしはうつくしいじぶんがだいすき\n"
+	.string "！\p"
+	.string "ポケモンなんてどうでもいいわ！$"
 
 GoldenrodCity_RadioTower_4F4_Text_ScientistRichSeen:
-	.string "Most excellent.\p"
-	.string "This RADIO TOWER will fulfill our\n"
-	.string "grand design.$"
+	.string "{JPN}じつにすばらしい。\p"
+	.string "このラジオタワーこそがわれわれのそ\n"
+	.string "うだいなこうそうをじつげんしてくれ\l"
+	.string "るだろう。$"
 
 GoldenrodCity_RadioTower_4F4_Text_ScientistRichBeaten:
-	.string "Hmmm…\p"
-	.string "All grand plans come with snags.$"
+	.string "{JPN}うーん……\p"
+	.string "どんなそうだいなけいかくにもつまず\n"
+	.string "きはつきものだ。$"
 
 GoldenrodCity_RadioTower_4F4_Text_ScientistRichAfter:
-	.string "Do you honestly believe you can stop\n"
-	.string "TEAM ROCKET?$"
+	.string "{JPN}ほんとうにロケットだんをやめられる\n"
+	.string "とほんきでおもっているのか？$"
 
 GoldenrodCity_RadioTower_4F4_Text_ProductionSign:
 	.string "4F PRODUCTION$"

@@ -97,19 +97,21 @@ Route17_EventScript_RematchCharlesTryGiveItem::
 	end
 
 Route17_Text_BikerRileySeen:
-	.string "Hey, you! You're from JOHTO, huh?$"
+	.string "{JPN}おいそこのきみ！ジョウトちほうから\n"
+	.string "きたんだね？$"
 
 Route17_Text_BikerRileyBeaten:
-	.string "Whoa, you kick!$"
+	.string "{JPN}うわっすごいな！$"
 
 Route17_Text_BikerRileyAfterBattle:
 	.string "Don't get cocky, you JOHTO punk!$"
 
 Route17_Text_BikerJoelSeen:
-	.string "Wow. That's a cool BICYCLE!$"
+	.string "{JPN}うわっそのじてんしゃかっこいいね！$"
 
 Route17_Text_BikerJoelBeaten:
-	.string "But you don't just look cool…$"
+	.string "{JPN}でもきみはただカッコいいだけじゃな\n"
+	.string "い……$"
 
 Route17_Text_BikerJoelAfterBattle:
 	.string "I look cool, but I'm weak, so I'm\n"
@@ -117,20 +119,21 @@ Route17_Text_BikerJoelAfterBattle:
 	.string "I have to train harder…$"
 
 Route17_Text_BikerGlennSeen:
-	.string "Hey! Want to have a speed battle?$"
+	.string "{JPN}ねえ！スピードしょうぶしない？$"
 
 Route17_Text_BikerGlennBeaten:
-	.string "Yikes! You've got awesome torque!$"
+	.string "{JPN}うわっ！すごいトルクだね！$"
 
 Route17_Text_BikerGlennAfterBattle:
 	.string "Hands-free riding is considered\n"
 	.string "cool on CYCLING ROAD.$"
 
 Route17_Text_BikerCharlesSeen:
-	.string "We're fearless highway stars!$"
+	.string "{JPN}ぼくたちはおそれをしらないハイウェ\n"
+	.string "イのスターだ！$"
 
 Route17_Text_BikerCharlesBeaten:
-	.string "Arrrgh! Crash and burn!$"
+	.string "{JPN}うわっ！だいしっぱいだ！$"
 
 Route17_Text_BikerCharlesAfterBattle:
 	.string "Reckless driving causes accidents!\n"
@@ -140,10 +143,11 @@ Route17_Text_RileyRegister:
 	.string "Not bad for a JOHTO kid!$"
 
 Route17_Text_RileyRematchIntro:
-	.string "JOHTO punks can only win once!$"
+	.string "{JPN}ジョウトのふりょうどもはいちどしか\n"
+	.string "かてない！$"
 
 Route17_Text_RileyRematchDefeat:
-	.string "I got kicked...$"
+	.string "{JPN}けられた……$"
 
 Route17_Text_RileyPostRematch:
 	.string "Maybe I should train in JOHTO\n"
@@ -154,10 +158,11 @@ Route17_Text_JoelRegister:
 	.string "Let's trade numbers!$"
 
 Route17_Text_JoelRematchIntro:
-	.string "Let's see who's cooler now!$"
+	.string "{JPN}さあいまどっちがカッコいいかみてみ\n"
+	.string "よう！$"
 
 Route17_Text_JoelRematchDefeat:
-	.string "Still not cool enough…$"
+	.string "{JPN}まだクールさがたりない……$"
 
 Route17_Text_JoelPostRematch:
 	.string "I'll keep training to be as cool\n"
@@ -168,11 +173,11 @@ Route17_Text_CharlesRegister:
 	.string "Give me your number!$"
 
 Route17_Text_CharlesRematchIntro:
-	.string "I'm not just a highway star,\n"
-	.string "I'm a heartbreaker!$"
+	.string "{JPN}おれはただのハイウェイスターなんか\n"
+	.string "じゃないハートブレイカーなんだ！$"
 
 Route17_Text_CharlesRematchDefeat:
-	.string "Crashed and burned again!$"
+	.string "{JPN}またしてもだいしっぱいだ！$"
 
 Route17_Text_CharlesPostRematch:
 	.string "I met a trainer like you in UNOVA.\n"

@@ -88,8 +88,8 @@ PokemonLeague_KarensRoom_Text_Before:
     .string "Let's go.$"
 
 PokemonLeague_KarensRoom_Text_Beaten:
-    .string "Well, aren't you good. I like that\n"
-    .string "in a trainer.$"
+    .string "{JPN}やるじゃない。\n"
+    .string "そういうトレーナーはすきよ。$"
 
 PokemonLeague_KarensRoom_Text_Defeat:
     .string "Strong POKéMON.\p"
@@ -101,4 +101,3 @@ PokemonLeague_KarensRoom_Text_Defeat:
     .string "I like your style. You understand\n"
     .string "what's important.\p"
     .string "Go on--the CHAMPION is waiting.$"
-

@@ -1547,8 +1547,8 @@ gText_MomExplainHPGetPotions::
 
 #if IS_HNS
 gText_RegisteredTrainerinPokeNav::
-	.string "Registered {STR_VAR_1} {STR_VAR_2}\n"
-	.string "in the POKéGEAR.$"
+	        .string "{JPN}でんわばんごうを\n"
+        .string "とうろくした！$"
 #else
 gText_RegisteredTrainerinPokeNav::
 	.string "Registered {STR_VAR_1} {STR_VAR_2}\n"

@@ -137,9 +137,9 @@ CianwoodGym_Text_ChuckIntro1:
 	.string "Watch this!$"
 
 CianwoodGym_Text_ChuckIntro2:
-	.string "CHUCK: Urggh!\n"
-	.string "…\p"
-	.string "Oooarrgh!$"
+	.string "{JPN}シジマ:ぐおおっ！\n"
+	.string "……\p"
+	.string "うおおおおっ！$"
 
 CianwoodGym_Text_ChuckIntro3:
 	.string "There! Scared now, are you?\p"
@@ -169,10 +169,11 @@ CianwoodGym_Text_ChuckTMSpeech:
 	.string "damage. Just don't get hit first!$"
 
 CianwoodGym_Text_ChuckAfter:
-	.string "WAHAHAH! I enjoyed battling you!\p"
-	.string "But a loss is a loss!\p"
-	.string "From now on, I'm going to train\n"
-	.string "24 hours a day!$"
+	.string "{JPN}ワハハハ！きみとのしょうぶたのしか\n"
+	.string "ったよ！\p"
+	.string "でもまけはまけだ！\p"
+	.string "これからは1にち24じかんトレーニン\n"
+	.string "グにはげむぞ！$"
 
 CianwoodGym_Text_ChuckRematch:
 	.string "WAHAHAH! JOHTO CHAMPION!\p"
@@ -181,8 +182,7 @@ CianwoodGym_Text_ChuckRematch:
 	.string "Ready to see who's stronger?$"
 
 CianwoodGym_Text_ChuckRematchDefeat:
-	.string "Wha? Huh? I lost?\n"
-	.string "Again?$"
+	.string "{JPN}え？えっ？まけたの？また？$"
 
 CianwoodGym_EventScript_Yoshi::
 	trainerbattle_single TRAINER_YOSHI_HNS, CianwoodGym_Text_BlackbeltYoshiSeen, CianwoodGym_Text_BlackbeltYoshiBeaten
@@ -190,16 +190,17 @@ CianwoodGym_EventScript_Yoshi::
 	end
 
 CianwoodGym_Text_BlackbeltYoshiSeen:
-	.string "My POKéMON and I are bound togeth-\n"
-	.string "er by friendship.\p"
-	.string "Our bond will never be broken!$"
+	.string "{JPN}ぼくとぼくのポケモンはゆうじょうで\n"
+	.string "むすばれてい-る。\p"
+	.string "このきずなはけっしてたたれることは\n"
+	.string "ない！$"
 
 CianwoodGym_Text_BlackbeltYoshiBeaten:
-	.string "This isn't real!$"
+	.string "{JPN}これはげんじつじゃない！$"
 
 CianwoodGym_Text_BlackbeltYoshiAfter:
-	.string "You seem to have a strong bond\n"
-	.string "with your POKéMON too!$"
+	.string "{JPN}きみもじぶんのポケモンとつよいきず\n"
+	.string "なをきづいているようだね！$"
 
 CianwoodGym_EventScript_Lao::
 	trainerbattle_single TRAINER_LAO_HNS, CianwoodGym_Text_BlackbeltLaoSeen, CianwoodGym_Text_BlackbeltLaoBeaten
@@ -207,14 +208,15 @@ CianwoodGym_EventScript_Lao::
 	end
 
 CianwoodGym_Text_BlackbeltLaoSeen:
-	.string "We martial artists fear nothing!$"
+	.string "{JPN}われわれぶどういえはなにものをもお\n"
+	.string "それない！$"
 
 CianwoodGym_Text_BlackbeltLaoBeaten:
-	.string "That's shocking!$"
+	.string "{JPN}それはしょうげきてきだ！$"
 
 CianwoodGym_Text_BlackbeltLaoAfter:
-	.string "Fighting POKéMON are afraid of\n"
-	.string "psychics…$"
+	.string "{JPN}かくとうタイプのポケモンはエスパー\n"
+	.string "タイプをおそれている……$"
 
 
 CianwoodGym_EventScript_Nob::
@@ -223,14 +225,14 @@ CianwoodGym_EventScript_Nob::
 	end
 
 CianwoodGym_Text_BlackbeltNobSeen:
-	.string "Words are useless.\n"
-	.string "Let your fists do the talking!$"
+	.string "{JPN}ことばなんてむいみだ。こぶしでかた\n"
+	.string "れ！$"
 
 CianwoodGym_Text_BlackbeltNobBeaten:
-	.string "…$"
+	.string "{JPN}…$"
 
 CianwoodGym_Text_BlackbeltNobAfter:
-	.string "I lost! I'm speechless!$"
+	.string "{JPN}まけた！ことばがでない！$"
 
 CianwoodGym_EventScript_Lung::
 	trainerbattle_single TRAINER_LUNG_HNS, CianwoodGym_Text_BlackbeltLungSeen, CianwoodGym_Text_BlackbeltLungBeaten
@@ -238,13 +240,13 @@ CianwoodGym_EventScript_Lung::
 	end
 
 CianwoodGym_Text_BlackbeltLungSeen:
-	.string "My raging fists will shatter your\n"
-	.string "POKéMON!$"
+	.string "{JPN}おれのもうれつなこぶしがおまえのポ\n"
+	.string "ケモンをふんさいしてやる！$"
 
 CianwoodGym_Text_BlackbeltLungBeaten:
-	.string "I got shattered!$"
+	.string "{JPN}やられた！$"
 
 CianwoodGym_Text_BlackbeltLungAfter:
-	.string "My POKéMON lost…\n"
-	.string "My… my pride is shattered…$"
-
+	.string "{JPN}ぼくのポケモンがまけてしまった……\n"
+	.string "ぼくの……ぼくのほこりがうちくだか\l"
+	.string "れた……$"

@@ -411,29 +411,28 @@ Route32_Text_RefusedSlowpokeTail:
 	.string "Then scram. Shoo!$"
 
 Route32_Text_FisherJustin_Seen:
-	.string "Whoa!\p"
-	.string "You made me lose that fish!$"
+	.string "{JPN}うわっ！\p"
+	.string "おまえのせいでさかなをのがしちゃっ\n"
+	.string "たじゃないか！$"
 
 Route32_Text_FisherJustin_Beaten:
-	.string "Sploosh!$"
+	.string "{JPN}ドボーン！$"
 
 Route32_Text_FisherJustin_After:
-	.string "Calm, collected… The essence of\n"
-	.string "fishing and POKéMON is the same.$"
+	.string "{JPN}おだやかでおちついて……つりもポケ\n"
+	.string "モンもそのほんしつはおなじだ。$"
 
 Route32_Text_FisherRalph1_Seen:
-	.string "I'm really good at both\n"
-	.string "fishing and POKéMON.\p"
-	.string "I'm not about to lose to any kid!$"
+	.string "{JPN}つりもポケモンもどっちもちょうとく\n"
+	.string "いなんだ。\p"
+	.string "ガキなんかにまけるわけないだろ！$"
 
 Route32_Text_FisherRalph1_Beaten:
-	.string "Tch! I tried to rush\n"
-	.string "things…$"
+	.string "{JPN}ちっ！あせりすぎたか……$"
 
 Route32_Text_FisherRalph1_After:
-	.string "Fishing is a lifelong\n"
-	.string "passion.\p"
-	.string "POKéMON are lifelong friends!$"
+	.string "{JPN}つりはいっしょうのたのしみだ。\p"
+	.string "ポケモンはいっしょうのともだちだ！$"
 
 Route32_Text_RalphRegister:
 	.string "Fishing is a lifelong\n"
@@ -441,13 +440,12 @@ Route32_Text_RalphRegister:
 	.string "POKéMON are lifelong friends!$"
 
 Route32_Text_RalphRematchIntro:
-	.string "I'm really good at both\n"
-	.string "fishing and POKéMON.\p"
-	.string "I'm not about to lose to any kid!$"
+	.string "{JPN}つりもポケモンもどっちもちょうとく\n"
+	.string "いなんだ。\p"
+	.string "ガキごときにはまけるわけないだろ！$"
 
 Route32_Text_RalphRematchDefeat:
-	.string "Tch! I tried to rush\n"
-	.string "things…$"
+	.string "{JPN}ちっ！あせりすぎたか……$"
 
 Route32_Text_RalphPostRematch:
 	.string "Fishing is a lifelong\n"
@@ -455,87 +453,95 @@ Route32_Text_RalphPostRematch:
 	.string "POKéMON are lifelong friends!$"
 
 Route32_Text_FisherHenry_Seen:
-	.string "My POKéMON? Freshly caught!$"
+	.string "{JPN}ぼくのポケモン？ついさっきつかまえ\n"
+	.string "たばかりだよ！$"
 
 Route32_Text_FisherHenry_Beaten:
-	.string "SPLASH?$"
+	.string "{JPN}はねる！？$"
 
 Route32_Text_FisherHenry_After:
-	.string "Freshly caught POKéMON are\n"
-	.string "no match for properly raised ones.$"
+	.string "{JPN}つかまえたばかりのポケモンはきちん\n"
+	.string "とそだてられたポケモンにはかなわな\l"
+	.string "い。$"
 
 Route32_Text_YoungsterAlbert_Seen:
-	.string "I haven't seen you around before.\n"
-	.string "So you think you are pretty tough?$"
+	.string "{JPN}ここらへんできみをみかけたことない\n"
+	.string "な。だからじぶんはけっこうタフだと\l"
+	.string "おもってるのか？$"
 
 Route32_Text_YoungsterAlbert_Beaten:
-	.string "You're strong!$"
+	.string "{JPN}きみつよいな！$"
 
 Route32_Text_YoungsterAlbert_After:
-	.string "I'm going to try to be the\n"
-	.string "best with my favorites.\p"
-	.string "I'm not using the same tough\n"
-	.string "POKéMON as everyone else.$"
+	.string "{JPN}おきにいりのポケモンたちといっしょ\n"
+	.string "にさいきょうをめざしてみるよ。\p"
+	.string "みんなとおなじようなつよそうなポケ\n"
+	.string "モンはつかわないんだ。$"
 
 Route32_Text_YoungsterGordon_Seen:
-	.string "I found some good POKéMON\n"
-	.string "in the grass!\p"
-	.string "I think they'll do it for me!$"
+	.string "{JPN}くさむらですてきなポケモンをみつけ\n"
+	.string "たよ！\p"
+	.string "きっとわたしのためにやってくれると\n"
+	.string "おもう！$"
 
 Route32_Text_YoungsterGordon_Beaten:
-	.string "Darn. I thought I could win.$"
+	.string "{JPN}くそっ。かてるとおもったのに。$"
 
 Route32_Text_YoungsterGordon_After:
-	.string "The grass is full of\n"
-	.string "clingy things.$"
+	.string "{JPN}くさむらにはべたつくものがたくさん\n"
+	.string "ある。$"
 
 Route32_Text_CamperRoland_Seen:
-	.string "That glance… It's intriguing.$"
+	.string "{JPN}あのしせん……なんだかきになってし\n"
+	.string "まう。$"
 
 Route32_Text_CamperRoland_Beaten:
-	.string "Hmmm. This is disappointing.$"
+	.string "{JPN}うーん。ざんねんだ。$"
 
 Route32_Text_CamperRoland_After:
-	.string "If you don't want to battle,\n"
-	.string "just avoid eye contact.$"
+	.string "{JPN}たたかいたくないならただめをあわせ\n"
+	.string "ないようにすればいい。$"
 
 Route32_Text_PicnickerLiz1_Seen:
-	.string "Uh-huh. Yeah, and you know…\p"
-	.string "Pardon? Battle? I'm on the phone.\n"
-	.string "Oh, all right. But make it fast.$"
+	.string "{JPN}うん。そうでね……\p"
+	.string "え？しょうぶ？いまでんわちゅうなん\n"
+	.string "だけど。ああわかった。でもてみじか\l"
+	.string "にしてね。$"
 
 Route32_Text_PicnickerLiz1_Beaten:
-	.string "Oh! I've got to relieve\n"
-	.string "my anger!$"
+	.string "{JPN}もう！このくやしさを\n"
+	.string "どこかではらさなきゃ！$"
 
 Route32_Text_PicnickerLiz1_After:
-	.string "I was having a nice chat too.$"
+	.string "{JPN}わたしもたのしくおしゃべりしてたん\n"
+	.string "だけどね。$"
 
 Route32_Text_LizRegister:
 	.string "I was having a nice chat too.$"
 
 Route32_Text_LizRematchIntro:
-	.string "Uh-huh. Yeah, and you know…\p"
-	.string "Pardon? Battle? I'm on the phone.\n"
-	.string "Oh, all right. But make it fast.$"
+	.string "{JPN}うん。そうでね……\p"
+	.string "え？しょうぶ？いまでんわちゅうなん\n"
+	.string "だ。ああわかった。でもてみじかにし\l"
+	.string "てね。$"
 
 Route32_Text_LizRematchDefeat:
-	.string "Oh! I've got to relieve\n"
-	.string "my anger!$"
+	.string "{JPN}もう！このくやしさを\n"
+	.string "どこかではらさなきゃ！$"
 
 Route32_Text_LizPostRematch:
 	.string "I was having a nice chat too.$"
 
 Route32_Text_BirdKeeperPeter_Seen:
-	.string "That BADGE! It's from VIOLET CITY!\n"
-	.string "You beat FALKNER?$"
+	.string "{JPN}あのバッジ！キキョウシティのやつだ\n"
+	.string "！ハヤトにかったのか？$"
 
 Route32_Text_BirdKeeperPeter_Beaten:
-	.string "I know what my weaknesses are.$"
+	.string "{JPN}じぶんのよわさがわかったよ。$"
 
 Route32_Text_BirdKeeperPeter_After:
-	.string "I should train again at the\n"
-	.string "GYM in VIOLET CITY.$"
+	.string "{JPN}キキョウシティのジムでまたトレーニ\n"
+	.string "ングをすべきだ。$"
 
 Route32_Text_RoarIntro:
 	.string "WROOOOAR! PEOPLE RUN WHEN I\n"

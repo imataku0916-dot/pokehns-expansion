@@ -43,9 +43,9 @@ CeladonCity_Gym_Text_ErikaBeforeBattle:
 	.string "Very well, but I shall not lose.$"
 
 CeladonCity_Gym_Text_ErikaBeaten:
-	.string "ERIKA: Oh! I concede defeat…\p"
-	.string "You are remarkably strong…\p"
-	.string "I shall give you RAINBOWBADGE…$"
+	.string "{JPN}エリカ:あら……わたくしのまけです。\p"
+	.string "あなたはとてもおつよいのですね……\p"
+	.string "レインボーバッジをさしあげます……$"
 
 CeladonCity_Gym_Text_PlayerReceivedRainbowBadge:
 	.string "{PLAYER} received RAINBOWBADGE.$"
@@ -79,10 +79,11 @@ CeladonCity_Gym_Text_ErikaRematch:
 	.string "Want to have a rematch with me?$"
 
 CeladonCity_Gym_Text_ErikaRematchDefeat:
-	.string "ERIKA: Losing still leaves a\n"
-	.string "bitter aftertaste…\p"
-	.string "But knowing that there are strong\n"
-	.string "trainers spurs me to do better…$"
+	.string "{JPN}エリカ:まけたのちのあとあじはやっ\n"
+	.string "ぱりにがい……\p"
+	.string "でもつよいトレーナーがいるってしる\n"
+	.string "ともっとがんばろうってきもちになる\l"
+	.string "の……$"
 
 CeladonCity_Gym_EventScript_Michelle::
 	trainerbattle_single TRAINER_MICHELLE_HNS, CeladonCity_Gym_Text_LassMichelleSeen, CeladonCity_Gym_Text_LassMichelleBeaten
@@ -90,14 +91,15 @@ CeladonCity_Gym_EventScript_Michelle::
 	end
 
 CeladonCity_Gym_Text_LassMichelleSeen:
-	.string "Do you think a girls-only GYM is\n"
-	.string "rare?$"
+	.string "{JPN}じょしげんていのジムってめずらしい\n"
+	.string "とおもう？$"
 
 CeladonCity_Gym_Text_LassMichelleBeaten:
-	.string "Oh, bleah!$"
+	.string "{JPN}うわっキモっ！$"
 
 CeladonCity_Gym_Text_LassMichelleAfter:
-	.string "I just got careless, that's all!$"
+	.string "{JPN}ちょっとうっかりしただけだよそれだ\n"
+	.string "けさ！$"
 
 
 CeladonCity_Gym_EventScript_Tanya::
@@ -106,15 +108,16 @@ CeladonCity_Gym_EventScript_Tanya::
 	end
 
 CeladonCity_Gym_Text_PicnickerTanyaSeen:
-	.string "Oh, a battle? That's kind of scary,\n"
-	.string "but OK!$"
+	.string "{JPN}えっしょうぶ？ちょっとこわいけどい\n"
+	.string "いよ！$"
 
 CeladonCity_Gym_Text_PicnickerTanyaBeaten:
-	.string "Oh, that's it?$"
+	.string "{JPN}えそれだけ？$"
 
 CeladonCity_Gym_Text_PicnickerTanyaAfter:
-	.string "Oh, look at all your BADGES. No\n"
-	.string "wonder I couldn't win!$"
+	.string "{JPN}おぉきみのバッジこんなにたくさんあ\n"
+	.string "るんだね。そりゃあわたしにはかてな\l"
+	.string "かったわけだ！$"
 
 CeladonCity_Gym_EventScript_Julia::
 	trainerbattle_single TRAINER_JULIA_HNS, CeladonCity_Gym_Text_BeautyJuliaSeen, CeladonCity_Gym_Text_BeautyJuliaBeaten
@@ -122,15 +125,15 @@ CeladonCity_Gym_EventScript_Julia::
 	end
 
 CeladonCity_Gym_Text_BeautyJuliaSeen:
-	.string "Were you looking at these flowers\n"
-	.string "or at me?$"
+	.string "{JPN}このはなをみてた？それともわたしを\n"
+	.string "みてたの？$"
 
 CeladonCity_Gym_Text_BeautyJuliaBeaten:
-	.string "How annoying!$"
+	.string "{JPN}なんてうっとうしいんだ！$"
 
 CeladonCity_Gym_Text_BeautyJuliaAfter:
-	.string "How do I go about becoming\n"
-	.string "ladylike like ERIKA?$"
+	.string "{JPN}エリカのようにじょうひんなじょせい\n"
+	.string "になるにはどうすればいいですか？$"
 
 CeladonCity_Gym_EventScript_Jo::
 	trainerbattle_double TRAINER_JO_AND_ZOE_HNS, CeladonCity_Gym_Text_TwinsJoAndZoe1Seen, CeladonCity_Gym_Text_TwinsJoAndZoe1Beaten, Route104_Text_GinaNotEnoughMons
@@ -144,23 +147,25 @@ CeladonCity_Gym_EventScript_Zoe::
 	end
 
 CeladonCity_Gym_Text_TwinsJoAndZoe1Seen:
-	.string "We'll show you POKéMON moves that\n"
-	.string "ERIKA taught us!$"
+	.string "{JPN}エリカにおそわったポケモンのわざを\n"
+	.string "おみせします！$"
 
 CeladonCity_Gym_Text_TwinsJoAndZoe1Beaten:
-	.string "Oh… We lost…$"
+	.string "{JPN}あぁ……まけた……$"
 
 CeladonCity_Gym_Text_TwinsJoAndZoe1After:
-	.string "ERIKA will get you back for us!$"
+	.string "{JPN}エリカがわたしたちのかたきをとって\n"
+	.string "くれるわ！$"
 
 CeladonCity_Gym_Text_TwinsJoAndZoe2Seen:
-	.string "We're going to protect ERIKA!$"
+	.string "{JPN}エリカをまもるぞ！$"
 
 CeladonCity_Gym_Text_TwinsJoAndZoe2Beaten:
-	.string "We couldn't win…$"
+	.string "{JPN}かてなかった……$"
 
 CeladonCity_Gym_Text_TwinsJoAndZoe2After:
-	.string "ERIKA is much, much stronger!$"
+	.string "{JPN}エリカはとっくにとっくにつよくなっ\n"
+	.string "てる！$"
 
 CeladonCity_Gym_EventScript_GymStatue::
 	lockall

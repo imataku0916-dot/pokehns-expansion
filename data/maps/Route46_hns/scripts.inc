@@ -49,23 +49,23 @@ Route46_EventScript_Item_Revive::
 	end
 
 Route46_Text_HikerBaileySeen:
-	.string "Awright! I'll show you the\n"
-	.string "power of mountain POKéMON!$"
+	.string "{JPN}よし！やまのポケモンのちからをおも\n"
+	.string "いしらせてやる！$"
 
 Route46_Text_HikerBaileyBeaten:
-	.string "Mercy! You showed me your\n"
-	.string "power!$"
+	.string "{JPN}なんてこった！そのつよさをおもいし\n"
+	.string "らされたよ！$"
 
 Route46_Text_HikerBaileyAfterBattle:
 	.string "It's over. I don't mind.\n"
 	.string "We HIKERS are like that.$"
 
 Route46_Text_CamperTedSeen:
-	.string "I'm raising POKéMON too!\p"
-	.string "Will you battle with me?$"
+	.string "{JPN}ぼくもポケモンをそだててるんだ！\p"
+	.string "いっしょにしょうぶしない？$"
 
 Route46_Text_CamperTedBeaten:
-	.string "Wha…?$"
+	.string "{JPN}えっ…？$"
 
 Route46_Text_CamperTedAfterBattle:
 	.string "I did my best but came up\n"
@@ -73,11 +73,11 @@ Route46_Text_CamperTedAfterBattle:
 	.string "No excuses--I admit I lost.$"
 
 Route46_Text_PicnickerErinSeen:
-	.string "I raise POKéMON too!\p"
-	.string "Will you battle with me?$"
+	.string "{JPN}わたしもポケモンをそだててるんだ！\p"
+	.string "いっしょにしょうぶしない？$"
 
 Route46_Text_PicnickerErinBeaten:
-	.string "Oh, rats!$"
+	.string "{JPN}うわっやばい！$"
 
 Route46_Text_PicnickerErinAfterBattle:
 	.string "I've been to many GYMS, but the\n"
@@ -90,11 +90,11 @@ Route46_Text_ErinRegister:
 	.string "It's filled with pretty flowers!$"
 
 Route46_Text_ErinRematchIntro:
-	.string "I raise POKéMON too!\p"
-	.string "Will you battle with me?$"
+	.string "{JPN}ぼくもポケモンをそだててるんだ！\p"
+	.string "いっしょにしょうぶしない？$"
 
 Route46_Text_ErinRematchDefeat:
-	.string "Oh, rats!$"
+	.string "{JPN}うわっやばい！$"
 
 Route46_Text_ErinPostRematch:
 	.string "I've been to many GYMS, but the\n"

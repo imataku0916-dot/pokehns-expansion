@@ -100,30 +100,33 @@ RuinsOfAlph_Outside_Text_Scientist:
 	.string "POKéDEX. Follow me.$"
 
 RuinsOfAlph_Outside_Text_SuperNerdStan_Seen:
-	.string "What do you want? I'm studying--\n"
-	.string "don't disturb me!$"
+	.string "{JPN}なにがよう？いまべんきょうちゅうな\n"
+	.string "んだ……じゃましないで！$"
 
 RuinsOfAlph_Outside_Text_SuperNerdStan_Beaten:
-	.string "Sorry…\n"
-	.string "I'm frustrated by our lack of\p"
-	.string "real understanding…$"
+	.string "{JPN}ごめん……ぼくたちには\p"
+	.string "ほんとうのりかいがかけていることに\n"
+	.string "もどかしいんだ……$"
 
 RuinsOfAlph_Outside_Text_SuperNerdStan_After:
-	.string "The RUINS are from about 1500\n"
-	.string "years ago.\p"
-	.string "Nobody knows who built them.\p"
-	.string "It's also not known if the POKéMON\n"
-	.string "statues have any meaning.\p"
-	.string "It's all one big mystery…$"
+	.string "{JPN}このいせきはやく1500ねんまえにた\n"
+	.string "てられたものです。\p"
+	.string "だれがたてたのかはだれにもわかりま\n"
+	.string "せん。\p"
+	.string "またポケモンのぞうになにかいみがあ\n"
+	.string "るのかどうかもふめいです。\p"
+	.string "すべてがおおきななぞにつつまれてい\n"
+	.string "ます……$"
 
 RuinsOfAlph_Outside_Text_PsychicNathan_Seen:
-	.string "Hmmm… This is a strange place.$"
+	.string "{JPN}うーん……ここはふしぎなばしょだな\n"
+	.string "。$"
 
 RuinsOfAlph_Outside_Text_PsychicNathan_Beaten:
-	.string "…$"
+	.string "{JPN}…$"
 
 RuinsOfAlph_Outside_Text_PsychicNathan_After:
-	.string "I like thinking here.$"
+	.string "{JPN}ここでかんがえるのがすきだ。$"
 
 RuinsOfAlph_Outside_Text_MysteryChamberSign:
 	.string "MYSTERY STONE PANEL CHAMBER$"

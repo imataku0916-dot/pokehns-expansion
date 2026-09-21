@@ -74,25 +74,27 @@ Route10_EventScript_ZapdosRan::
 
 
 Route10_Text_HikerJimSeen:
-	.string "Hahahah!$"
+	.string "{JPN}ハハハハ！$"
 
 Route10_Text_HikerJimBeaten:
-	.string "Hahaha-hachoo!$"
+	.string "{JPN}ハハハーくしゃみ！$"
 
 Route10_Text_HikerJimAfter:
-	.string "Hay fever is making me sneeze!\n"
-	.string "Ahahah-CHOO!$"
+	.string "{JPN}かふんしょうのせいでくしゃみがとま\n"
+	.string "らない！あははっ……くしゃっ！$"
 
 Route10_Text_PokefanmRobertSeen:
-	.string "You like POKéMON, don't you?\p"
-	.string "Me too!$"
+	.string "{JPN}ポケモンすきだよね？\p"
+	.string "ぼくもだよ！$"
 
 Route10_Text_PokefanmRobertBeaten:
-	.string "I'd have to say that's my loss.$"
+	.string "{JPN}それはわたしのまけだといわざるをえ\n"
+	.string "ないね。$"
 
 Route10_Text_PokefanmRobertAfter:
-	.string "Look what you did to my POKéMON…\p"
-	.string "I won't forget this…$"
+	.string "{JPN}わたしのポケモンになにをしたんだ…\n"
+	.string "…\p"
+	.string "このことはぜったいにわすれない……$"
 
 Route10_Text_PowerPlant:
 	.string "POWER PLANT$"

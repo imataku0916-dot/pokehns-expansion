@@ -41,11 +41,11 @@ Route11_Text_Engineer:
 	.string "look like MANKEY...$"
 
 Route11_Text_YoungsterOwenSeen:
-	.string "There's no cheating in POKéMON.\p"
-	.string "Let's keep it fair and square!$"
+	.string "{JPN}ポケモンにはチートはありえません。\p"
+	.string "フェアにたたかいましょう！$"
 
 Route11_Text_YoungsterOwenBeaten:
-	.string "Huh? How did this happen?$"
+	.string "{JPN}えっ？どうしてこうなったの？$"
 
 Route11_Text_YoungsterOwenAfterBattle:
 	.string "I fought fair and square with\n"
@@ -53,32 +53,34 @@ Route11_Text_YoungsterOwenAfterBattle:
 	.string "I don't regret this at all.$"
 
 Route11_Text_YoungsterJasonSeen:
-	.string "It itches and tickles a bit when\n"
-	.string "I wear shorts in the grass.$"
+	.string "{JPN}くさむらでショートパンツをはいてい\n"
+	.string "るとすこしかゆくてくすぐったいかん\l"
+	.string "じがする。$"
 
 Route11_Text_YoungsterJasonBeaten:
-	.string "Aiyaaah! I got stomped!$"
+	.string "{JPN}あーっ！ふみつぶされた！$"
 
 Route11_Text_YoungsterJasonAfterBattle:
 	.string "I'm going to catch more POKéMON in\n"
 	.string "the grass.$"
 
 Route11_Text_PsychicHermanSeen:
-	.string "…$"
+	.string "{JPN}…$"
 
 Route11_Text_PsychicHermanBeaten:
-	.string "…$"
+	.string "{JPN}…$"
 
 Route11_Text_PsychicHermanAfterBattle:
 	.string "…\p"
 	.string "I lost while I had my eyes closed…$"
 
 Route11_Text_PsychicFidelSeen:
-	.string "I can see it…\p"
-	.string "Everything to see about you…$"
+	.string "{JPN}みえるよ……\p"
+	.string "きみのすべてが……$"
 
 Route11_Text_PsychicFidelBeaten:
-	.string "I couldn't foresee your power…$"
+	.string "{JPN}きみのちからなどよそうもしていなか\n"
+	.string "った……$"
 
 Route11_Text_PsychicFidelAfterBattle:
 	.string "Strength in conviction…\p"

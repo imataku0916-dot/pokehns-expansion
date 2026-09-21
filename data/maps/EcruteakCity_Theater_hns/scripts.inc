@@ -182,16 +182,16 @@ EcruteakCity_Theater_Text_RocketSeen:
 	.string "You dare to get in my way?$"
 
 EcruteakCity_Theater_Text_RocketBeaten:
-	.string "Oh, no!\n"
-	.string "You make me look like a\l"
-	.string "villain!$"
+	.string "{JPN}えっやだ！きみのせいでぼくがわるも\n"
+	.string "のみたいになっちゃったじゃないか！$"
 
 EcruteakCity_Theater_Text_RocketAfter:
-	.string "Oops! I have an important mission!\n"
-	.string "If they find out I was wasting\l"
-	.string "time here, they'll make me start\l"
-	.string "over as the lowest ROCKET GRUNT!\p"
-	.string "I better leave now!$"
+	.string "{JPN}しまった！じゅうようなにんむがある\n"
+	.string "んだ！ここでじかんをむだにしていた\l"
+	.string "ことがバレたらさいかきゅうのロケッ\l"
+	.string "トだんのてしたとしていちからやりな\l"
+	.string "おしにさせられちゃう！\p"
+	.string "さっさといかなきゃ！$"
 
 EcruteakCity_Theater_Text_KimonoRocket3:
 	.string "You must be {PLAYER},\n"
@@ -966,7 +966,7 @@ EcruteakCity_Theater_Movement_KuniWalkBack:
 	step_end
 
 EcruteakCity_Theater_Text_KimonoGirlBeaten:
-	.string "...$"
+	.string "{JPN}...$"
 
 EcruteakCity_Theater_Text_ZukiSeen:
 	.string "Welcome. My name is ZUKI.\n"
