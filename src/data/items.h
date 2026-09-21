@@ -10945,7 +10945,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_CHERI_BERRY] =
     {
         .name = ITEM_NAME("{JPN}クラボのみ"),
-        .pluralName = ITEM_PLURAL_NAME("Cheri Berries"),
+        .pluralName = ITEM_PLURAL_NAME("{JPN}クラボのみ"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CURE_PAR,
         .description = COMPOUND_STRING(
@@ -10985,7 +10985,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_PECHA_BERRY] =
     {
         .name = ITEM_NAME("{JPN}モモンのみ"),
-        .pluralName = ITEM_PLURAL_NAME("Pecha Berries"),
+        .pluralName = ITEM_PLURAL_NAME("{JPN}モモンのみ"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CURE_PSN,
         .description = COMPOUND_STRING(
@@ -11005,7 +11005,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_RAWST_BERRY] =
     {
         .name = ITEM_NAME("{JPN}チーゴのみ"),
-        .pluralName = ITEM_PLURAL_NAME("Rawst Berries"),
+        .pluralName = ITEM_PLURAL_NAME("{JPN}チーゴのみ"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_CURE_BRN,
         .description = COMPOUND_STRING(
@@ -11066,7 +11066,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_ORAN_BERRY] =
     {
         .name = ITEM_NAME("{JPN}オレンのみ"),
-        .pluralName = ITEM_PLURAL_NAME("Oran Berries"),
+        .pluralName = ITEM_PLURAL_NAME("{JPN}オレンのみ"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .holdEffect = HOLD_EFFECT_RESTORE_HP,
         .holdEffectParam = 10,

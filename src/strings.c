@@ -216,15 +216,15 @@ const u8 gText_ReturnToVar1[] = _("Return to\n{STR_VAR_1}.");
 
 const u8 *const gPocketNamesStringsTable[] =
 {
-    [POCKET_ITEMS] =        COMPOUND_STRING("ITEMS"),
-    [POCKET_POKE_BALLS] =   COMPOUND_STRING("POKé BALLS"),
-    [POCKET_TM_HM]  =       COMPOUND_STRING("TMs & HMs"),
-    [POCKET_BERRIES] =      COMPOUND_STRING("BERRIES"),
-    [POCKET_KEY_ITEMS] =    COMPOUND_STRING("KEY ITEMS"),
-    [POCKET_MEDICINE] =     COMPOUND_STRING("MEDICINE"),
+    [POCKET_ITEMS] =        COMPOUND_STRING("{JPN}どうぐ"),
+    [POCKET_POKE_BALLS] =   COMPOUND_STRING("{JPN}ボール"),
+    [POCKET_TM_HM]  =       COMPOUND_STRING("{JPN}わざマシン"),
+    [POCKET_BERRIES] =      COMPOUND_STRING("{JPN}きのみ"),
+    [POCKET_KEY_ITEMS] =    COMPOUND_STRING("{JPN}たいせつなもの"),
+    [POCKET_MEDICINE] =     COMPOUND_STRING("{JPN}かいふく"),
 #if I_COMBINE_BAG_POCKETS == FALSE
-    [POCKET_BATTLE_ITEMS] = COMPOUND_STRING("BATTLE"),
-    [POCKET_TREASURES] =    COMPOUND_STRING("TREASURES"),
+    [POCKET_BATTLE_ITEMS] = COMPOUND_STRING("{JPN}せんとうよう"),
+    [POCKET_TREASURES] =    COMPOUND_STRING("{JPN}おたから"),
 #endif
 };
 
@@ -287,16 +287,16 @@ const u8 gText_SendMailToPC[] = _("Send the removed MAIL to\nyour PC?");
 const u8 gText_MailSentToPC[] = _("The MAIL was sent to your PC.{PAUSE_UNTIL_PRESS}");
 const u8 gText_PCMailboxFull[] = _("Your PC's MAILBOX is full.{PAUSE_UNTIL_PRESS}");
 const u8 gText_MailMessageWillBeLost[] = _("If the MAIL is removed, the\nmessage will be lost. Okay?");
-const u8 gText_RemoveMailBeforeItem[] = _("MAIL must be removed before\nholding an item.{PAUSE_UNTIL_PRESS}");
-const u8 gText_PkmnWasGivenItem[] = _("{STR_VAR_1} was given the\n{STR_VAR_2} to hold.{PAUSE_UNTIL_PRESS}");
-const u8 gText_PkmnAlreadyHoldingItemSwitch[] = _("{STR_VAR_1} is already holding\none {STR_VAR_2}.\pWould you like to switch the\ntwo items?");
-const u8 gText_PkmnNotHolding[] = _("{STR_VAR_1} isn't holding\nanything.{PAUSE_UNTIL_PRESS}");
-const u8 gText_ReceivedItemFromPkmn[] = _("Received the {STR_VAR_2}\nfrom {STR_VAR_1}.{PAUSE_UNTIL_PRESS}");
-const u8 gText_MailTakenFromPkmn[] = _("MAIL was taken from the\nPOKéMON.{PAUSE_UNTIL_PRESS}");
-const u8 gText_SwitchedPkmnItem[] = _("The {STR_VAR_2} was taken and\nreplaced with the {STR_VAR_1}.{PAUSE_UNTIL_PRESS}");
-const u8 gText_PkmnHoldingItemCantHoldMail[] = _("This POKéMON is holding an\nitem. It cannot hold MAIL.{PAUSE_UNTIL_PRESS}");
-const u8 gText_MailTransferredFromMailbox[] = _("MAIL was transferred from\nthe MAILBOX.{PAUSE_UNTIL_PRESS}");
-const u8 gText_BagFullCouldNotRemoveItem[] = _("The BAG is full. The POKéMON's\nitem could not be removed.{PAUSE_UNTIL_PRESS}");
+const u8 gText_RemoveMailBeforeItem[] = _("{JPN}メールをはずさないと\nどうぐをもたせられない。{PAUSE_UNTIL_PRESS}");
+const u8 gText_PkmnWasGivenItem[] = _("{JPN}{STR_VAR_1}に\n{STR_VAR_2}をもたせた！{PAUSE_UNTIL_PRESS}");
+const u8 gText_PkmnAlreadyHoldingItemSwitch[] = _("{JPN}{STR_VAR_1}はすでに\n{STR_VAR_2}をもっている。\pどうぐをいれかえますか？");
+const u8 gText_PkmnNotHolding[] = _("{JPN}{STR_VAR_1}はなにも\nもっていない。{PAUSE_UNTIL_PRESS}");
+const u8 gText_ReceivedItemFromPkmn[] = _("{JPN}{STR_VAR_1}から\n{STR_VAR_2}をうけとった！{PAUSE_UNTIL_PRESS}");
+const u8 gText_MailTakenFromPkmn[] = _("{JPN}ポケモンからメールを\nうけとった。{PAUSE_UNTIL_PRESS}");
+const u8 gText_SwitchedPkmnItem[] = _("{JPN}{STR_VAR_2}をうけとり\n{STR_VAR_1}をもたせた！{PAUSE_UNTIL_PRESS}");
+const u8 gText_PkmnHoldingItemCantHoldMail[] = _("{JPN}このポケモンはどうぐを\nもっているのでメールをもてない。{PAUSE_UNTIL_PRESS}");
+const u8 gText_MailTransferredFromMailbox[] = _("{JPN}メールをメールボックスから\nうつした。{PAUSE_UNTIL_PRESS}");
+const u8 gText_BagFullCouldNotRemoveItem[] = _("{JPN}バッグがいっぱいで\nポケモンのどうぐをうけとれない。{PAUSE_UNTIL_PRESS}");
 const u8 gText_PkmnLearnedMove3[] = _("{STR_VAR_1} learned\n{STR_VAR_2}!");
 const u8 gText_PkmnLearnedMove4[] = _("{STR_VAR_1} learned\n{STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
 const u8 gText_PkmnCantLearnMove[] = _("{STR_VAR_1} and {STR_VAR_2}\nare not compatible.\p{STR_VAR_2} can't be\nlearned.{PAUSE_UNTIL_PRESS}");
@@ -359,7 +359,7 @@ const u8 gText_XsYAnd[] = _("{STR_VAR_1}'s {STR_VAR_2} and\n");
 const u8 gText_XsYWereSwapped[] = _("{STR_VAR_1}'s {STR_VAR_2} were swapped!{PAUSE_UNTIL_PRESS}");
 const u8 gText_EnjoyCycling[] = _("Let's enjoy cycling!");
 const u8 gText_InUseAlready_PM[] = _("This is in use already.");
-const u8 gText_AlreadyHoldingOne[] = _("{STR_VAR_1} is already holding\none {STR_VAR_2}.");
+const u8 gText_AlreadyHoldingOne[] = _("{JPN}{STR_VAR_1}はすでに\n{STR_VAR_2}をもっている。");
 const u8 gText_WhichAppliance[] = _("Order which\nappliance?");
 const u8 gText_NoUse[] = _("No use.");
 const u8 gText_Able[] = _("ABLE");

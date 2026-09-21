@@ -121,17 +121,17 @@ Route31_Text_CooltrainerM:
 	.string "I'd explore it.$"
 
 Route31_Text_BugCatcherWade1_Seen:
-	.string "I caught a bunch of POKéMON.\n"
-	.string "Let me battle with you!$"
+    .string "{JPN}ポケモンをいっぱいつかまえたんだ。\n"
+    .string "ぼくとしょうぶしよう！$"
 
 Route31_Text_BugCatcherWade1_Beaten:
 	.string "{JPN}うわーん……$"
 
 Route31_Text_BugCatcherWade1_After:
-	.string "You can catch POKéMON even if\n"
-	.string "you have six with you.\p"
-	.string "If you catch one, it'll go to\n"
-	.string "your BOX automatically.$"
+    .string "{JPN}ポケモンを6ぴきつれていても\n"
+    .string "まだつかまえられるよ。\p"
+    .string "つかまえたポケモンはじどうで\n"
+    .string "ボックスにおくられるんだ。$"
 
 Route31_Text_SleepyMan:
 	.string "… Hnuurg… Huh?\p"
@@ -203,42 +203,39 @@ Route31_Text_Sign:
 	.string "VIOLET CITY - CHERRYGROVE CITY$"
 
 Route31_Text_WadeRegister:
-	.string "You're awesome! I like you!\p"
-	.string "I look for POKéMON here every\n"
-	.string "day.\p"
-	.string "When I'm in the grass, I find\n"
-	.string "all kinds of BERRIES.\p"
-	.string "If you'd like, I'll share\n"
-	.string "some.$"
+    .string "{JPN}きみすごいね！きにいったよ！\p"
+    .string "ぼくはまいにちここで\n"
+    .string "ポケモンをさがしてるんだ。\p"
+    .string "くさむらにいると\n"
+    .string "いろんなきのみがみつかるよ。\p"
+    .string "よかったらきみにも\n"
+    .string "わけてあげるね！$"
 
 Route31_Text_WadeRematchIntro:
-	.string "I was waiting for you.\n"
-	.string "Let's battle!$"
+    .string "{JPN}まってたよ。\n"
+    .string "しょうぶしよう！$"
 
 Route31_Text_WadeRematchDefeat:
 	.string "{JPN}うわーん……$"
 
 Route31_Text_WadePostRematch:
-	.string "You'll hear from me as soon\n"
-	.string "as I find anything that you\l"
-	.string "might like.$"
+    .string "{JPN}きみがよろこびそうなものを\n"
+    .string "みつけたらすぐれんらくするよ！$"
 
 Route31_Text_WadeHasItem:
-	.string "Hey! I've been looking for\n"
-	.string "you!\p"
-	.string "I found something while I\n"
-	.string "was in the grass.\p"
-	.string "Here, you can have it!$"
+    .string "{JPN}やあ！きみをさがしてたんだ！\p"
+    .string "くさむらでいいものを\n"
+    .string "みつけたよ。\p"
+    .string "ほら！きみにあげる！$"
 
 Route31_Text_WadeGaveItem:
-	.string "I'll let you know if I find\n"
-	.string "anything else!$"
+    .string "{JPN}またなにかみつけたら\n"
+    .string "れんらくするね！$"
 
 Route31_Text_WadeNoRoom:
-	.string "Hmm, looks like your BAG\n"
-	.string "is full.\p"
-	.string "Come back when you have\n"
-	.string "room!$"
+    .string "{JPN}あれ？バッグがいっぱいみたい。\p"
+    .string "あきをつくってから\n"
+    .string "またきてね！$"
 
 Route31_Text_DarkCaveSign:
 	.string "DARK CAVE$"
