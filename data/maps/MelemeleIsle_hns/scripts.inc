@@ -801,10 +801,12 @@ Alola_Melemele_BattleVsTapuKoko_Text_0:
 	.string "Ko-Ko-Kooo!$"
 
 Alola_Melemele_TrainerBattleSwimmer_Text_0:
-	.string "The waters are warm here by the ISLES!$"
+	.string "{JPN}このしまじまのあたりはうみのみずが\n"
+	.string "あたたかいですね！$"
 
 Alola_Melemele_TrainerBattleSwimmer_Text_1:
-	.string "Maybe I should dry off on land for\na bit…$"
+	.string "{JPN}ちょっとりくでからだをかわかしたほ\n"
+	.string "うがいいかも……$"
 
 Alola_Melemele_TrainerBattleSwimmer_Text_2:
 	.string "There are plenty of neat POKéMON in\n"

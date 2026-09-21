@@ -28,8 +28,8 @@ SproutTower_2F_EventScript_Xdefend::
 	end
 
 SproutTower_Text_SageNico_Seen:
-	.string "However hard we battle,\n"
-	.string "the TOWER will stand strong.$"
+	.string "{JPN}どんなにはげしくたたかってもタワー\n"
+	.string "はゆるぎない。$"
 
 SproutTower_Text_SageNico_Beaten:
 	.string "{JPN}がんばったがわたしはよわすぎる。$"
@@ -39,7 +39,7 @@ SproutTower_Text_SageNico_AfterBattle:
 	.string "TOWER, even from earthquakes.$"
 
 SproutTower_Text_SageEdmond_Seen:
-	.string "…Sway like leaves in the wind…$"
+	.string "{JPN}…かぜになびくはのようにゆれる…$"
 
 SproutTower_Text_SageEdmond_Beaten:
 	.string "{JPN}おお……わたしはよわい！$"

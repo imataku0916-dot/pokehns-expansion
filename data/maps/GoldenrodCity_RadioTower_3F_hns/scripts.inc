@@ -186,49 +186,51 @@ GoldenrodCity_RadioTower_3F_Text_CooltrainerFMarvelous:
 	.string "You were simply marvelous!$"
 
 GoldenrodCity_RadioTower_3F_Text_GruntM7Seen:
-	.string "I've been given strict orders.\p"
-	.string "I'm to crush anyone who challenges\n"
-	.string "TEAM ROCKET!$"
+	.string "{JPN}げんめいをうけたんだ。\p"
+	.string "ロケットだんにいどむものはだれであ\n"
+	.string "れたたきのめすんだ！$"
 
 GoldenrodCity_RadioTower_3F_Text_GruntM7Beaten:
-	.string "What?!$"
+	.string "{JPN}えっ？！$"
 
 GoldenrodCity_RadioTower_3F_Text_GruntM7After:
-	.string "I failed in my duties…\p"
-	.string "ARCHER will be so upset...$"
+	.string "{JPN}にんむにしっぱいしてしまった……\p"
+	.string "アポロはきっといかるだろう……$"
 
 GoldenrodCity_RadioTower_3F_Text_GruntM8Seen:
-	.string "It feels great ordering POKéMON\n"
-	.string "to commit crimes.$"
+	.string "{JPN}ポケモンにはんざいをおかさせるよう\n"
+	.string "めいれいするのはさいこうにきぶんが\l"
+	.string "いい。$"
 
 GoldenrodCity_RadioTower_3F_Text_GruntM8Beaten:
-	.string "You're kidding!$"
+	.string "{JPN}じょうだんでしょ！$"
 
 GoldenrodCity_RadioTower_3F_Text_GruntM8After:
-	.string "I feel lousy over losing!\p"
-	.string "Darn it! I hate useless POKéMON!$"
+	.string "{JPN}まけてきぶんさいあくだ！\p"
+	.string "ちくしょう！やくたたずのポケモンな\n"
+	.string "んてだいきらい！$"
 
 GoldenrodCity_RadioTower_3F_Text_GruntM9Seen:
-	.string "Why did the shutter open? Did you\n"
-	.string "have something to do with this?$"
+	.string "{JPN}なぜシャッターがひらいたの？これき\n"
+	.string "みがなにかしたの？$"
 
 GoldenrodCity_RadioTower_3F_Text_GruntM9Beaten:
-	.string "I'm done for!$"
+	.string "{JPN}もうおしまいだ！$"
 
 GoldenrodCity_RadioTower_3F_Text_GruntM9After:
-	.string "What?! You made it past our men in\n"
-	.string "the UNDERGROUND?\p"
-	.string "How could you?$"
+	.string "{JPN}えっ？！ちかでまちふせしていたうち\n"
+	.string "のれんちゅうをとっぱしたのか？\p"
+	.string "よくもそんなことができたな！$"
 
 GoldenrodCity_RadioTower_3F_Text_ScientistMarcSeen:
-	.string "An unknown child wandering here?\p"
-	.string "Who are you?$"
+	.string "{JPN}ここにまよいこんだみしらぬこども？\p"
+	.string "きみはだれ？$"
 
 GoldenrodCity_RadioTower_3F_Text_ScientistMarcBeaten:
-	.string "Tch! I took you too lightly!$"
+	.string "{JPN}ちっ！おまえをあまくみてたな！$"
 
 GoldenrodCity_RadioTower_3F_Text_ScientistMarcAfter:
-	.string "Bwahahaha…\p"
-	.string "I can transmit as strong a signal\n"
-	.string "as I need from here.$"
+	.string "{JPN}ブワハハハ……\p"
+	.string "ここからならひつようなだけきょうり\n"
+	.string "ょくなしんごうをそうしんできる。$"
 

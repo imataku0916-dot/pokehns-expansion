@@ -345,42 +345,43 @@ VermilionGym_Text_SurgeRematchDefeat:
 	.string "as strong!$"
 
 VermilionGym_Text_GentlemanGregorySeen:
-	.string "You're here to defeat LT.SURGE?\p"
-	.string "Not if I can help it!$"
+	.string "{JPN}マチスをたおしにきたのか？\p"
+	.string "おれがゆるすわけないだろ！$"
 
 VermilionGym_Text_GentlemanGregoryBeaten:
-	.string "Sorry I failed you,\n"
-	.string "LT.SURGE, sir!$"
+	.string "{JPN}マチスかっかきたいをうらぎってしま\n"
+	.string "いもうしわけありません！$"
 
 VermilionGym_Text_GentlemanGregoryAfter:
-	.string "When I was still in the army,\n"
-	.string "LT.SURGE saved my life.$"
+	.string "{JPN}わたしがまだぐんにいたごろマチスち\n"
+	.string "ゅういがわたしのいのちをすくってく\l"
+	.string "れました。$"
 
 VermilionGym_Text_GuitaristVincentSeen:
-	.string "LT.SURGE recognized my potential\n"
-	.string "with electric POKéMON.\p"
-	.string "Think you can beat me?$"
+	.string "{JPN}マチスはわたしがでんきタイプのポケ\n"
+	.string "モンでさいのうをはっきできるとみと\l"
+	.string "めてくれた。\p"
+	.string "おれにかてるとおもうか？$"
 
 VermilionGym_Text_GuitaristVincentBeaten:
-	.string "Ooh, how shocking!$"
+	.string "{JPN}うわっなんてしょうげきてきなんだ！$"
 
 VermilionGym_Text_GuitaristVincentAfter:
-	.string "Mom told me not to quit my\n"
-	.string "day job, but what am I supposed\l"
-	.string "to do when I'm not finding\l"
-	.string "success there either?$"
+	.string "{JPN}ははにはほんぎょうをやめるなといわ\n"
+	.string "れたけどそこでもせいこうできないな\l"
+	.string "らいったいどうすればいいんだ？$"
 
 VermilionGym_Text_JugglerHortonSeen:
-	.string "I'm going to take you down!\n"
-	.string "Prepare to be shocked!$"
+	.string "{JPN}おまえをたおしてやる！しょうげきを\n"
+	.string "うけるかくごをしておけ！$"
 
 VermilionGym_Text_JugglerHortonBeaten:
-	.string "Gwaaah! I was overpowered…$"
+	.string "{JPN}ガアアッ！あっとうされた……$"
 
 VermilionGym_Text_JugglerHortonAfter:
-	.string "Don't get too comfortable about\n"
-	.string "beating me…\p"
-	.string "LT.SURGE is tough.$"
+	.string "{JPN}おれにかったからってちょうしにのる\n"
+	.string "なよ……\p"
+	.string "マチスはてごわい。$"
 
 VermilionCity_Gym_Text_GymGuyAdvice::
     .string "Yo!\n"

@@ -43,9 +43,10 @@ SproutTower_1F_EventScript_ItemParalyzeHeal::
 	end
 
 SproutTower_Text_SageChow_Seen:
-	.string "We stand guard in this tower.\p"
-	.string "Here, we express our gratitude\n"
-	.string "to honor all POKéMON.$"
+	.string "{JPN}わたしたちはこのとうでみはりをつい\n"
+	.string "ています。\p"
+	.string "ここではすべてのポケモンをとなえか\n"
+	.string "んしゃのいをあらわしています。$"
 
 SproutTower_Text_SageChow_Beaten:
 	.string "{JPN}あ……ありがとう！$"

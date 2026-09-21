@@ -8,17 +8,17 @@ Route47_EventScript_Hiker::
 	end
 
 Route47_Text_HikerSeen::
-	.string "Longing for others is...\n"
-	.string "what it is. \p"
-	.string "But battles are battles,\n"
-	.string "so let's go!$"
+	.string "{JPN}たにんをこいしくおもうきもちという\n"
+	.string "のは……まあそういうものですね。\p"
+	.string "でもたたかいはたたかいですからさあ\n"
+	.string "いこう！$"
 
 Route47_Text_HikerBeaten::
-	.string "Wahaha!$"
+	.string "{JPN}ワハハ！$"
 
 Route47_Text_HikerAfter::
-	.string "After a battle you should always leave\n"
-	.string "with a parting laugh!$"
+	.string "{JPN}しょうぶののちはかならずわらいなが\n"
+	.string "らそのばをさるようにしましょう！$"
 
 Route47_EventScript_Camper::
 	trainerbattle_single TRAINER_GRANT_HNS, Route47_Text_CamperSeen, Route47_Text_CamperBeaten
@@ -26,16 +26,15 @@ Route47_EventScript_Camper::
 	end
 
 Route47_Text_CamperSeen::
-	.string "I'm not good with large crowds, so\n"
-	.string "I'm camping out here with my\l"
-	.string "POKéMON!$"
+	.string "{JPN}ひとごみはにがてだからポケモンとい\n"
+	.string "っしょにここでキャンプしてるんだ！$"
 
 Route47_Text_CamperBeaten::
-	.string "I should be headed deeper into the\n"
-	.string "mountain I guess...$"
+	.string "{JPN}やまおくのほうへすすんでいくべきな\n"
+	.string "んだろうな……$"
 
 Route47_Text_CamperAfter::
-	.string "See ya!$"
+	.string "{JPN}じゃあね！$"
 
 Route47_EventScript_Thom::
 	trainerbattle_double TRAINER_THOM_AND_KAE_HNS, Route47_Text_Couple1Seen, Route47_Text_Couple1Beaten, Route104_Text_GinaNotEnoughMons
@@ -50,15 +49,16 @@ Route47_EventScript_Kae::
 	end
 
 Route47_Text_Couple1Seen::
-	.string "THOM: One plus one is two. But the\n"
-	.string "two of us together is much\l"
-	.string "stronger!\p"
-	.string "KAE: The two of us aren't just some\n"
-	.string "boring pair!$"
+	.string "{JPN}トム:1プラス1は2だ。でもぼくたち\n"
+	.string "ふたりがいっしょになればもっとつよ\l"
+	.string "くなる！\p"
+	.string "カエ:わたしたちふたりなんてただの\n"
+	.string "つまらないペアなんかじゃないわ！$"
 
 Route47_Text_Couple1Beaten::
-	.string "THOM: That wasn't what I expected.\l"
-	.string "KAE: You're unusual too!$"
+	.string "{JPN}トム:おもってたのとはちがうな。カ\n"
+	.string "エ:あなたもちょっとかわってるわね\l"
+	.string "！$"
 
 Route47_Text_Couple1After1::
 	.string "THOM: It seems your power is\n"
@@ -80,15 +80,14 @@ Route47_EventScript_Eda::
 	end
 
 Route47_Text_Couple2Seen::
-	.string "DUFF: Watching over my girlfriend\n"
-	.string "makes my heart soar!\p"
-	.string "EDA: My heart's feelings for my\n"
-	.string "boyfriend are as wide and deep\l"
-	.string "the ocean!$"
+	.string "{JPN}ダフ:かのじょをみまもっているとむ\n"
+	.string "ねがおどるよ！\p"
+	.string "エダ:かれしへのおもいはうみのよう\n"
+	.string "にひろくてふかい！$"
 
 Route47_Text_Couple2Beaten::
-	.string "DUFF: I was no match for you...\l"
-	.string "EDA: You are really something...$"
+	.string "{JPN}ダフ:きみにはかなわなかったな……\n"
+	.string "エダ:きみはほんとうにすごいな……$"
 
 Route47_Text_Couple2After1::
 	.string "DUFF: Thank you for the awe-\n"

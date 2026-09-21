@@ -122,43 +122,45 @@ Route20_Text_NicoleRegister:
 	.string "Let me get your number!$"
 
 Route20_Text_NicoleRematchIntro:
-	.string "All this swimming has made my\n"
-	.string "POKéMON stronger! Let's battle!$"
+	.string "{JPN}こんなにおよいだおかげでぼくのポケ\n"
+	.string "モンがもっとつよくなった！さあしょ\l"
+	.string "うぶだ！$"
 
 Route20_Text_NicoleRematchDefeat:
-	.string "Swept away again…$"
+	.string "{JPN}またながされてしまった……$"
 
 Route20_Text_NicolePostRematch:
 	.string "Win or lose, I'm getting fit and\n"
 	.string "so are my POKéMON!$"
 
 Route20_Text_SwimmerfNicoleSeen:
-	.string "I feel so much lighter in water.$"
+	.string "{JPN}みずのなかだとすごくからだがかるく\n"
+	.string "なるきがする。$"
 
 Route20_Text_SwimmerfNicoleBeaten:
-	.string "Oh, no!$"
+	.string "{JPN}えっやばい！$"
 
 Route20_Text_SwimmerfNicoleAfterBattle:
 	.string "Swimming exercises your full body.\p"
 	.string "It's really good for you.$"
 
 Route20_Text_SwimmerfLoriSeen:
-	.string "What an impressive collection of\n"
-	.string "GYM BADGES. We should battle!$"
+	.string "{JPN}なんてすばらしいジムバッジのコレク\n"
+	.string "ションなんだ。しょうぶしよう！$"
 
 Route20_Text_SwimmerfLoriBeaten:
-	.string "No!$"
+	.string "{JPN}ダメ！$"
 
 Route20_Text_SwimmerfLoriAfterBattle:
 	.string "SURF is no longer the only HM move\n"
 	.string "you use in water.$"
 
 Route20_Text_SwimmermCameronSeen:
-	.string "I guess it's impossible to swim\n"
-	.string "all the way to JOHTO.$"
+	.string "{JPN}ジョウトまでおよいでいくのはむりだ\n"
+	.string "ろうな。$"
 
 Route20_Text_SwimmermCameronBeaten:
-	.string "Aiyah!$"
+	.string "{JPN}あーっ！$"
 
 Route20_Text_SwimmermCameronAfterBattle:
 	.string "Besides the sea, I can also swim\n"

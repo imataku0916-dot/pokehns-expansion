@@ -124,50 +124,53 @@ Route34_EventScript_Item_Embargo::
 
 
 Route34_Text_YoungsterSamuel_Seen:
-	.string "Hey! I'm looking for MANKEY!$"
+	.string "{JPN}ねえ！マンキーをさがしてるんだ！$"
 
 Route34_Text_YoungsterSamuel_Beaten:
-	.string "Beaten by a passing stranger!$"
+	.string "{JPN}とおりすがりのみしらぬにんにまけて\n"
+	.string "しまった！$"
 
 Route34_Text_YoungsterSamuel_After:
-	.string "I'm going to train even harder.\p"
-	.string "After all, I'm trying to become\n"
-	.string "a GYM LEADER.$"
+	.string "{JPN}もっといっしょうけんめいトレーニン\n"
+	.string "グするよ。\p"
+	.string "なにしろぼくはジムリーダーをめざし\n"
+	.string "ているんだ。$"
 
 Route34_Text_YoungsterIan_Seen:
-	.string "I'm the best in my class at\n"
-	.string "POKéMON.$"
+	.string "{JPN}ぼくはポケモンでクラスいちのうでま\n"
+	.string "えだ。$"
 
 Route34_Text_YoungsterIan_Beaten:
-	.string "No! There are better trainers…$"
+	.string "{JPN}いや！もっとすごいトレーナーがいる\n"
+	.string "よ……$"
 
 Route34_Text_YoungsterIan_After:
-	.string "I'm trying hard so I can be the\n"
-	.string "star in my class.$"
+	.string "{JPN}クラスでいちばんになるためにいっし\n"
+	.string "ょうけんめいがんばっているんだ。$"
 
 Route34_Text_CamperTodd_Seen:
-	.string "I'm confident in my ability to\n"
-	.string "raise POKéMON.\p"
-	.string "Want to see?$"
+	.string "{JPN}ポケモンをそだてるじしんはあるよ。\p"
+	.string "みてみたい？$"
 
 Route34_Text_CamperTodd_Beaten:
-	.string "Did I screw up my training?$"
+	.string "{JPN}トレーニングしっぱいしちゃったかな\n"
+	.string "？$"
 
 Route34_Text_CamperTodd_After:
-	.string "Maybe I should take one to DAY-CARE,\n"
-	.string "or maybe use some items…$"
+	.string "{JPN}1ひきをデイケアにあずけるかそれと\n"
+	.string "もアイテムをつかうか……$"
 
 Route34_Text_ToddRegister:
 	.string "Maybe I should take one to DAY-CARE,\n"
 	.string "or maybe use some items…$"
 
 Route34_Text_ToddRematchIntro:
-	.string "I'm confident in my ability to\n"
-	.string "raise POKéMON.\p"
-	.string "Want to see?$"
+	.string "{JPN}ポケモンをそだてるじしんはあるよ。\p"
+	.string "みてみる？$"
 
 Route34_Text_ToddRematchDefeat:
-	.string "Did I screw up my training?$"
+	.string "{JPN}トレーニングしっぱいしちゃったかな\n"
+	.string "？$"
 
 Route34_Text_ToddPostRematch:
 	.string "Maybe I should take one to DAY-CARE,\n"
@@ -178,42 +181,46 @@ Route34_Text_GinaRegister:
 	.string "practice partner.$"
 
 Route34_Text_PicnickerGina_Seen:
-	.string "Are you a TRAINER?\p"
-	.string "Let's have a practice battle.$"
+	.string "{JPN}きみはトレーナーか？\p"
+	.string "れんしゅうしょうぶをしよう。$"
 
 Route34_Text_PicnickerGina_Beaten:
-	.string "Oh, no! I just can't win…$"
+	.string "{JPN}ああやばい！どうしてもかてない……$"
 
 Route34_Text_PicnickerGina_After:
-	.string "You're too strong to be a\n"
-	.string "practice partner.$"
+	.string "{JPN}きみはれんしゅうあいてにしてはつよ\n"
+	.string "すぎるよ。$"
 
 Route34_Text_OfficerKeith_Seen:
-	.string "Who goes there?\n"
-	.string "What are you up to?$"
+	.string "{JPN}だれだ？なにをしているんだ？$"
 
 Route34_Text_OfficerKeith_Win:
-	.string "You're a tough little kid.$"
+	.string "{JPN}きみはなかなかタフなガキだな。$"
 
 Route34_Text_OfficerKeith_After:
-	.string "Yep, nothing wrong today.\p"
-	.string "Be good and stay out of trouble.$"
+	.string "{JPN}うんこんにちはなんのもんだいもない\n"
+	.string "ね。\p"
+	.string "いいこにしてトラブルにまきこまれな\n"
+	.string "いようにね。$"
 
 Route34_Text_OfficerKeith_Daytime:
 	.string "I'm on patrol for suspicious\n"
 	.string "individuals.$"
 
 Route34_Text_PokefanBrandon_Seen:
-	.string "I just got my POKéMON back from\n"
-	.string "DAY-CARE.\p"
-	.string "Let's see how much stronger it got!$"
+	.string "{JPN}ポケモンをあずけさきからとりもどし\n"
+	.string "たばかりだ。\p"
+	.string "どれくらいつよくなったかみてみよう\n"
+	.string "！$"
 
 Route34_Text_PokefanBrandon_Beaten:
-	.string "Why does it end this way?$"
+	.string "{JPN}なぜこんなけつまつになるのですか？$"
 
 Route34_Text_PokefanBrandon_After:
-	.string "My POKéMON came back with new moves.\p"
-	.string "That confounded me to no end!$"
+	.string "{JPN}ぼくのポケモンがあたらしいわざをお\n"
+	.string "ぼえてかえってきた。\p"
+	.string "それにはほんとうにあたまをかかえて\n"
+	.string "しまったよ！$"
 
 Route34_Text_Sign_IlexForest:
 	.string "ILEX FOREST\n"
@@ -232,10 +239,10 @@ Route34_Text_TrainerTips:
 	.string "BERRIES.$"
 
 Route34_Text_CooltrainerIrene_Seen:
-	.string "IRENE: Who are you?!$"
+	.string "{JPN}アイリーン:あんただれなの？！$"
 
 Route34_Text_CooltrainerIrene_Beaten:
-	.string "IRENE: Ohhh! You're too strong!$"
+	.string "{JPN}アイリーン:うわぁ！つよすぎるよ！$"
 
 Route34_Text_CooltrainerIrene_After1:
 	.string "IRENE: My sister KATE will get you\n"
@@ -246,11 +253,11 @@ Route34_Text_CooltrainerIrene_After2:
 	.string "It's our secret little getaway!$"
 
 Route34_Text_CooltrainerJenn_Seen:
-	.string "JENN: What the...?\n"
-	.string "What are you doing?$"
+	.string "{JPN}ジェン:えっ……？なにしてるの？$"
 
 Route34_Text_CooltrainerJenn_Beaten:
-	.string "JENN: So sorry, IRENE! Dear Sis!$"
+	.string "{JPN}ジェン:ごめんなさいアイリーン！お\n"
+	.string "ねえちゃん！$"
 
 Route34_Text_CooltrainerJenn_After1:
 	.string "JENN: Don't get cocky! My sister\n"
@@ -261,11 +268,13 @@ Route34_Text_CooltrainerJenn_After2:
 	.string "stronger.$"
 
 Route34_Text_CooltrainerKate_Seen:
-	.string "KATE: I must pay you back for\n"
-	.string "taking care of my sisters!$"
+	.string "{JPN}ケイト:わたしのしまいのめんどうを\n"
+	.string "みてくれたおれいをかならずおかえし\l"
+	.string "しなきゃ！$"
 
 Route34_Text_CooltrainerKate_Beaten:
-	.string "KATE: No! I can't believe I lost.$"
+	.string "{JPN}ケイト:いやっ！まさかまけるなんて\n"
+	.string "しんじられない。$"
 
 Route34_Text_CooltrainerKate_GiveSoftSand:
 	.string "KATE: You are so strong.\n"
@@ -273,9 +282,11 @@ Route34_Text_CooltrainerKate_GiveSoftSand:
 	.string "Here, take this!$"
 
 Route34_Text_CooltrainerKate_After:
-	.string "KATE: I'm sorry we jumped you.\p"
-	.string "We never expected anyone to find\n"
-	.string "us here. You sure startled us.$"
+	.string "{JPN}ケイト:いきなりおそいかかってしま\n"
+	.string "ってごめんね。\p"
+	.string "ここにだれかがくるなんておもっても\n"
+	.string "みなかったんだ。ほんとうにびっくり\l"
+	.string "したよ。$"
 
 
 Route34_Text_Sign_DayCare:

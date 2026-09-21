@@ -78,11 +78,12 @@ ViridianCity_Gym_Text_ReceivedEarthBadge:
 	.string "{PLAYER} received EARTHBADGE.$"
 
 ViridianCity_Gym_Text_LeaderBlue_After:
-	.string "BLUE: …\p"
-	.string "All right, I was wrong. You're the\n"
-	.string "real deal. You are a good trainer.\p"
-	.string "But I'm going to beat you someday.\p"
-	.string "Don't you forget it!$"
+	.string "{JPN}グリーン:…\p"
+	.string "わかったおれがまちがってた。きみは\n"
+	.string "ほんものだ。きみはゆうしゅうなトレ\l"
+	.string "ーナーだ。\p"
+	.string "でもいつかきみにかってやる。\p"
+	.string "ぜったいにわすれるなよ！$"
 
 ViridianCity_Gym_Text_LeaderBlue_GiveTM:
 	.string "Take this with you.$"

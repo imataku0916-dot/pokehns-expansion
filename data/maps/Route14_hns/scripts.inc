@@ -244,13 +244,13 @@ Route14_Text_Eusine:
 	.string "I challenge you!$"
 
 Route14_Text_PokefanmTrevorSeen:
-	.string "Hi. Did you know…?\p"
-	.string "POKéMON get more friendly if you\n"
-	.string "train them in a place that they\l"
-	.string "remember.$"
+	.string "{JPN}やあ。しってた？…\p"
+	.string "ポケモンはおぼえているばしょでトレ\n"
+	.string "ーニングするとよりしたしくなってく\l"
+	.string "れるんだ。$"
 
 Route14_Text_PokefanmTrevorBeaten:
-	.string "Where did I meet this SCIZOR?$"
+	.string "{JPN}このシザールはどこでであったっけ？$"
 
 Route14_Text_PokefanmTrevorAfterBattle:
 	.string "If only there were an easy way to\n"
@@ -261,22 +261,24 @@ Route14_Text_TrevorRegister:
 	.string "Can I have your number?$"
 
 Route14_Text_TrevorRematchIntro:
-	.string "I've been training with my\n"
-	.string "POKéMON in familiar places!$"
+	.string "{JPN}いつものばしょでじぶんのポケモンと\n"
+	.string "いっしょにトレーニングしてるんだ！$"
 
 Route14_Text_TrevorRematchDefeat:
-	.string "Maybe I need new places…$"
+	.string "{JPN}あたらしいばしょがひつようかもしれ\n"
+	.string "ないな……$"
 
 Route14_Text_TrevorPostRematch:
 	.string "Friendship makes POKéMON\n"
 	.string "stronger. I'm sure of it!$"
 
 Route14_Text_PokefanmCarterSeen:
-	.string "Let me tell you, I had a hard time\n"
-	.string "catching my prized POKéMON.$"
+	.string "{JPN}しょうじきいっておれのじまんのポケ\n"
+	.string "モンをつかまえるのにかなりくろうし\l"
+	.string "たよ。$"
 
 Route14_Text_PokefanmCarterBeaten:
-	.string "Awaaah!$"
+	.string "{JPN}うわあぁっ！$"
 
 Route14_Text_PokefanmCarterAfterBattle:
 	.string "TOTODILE, CYNDAQUIL, CHIKORITA…\p"
@@ -287,22 +289,27 @@ Route14_Text_CarterRegister:
 	.string "Let me get your number!$"
 
 Route14_Text_CarterRematchIntro:
-	.string "I've found even more rare starters\n"
-	.string "to show off! Battle me!$"
+	.string "{JPN}じまんできるレアなしょきポケモンが\n"
+	.string "さらにみつかったよ！しょうぶしよう\l"
+	.string "！$"
 
 Route14_Text_CarterRematchDefeat:
-	.string "My precious starters…$"
+	.string "{JPN}わたしのだいじなさいしょの3びきが\n"
+	.string "……$"
 
 Route14_Text_CarterPostRematch:
 	.string "There are so many starters from\n"
 	.string "different regions to collect!$"
 
 Route14_Text_BirdKeeperRoySeen:
-	.string "My dream is to fly with my beloved\n"
-	.string "bird POKéMON.$"
+	.string "{JPN}わたしのゆめはだいすきなとりのポケ\n"
+	.string "モンといっしょにそらをとぶことです\l"
+	.string "。$"
 
 Route14_Text_BirdKeeperRoyBeaten:
-	.string "I can dream, but I can't ever fly…$"
+	.string "{JPN}ゆめをみることはできるけれどそらを\n"
+	.string "とぶことなんてぜったいにできない…\l"
+	.string "…$"
 
 Route14_Text_BirdKeeperRoyAfterBattle:
 	.string "You have POKéMON that know the HM\n"

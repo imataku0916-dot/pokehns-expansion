@@ -729,18 +729,20 @@ IlexForest_Text_KurtCaughtCelebi:
 	.string "I'm going!$"
 
 IlexForest_Text_BugCatcherWayneSeen:
-	.string "Don't sneak up on me like that!\p"
-	.string "You frightened a POKéMON away!$"
+	.string "{JPN}そんなふうにこっそりちかづかないで\n"
+	.string "よ！\p"
+	.string "ポケモンをおどろかせてにがしちゃっ\n"
+	.string "たね！$"
 
 IlexForest_Text_BugCatcherWayneBeaten:
 	.string "{JPN}そんなポケモンみたことないよ……$"
 
 IlexForest_Text_BugCatcherWayneAfter:
-	.string "A POKéMON I've never seen before\n"
-	.string "fell out of the tree when I used\l"
-	.string "HEADBUTT.\p"
-	.string "I ought to use HEADBUTT in other\n"
-	.string "places too.$"
+	.string "{JPN}ずつきをつかったところいままでみた\n"
+	.string "ことのないポケモンがきからおちてき\l"
+	.string "た。\p"
+	.string "ほかのばしょでもずつきをつかってみ\n"
+	.string "よう。$"
 
 IlexForest_Text_Kimono_Girl1:
 	.string "KIMONO GIRL, KIMONO GIRL, lost and\n"

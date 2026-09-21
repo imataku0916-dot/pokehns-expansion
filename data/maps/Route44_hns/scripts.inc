@@ -106,12 +106,12 @@ Route44_EventScript_Item_Elixir::
 	end
 
 Route44_Text_FisherWilton1Seen:
-    .string "Aack!\p"
-    .string "You made me lose a POLIWAG!\n"
-    .string "What are you going to do about it?$"
+    .string "{JPN}うわっ！おまえのせいでニョロモをに\n"
+    .string "がしちゃったじゃないか！\p"
+    .string "どうしてくれるんだ？$"
 
 Route44_Text_FisherWilton1Beaten:
-    .string "Just forget about it.$"
+    .string "{JPN}もうわすれてください。$"
 
 Route44_Text_FisherWiltonHugePoliwag:
     .string "That POLIWAG that got away…\n"
@@ -126,12 +126,12 @@ Route44_Text_WiltonRegister:
     .string "16 feet long!$"
 
 Route44_Text_WiltonRematchIntro:
-    .string "Aack!\p"
-    .string "You made me lose a POLIWAG!\n"
-    .string "What are you going to do about it?$"
+    .string "{JPN}うわっ！おまえのせいでニョロモをに\n"
+    .string "がしちゃったじゃないか！\p"
+    .string "どうしてくれるんだ？$"
 
 Route44_Text_WiltonRematchDefeat:
-    .string "Just forget about it.$"
+    .string "{JPN}もうわすれてください。$"
 
 Route44_Text_WiltonPostRematch:
     .string "That POLIWAG that got away…\n"
@@ -153,24 +153,26 @@ Route44_Text_WiltonNoRoom:
     .string "Come back when you have room.$"
 
 Route44_Text_FisherEdgarSeen:
-    .string "I fish until I can't anymore.\p"
-    .string "I also battle until I drop.\p"
-    .string "That's my relationship with my\n"
-    .string "POKéMON.$"
+    .string "{JPN}もうこれいじょうできないっておもう\n"
+    .string "までつりをするんだ。\p"
+    .string "しょうぶもたおれるまでやりつづける\n"
+    .string "。\p"
+    .string "それがぼくとポケモンとのかんけいな\n"
+    .string "んだ。$"
 
 Route44_Text_FisherEdgarBeaten:
-    .string "Hmmmm… This isn't right.$"
+    .string "{JPN}うーん……これなにかおかしいな。$"
 
 Route44_Text_FisherEdgarAfter:
-    .string "That's 100 wins to 101 losses.\p"
-    .string "I won't battle again for a while.$"
+    .string "{JPN}100かち101はいだ。\p"
+    .string "しばらくはしょうぶはしないよ。$"
 
 Route44_Text_BirdKeeperVance1Seen:
-    .string "Do you know about the legendary\n"
-    .string "bird POKéMON?$"
+    .string "{JPN}でんせつのとりポケモンについてしっ\n"
+    .string "ていますか？$"
 
 Route44_Text_BirdKeeperVance1Beaten:
-    .string "Whew! You're hot stuff.$"
+    .string "{JPN}ふぅ！きみはすごいね。$"
 
 Route44_Text_BirdKeeperVanceBirds:
     .string "ARTICUNO, ZAPDOS and MOLTRES are\n"
@@ -185,11 +187,11 @@ Route44_Text_VanceRegister:
     .string "birds, though.$"
 
 Route44_Text_VanceRematchIntro:
-    .string "Do you know about the legendary\n"
-    .string "bird POKéMON?$"
+    .string "{JPN}でんせつのとりポケモンについてしっ\n"
+    .string "ていますか？$"
 
 Route44_Text_VanceRematchDefeat:
-    .string "Whew! You're hot stuff.$"
+    .string "{JPN}ふぅ！きみはすごいね。$"
 
 Route44_Text_VancePostRematch:
     .string "ARTICUNO, ZAPDOS and MOLTRES are\n"
@@ -198,57 +200,59 @@ Route44_Text_VancePostRematch:
     .string "birds, though.$"
 
 Route44_Text_PsychicPhilSeen:
-    .string "I'm gonna win, for sure!$"
+    .string "{JPN}ぜったいにかつぞ！$"
 
 Route44_Text_PsychicPhilBeaten:
-    .string "Arrgh… That's a shocking loss…$"
+    .string "{JPN}うわっ…なんてしょうげきてきなはい\n"
+    .string "ぼくだ…$"
 
 Route44_Text_PsychicPhilAfter:
-    .string "It's important to have conviction\n"
-    .string "on your side.$"
+    .string "{JPN}しんねんをもつことがたいせつです。$"
 
 Route44_Text_PokemaniacZachSeen:
-    .string "I'll do anything to get my hands\n"
-    .string "on rare POKéMON!$"
+    .string "{JPN}レアなポケモンをてにいれるためなら\n"
+    .string "なんでもするぞ！$"
 
 Route44_Text_PokemaniacZachBeaten:
-    .string "Oooh, your POKéMON are so\n"
-    .string "appealing.$"
+    .string "{JPN}おぉあなたのポケモンすごくみりょく\n"
+    .string "てきですね。$"
 
 Route44_Text_PokemaniacZachAfter:
-    .string "If a POKéMON has different colors\n"
-    .string "from usual, it's more valuable.\p"
-    .string "What? You mean that's not true?$"
+    .string "{JPN}ポケモンがいつもとちがういろをして\n"
+    .string "いるとかちがたかくなるんだ。\p"
+    .string "え？それちがうってこと？$"
 
 Route44_Text_CooltrainermAllenSeen:
-    .string "I can tell you're a good trainer\n"
-    .string "by looking at you.\p"
-    .string "I'm good at POKéMON, and I can\n"
-    .string "see that you are too.$"
+    .string "{JPN}きみのみためからしてゆうしゅうなト\n"
+    .string "レーナーだとわかるよ。\p"
+    .string "ぼくはポケモンがとくいだけどきみも\n"
+    .string "そうみたいだね。$"
 
 Route44_Text_CooltrainermAllenBeaten:
-    .string "Tch! It's a total loss on my part.$"
+    .string "{JPN}ちっ！かんぜんにわたしのまけだ。$"
 
 Route44_Text_CooltrainermAllenAfter:
-    .string "Wow. You have a lot of BADGES.\p"
-    .string "No wonder you're so tough.\p"
-    .string "I wonder if ECRUTEAK GYM's MORTY\n"
-    .string "is still in training?\p"
-    .string "He really hammered me.$"
+    .string "{JPN}うわっ。バッジをいっぱいもってるね\n"
+    .string "。\p"
+    .string "そりゃあつよいのもうなずけるよ。\p"
+    .string "エンジュジムのマツバはまだしゅぎょ\n"
+    .string "うちゅうなのかな？\p"
+    .string "あいつにはほんとうにやられたよ。$"
 
 Route44_Text_CooltrainerfCybilSeen:
-    .string "You look strong.\p"
-    .string "Good trainers seek tough\n"
-    .string "opponents instinctively.$"
+    .string "{JPN}つよそうだな。\p"
+    .string "まされたトレーナーはほんのうてきに\n"
+    .string "てごわいあいてをもとめるものだ。$"
 
 Route44_Text_CooltrainerfCybilBeaten:
-    .string "Nope! This won't do at all.$"
+    .string "{JPN}いやっ！これじゃぜんぜんダメだ。$"
 
 Route44_Text_CooltrainerfCybilAfter:
-    .string "We all get better by experiencing\n"
-    .string "many battles.\p"
-    .string "I battled a lot to become what I\n"
-    .string "am today--an elite.$"
+    .string "{JPN}たくさんのしょうぶをけいけんするこ\n"
+    .string "とでだれもがじょうたつするものだ。\p"
+    .string "いまのじぶん……エリート……になる\n"
+    .string "ためにわたしはかぞえきれないほどの\l"
+    .string "しょうぶをこなしてきた。$"
 
 Route44_Text_Sign1:
     .string "ROUTE 44\n"

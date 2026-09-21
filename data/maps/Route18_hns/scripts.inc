@@ -34,22 +34,22 @@ Route18_EventScript_Sign::
 	end
 
 Route18_Text_BirdKeeperBorisSeen:
-	.string "If you're looking for POKéMON,\n"
-	.string "you have to look in the tall grass.$"
+	.string "{JPN}ポケモンをさがしているならくさむら\n"
+	.string "をさがさなきゃ。$"
 
 Route18_Text_BirdKeeperBorisBeaten:
-	.string "Ayieee!$"
+	.string "{JPN}うわっ！$"
 
 Route18_Text_BirdKeeperBorisAfterBattle:
 	.string "Since you're so strong, it must be\n"
 	.string "fun to battle.$"
 
 Route18_Text_BirdKeeperBobSeen:
-	.string "CYCLING ROAD is a quick shortcut\n"
-	.string "to CELADON.$"
+	.string "{JPN}サイクリングロードはタマムシへつづ\n"
+	.string "くちかみちです。$"
 
 Route18_Text_BirdKeeperBobBeaten:
-	.string "…Whew!$"
+	.string "{JPN}…ふぅ！$"
 
 Route18_Text_BirdKeeperBobAfterBattle:
 	.string "If you don't have a BICYCLE,\n"

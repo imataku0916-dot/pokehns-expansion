@@ -114,29 +114,31 @@ VioletGym_Text_Falkner_RematchLoss:
 	.string "become the greatest bird master!$"
 
 VioletGym_Text_BirdKeeperRod_Seen:
-	.string "The keyword is guts!\p"
-	.string "Those here are training night and\n"
-	.string "day to become bird POKéMON masters.\p"
-	.string "Come on!$"
+	.string "{JPN}キーワードはこんじょうだ！\p"
+	.string "ここにいるみんなはとりタイプのポケ\n"
+	.string "モンのマスターになるためにちゅうや\l"
+	.string "をとわずトレーニングにはげんでいる\l"
+	.string "。\p"
+	.string "さあいこう！$"
 
 VioletGym_Text_BirdKeeperRod_Beaten:
-	.string "Gaaah!$"
+	.string "{JPN}ガアアッ！$"
 
 VioletGym_Text_BirdKeeperRod_After:
-	.string "FALKNER's skills are for real!\p"
-	.string "Don't get cocky just because\n"
-	.string "you beat me!$"
+	.string "{JPN}ハヤトのうでまえはほんものだ！\p"
+	.string "おれにかったからってちょうしにのる\n"
+	.string "なよ！$"
 
 VioletGym_Text_BirdKeeperAbe_Seen:
-	.string "Let me see if you are good\n"
-	.string "enough to face FALKNER!$"
+	.string "{JPN}きみがハヤトとたいけつできるじつり\n"
+	.string "ょくがあるかどうかみてみよう！$"
 
 VioletGym_Text_BirdKeeperAbe_Beaten:
-	.string "This can't be true!$"
+	.string "{JPN}まさかそんなはずはない！$"
 
 VioletGym_Text_BirdKeeperAbe_After:
-	.string "This is pathetic, losing to some\n"
-	.string "rookie trainer…$"
+	.string "{JPN}しんまいトレーナーにまけるなんてな\n"
+	.string "さけない……$"
 
 VioletGym_Text_GymGuide_Intro:
 	.string "Hey! What's up? I'm no trainer,\n"

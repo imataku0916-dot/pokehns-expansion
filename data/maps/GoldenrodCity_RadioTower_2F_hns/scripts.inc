@@ -179,53 +179,57 @@ GoldenrodCity_RadioTower_2F_Text_BlackBelt2:
 	.string "as he was before.$"
 
 GoldenrodCity_RadioTower_2F_Text_GruntM4Seen:
-	.string "Three years ago, TEAM ROCKET was\n"
-	.string "forced to disband.\p"
-	.string "But we're making a comeback here!$"
+	.string "{JPN}3ねんまえロケットだんはかいさんを\n"
+	.string "よぎなくされた。\p"
+	.string "だがわれわれはここでふっかつをはた\n"
+	.string "す！$"
 
 GoldenrodCity_RadioTower_2F_Text_GruntM4Beaten:
-	.string "Gwah! Don't get cute!$"
+	.string "{JPN}うわっ！ふざけるなよ！$"
 
 GoldenrodCity_RadioTower_2F_Text_GruntM4After:
-	.string "We won't let you ruin our plans\n"
-	.string "for our comeback!$"
+	.string "{JPN}おれたちのふっかつけいかくをだいな\n"
+	.string "しにさせるわけにはいかない！$"
 
 GoldenrodCity_RadioTower_2F_Text_GruntM5Seen:
-	.string "We're TEAM ROCKET, the exploiters\n"
-	.string "of POKéMON!\p"
-	.string "We love being evil! Scared?$"
+	.string "{JPN}おれたちはロケットだんだ！ポケモン\n"
+	.string "をあくようするれんちゅうさ！\p"
+	.string "あくじをはたらくのがだいすきなんだ\n"
+	.string "！こわいかい？$"
 
 GoldenrodCity_RadioTower_2F_Text_GruntM5Beaten:
-	.string "You think you're a hero?$"
+	.string "{JPN}おまえじぶんこそがヒーローだとおも\n"
+	.string "ってるのか？$"
 
 GoldenrodCity_RadioTower_2F_Text_GruntM5After:
-	.string "We're not always evil. We just do\n"
-	.string "whatever we like.$"
+	.string "{JPN}ぼくたちはいつもわるものってわけじ\n"
+	.string "ゃないよ。ただすきなようにやってる\l"
+	.string "だけさ。$"
 
 GoldenrodCity_RadioTower_2F_Text_GruntM6Seen:
-	.string "Hey, hey! Keep out of our way!$"
+	.string "{JPN}おいおい！じゃましないでよ！$"
 
 GoldenrodCity_RadioTower_2F_Text_GruntM6Beaten:
-	.string "Arggh. I give up.$"
+	.string "{JPN}うわっ。もうあきらめるよ。$"
 
 GoldenrodCity_RadioTower_2F_Text_GruntM6After:
-	.string "Our EXECUTIVES are trying to take\n"
-	.string "this place over.\p"
-	.string "They have some big plan. I wonder\n"
-	.string "what that is?$"
+	.string "{JPN}うちのかんぶたちがこのばしょをのっ\n"
+	.string "とろうとしている。\p"
+	.string "なにかおおきなけいかくがあるらしい\n"
+	.string "。いったいなになんだろう？$"
 
 GoldenrodCity_RadioTower_2F_Text_GruntF2Seen:
-	.string "Hahaha!\p"
-	.string "How boring. It was far too easy\n"
-	.string "to take over this place!\p"
-	.string "Come on, keep me amused!$"
+	.string "{JPN}ハハハ！\p"
+	.string "つまらないな。ここをのっとるなんて\n"
+	.string "あまりにもかんたんすぎたぞ！\p"
+	.string "さあもっとたのしませてくれよ！$"
 
 GoldenrodCity_RadioTower_2F_Text_GruntF2Beaten:
-	.string "Wh-who are you?$"
+	.string "{JPN}ええっとあなたはだれ？$"
 
 GoldenrodCity_RadioTower_2F_Text_GruntF2After:
-	.string "You beat me, and I won't forget\n"
-	.string "it!$"
+	.string "{JPN}おまえにまけたぞぜったいにわすれな\n"
+	.string "いからな！$"
 
 GoldenrodCity_RadioTower_2F_Text_BuenaShowPromo:
 	.string "BUENA: Tune in to my PASSWORD\n"

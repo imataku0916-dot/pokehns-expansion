@@ -45,18 +45,18 @@ SSAqua_RoomNW_Text_SailorStanlySeen:
 	.string "Ah, forget it! Let's battle!$"
 
 SSAqua_RoomNW_Text_SailorStanlyBeaten:
-	.string "Sorry! It's all my fault!$"
+	.string "{JPN}ごめん！ぜんぶぼくのせいだ！$"
 
 SSAqua_RoomNW_Text_SailorStanlyAfterBattle:
 	.string "Being a sailor, I have to do\n"
 	.string "physical labor. It's exhausting!$"
 
 SSAqua_RoomNW_Text_GentlemanEdwardSeen:
-	.string "Oh, no. I've lost something\n"
-	.string "that's very important.$"
+	.string "{JPN}ああやばい。すごくたいせつなものを\n"
+	.string "なくしちゃった。$"
 
 SSAqua_RoomNW_Text_GentlemanEdwardBeaten:
-	.string "I… I can't find it…$"
+	.string "{JPN}あ…みつからない…$"
 
 SSAqua_RoomNW_Text_GentlemanEdwardAfterBattle:
 	.string "I give up. You don't have to\n"
@@ -64,10 +64,11 @@ SSAqua_RoomNW_Text_GentlemanEdwardAfterBattle:
 	.string "Just forget about it!$"
 
 SSAqua_RoomNW_Text_BurglarCoreySeen:
-	.string "Yeehaw! Lucky!$"
+	.string "{JPN}イェーホー！ラッキー！$"
 
 SSAqua_RoomNW_Text_BurglarCoreyBeaten:
-	.string "How unlucky! I lost!$"
+	.string "{JPN}なんてふうんなんだ！まけてしまった\n"
+	.string "！$"
 
 SSAqua_RoomNW_Text_BurglarCoreyAfterBattle:
 	.string "I found a pretty coin here.\p"

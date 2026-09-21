@@ -230,46 +230,48 @@ DragonsDen_Cavern_Text_SilverTraining2:
     .string "Learn to stay out of my way…$"
 
 DragonsDen_Cavern_Text_CooltrainermDarinSeen:
-    .string "You! How dare you enter\n"
-    .string "uninvited!$"
+    .string "{JPN}おい！まねかれざるきゃくがよくもま\n"
+    .string "あかってにしんにゅうしたな！$"
 
 DragonsDen_Cavern_Text_CooltrainermDarinBeaten:
-    .string "S-strong!$"
+    .string "{JPN}つ……つよい！$"
 
 DragonsDen_Cavern_Text_CooltrainermDarinAfter:
-    .string "The SHRINE ahead is home to the\n"
-    .string "MASTER of our dragon-user clan.\p"
-    .string "You're not allowed to just go in!$"
+    .string "{JPN}ぜんぽうのじんじゃにはわれらがドラ\n"
+    .string "ゴンつかいいちぞくのししょうがすま\l"
+    .string "われています。\p"
+    .string "かってになかにいることはゆるされま\n"
+    .string "せん！$"
 
 DragonsDen_Cavern_Text_CooltrainerfCaraSeen:
-    .string "You shouldn't be in here!$"
+    .string "{JPN}ここにいるべきじゃないよ！$"
 
 DragonsDen_Cavern_Text_CooltrainerfCaraBeaten:
-    .string "Oh yikes, I lost!$"
+    .string "{JPN}うわっまけた！$"
 
 DragonsDen_Cavern_Text_CooltrainerfCaraAfter:
-    .string "Soon I'm going to get permission\n"
-    .string "from our MASTER to use dragons.\p"
-    .string "When I do, I'm going to become an\n"
-    .string "admirable dragon trainer and gain\l"
-    .string "our MASTER's approval.$"
+    .string "{JPN}もうすぐマスターからドラゴンをつか\n"
+    .string "うきょかをもらえるはずだ。\p"
+    .string "きょかがくだりたらりっぱなドラゴン\n"
+    .string "トレーナーになってマスターのみとめ\l"
+    .string "られるそんざいになるつもりだ。$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia1Seen:
-    .string "It's a stranger we don't know.$"
+    .string "{JPN}みしらぬにんだ。$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia1Beaten:
-    .string "Ouchies.$"
+    .string "{JPN}いたっ。$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia1After:
-    .string "It was like having to battle\n"
-    .string "LANCE.$"
+    .string "{JPN}まるでワタルとたたかわなければなら\n"
+    .string "ないようなかんじだった。$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia2Seen:
-    .string "Who are you?$"
+    .string "{JPN}あなたはだれですか？$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia2Beaten:
-    .string "Meanie.$"
+    .string "{JPN}いじわる。$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia2After:
-    .string "We'll tell on you.\p"
-    .string "MASTER will be angry with you.$"
+    .string "{JPN}あなたをつげぐちするよ。\p"
+    .string "マスターがいかるよ。$"

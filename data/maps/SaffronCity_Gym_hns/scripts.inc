@@ -120,49 +120,51 @@ SaffronCity_Gym_Text_SabrinaRematchDefeat:
 	.string "psychic power…$"
 
 SaffronCity_Gym_Text_MediumRebeccaSeen:
-	.string "The power of all those you\n"
-	.string "defeated comes to me!$"
+	.string "{JPN}たおしたすべてのポケモンのちからが\n"
+	.string "わたしにあつまる！$"
 
 SaffronCity_Gym_Text_MediumRebeccaBeaten:
-	.string "Strong… Far too strong…$"
+	.string "{JPN}つよい……つよすぎる……$"
 
 SaffronCity_Gym_Text_MediumRebeccaAfter:
-	.string "What is the source of your power?$"
+	.string "{JPN}そのちからのげんはなんですか？$"
 
 SaffronCity_Gym_Text_PsychicFranklinSeen:
-	.string "Psychic power is the power of\n"
-	.string "your soul.$"
+	.string "{JPN}サイキックパワーとはあなたのたまし\n"
+	.string "いのちからです。$"
 
 SaffronCity_Gym_Text_PsychicFranklinBeaten:
-	.string "Your soul has more power than\n"
-	.string "mine!$"
+	.string "{JPN}きみのたましいはぼくのたましいより\n"
+	.string "もつよいんだ！$"
 
 SaffronCity_Gym_Text_PsychicFranklinAfter:
-	.string "You made your soul stronger, not\n"
-	.string "just your abilities.$"
+	.string "{JPN}きみはのうりょくだけでなくたましい\n"
+	.string "もつよくなったんだ。$"
 
 SaffronCity_Gym_Text_MediumDorisSeen:
-	.string "Fufufufu… I see it clearly.\p"
-	.string "I can see into your soul!$"
+	.string "{JPN}フフフフ……はっきりとみえるぞ。\p"
+	.string "おまえのたましいまでけんすかしてい\n"
+	.string "る！$"
 
 SaffronCity_Gym_Text_MediumDorisBeaten:
-	.string "Though I read you, I still lost…$"
+	.string "{JPN}きみのかんがえはわかったけどやっぱ\n"
+	.string "りまけてしまった……$"
 
 SaffronCity_Gym_Text_MediumDorisAfter:
-	.string "Darn! I forgot that I predicted I\n"
-	.string "would lose to you.$"
+	.string "{JPN}ちっ！きみにまけるとよそうしていた\n"
+	.string "ことをわすれてたよ。$"
 
 SaffronCity_Gym_Text_PsychicJaredSeen:
-	.string "The FIGHTING DOJO next door was\n"
-	.string "once this city's GYM.$"
+	.string "{JPN}となりのかくとうどうじょうはかつて\n"
+	.string "このまちのジムだった。$"
 
 SaffronCity_Gym_Text_PsychicJaredBeaten:
-	.string "I was no match…$"
+	.string "{JPN}あいてにはかなわなかった……$"
 
 SaffronCity_Gym_Text_PsychicJaredAfter:
-	.string "KARATE KING, the master of the\n"
-	.string "FIGHTING DOJO, was just destroyed\l"
-	.string "by SABRINA.$"
+	.string "{JPN}かくとうどうじょうのたつじんである\n"
+	.string "からてのおうがナツメにうちまかされ\l"
+	.string "てしまった。$"
 
 SaffronCity_Gym_Text_GymGuideIntro:
 	.string "Yo, CHAMP in making!\p"

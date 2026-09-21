@@ -100,10 +100,10 @@ IndigoPlateau_Text_RivalWin:
     .string "わかった……おれのまけだ……$"
 
 IndigoPlateau_Text_RivalAfter:
-    .string "…Darn… I still can't win…\p"
-    .string "I… I have to think more about my\n"
-    .string "POKéMON…\p"
-    .string "Humph! Try not to lose!$"
+    .string "{JPN}…ちっ…やっぱりかてないな…\p"
+    .string "わたし…もっとじぶんのポケモンにつ\n"
+    .string "いてかんがえなきゃ…\p"
+    .string "ふん！まけないようにしなよ！$"
 
 IndigoPlateau_EventScript_Psychic::
 	lock

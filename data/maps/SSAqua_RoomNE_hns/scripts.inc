@@ -12,22 +12,21 @@ SSAqua_RoomNE_EventScript_Ethan::
 	end
 
 SSAqua_RoomNE_Text_HikerNolandSeen:
-    .string "Are you alone?\n"
-    .string "Then let's battle!$"
+    .string "{JPN}ひとり？それならしょうぶしよう！$"
 
 SSAqua_RoomNE_Text_HikerNolandBeaten:
-    .string "That's too much to handle!$"
+    .string "{JPN}それはてにおえないよ！$"
 
 SSAqua_RoomNE_Text_HikerNolandAfterBattle:
     .string "I wonder if there are any\n"
     .string "mountains worth climbing in KANTO?$"
 
 SSAqua_RoomNE_Text_PokemaniacEthanSeen:
-    .string "Do you know LILY?\n"
-    .string "She's a hot DJ in KANTO.$"
+    .string "{JPN}リリーってしってる？かのじょはカン\n"
+    .string "トーでにんきのディージェイなんだ。$"
 
 SSAqua_RoomNE_Text_PokemaniacEthanBeaten:
-    .string "Gyaaaah!$"
+    .string "{JPN}ギャアアアッ！$"
 
 SSAqua_RoomNE_Text_PokemaniacEthanAfterBattle:
     .string "LILY's nice, but\n"

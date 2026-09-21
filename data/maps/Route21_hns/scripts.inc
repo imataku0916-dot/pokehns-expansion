@@ -23,31 +23,32 @@ Route21_EventScript_Arnold::
 	end
 
 Route21_Text_SwimmermSethSeen:
-	.string "Land ho! Gotta keep going!$"
+	.string "{JPN}りくがみえた！まだすすまなきゃ！$"
 
 Route21_Text_SwimmermSethBeaten:
-	.string "Glug…$"
+	.string "{JPN}グルッ……$"
 
 Route21_Text_SwimmermSethAfterBattle:
 	.string "This arrogant guy was at CINNABAR's\n"
 	.string "volcano.$"
 
 Route21_Text_SwimmerfNikkiSeen:
-	.string "If I win, you have to help me with\n"
-	.string "my suntan lotion!$"
+	.string "{JPN}もしわたしがかったらひやけとめをぬ\n"
+	.string "るのをてつだってね！$"
 
 Route21_Text_SwimmerfNikkiBeaten:
-	.string "I'm worried about sunburn…$"
+	.string "{JPN}ひやけがしんぱいだ……$"
 
 Route21_Text_SwimmerfNikkiAfterBattle:
 	.string "I have to watch out for blemishes\n"
 	.string "caused by the sun.$"
 
 Route21_Text_FisherArnoldSeen:
-	.string "I'm bored by fishing. Let's battle!$"
+	.string "{JPN}つりにはもうあきたよ。しょうぶしよ\n"
+	.string "う！$"
 
 Route21_Text_FisherArnoldBeaten:
-	.string "Utter failure…$"
+	.string "{JPN}かんぜんなしっぱいだ……$"
 
 Route21_Text_FisherArnoldAfterBattle:
 	.string "I'll just go back to fishing…$"

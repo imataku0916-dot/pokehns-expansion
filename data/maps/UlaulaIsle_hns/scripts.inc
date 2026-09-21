@@ -331,10 +331,10 @@ Alola_Ulaula_Phant_outside_Text_1:
 	.string "I'll make it worth your while!$"
 
 Alola_Ulaula_TrainerBattlePicnicker_Text_0:
-	.string "Surprise!\nI was in the trees!$"
+	.string "{JPN}おっと！じつはきのうえにいたんだ！$"
 
 Alola_Ulaula_TrainerBattlePicnicker_Text_1:
-	.string "Back into hiding I go…$"
+	.string "{JPN}またかくればしょへもどるよ……$"
 
 Alola_Ulaula_TrainerBattlePicnicker_Text_2:
 	.string "I thought I saw something red flying\n"
@@ -342,10 +342,12 @@ Alola_Ulaula_TrainerBattlePicnicker_Text_2:
 	.string "Could it have been a POKéMON?$"
 
 Alola_Ulaula_TrainerBattleYoungster_Text_0:
-	.string "Hey, I'm going to be the first to climb\nMT. LANIKALA!$"
+	.string "{JPN}ねえぼくがさいしょにラナキラマウン\n"
+	.string "テンにとうちょうするぞ！$"
 
 Alola_Ulaula_TrainerBattleYoungster_Text_1:
-	.string "It's not even the real MT. LANIKALA…$"
+	.string "{JPN}ほんもののラナキラマウンテンじゃな\n"
+	.string "いのに……$"
 
 Alola_Ulaula_TrainerBattleYoungster_Text_2:
 	.string "My dad never told me the real name of\n"
@@ -353,10 +355,12 @@ Alola_Ulaula_TrainerBattleYoungster_Text_2:
 	.string "We've always just called it MT. LANIKALA.$"
 
 Alola_Ulaula_TrainerBattleHiker_Text_0:
-	.string "You must be tough to handle this\nrough terrain!$"
+	.string "{JPN}こんなけわしいちけいをのりきるなん\n"
+	.string "てきみはほんとうにタフなんだな！$"
 
 Alola_Ulaula_TrainerBattleHiker_Text_1:
-	.string "Oof,\nI should've trained harder…$"
+	.string "{JPN}うわっもっといっしょうけんめいトレ\n"
+	.string "ーニングすべきだったな……$"
 
 Alola_Ulaula_TrainerBattleHiker_Text_2:
 	.string "ULA'ULA ISLE has the best hiking!\p"
@@ -365,10 +369,12 @@ Alola_Ulaula_TrainerBattleHiker_Text_2:
 	.string "the ALOLA ISLES!$"
 
 Alola_Ulaula_TrainerBattleCooltrainer_Text_0:
-	.string "This cave smells terrible!\nLet's battle to get my mind off of it!$"
+	.string "{JPN}このどうくつひどいくさい！きばらし\n"
+	.string "にしょうぶしよう！$"
 
 Alola_Ulaula_TrainerBattleCooltrainer_Text_1:
-	.string "Should've brought some air freshener…$"
+	.string "{JPN}ほうこうざいをもってくればよかった\n"
+	.string "な……$"
 
 Alola_Ulaula_TrainerBattleCooltrainer_Text_2:
 	.string "You should plug your nose if you plan\n"

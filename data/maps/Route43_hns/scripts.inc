@@ -81,91 +81,99 @@ Route43_EventScript_Item_Max_Ether::
 	end
 
 Route43_Text_PokemaniacBenSeen:
-    .string "I love POKéMON!\p"
-    .string "That's why I started--and why I'll\n"
-    .string "keep on collecting POKéMON!$"
+    .string "{JPN}ポケモンがだいすき！\p"
+    .string "だからはじめたんだ……これからもず\n"
+    .string "っとポケモンをあつめつづけるよ！$"
 
 Route43_Text_PokemaniacBenBeaten:
-    .string "How could you do this to me?$"
+    .string "{JPN}どうしてわたしにこんなことをするの\n"
+    .string "？$"
 
 Route43_Text_PokemaniacBenAfter:
-    .string "What else do I like besides\n"
-    .string "POKéMON?\p"
-    .string "MARY on the radio. I bet she's\n"
-    .string "cute!$"
+    .string "{JPN}ポケモンいがいにほかになにがすき？\p"
+    .string "ラジオのクルミ。きっとかわいいにち\n"
+    .string "がいない！$"
 
 Route43_Text_PokemaniacBrentSeen:
-    .string "Hey! Do you have any rare\n"
-    .string "POKéMON?$"
+    .string "{JPN}ねえ！レアなポケモンもってる？$"
 
 Route43_Text_PokemaniacBrentBeaten:
-    .string "Oh, my poor POKéMON! Darlings!$"
+    .string "{JPN}ああかわいそうなポケモンたち！いと\n"
+    .string "しいこたち！$"
 
 Route43_Text_PokemaniacBrentAfter:
-    .string "I'd be happy just to own a single\n"
-    .string "rare POKéMON.$"
+    .string "{JPN}レアなポケモンをたった1ひきでもも\n"
+    .string "てればそれでまんぞくだ。$"
 
 Route43_Text_BrentRegister:
     .string "I'd be happy just to own a single\n"
     .string "rare POKéMON.$"
 
 Route43_Text_BrentRematchIntro:
-    .string "Hey! Do you have any rare\n"
-    .string "POKéMON?$"
+    .string "{JPN}ねえ！レアなポケモンもってる？$"
 
 Route43_Text_BrentRematchDefeat:
-    .string "Oh, my poor POKéMON! Darlings!$"
+    .string "{JPN}ああかわいそうなポケモンたち！いと\n"
+    .string "しいこたち！$"
 
 Route43_Text_BrentPostRematch:
     .string "I'd be happy just to own a single\n"
     .string "rare POKéMON.$"
 
 Route43_Text_PokemaniacRonSeen:
-    .string "Would you get this?\p"
-    .string "Some {RIVAL} guy made fun of my\n"
-    .string "POKéMON!\p"
-    .string "Darn it! My POKéMON's great!$"
+    .string "{JPN}これわかる？\p"
+    .string "{RIVAL}のだれかがぼくのポ\n"
+    .string "ケモンをバカにしたんだ！\p"
+    .string "ちっ！ぼくのポケモンはさいこうなん\n"
+    .string "だから！$"
 
 Route43_Text_PokemaniacRonBeaten:
-    .string "My NIDOKING did pretty right on!$"
+    .string "{JPN}ぼくのニドキングなかなかいいかんじ\n"
+    .string "だったよ！$"
 
 Route43_Text_PokemaniacRonAfter:
-    .string "It's okay for people to like\n"
-    .string "different types of POKéMON.\p"
-    .string "POKéMON isn't just about having the\n"
-    .string "most powerful one.$"
+    .string "{JPN}にんがそれぞれちがうタイプのポケモ\n"
+    .string "ンをすきになってもかまいません。\p"
+    .string "ポケモンはたださいきょうのポケモン\n"
+    .string "をてにいれることだけがすべてではあ\l"
+    .string "りません。$"
 
 Route43_Text_FisherMarvinSeen:
-    .string "I'm in a slump.\p"
-    .string "Maybe it's the gear I'm using.\p"
-    .string "Let's battle for a change of pace!$"
+    .string "{JPN}ちょうしがでないな。\p"
+    .string "たぶんつかってるそうびのせいかもし\n"
+    .string "れない。\p"
+    .string "きぶんてんかんにしょうぶしよう！$"
 
 Route43_Text_FisherMarvinBeaten:
-    .string "I lost, but I feel better anyway.$"
+    .string "{JPN}まけたけどそれでもきぶんはよくなっ\n"
+    .string "たよ。$"
 
 Route43_Text_FisherMarvinAfter:
-    .string "KURT's LURE BALL is the best for\n"
-    .string "catching hooked POKéMON.\p"
-    .string "It's much more effective than a\n"
-    .string "ULTRA BALL.$"
+    .string "{JPN}ガンテツのルアーボールはつりあげた\n"
+    .string "ポケモンをつかまえるのにさいてきで\l"
+    .string "す。\p"
+    .string "ハイパーボールよりもはるかにこうか\n"
+    .string "てきです。$"
 
 Route43_Text_CamperSpencerSeen:
-    .string "I can do so much with my\n"
-    .string "POKéMON--it's super-fun!$"
+    .string "{JPN}ぼくのポケモンでいろんなことができ\n"
+    .string "るんだ……ちょうたのしい！$"
 
 Route43_Text_CamperSpencerBeaten:
-    .string "Losing isn't fun at all…$"
+    .string "{JPN}まけるのはぜんぜんたのしくない……$"
 
 Route43_Text_CamperSpencerAfter:
-    .string "What is going on at LAKE OF RAGE?\p"
-    .string "We were planning to camp there.$"
+    .string "{JPN}いかりのみずうみではいったいなにが\n"
+    .string "おきているんだ？\p"
+    .string "そこでキャンプをするよていだったん\n"
+    .string "だ。$"
 
 Route43_Text_PicnickerTiffanySeen:
-    .string "Are you going to LAKE OF RAGE too?\p"
-    .string "Let's play for a little while!$"
+    .string "{JPN}きみもいかりのみずうみにいくの？\p"
+    .string "ちょっとだけいっしょにあそぼうよ！$"
 
 Route43_Text_PicnickerTiffanyBeaten:
-    .string "I played too much!$"
+    .string "{JPN}あそびすぎちゃった！$"
 
 Route43_Text_PicnickerTiffanyWantsPicnic:
     .string "I'm having a picnic with POKéMON.\p"
@@ -176,11 +184,11 @@ Route43_Text_TiffanyRegister:
     .string "Won't you join us?$"
 
 Route43_Text_TiffanyRematchIntro:
-    .string "Are you going to LAKE OF RAGE too?\p"
-    .string "Let's play for a little while!$"
+    .string "{JPN}きみもいかりのみずうみにいくの？\p"
+    .string "ちょっとだけいっしょにあそぼうよ！$"
 
 Route43_Text_TiffanyRematchDefeat:
-    .string "I played too much!$"
+    .string "{JPN}あそびすぎちゃった！$"
 
 Route43_Text_TiffanyPostRematch:
     .string "I'm having a picnic with POKéMON.\p"

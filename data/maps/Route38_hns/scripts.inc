@@ -99,24 +99,25 @@ Route38_EventScript_Item_LaxIncense::
 	end
 
 Route38_Text_BirdKeeperTobySeen:
-	.string "Fly high into the sky,\n"
-	.string "my beloved bird POKéMON!$"
+	.string "{JPN}いとしいとりのポケモンよおおぞらへ\n"
+	.string "たかくとびたっていけ！$"
 
 Route38_Text_BirdKeeperTobyBeaten:
-	.string "I feel like just flying\n"
-	.string "away now.$"
+	.string "{JPN}いまただとびさってしまいたいきぶん\n"
+	.string "だ。$"
 
 Route38_Text_BirdKeeperTobyAfter:
-	.string "I plan to train in CIANWOOD CITY\n"
-	.string "to teach my POKéMON how to FLY.$"
+	.string "{JPN}タンバシティでトレーニングをしてじ\n"
+	.string "ぶんのポケモンにそらをとぶをおしえ\l"
+	.string "ようとおもっています。$"
 
 Route38_Text_SchoolboyChad1Seen:
-	.string "Let me try something\n"
-	.string "I learned today.$"
+	.string "{JPN}きょうまなんだことをためしてみよう\n"
+	.string "。$"
 
 Route38_Text_SchoolboyChad1Beaten:
-	.string "I didn't study enough,\n"
-	.string "I guess.$"
+	.string "{JPN}やっぱりべんきょうがたりなかったん\n"
+	.string "だな。$"
 
 Route38_Text_SchoolboyChadAfter:
 	.string "I have to take so many\n"
@@ -133,12 +134,12 @@ Route38_Text_ChadRegister:
 	.string "I really concentrate.$"
 
 Route38_Text_ChadRematchIntro:
-	.string "Let me try something\n"
-	.string "I learned today.$"
+	.string "{JPN}きょうならったことをためしてみよう\n"
+	.string "。$"
 
 Route38_Text_ChadRematchDefeat:
-	.string "I didn't study enough,\n"
-	.string "I guess.$"
+	.string "{JPN}やっぱりべんきょうがたりなかったん\n"
+	.string "だな。$"
 
 Route38_Text_ChadPostRematch:
 	.string "I have to take so many\n"
@@ -148,14 +149,13 @@ Route38_Text_ChadPostRematch:
 	.string "I really concentrate.$"
 
 Route38_Text_LassDana1Seen:
-	.string "You seem to be good at\n"
-	.string "POKéMON.\p"
-	.string "If you are, how about\n"
-	.string "giving me some advice?$"
+	.string "{JPN}きみポケモンがとくいみたいだね。\p"
+	.string "もしそうならちょっとアドバイスをく\n"
+	.string "れないかな？$"
 
 Route38_Text_LassDana1Beaten:
-	.string "I see. So you can battle\n"
-	.string "that way.$"
+	.string "{JPN}なるほど。そういうたたかいほうもあ\n"
+	.string "るんですね。$"
 
 Route38_Text_LassDanaAfter:
 	.string "I know something good!\p"
@@ -163,44 +163,43 @@ Route38_Text_LassDanaAfter:
 	.string "famous for its flavor.$"
 
 Route38_Text_BeautyValerieSeen:
-	.string "Hi! Aren't you a cute\n"
-	.string "trainer!\p"
-	.string "May I see your POKéMON?$"
+	.string "{JPN}やあ！なんてかわいいトレーナーなん\n"
+	.string "だ！\p"
+	.string "ポケモンをちょっとみせてくれない？$"
 
 Route38_Text_BeautyValerieBeaten:
-	.string "I'm glad I got to see\n"
-	.string "your POKéMON!$"
+	.string "{JPN}きみのポケモンをみられてよかったよ\n"
+	.string "！$"
 
 Route38_Text_BeautyValerieAfter:
-	.string "When I see POKéMON, it\n"
-	.string "seems to soothe my nerves.$"
+	.string "{JPN}ポケモンをみるとなんだかこころがお\n"
+	.string "ちつくきがする。$"
 
 Route38_Text_SailorHarrySeen:
-	.string "I've been overseas, so I\n"
-	.string "know about all sorts of\l"
-	.string "POKéMON!$"
+	.string "{JPN}かいがいにいたことがあるからいろん\n"
+	.string "なポケモンをしってるんだ！$"
 
 Route38_Text_SailorHarryBeaten:
-	.string "Your skill is world class!$"
+	.string "{JPN}きみのうでまえはせかいレベルだ！$"
 
 Route38_Text_SailorHarryAfter:
-	.string "All kinds of people around\n"
-	.string "the world live happily with\l"
-	.string "POKéMON.$"
+	.string "{JPN}せかいじゅうのあらゆるひとびとがポ\n"
+	.string "ケモンとともにしあわせにくらしてい\l"
+	.string "ます。$"
 
 Route38_Text_BeautyOliviaSeen:
-	.string "Don't you think my POKéMON\n"
-	.string "and I are beautiful?$"
+	.string "{JPN}わたしとわたしのポケモンすてきだと\n"
+	.string "おもわない？$"
 
 Route38_Text_BeautyOliviaBeaten:
-	.string "We drink MOOMOO MILK every\n"
-	.string "day.$"
+	.string "{JPN}わたしたちはまいにちムームーミルク\n"
+	.string "をのんでいます。$"
 
 Route38_Text_BeautyOliviaAfter:
-	.string "MOOMOO MILK is good for\n"
-	.string "beauty and health,\p"
-	.string "but inconveniently, they\n"
-	.string "only sell one bottle at a time.$"
+	.string "{JPN}ムームーミルクはびようとけんこうに\n"
+	.string "よいのですが\p"
+	.string "ざんねんながらいちどに1ほんしかう\n"
+	.string "っていません。$"
 
 Route38_Text_Sign:
 	.string "ROUTE 38\p"
@@ -227,14 +226,13 @@ Route38_Text_DanaRegister:
 	.string "famous for its flavor.$"
 
 Route38_Text_DanaRematchIntro:
-	.string "You seem to be good at\n"
-	.string "POKéMON.\p"
-	.string "If you are, how about\n"
-	.string "giving me some advice?$"
+	.string "{JPN}きみポケモンがとくいみたいだね。\p"
+	.string "もしそうならちょっとアドバイスをく\n"
+	.string "れないかな？$"
 
 Route38_Text_DanaRematchDefeat:
-	.string "I see. So you can battle\n"
-	.string "that way.$"
+	.string "{JPN}なるほど。そういうたたかいほうもあ\n"
+	.string "るんだね。$"
 
 Route38_Text_DanaPostRematch:
 	.string "I know something good!\p"

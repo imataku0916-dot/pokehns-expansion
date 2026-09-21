@@ -55,15 +55,14 @@ NewSinjoh_HotSprings_Text_MualaniBeforeBattle:
 	.string "it.$"
 
 NewSinjoh_HotSprings_Text_MualaniDefeat:
-	.string "Well earned.$"
+	.string "{JPN}よくやったね。$"
 
 NewSinjoh_HotSprings_Text_MualaniAfter:
-	.string "It is hard for me to let that\n"
-	.string "plate go.\p"
-	.string "But when the situation changes,\n"
-	.string "it is important for us to change\l"
-	.string "too.\p"
-	.string "The plate is yours.$"
+	.string "{JPN}そのプレートをてばなすのはぼくには\n"
+	.string "つらい。\p"
+	.string "でもじょうきょうがかわればわたした\n"
+	.string "ちもかわらなければならない。\p"
+	.string "そのプレートはきみのものだ。$"
 
 
 NewSinjoh_HotSprings_EventScript_Sign1::

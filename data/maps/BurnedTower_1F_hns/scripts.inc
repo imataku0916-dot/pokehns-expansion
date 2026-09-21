@@ -195,23 +195,25 @@ BurnedTower_1F_EventScript_Richardo::
 	end
 
 BurnedTower_Text_NardSeen:
-	.string "Don't worry!\p"
-	.string "We fire-breathers know the true\n"
-	.string "power of fire better than anyone!$"
+	.string "{JPN}しんぱいしないで！\p"
+	.string "おれたちひをはくものたちはだれより\n"
+	.string "もひのまことのちからをしっているん\l"
+	.string "だ！$"
 BurnedTower_Text_NardBeaten:
-	.string "Thanks for such a heated battle!$"
+	.string "{JPN}あついしょうぶをありがとう！$"
 BurnedTower_Text_NardAfter:
-	.string "The reason this tower's burned is\n"
-	.string "that it was hit by lightning.\p"
-	.string "The fire I'm breathing is tiny\n"
-	.string "in comparison...$"
+	.string "{JPN}このとうがもえてしまったのはらくら\n"
+	.string "いをうけたからだ。\p"
+	.string "それにくらべればぼくがはきだしてい\n"
+	.string "るほのおなんてほんのわずかなものさ\l"
+	.string "……$"
 
 BurnedTower_Text_RichardoSeen:
-	.string "I'm practicing my stealing in the\n"
-	.string "BURNED TOWER! Don't try\l"
-	.string "this at home!$"
+	.string "{JPN}バーンドタワーでぬすみのれんしゅう\n"
+	.string "ちゅう！いえではまねしないでね！$"
 BurnedTower_Text_RichardoBeaten:
-	.string "Pfffffffffffffff.$"
+	.string "{JPN}プッッッッッッッッッッッッ。$"
 BurnedTower_Text_RichardoAfter:
-	.string "Maybe a life of crime isn't for\n"
-	.string "me...$"
+	.string "{JPN}どうやらはんざいしゃとしてのせいか\n"
+	.string "つはわたしにはむいていないみたいだ\l"
+	.string "……$"

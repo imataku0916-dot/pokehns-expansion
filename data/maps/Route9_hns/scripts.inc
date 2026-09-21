@@ -46,72 +46,77 @@ Route9_EventScript_Item_Flash_Cannon::
     end
 
 Route9_Text_CamperDeanSeen:
-	.string "I came to explore ROCK TUNNEL.$"
+	.string "{JPN}イワヤマトンネルをたんけんしにきま\n"
+	.string "した。$"
 
 Route9_Text_CamperDeanBeaten:
-	.string "Whoa! Danger, man.$"
+	.string "{JPN}うわっ！あぶないぞおい。$"
 
 Route9_Text_CamperDeanAfter:
-	.string "My POKéMON were hurt before even\n"
-	.string "entering ROCK TUNNEL.\p"
-	.string "I'd better take them to a POKéMON\n"
-	.string "CENTER right away.$"
+	.string "{JPN}イワヤマトンネルにはいるまえからポ\n"
+	.string "ケモンがきずついてしまった。\p"
+	.string "すぐポケモンセンターへつれていった\n"
+	.string "ほうがいいな。$"
 
 Route9_Text_PicnickerHeidiSeen:
-	.string "Have you ever been to a picnic?\p"
-	.string "They're so much fun!$"
+	.string "{JPN}ピクニックにいったことある？\p"
+	.string "すごくたのしいよ！$"
 
 Route9_Text_PicnickerHeidiBeaten:
-	.string "Ohhhh!$"
+	.string "{JPN}おぉぉっ！$"
 
 Route9_Text_PicnickerHeidiAfter:
-	.string "We bake lots of goodies and share\n"
-	.string "them all around.\p"
-	.string "They're delicious!$"
+	.string "{JPN}わたしたちはたくさんのおかしをやい\n"
+	.string "てみんなにくばっています。\p"
+	.string "とってもおいしいですよ！$"
 
 Route9_Text_CamperSidSeen:
-	.string "Hey, you! Don't litter!$"
+	.string "{JPN}おいそこのきみ！ゴミをすてないで！$"
 
 Route9_Text_CamperSidBeaten:
-	.string "I was just pointing out…$"
+	.string "{JPN}ただしてきしただけなんだけど……$"
 
 Route9_Text_CamperSidAfter:
-	.string "Sorry. You weren't littering. It\n"
-	.string "was my mistake.$"
+	.string "{JPN}すみません。あなたがゴミをすててい\n"
+	.string "たわけじゃありません。わたしのまち\l"
+	.string "がいでした。$"
 
 Route9_Text_PicnickerEdnaSeen:
-	.string "People shouldn't leave any litter\n"
-	.string "behind.$"
+	.string "{JPN}にんはゴミをほうちしてはいけません\n"
+	.string "。$"
 
 Route9_Text_PicnickerEdnaBeaten:
-	.string "Ohh… I lost…$"
+	.string "{JPN}うわっ…まけた…$"
 
 Route9_Text_PicnickerEdnaAfter:
-	.string "Conserving energy is important,\n"
-	.string "but the environment is even more\l"
-	.string "vital.$"
+	.string "{JPN}しょうえねはじゅうようですがかんき\n"
+	.string "ょうほごはそれいじょうにじゅうよう\l"
+	.string "です。$"
 
 Route9_Text_HikerTimSeen:
-	.string "She'll be coming 'round MT.SILVER\n"
-	.string "when she comes…\p"
-	.string "MT.SILVER is in JOHTO, right?$"
+	.string "{JPN}かのじょがくるときはシロガネやまの\n"
+	.string "あたりにくるはず…\p"
+	.string "シロガネやまってジョウトちほうにあ\n"
+	.string "るよね？$"
 
 Route9_Text_HikerTimBeaten:
-	.string "I was too busy singing…$"
+	.string "{JPN}うたっているのにいそがしくて……$"
 
 Route9_Text_HikerTimAfter:
-	.string "Battles are about concentration.$"
+	.string "{JPN}しょうぶにはしゅうちゅうりょくがひ\n"
+	.string "つようだ。$"
 
 Route9_Text_HikerSidneySeen:
-	.string "I'll tell you a secret.\p"
-	.string "But first, we battle!$"
+	.string "{JPN}ひみつをおしえてあげるよ。\p"
+	.string "でもそのまえにしょうぶだ！$"
 
 Route9_Text_HikerSidneyBeaten:
-	.string "Oh, dang! I lost that…$"
+	.string "{JPN}おっとしまった！あれをなくしちゃっ\n"
+	.string "た……$"
 
 Route9_Text_HikerSidneyAfter:
-	.string "The POWER PLANT is across a small\n"
-	.string "river.$"
+	.string "{JPN}はつでんしょはちいさなかわをはさん\n"
+	.string "だむこうがわにある。$"
 
 Route9_Text_Sign:
 	.string "ROUTE 9\p"

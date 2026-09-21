@@ -550,60 +550,70 @@ Alola_Akala_BattleVsTapuLele_Text_0:
 	.string "Le-Lele!$"
 
 Alola_Akala_TrainerBattleHiker_Text_0:
-	.string "I came to the ISLES to hike the\nmountains!$"
+	.string "{JPN}やまのぼりをするためにこのしまへき\n"
+	.string "たんだ！$"
 
 Alola_Akala_TrainerBattleHiker_Text_1:
-	.string "And down I tumble…$"
+	.string "{JPN}そしてわたしはころがりおちていく…\n"
+	.string "…$"
 
 Alola_Akala_TrainerBattleHiker_Text_2:
 	.string "AKALA ISLE has the best hiking!\n"
 	.string "It's got lush forests and rugged trails!$"
 
 Alola_Akala_TrainerBattlePicnicker_Text_0:
-	.string "Ha! Didn't see me, did you?$"
+	.string "{JPN}はっ！わたしにきづかなかっただろ？$"
 
 Alola_Akala_TrainerBattlePicnicker_Text_1:
-	.string "I guess the element of surprise isn't\nalways super effective…$"
+	.string "{JPN}ふいうちでもいつもこうかばつぐんと\n"
+	.string "はいかないね……$"
 
 Alola_Akala_TrainerBattlePicnicker_Text_2:
 	.string "It's so lush on AKALA ISLE,\n"
 	.string "I can easily hide in the trees!$"
 
 Alola_Akala_TrainerBattleCamper_Text_0:
-	.string "I want to be the first to prove myself\nto the Totem POKéMON!$"
+	.string "{JPN}ぬしポケモンにいちばんのりでじつり\n"
+	.string "ょくをみせてやる！$"
 
 Alola_Akala_TrainerBattleCamper_Text_1:
-	.string "Drat,\nthat's not going to help my case.$"
+	.string "{JPN}ちっこれじゃわたしのしゅちょうをう\n"
+	.string "らづけることにはならないな。$"
 
 Alola_Akala_TrainerBattleCamper_Text_2:
 	.string "There's a weird Totem further ahead but\n"
 	.string "I haven't seen a Totem POKéMON.$"
 
 Alola_Akala_TrainerBattleSwimmerLand_Text_0:
-	.string "Hey! No shoes on the beach!$"
+	.string "{JPN}おい！ビーチではくつをぬいで！$"
 
 Alola_Akala_TrainerBattleSwimmerLand_Text_1:
-	.string "Ouch,\nwhere's a lifeguard when you need one…$"
+	.string "{JPN}いたっいざというときにライフガード\n"
+	.string "はどこにいるんだ……$"
 
 Alola_Akala_TrainerBattleSwimmerLand_Text_2:
 	.string "AKALA ISLE has the best beaches!\n"
 	.string "It's got soft sand and clear waters!$"
 
 Alola_Akala_TrainerBattleSwimmerWater_Text_0:
-	.string "Out of my way!\nI'm swimming laps!$"
+	.string "{JPN}どいてよ！およいでるんだから！$"
 
 Alola_Akala_TrainerBattleSwimmerWater_Text_1:
-	.string "Not the break I was looking for…$"
+	.string "{JPN}きたいしていたようなきゅうけいじゃ\n"
+	.string "なかったな……$"
 
 Alola_Akala_TrainerBattleSwimmerWater_Text_2:
 	.string "ULA'ULA ISLE has the best beaches!\n"
 	.string "Ignore anyone who says otherwise!$"
 
 Alola_Akala_TrainerBattleSwimmerWaterM_Text_0:
-	.string "Hah!\nYou need to ride a POKéMON to surf?$"
+	.string "{JPN}はっ！サーフィンするのにポケモンに\n"
+	.string "のらなきゃいけないの？$"
 
 Alola_Akala_TrainerBattleSwimmerWaterM_Text_1:
-	.string "If I hadn't swam myself\nmaybe I would've had the energy to win…$"
+	.string "{JPN}もしじぶんでおよいでいなかったらか\n"
+	.string "つためのたいりょくがのこっていたか\l"
+	.string "もしれないのに……$"
 
 Alola_Akala_TrainerBattleSwimmerWaterM_Text_2:
 	.string "The current out here is strong!\n"

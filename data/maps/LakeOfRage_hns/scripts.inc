@@ -308,55 +308,59 @@ LakeOfRage_Text_CooltrainerF:
 
 
 LakeOfRage_Text_FisherAndreSeen:
-    .string "Let me battle with the POKéMON I\n"
-    .string "just caught!$"
+    .string "{JPN}いまつかまえたポケモンでしょうぶさ\n"
+    .string "せて！$"
 
 LakeOfRage_Text_FisherAndreBeaten:
-    .string "I might be an expert angler, but\n"
-    .string "I stink as a POKéMON trainer…$"
+    .string "{JPN}つりにかんしてはたつじんかもしれな\n"
+    .string "いけどポケモントレーナーとしてはま\l"
+    .string "ったくダメなんだ……$"
 
 LakeOfRage_Text_FisherAndreAfter:
-    .string "I won't lose as an angler! I catch\n"
-    .string "POKéMON all day.$"
+    .string "{JPN}つりしとしてまけるわけにはいかない\n"
+    .string "！いちにちじゅうポケモンをつってい\l"
+    .string "るんだ。$"
 
 
 LakeOfRage_Text_FisherRaymondSeen:
-    .string "No matter what I do, all I catch\n"
-    .string "are the same POKéMON…$"
+    .string "{JPN}なにをしてもつかまえるのはいつもお\n"
+    .string "なじポケモンばかり……$"
 
 LakeOfRage_Text_FisherRaymondBeaten:
-    .string "My line's all tangled up…$"
+    .string "{JPN}いとがぜんぶからまっちゃった……$"
 
 LakeOfRage_Text_FisherRaymondAfter:
-    .string "Why can't I catch any good\n"
-    .string "POKéMON?$"
+    .string "{JPN}なんでいいポケモンがつかまえないの\n"
+    .string "？$"
 
 LakeOfRage_Text_CooltrainermAaronSeen:
-    .string "If a trainer spots another trainer,\n"
-    .string "he has to make a challenge.\p"
-    .string "That is our destiny.$"
+    .string "{JPN}あるトレーナーがべつのトレーナーを\n"
+    .string "みつけるとそのトレーナーにしょうぶ\l"
+    .string "をもうしこまなければならない。\p"
+    .string "それがわれわれのうんめいだ。$"
 
 LakeOfRage_Text_CooltrainermAaronBeaten:
-    .string "Whew… Good battle.$"
+    .string "{JPN}ふぅ……いいたたかいだった。$"
 
 LakeOfRage_Text_CooltrainermAaronAfter:
-    .string "POKéMON and their trainer become\n"
-    .string "powerful through constant battling.$"
+    .string "{JPN}ポケモンとそのトレーナーはたえまな\n"
+    .string "いしょうぶをつうじてつよくなってい\l"
+    .string "く。$"
 
 LakeOfRage_Text_CooltrainerfLoisSeen:
-    .string "What happened to the red\n"
-    .string "GYARADOS?\p"
-    .string "It's gone?\p"
-    .string "Oh, darn. I came here for\n"
-    .string "nothing?\p"
-    .string "I know--let's battle!$"
+    .string "{JPN}あのあかいギャラドスはどうなったの\n"
+    .string "？\p"
+    .string "いなくなったの？\p"
+    .string "あーちぇっ。せっかくきたのにむだだ\n"
+    .string "ったのか？\p"
+    .string "そうだ！しょうぶしよう！$"
 
 LakeOfRage_Text_CooltrainerfLoisBeaten:
-    .string "Good going!$"
+    .string "{JPN}よくできました！$"
 
 LakeOfRage_Text_CooltrainerfLoisAfter:
-    .string "Come to think of it, I've seen a\n"
-    .string "pink BUTTERFREE.$"
+    .string "{JPN}そういえばピンクのバタフリーをみた\n"
+    .string "ことがあるな。$"
 
 
 

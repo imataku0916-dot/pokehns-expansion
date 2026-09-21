@@ -539,18 +539,24 @@ GoldenrodUnderground_Text_SilverWin:
     .string "なのになぜまけるんだ！？$"
 
 GoldenrodUnderground_Text_SilverAfter:
-    .string "…I don't understand…\p"
-    .string "Is what that LANCE guy said true?\p"
-    .string "That I don't treat POKéMON properly?\p"
-    .string "Love…\p"
-    .string "Trust…\p"
-    .string "Are they really what I lack?\p"
-    .string "Are they keeping me from winning?\p"
-    .string "I… I just don't understand.\p"
-    .string "But it's not going to end here.\p"
-    .string "Not now. Not because of this.\p"
-    .string "I won't give up my dream of becoming\n"
-    .string "the world's best POKéMON trainer!$"
+    .string "{JPN}…わからない……\p"
+    .string "あのワタルってやつのいうことほんと\n"
+    .string "うなの？\p"
+    .string "ぼくがポケモンをちゃんとあつかって\n"
+    .string "ないって？\p"
+    .string "あい……\p"
+    .string "しんらい……\p"
+    .string "ほんとうにわたしにたりないのはそれ\n"
+    .string "なの？\p"
+    .string "それがわたしのしょうりをそんでいる\n"
+    .string "の？\p"
+    .string "わたし…どうしてもりかいできない。\p"
+    .string "でもここでおわるわけにはいかない。\p"
+    .string "いまじゃない。こんなことでおわるわ\n"
+    .string "けにはいかない。\p"
+    .string "せかいいちのポケモントレーナーにな\n"
+    .string "るというゆめをぜったいにあきらめな\l"
+    .string "い！$"
 
 GoldenrodUnderground_Text_SilverLoss:
     .string "Humph. This is my real power, wimp.\p"
@@ -559,78 +565,85 @@ GoldenrodUnderground_Text_SilverLoss:
     .string "under my heels.$"
 
 GoldenrodUnderground_Text_GruntM11Seen:
-    .string "Open one shutter, another closes.\p"
-    .string "Bet you can't get where you want!$"
+    .string "{JPN}かたほうのシャッターがひらけばもう\n"
+    .string "かたほうがとじる。\p"
+    .string "きっといきたいばしょにはいけないよ\n"
+    .string "！$"
 
 GoldenrodUnderground_Text_GruntM11Beaten:
-    .string "Drat! I was sunk by indecision!$"
+    .string "{JPN}ちっ！ゆうじゅうふだんのせいでやら\n"
+    .string "れてしまった！$"
 
 GoldenrodUnderground_Text_GruntM11After:
-    .string "I'm confused too… The switch on the\n"
-    .string "end is the one to press first, but…$"
+    .string "{JPN}ぼくもわけがわからない……さいごに\n"
+    .string "あるスイッチがさいしょにおすべきも\l"
+    .string "のなんだけど……$"
 
 GoldenrodUnderground_Text_GruntM25Seen:
-    .string "Kwahaha!\p"
-    .string "Confounded by the shutters, are we?\p"
-    .string "I'll let you in on a secret if you\n"
-    .string "can beat me!$"
+    .string "{JPN}クワハハ！\p"
+    .string "シャッターにこまってるみたいだね？\p"
+    .string "ぼくにかてたらひみつをおしえてあげ\n"
+    .string "るよ！$"
 
 GoldenrodUnderground_Text_GruntM25Beaten:
-    .string "Uwww… I blew it.$"
+    .string "{JPN}うわっ……やっちゃった。$"
 
 GoldenrodUnderground_Text_GruntM25After:
-    .string "All right. A hint!\p"
-    .string "Change the order of switching.\p"
-    .string "That'll change the ways the shutters\n"
-    .string "open and close.$"
+    .string "{JPN}わかった。ヒントだ！\p"
+    .string "きりかえのじゅんじょをかえてみて。\p"
+    .string "そうすればシャッターのかいへいのし\n"
+    .string "かたがかわるよ。$"
 
 GoldenrodUnderground_Text_BurglarDuncanSeen:
-    .string "Fork over your goodies!$"
+    .string "{JPN}おたからをよこせ！$"
 
 GoldenrodUnderground_Text_BurglarDuncanBeaten:
-    .string "Mercy!$"
+    .string "{JPN}たすけて！$"
 
 GoldenrodUnderground_Text_BurglarDuncanAfter:
-    .string "Steal and sell! That's basic in\n"
-    .string "crime, kid!$"
+    .string "{JPN}ぬすんでうれ！それがはんざいのきほ\n"
+    .string "んだこぞう！$"
 
 GoldenrodUnderground_Text_BurglarEddieSeen:
-    .string "They ditched this project before they\n"
-    .string "finished.\p"
-    .string "I'm searching for leftover loot.$"
+    .string "{JPN}かれらはこのプロジェクトをかんせい\n"
+    .string "させるまえにほうきしてしまった。\p"
+    .string "のこされたせんりひんをさがしている\n"
+    .string "。$"
 
 GoldenrodUnderground_Text_BurglarEddieBeaten:
-    .string "Over the top!$"
+    .string "{JPN}やりすぎだ！$"
 
 GoldenrodUnderground_Text_BurglarEddieAfter:
-    .string "UNDERGROUND WAREHOUSE?\p"
-    .string "What do you want to go there for?\p"
-    .string "There's nothing down there.$"
+    .string "{JPN}ちかそうこ？\p"
+    .string "なにしにいくの？\p"
+    .string "あそこにはなにもないよ。$"
 
 GoldenrodUnderground_Text_GruntM13Seen:
-    .string "I don't care if you're lost.\p"
-    .string "You show up here, you're nothing but\n"
-    .string "a victim!$"
+    .string "{JPN}みちにまよっていてもかまわない。\p"
+    .string "ここにきちゃったいじょうおまえはた\n"
+    .string "だのぎせいしゃだ！$"
 
 GoldenrodUnderground_Text_GruntM13Beaten:
-    .string "Urk! Yeah, think you're cool, huh?$"
+    .string "{JPN}うっ！ああじぶんかっこいいとおもっ\n"
+    .string "てるんだろ？$"
 
 GoldenrodUnderground_Text_GruntM13After:
-    .string "You must have ice in your veins to\n"
-    .string "diss TEAM ROCKET.$"
+    .string "{JPN}ロケットだんをディスるにはちのかよ\n"
+    .string "わないれいてつさがひつようだ。$"
 
 GoldenrodUnderground_Text_GruntF3Seen:
-    .string "Are you lost? No, you can't be.\p"
-    .string "You don't have that scared look.\p"
-    .string "I'll give you something to be\n"
-    .string "scared about!$"
+    .string "{JPN}みちにまよったの？いやそんなはずは\n"
+    .string "ない。\p"
+    .string "そんなおびえたかおはしていないし。\p"
+    .string "こわがるりゆうをおまえにおしえてや\n"
+    .string "る！$"
 
 GoldenrodUnderground_Text_GruntF3Beaten:
-    .string "How could you?$"
+    .string "{JPN}よくそんなことできるね？$"
 
 GoldenrodUnderground_Text_GruntF3After:
-    .string "Go wherever you'd like! Get lost!\n"
-    .string "See if I care!$"
+    .string "{JPN}どこへでもいっちまえ！おまえなんか\n"
+    .string "しるか！$"
 
 GoldenrodUnderground_Text_Switch1:
     .string "SWITCH 1 activated.$"

@@ -598,7 +598,7 @@ Alola_Melemele_SamsonOakVilla_Dialogue_Text_4:
 	.string "I won't be taking it easy on you!$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_5:
-	.string "Incredible, {PLAYER}!$"
+	.string "{JPN}すごいな{PLAYER}！$"
 
 Alola_Melemele_SamsonOakVilla_Dialogue_Text_6:
 	.string "Wow, {PLAYER}!\n"

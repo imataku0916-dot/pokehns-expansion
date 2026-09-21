@@ -16,16 +16,16 @@ Route41_EventScript_Charlie::
 	end
 
 Route41_Text_SwimmermCharlieSeen:
-	.string "The water's warm here.\n"
-	.string "I'm loose and limber.\p"
-	.string "Sure, I'll take you on!$"
+	.string "{JPN}ここのみずはあたたかいな。からだが\n"
+	.string "ほぐれてからだがかるくなった。\p"
+	.string "もちろんたたかってやるよ！$"
 
 Route41_Text_SwimmermCharlieBeaten:
-	.string "Yikes! I've got prune skin!$"
+	.string "{JPN}うわっ！はだがふやけた！$"
 
 Route41_Text_SwimmermCharlieAfter:
-	.string "Isn't it relaxing just floating\n"
-	.string "like this?$"
+	.string "{JPN}こうやってただただよっているだけっ\n"
+	.string "てなんだかリラックスできるよね？$"
 
 Route41_EventScript_George::
 	trainerbattle_single TRAINER_GEORGE_HNS, Route41_Text_SwimmermGeorgeSeen, Route41_Text_SwimmermGeorgeBeaten
@@ -33,17 +33,17 @@ Route41_EventScript_George::
 	end
 
 Route41_Text_SwimmermGeorgeSeen:
-	.string "I'm a bit tired.\n"
-	.string "If I win, lend me your POKéMON.$"
+	.string "{JPN}ちょっとつかれたな。もしかったらき\n"
+	.string "みのポケモンをかしてくれ。$"
 
 Route41_Text_SwimmermGeorgeBeaten:
-	.string "Pant, pant…$"
+	.string "{JPN}ハァハァ……$"
 
 Route41_Text_SwimmermGeorgeAfter:
-	.string "It's so far to CIANWOOD.\p"
-	.string "But it's no easy return trip\n"
-	.string "to OLIVINE either.\p"
-	.string "What should I do?$"
+	.string "{JPN}タンバまではすごくとおい。\p"
+	.string "でもアサギにもどるのもかんたんじゃ\n"
+	.string "ない。\p"
+	.string "どうしよう？$"
 
 Route41_EventScript_Berke::
 	trainerbattle_single TRAINER_BERKE_HNS, Route41_Text_SwimmermBerkeSeen, Route41_Text_SwimmermBerkeBeaten
@@ -51,20 +51,20 @@ Route41_EventScript_Berke::
 	end
 
 Route41_Text_SwimmermBerkeSeen:
-	.string "See those islands that are\n"
-	.string "blocked by whirlpools?\p"
-	.string "There just has to be a secret!$"
+	.string "{JPN}うずにさえぎられているあのしまじま\n"
+	.string "がみえる？\p"
+	.string "きっとなにかひみつがあるにちがいな\n"
+	.string "い！$"
 
 Route41_Text_SwimmermBerkeBeaten:
-	.string "What's the secret to your\n"
-	.string "strength?$"
+	.string "{JPN}そのつよさのひけつはなんですか？$"
 
 Route41_Text_SwimmermBerkeAfter:
-	.string "It was a dark and stormy night…\p"
-	.string "I saw this giant POKéMON flying\n"
-	.string "from the islands.\p"
-	.string "It was scattering feathers\n"
-	.string "from its silver wings.$"
+	.string "{JPN}それはくらくあらしのよるだった……\p"
+	.string "しまじまからこのきょだいなポケモン\n"
+	.string "がとんでくるのをみた。\p"
+	.string "そのぎんいろのつばさからはねがまい\n"
+	.string "ちっていた。$"
 
 Route41_EventScript_Kirk::
 	trainerbattle_single TRAINER_KIRK_HNS, Route41_Text_SwimmermKirkSeen, Route41_Text_SwimmermKirkBeaten
@@ -72,16 +72,16 @@ Route41_EventScript_Kirk::
 	end
 
 Route41_Text_SwimmermKirkSeen:
-	.string "The waves are wild here.\p"
-	.string "They tire you out while\n"
-	.string "you swim.$"
+	.string "{JPN}ここのなみはあれている。\p"
+	.string "およいでいるとたいりょくがどんどん\n"
+	.string "けずられていく。$"
 
 Route41_Text_SwimmermKirkBeaten:
-	.string "I'm beat!$"
+	.string "{JPN}もうヘトヘトだ！$"
 
 Route41_Text_SwimmermKirkAfter:
-	.string "The currents keep me from\n"
-	.string "reaching that island.$"
+	.string "{JPN}ちょうりゅうのせいであのしまにたど\n"
+	.string "りつけない。$"
 
 Route41_EventScript_Mathew::
 	trainerbattle_single TRAINER_MATHEW_HNS, Route41_Text_SwimmermMathewSeen, Route41_Text_SwimmermMathewBeaten
@@ -89,15 +89,15 @@ Route41_EventScript_Mathew::
 	end
 
 Route41_Text_SwimmermMathewSeen:
-	.string "Are you seeking the secrets\n"
-	.string "of WHIRL ISLANDS?$"
+	.string "{JPN}うずまきじまのひみつをさがしている\n"
+	.string "のですか？$"
 
 Route41_Text_SwimmermMathewBeaten:
-	.string "Ooh, you've got great endurance!$"
+	.string "{JPN}おぉきみのスタミナはすごいね！$"
 
 Route41_Text_SwimmermMathewAfter:
-	.string "A secret about WHIRL ISLANDS…\p"
-	.string "It's pitch-black inside!$"
+	.string "{JPN}うずまきじまのひみつ……\p"
+	.string "なかはまっくらだ！$"
 
 Route41_EventScript_Kaylee::
 	trainerbattle_single TRAINER_KAYLEE_HNS, Route41_Text_SwimmerfKayleeSeen, Route41_Text_SwimmerfKayleeBeaten
@@ -105,16 +105,18 @@ Route41_EventScript_Kaylee::
 	end
 
 Route41_Text_SwimmerfKayleeSeen:
-	.string "I'm on my way to WHIRL ISLANDS.\p"
-	.string "I'm going exploring with friends.$"
+	.string "{JPN}いまうずまきじまへむかっているとこ\n"
+	.string "ろだ。\p"
+	.string "ともだちといっしょにたんけんにいく\n"
+	.string "んだ。$"
 
 Route41_Text_SwimmerfKayleeBeaten:
-	.string "Is that how you do it?$"
+	.string "{JPN}そういうやりほうなの？$"
 
 Route41_Text_SwimmerfKayleeAfter:
-	.string "There's supposed to be a big\n"
-	.string "POKéMON deep beneath WHIRL ISLANDS.\p"
-	.string "I wonder what it could be?$"
+	.string "{JPN}うずまきじまのしんえんにはきょだい\n"
+	.string "なポケモンがいるらしい。\p"
+	.string "いったいなになのだろう？$"
 
 Route41_EventScript_Susie::
 	trainerbattle_single TRAINER_SUSIE_HNS, Route41_Text_SwimmerfSusieSeen, Route41_Text_SwimmerfSusieBeaten
@@ -122,15 +124,16 @@ Route41_EventScript_Susie::
 	end
 
 Route41_Text_SwimmerfSusieSeen:
-	.string "You look so elegant,\n"
-	.string "riding your POKéMON.$"
+	.string "{JPN}ポケモンのせにのっているすがたとて\n"
+	.string "もゆうがですね。$"
 
 Route41_Text_SwimmerfSusieBeaten:
-	.string "I'm crushed…$"
+	.string "{JPN}もうまいっちゃった……$"
 
 Route41_Text_SwimmerfSusieAfter:
-	.string "Wasn't there a hit song about\n"
-	.string "a boy riding a LAPRAS?$"
+	.string "{JPN}ラプラスにじょうったしょうねんをだ\n"
+	.string "いざいにしたヒットきょくがあったよ\l"
+	.string "うな……？$"
 
 Route41_EventScript_Denise::
 	trainerbattle_single TRAINER_DENISE_HNS, Route41_Text_SwimmerfDeniseSeen, Route41_Text_SwimmerfDeniseBeaten
@@ -138,16 +141,16 @@ Route41_EventScript_Denise::
 	end
 
 Route41_Text_SwimmerfDeniseSeen:
-	.string "The weather is so beautiful,\n"
-	.string "I'm in a daze!$"
+	.string "{JPN}てんきがすごくよくてうっとりしちゃ\n"
+	.string "う！$"
 
 Route41_Text_SwimmerfDeniseBeaten:
-	.string "Ohhh!$"
+	.string "{JPN}おぉっ！$"
 
 Route41_Text_SwimmerfDeniseAfter:
-	.string "A sunburn is the worst for skin.\p"
-	.string "But I don't use a sunblock.\p"
-	.string "I won't pollute the water.$"
+	.string "{JPN}ひやけははだにさいあくだ。\p"
+	.string "でもひやけとめはつかわない。\p"
+	.string "みずをよごすようなことはしない。$"
 
 Route41_EventScript_Kara::
 	trainerbattle_single TRAINER_KARA_HNS, Route41_Text_SwimmerfKaraSeen, Route41_Text_SwimmerfKaraBeaten
@@ -155,17 +158,18 @@ Route41_EventScript_Kara::
 	end
 
 Route41_Text_SwimmerfKaraSeen:
-	.string "If you need to rest,\n"
-	.string "just tread water.\p"
-	.string "You'll get your wind back,\n"
-	.string "so you can keep on going strong.$"
+	.string "{JPN}やすみたいときはそのばでみずをかい\n"
+	.string "ていればいい。\p"
+	.string "そうすればいきがととのいまたげんき\n"
+	.string "にすすみつづけられるよ。$"
 
 Route41_Text_SwimmerfKaraBeaten:
-	.string "Oh! You have more energy than I do.$"
+	.string "{JPN}おっ！きみのほうがわたしよりげんき\n"
+	.string "だね。$"
 
 Route41_Text_SwimmerfKaraAfter:
-	.string "I heard roars from deep inside\n"
-	.string "the ISLANDS.$"
+	.string "{JPN}しまのおくふかくからほうこうがきこ\n"
+	.string "えてきた。$"
 
 Route41_EventScript_Wendy::
 	trainerbattle_single TRAINER_WENDY_HNS, Route41_Text_SwimmerfWendySeen, Route41_Text_SwimmerfWendyBeaten
@@ -173,16 +177,17 @@ Route41_EventScript_Wendy::
 	end
 
 Route41_Text_SwimmerfWendySeen:
-	.string "At night, STARYU gather near\n"
-	.string "the water's surface.$"
+	.string "{JPN}よるになるとスターユはすいめんのち\n"
+	.string "かくにあつまります。$"
 
 Route41_Text_SwimmerfWendyBeaten:
-	.string "Oh, dear…$"
+	.string "{JPN}あらまあ……$"
 
 Route41_Text_SwimmerfWendyAfter:
-	.string "The clusters of STARYU light up\n"
-	.string "at the same time.\p"
-	.string "It's so beautiful, it's scary.$"
+	.string "{JPN}スターユのむれがいっせいにひかりか\n"
+	.string "がやく。\p"
+	.string "あまりのうつくしさにむしろこわいく\n"
+	.string "らいだ。$"
 
 Route41_EventScript_Tentacruel1::
 	lock

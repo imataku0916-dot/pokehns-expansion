@@ -58,8 +58,7 @@ MountMortar4_Text_KiyoIntro:
 	.string "Hwaaarggh!$"
 
 MountMortar4_Text_KiyoWin:
-	.string "Waaaarggh!\n"
-	.string "I'm beaten!$"
+	.string "{JPN}うわあああ！まけた！$"
 
 MountMortar4_Text_KiyoTyrogueReward:
 	.string "I... I'm crushed...\p"

@@ -106,10 +106,11 @@ Alola_Melemele_BattleDugtrio_Text_0:
 	.string "Cha-Cha!$"
 
 Alola_AkalaCave_TrainerBattleHiker_Text_0:
-	.string "You must be tough if you made it all the\nway up here!$"
+	.string "{JPN}ここまでのぼってこられたなんてきみ\n"
+	.string "はそうとうタフなんだな！$"
 
 Alola_AkalaCave_TrainerBattleHiker_Text_1:
-	.string "Tougher than me!$"
+	.string "{JPN}ぼくよりつよい！$"
 
 Alola_AkalaCave_TrainerBattleHiker_Text_2:
 	.string "I had to stop climbing because it was\n"
@@ -118,20 +119,23 @@ Alola_AkalaCave_TrainerBattleHiker_Text_2:
 	.string "up on the peak…$"
 
 Alola_AkalaCave_TrainerBattlePicnicker_Text_0:
-	.string "I'm tired from all this walking,\nlet's have a battle!$"
+	.string "{JPN}こんなにあるいたからつかれたよしょ\n"
+	.string "うぶしよう！$"
 
 Alola_AkalaCave_TrainerBattlePicnicker_Text_1:
-	.string "Well that was refreshing!$"
+	.string "{JPN}うわーそうかいだったな！$"
 
 Alola_AkalaCave_TrainerBattlePicnicker_Text_2:
 	.string "I'm usually not this tired but\n"
 	.string "the heat in this cave is exhausting!$"
 
 Alola_AkalaCave_TrainerBattleCamper_Text_0:
-	.string "Check me out!\nI caught some strong POKéMON!$"
+	.string "{JPN}みてよ！すごいポケモンをなんびきか\n"
+	.string "つかまえたんだ！$"
 
 Alola_AkalaCave_TrainerBattleCamper_Text_1:
-	.string "Not bad,\nbut not good enough!$"
+	.string "{JPN}わるくはないがまだじゅうぶんとはい\n"
+	.string "えない！$"
 
 Alola_AkalaCave_TrainerBattleCamper_Text_2:
 	.string "Is it warm in here or is it just me?$"

@@ -151,25 +151,26 @@ Morty_RematchDefeatText:
 	.string "I envy you for that...$"
 
 SageJeffreySeenText:
-	.string "I spent the spring with my\n"
-	.string "POKéMON.\p"
-	.string "Then summer, fall, and winter...\p"
-	.string "Then spring came again.\n"
-	.string "We've been together a long time.$"
+	.string "{JPN}わたしははるをポケモンたちとすごし\n"
+	.string "た。\p"
+	.string "それからなつあきふゆ……\p"
+	.string "そしてまたはるがやってきた。わたし\n"
+	.string "たちはながいかんいっしょにすごして\l"
+	.string "きた。$"
 
 SageJeffreyBeatenText:
-	.string "Wins and losses--I've known\n"
-	.string "them both.$"
+	.string "{JPN}かちもまけも……どちらもけいけんし\n"
+	.string "てきた。$"
 
 SageJeffreyAfterBattleText:
 	.string "Where did POKéMON come from?$"
 
 SagePingSeenText:
-	.string "Can you inflict any damage\n"
-	.string "on our POKéMON?$"
+	.string "{JPN}わたしたちのポケモンにダメージをあ\n"
+	.string "たえることはできますか？$"
 
 SagePingBeatenText:
-	.string "Ah! Well done!$"
+	.string "{JPN}あ！よくできました！$"
 
 SagePingAfterBattleText:
 	.string "We use GHOST-type POKéMON.\p"
@@ -177,21 +178,22 @@ SagePingAfterBattleText:
 	.string "harm them!$"
 
 MediumMarthaSeenText:
-	.string "I shall win!$"
+	.string "{JPN}かならずかつぞ！$"
 
 MediumMarthaBeatenText:
-	.string "I... I... I lost!$"
+	.string "{JPN}あ…あ…まけた！$"
 
 MediumMarthaAfterBattleText:
 	.string "The one who wants to win the\n"
 	.string "most is the one who will!$"
 
 MediumGraceSeenText:
-	.string "Stumped by our dark corridors?\n"
-	.string "Defeat me if you want a hint!$"
+	.string "{JPN}くらいろうかにまよってしまった？ヒ\n"
+	.string "ントがほしいならわたしをたおしてみ\l"
+	.string "ろ！$"
 
 MediumGraceBeatenText:
-	.string "Wha-what?$"
+	.string "{JPN}えっえっ？$"
 
 MediumGraceAfterBattleText:
 	.string "Fine. I'll tell you the secret\n"

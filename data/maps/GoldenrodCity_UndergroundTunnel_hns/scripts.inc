@@ -378,48 +378,50 @@ GoldenrodUnderground_Text_OlderBrotherOnePerDay:
     .string "I'm done for today.$"
 
 GoldenrodUnderground_Text_SupernerdEricSeen:
-    .string "I got booted out of the GAME CORNER.\p"
-    .string "I was trying to cheat using my\n"
-    .string "POKéMON…$"
+    .string "{JPN}ゲームコーナーからおいだされちゃっ\n"
+    .string "た。\p"
+    .string "じぶんのポケモンをつかってカンニン\n"
+    .string "グしようとしてたんだけど……$"
 
 GoldenrodUnderground_Text_SupernerdEricBeaten:
-    .string "…Grumble…$"
+    .string "{JPN}…ぶつぶつ…$"
 
 GoldenrodUnderground_Text_SupernerdEricAfterBattle:
     .string "I guess I have to do things fair and\n"
     .string "square…$"
 
 GoldenrodUnderground_Text_SupernerdTeruSeen:
-    .string "Do you consider type alignments in\n"
-    .string "battle?\p"
-    .string "If you know your type advantages,\n"
-    .string "you'll do better in battle.$"
+    .string "{JPN}しょうぶでタイプのあいしょうをかん\n"
+    .string "がえてる？\p"
+    .string "あいしょうをしっていればもっとじょ\n"
+    .string "うずにたたかえるよ。$"
 
 GoldenrodUnderground_Text_SupernerdTeruBeaten:
-    .string "Ow, ow, ow!$"
+    .string "{JPN}いたいいたいいたい！$"
 
 GoldenrodUnderground_Text_SupernerdTeruAfterBattle:
     .string "I know my POKéMON type alignments.\p"
     .string "But I only use one type of POKéMON.$"
 
 GoldenrodUnderground_Text_PokemaniacIssacSeen:
-    .string "My POKéMON just got a haircut!\p"
-    .string "I'll show you how strong it is!$"
+    .string "{JPN}ぼくのポケモンさっきさんぱつしてき\n"
+    .string "たんだ！\p"
+    .string "どれほどつよいのかみせてやる！$"
 
 GoldenrodUnderground_Text_PokemaniacIssacBeaten:
-    .string "Aiyeeee!$"
+    .string "{JPN}アイイェーッ！$"
 
 GoldenrodUnderground_Text_PokemaniacIssacAfterBattle:
     .string "Your POKéMON will like you more if\n"
     .string "you give them haircuts.$"
 
 GoldenrodUnderground_Text_PokemaniacDonaldSeen:
-    .string "I think you have some rare POKéMON\n"
-    .string "with you.\p"
-    .string "Let me see them!$"
+    .string "{JPN}きみめずらしいポケモンをもっている\n"
+    .string "みたいだね。\p"
+    .string "みせてよ！$"
 
 GoldenrodUnderground_Text_PokemaniacDonaldBeaten:
-    .string "Gaah! I lost! That makes me mad!$"
+    .string "{JPN}うわっ！まけた！はらがたつ！$"
 
 GoldenrodUnderground_Text_PokemaniacDonaldAfterBattle:
 	.string "When I was walking near the BIKE\n"

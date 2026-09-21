@@ -226,46 +226,43 @@ Route42_EventScript_Item_UltraBall::
 	end
 
 Route42_Text_FisherTullySeen:
-	.string "Let me demonstrate the power\n"
-	.string "of the POKéMON I caught!$"
+	.string "{JPN}ぼくがつかまえたポケモンのつよさを\n"
+	.string "みせてやる！$"
 
 Route42_Text_FisherTullyBeaten:
-	.string "What? That's not right.\n"
-	.string "I can't believe this!$"
+	.string "{JPN}え？おかしいよ。しんじられない！$"
 
 Route42_Text_FisherTullyAfter:
-	.string "I want to become the trainer\n"
-	.string "CHAMP using the POKéMON I\l"
-	.string "caught myself.\p"
-	.string "That's the best part of fishing!$"
+	.string "{JPN}じぶんでつかまえたポケモンをつかっ\n"
+	.string "てトレーナーのチャンピオンになりた\l"
+	.string "いんだ。\p"
+	.string "それこそがつりのだいごみだ！$"
 
 Route42_Text_HikerBenjaminSeen:
-	.string "Ah, it's good to be outside!\n"
-	.string "I feel so free!$"
+	.string "{JPN}ああそとにでられてよかった！すごく\n"
+	.string "じゆうなきぶんだ！$"
 
 Route42_Text_HikerBenjaminBeaten:
-	.string "Gahahah! That was a good\n"
-	.string "battle!$"
+	.string "{JPN}ガハハハ！いいたたかいだったな！$"
 
 Route42_Text_HikerBenjaminAfter:
-	.string "Losing feels insignificant\n"
-	.string "if you look up at the big sky!$"
+	.string "{JPN}ひろいそらをみあげればまけたことな\n"
+	.string "んてたいしたことじゃない！$"
 
 Route42_Text_PokemaniacShaneSeen:
-	.string "HEY!\p"
-	.string "This is my secret place!\n"
-	.string "Get lost, you outsider!$"
+	.string "{JPN}おい！\p"
+	.string "ここはおれのひみつのばしょだ！よそ\n"
+	.string "ものうせろ！$"
 
 Route42_Text_PokemaniacShaneBeaten:
-	.string "I should have used my\n"
-	.string "MOON STONE…$"
+	.string "{JPN}ムーンストーンをつかえばよかったな\n"
+	.string "……$"
 
 Route42_Text_PokemaniacShaneAfter:
-	.string "You're working on a POKéDEX?\p"
-	.string "Wow, you must know some\n"
-	.string "pretty rare POKéMON!\p"
-	.string "May I please see it?\n"
-	.string "Please?$"
+	.string "{JPN}ポケモンずかんをつくっているの？\p"
+	.string "わあかなりめずらしいポケモンをしっ\n"
+	.string "てるんだね！\p"
+	.string "それみせてくれない？おねがい！$"
 
 Route42_Text_Sign1:
 	.string "ROUTE 42\p"
@@ -282,12 +279,12 @@ Route42_Text_TullyRegister:
 	.string "That's the best part of fishing!$"
 
 Route42_Text_TullyRematchIntro:
-	.string "Let me demonstrate the power\n"
-	.string "of the POKéMON I caught!$"
+	.string "{JPN}ぼくがつかまえたポケモンのつよさみ\n"
+	.string "せてやる！$"
 
 Route42_Text_TullyRematchDefeat:
-	.string "What? That's not right.\n"
-	.string "I can't believe this!$"
+	.string "{JPN}え？それおかしいよ。しんじられない\n"
+	.string "！$"
 
 Route42_Text_TullyPostRematch:
 	.string "I want to become the trainer\n"

@@ -216,8 +216,8 @@ Route30_Text_JoeyRegister:
 	.string "Let's battle again sometime!$"
 
 Route30_Text_JoeyRematchIntro:
-	.string "I promised things would be\n"
-	.string "different! Let's battle!$"
+	.string "{JPN}いままでとはちがうってやくそくした\n"
+	.string "だろ！さあしょうぶだ！$"
 
 Route30_Text_JoeyRematchDefeat:
 	.string "{JPN}あっ！またまけた！\n"

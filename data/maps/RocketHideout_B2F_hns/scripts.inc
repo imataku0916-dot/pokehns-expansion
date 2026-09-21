@@ -765,18 +765,18 @@ RocketHideout_B2F_Text_LanceHeals2:
     .string "our best for POKéMON.$"
 
 RocketHideout_B2F_Text_GruntM17Seen:
-    .string "The door won't open?\p"
-    .string "Well, duh. It has to have a\n"
-    .string "password that only TEAM ROCKET\l"
-    .string "knows.$"
+    .string "{JPN}ドアがひらかないの？\p"
+    .string "そりゃああたりまえだろ。ロケットだ\n"
+    .string "んだけがしっているパスワードがある\l"
+    .string "にきまってる。$"
 
 RocketHideout_B2F_Text_GruntM17Beaten:
-    .string "What? I lost?$"
+    .string "{JPN}えっ？まけたの？$"
 
 RocketHideout_B2F_Text_GruntM17After:
-    .string "Heh, I'm just a GRUNT.\p"
-    .string "I don't know the password.\n"
-    .string "Too bad for you.$"
+    .string "{JPN}へっおれはただのざつぎょだぜ。\p"
+    .string "パスワードはしらないよ。ざんねんだ\n"
+    .string "ったな。$"
 
 RocketHideout_B2F_EventScript_Grunt14::
 	trainerbattle_single TRAINER_GRUNT_14_HNS, RocketHideout_B2F_Text_GruntM17Seen, RocketHideout_B2F_Text_GruntM17Beaten
@@ -784,19 +784,19 @@ RocketHideout_B2F_EventScript_Grunt14::
 	end
 
 RocketHideout_B2F_Text_GruntM18Seen:
-    .string "Oh, a kid? I don't really like\n"
-    .string "this, but eliminate you I must.$"
+    .string "{JPN}おっとこどもか？あまりきがすすまな\n"
+    .string "いがおまえをたおさなければならない\l"
+    .string "。$"
 
 RocketHideout_B2F_Text_GruntM18Beaten:
-    .string "I knew I'd lose…$"
+    .string "{JPN}まけるってわかってた……$"
 
 RocketHideout_B2F_Text_GruntM18After:
-    .string "I got wiped out on the last\n"
-    .string "mission by a kid too.\p"
-    .string "When we were abducting POKéMON,\n"
-    .string "this kid with long red hair and\l"
-    .string "mean-looking eyes just\l"
-    .string "creamed me…$"
+    .string "{JPN}おれもさいごのミッションでガキにぜ\n"
+    .string "んめつさせられたよ。\p"
+    .string "ポケモンをらちしてたときあかいなが\n"
+    .string "いかみでめつきがきょうあくなガキに\l"
+    .string "かんぜんにやられてしまった……$"
 
 RocketHideout_B2F_EventScript_Grunt15::
 	trainerbattle_single TRAINER_GRUNT_15_HNS, RocketHideout_B2F_Text_GruntM18Seen, RocketHideout_B2F_Text_GruntM18Beaten
@@ -804,16 +804,16 @@ RocketHideout_B2F_EventScript_Grunt15::
 	end
 
 RocketHideout_B2F_Text_GruntM19Seen:
-    .string "You rotten little pest!$"
+    .string "{JPN}このクソガキめ！$"
 
 RocketHideout_B2F_Text_GruntM19Beaten:
-    .string "Grrrr…$"
+    .string "{JPN}ううう……$"
 
 RocketHideout_B2F_Text_GruntM19After:
-    .string "Heh, only the boss knows the\n"
-    .string "password for that door.\p"
-    .string "Where's the boss? Who knows?\n"
-    .string "Go look for yourself.$"
+    .string "{JPN}へっあのドアのパスワードをしってる\n"
+    .string "のはボスだけだよ。\p"
+    .string "ボスはどこ？しるかよ。じぶんでさが\n"
+    .string "してこいよ。$"
 
 RocketHideout_B2F_EventScript_Grunt16::
 	trainerbattle_single TRAINER_GRUNT_16_HNS, RocketHideout_B2F_Text_GruntM19Seen, RocketHideout_B2F_Text_GruntM19Beaten

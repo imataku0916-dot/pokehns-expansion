@@ -428,20 +428,21 @@ Alola_Poni_BattleVsTapuFini_Text_0:
 	.string "Fiiin!$"
 
 Alola_Poni_TrainerBattleSwimmer1_Text_0:
-	.string "Warmer water, no problem!$"
+	.string "{JPN}おゆがあつくてもだいじょうぶ！$"
 
 Alola_Poni_TrainerBattleSwimmer1_Text_1:
-	.string "Gah, I forgot my sunscreen…$"
+	.string "{JPN}うわっひやけとめをわすれた……$"
 
 Alola_Poni_TrainerBattleSwimmer1_Text_2:
 	.string "I've swam into so many cool POKéMON!\n"
 	.string "It must be something in the water.$"
 
 Alola_Poni_TrainerBattleSwimmer2_Text_0:
-	.string "Hey, don't block my current!$"
+	.string "{JPN}おいおれのでんりゅうをさえぎるなよ\n"
+	.string "！$"
 
 Alola_Poni_TrainerBattleSwimmer2_Text_1:
-	.string "Ugh, fine,\njust let me swim…$"
+	.string "{JPN}うっもういいよおよがせてよ……$"
 
 Alola_Poni_TrainerBattleSwimmer2_Text_2:
 	.string "The current is great for tubing.\n"

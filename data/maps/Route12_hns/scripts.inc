@@ -90,22 +90,22 @@ Route12_Text_NewFisher:
 	.string "these waters.$"
 
 Route12_Text_FisherMartinSeen:
-	.string "Patience is the key to both\n"
-	.string "fishing and POKéMON.$"
+	.string "{JPN}にんたいこそがつりにもポケモンにも\n"
+	.string "かかせないかぎです。$"
 
 Route12_Text_FisherMartinBeaten:
-	.string "Gwaaah!$"
+	.string "{JPN}グワーッ！$"
 
 Route12_Text_FisherMartinAfterBattle:
 	.string "I'm too impatient for fishing…$"
 
 Route12_Text_FisherStephenSeen:
-	.string "I feel so content, fishing while\n"
-	.string "listening to some tunes on my\l"
-	.string "radio.$"
+	.string "{JPN}ラジオからながれるおんがくをききな\n"
+	.string "がらつりをしているとなんだかこころ\l"
+	.string "がみたされるきぶんだ。$"
 
 Route12_Text_FisherStephenBeaten:
-	.string "My stupid radio distracted me!$"
+	.string "{JPN}ラジオにきをとられた！$"
 
 Route12_Text_FisherStephenAfterBattle:
 	.string "Have you checked out KANTO's radio\n"
@@ -113,11 +113,12 @@ Route12_Text_FisherStephenAfterBattle:
 	.string "here.$"
 
 Route12_Text_FisherBarneySeen:
-	.string "What's most important in our\n"
-	.string "everyday lives?$"
+	.string "{JPN}わたしたちのにちじょうせいかつにお\n"
+	.string "いてもっともたいせつなものはなんで\l"
+	.string "しょうか？$"
 
 Route12_Text_FisherBarneyBeaten:
-	.string "The answer is coming up next!$"
+	.string "{JPN}こたえはつぎにおつたえします！$"
 
 Route12_Text_FisherBarneyAfterBattle:
 	.string "I think electricity is the most\n"
@@ -133,21 +134,20 @@ Route12_Text_KyleRegister:
 	.string "Give me your number!$"
 
 Route12_Text_KyleRematchIntro:
-	.string "Did you forget?\n"
-	.string "Let's see!$"
+	.string "{JPN}わすれてしまった？さあみてみよう！$"
 
 Route12_Text_KyleRematchDefeat:
-	.string "You remembered.$"
+	.string "{JPN}おぼえていたんだね。$"
 
 Route12_Text_KylePostRematch:
 	.string "The thrill of battle is almost\n"
 	.string "as good as a big catch!$"
 
 Route12_Text_FisherKyleSeen:
-	.string "Do you remember?$"
+	.string "{JPN}おぼえてる？$"
 
 Route12_Text_FisherKyleBeaten:
-	.string "You do remember?$"
+	.string "{JPN}おぼえてるよね？$"
 
 Route12_Text_FisherKyleAfterBattle:
 	.string "The tug you feel on the ROD when\n"

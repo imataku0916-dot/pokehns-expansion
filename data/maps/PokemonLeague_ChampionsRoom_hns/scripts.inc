@@ -364,13 +364,15 @@ PokemonLeague_ChampionsRoom_Text_BattleWin:
     .string "たんじょうをみとどけられたからな！$"
 
 PokemonLeague_ChampionsRoom_Text_BattleAfter:
-    .string "…Whew.\p"
-    .string "You have become truly powerful,\n"
-    .string "{PLAYER}.\p"
-    .string "Your POKéMON have responded to your\n"
-    .string "strong and upstanding nature.\p"
-    .string "As a trainer, you will continue to\n"
-    .string "grow strong with your POKéMON.$"
+    .string "{JPN}…ふぅ。\p"
+    .string "{PLAYER}きみはほんとうにつ\n"
+    .string "よくなったね。\p"
+    .string "きみのちからづよくこうけつなひとが\n"
+    .string "らにきみのポケモンたちがこたえてく\l"
+    .string "れたんだ。\p"
+    .string "トレーナーとしてきみはこれからもポ\n"
+    .string "ケモンとともにさらにつよくなってい\l"
+    .string "くことでしょう。$"
 
 PokemonLeague_ChampionsRoom_Text_MaryOhNoOak:
     .string "MARY: Oh, no! It's all over!\p"
